@@ -1,0 +1,163 @@
+{
+  "COMMON": {
+    "SHOTS": "Mga Tira",
+    "BASKETS": "Mga Basket",
+    "ACCURACY": "Katumpakan",
+    "PROCESSING_TIME": "Oras ng Pagpoproseso"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "Iproseso ang Video",
+    "VIDEOS": "Mga Video",
+    "DASHBOARD": "Dashboard",
+    "HARDWARE": "Hardware",
+    "ABOUT": "Tungkol"
+  },
+  "EXIT": {
+    "LABEL": "Lumabas",
+    "CONFIRM_MESSAGE": "Sigurado ka bang gusto mong lumabas sa SwishAI?",
+    "CONFIRM_TITLE": "Kumpirmahin ang Paglabas",
+    "CONFIRM_YES": "Lumabas",
+    "CONFIRM_NO": "Kanselahin"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. Lahat ng karapatan ay nakalaan."
+  },
+  "LOGO": {
+    "ALT": "Logo ng SwishAI"
+  },
+  "ABOUT": {
+    "TITLE": "Tungkol sa SwishAI",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "Bersyon {{version}}",
+    "DESCRIPTION": "Ang SwishAI ay isang tool sa pagsusuri ng video ng basketball na pinapagana ng AI na gumagamit ng advanced na computer vision para makita at masubaybayan ang mga tira, bola, at manlalaro sa footage ng basketball. Suriin ang iyong laro, pagbutihin ang iyong mga kasanayan, at makakuha ng mga kaalaman gamit ang pinakabagong teknolohiya ng AI.",
+    "AUTHORS_TITLE": "Mga May-akda",
+    "LINKEDIN": "Profile sa LinkedIn"
+  },
+  "GUIDE": {
+    "TITLE": "Para sa Pinakamahusay na Resulta",
+    "LIGHTING_TITLE": "Magandang Ilaw",
+    "LIGHTING_DESC": "Tiyaking maliwanag ang korte at iwasan ang matinding backlights.",
+    "VIEW_TITLE": "Malinaw na Tingin",
+    "VIEW_DESC": "Ang camera ay dapat na malinaw na makita ang hoop at ang manlalaro.",
+    "DURATION_TITLE": "Pinakamataas na Tagal",
+    "DURATION_DESC": "1 min (libre), 10 min (naka-login), 30 min (premium). Ang mga video ay pinutol sa limitasyon."
+  },
+  "UPLOAD": {
+    "CLICK": "I-click para Mag-upload ng Video",
+    "DROP": "Ihulog ang video dito",
+    "FORMATS": "Sumusuporta sa MP4, MOV, AVI",
+    "VIDEO_EXCEEDS_LIMIT": "Ang iyong video ay lumagpas sa limitasyong {{limit}} minuto. Ang unang {{limit}} minuto lamang ang ipoproseso.",
+    "UPGRADE_HINT_LOGIN": "Mag-login para maproseso ang hanggang 10 minuto.",
+    "LOW_SPEC_WARNING": "Ang iyong PC ay may mga detalye na mas mababa sa inirerekomenda. Ang pagpoproseso ay mas matagal kaysa karaniwan. Inirerekomenda naming gumamit ng mas magandang hardware para sa mas mabilis na bilis ng pagpoproseso.",
+    "BROWSER_PERF_WARNING": "Gumagamit ka ng bersyon ng browser. Mas mabagal ang pagganap kaysa sa desktop app. Para sa pinakamahusay na resulta, i-download at gamitin ang desktop na bersyon."
+  },
+  "FILE_INFO": {
+    "READY": "Handa na para iproseso",
+    "CHANGE_FILE": "Palitan ang File"
+  },
+  "ACTIONS": {
+    "UPLOADING": "Ina-upload ang Video... Mangyaring maghintay",
+    "STOP_ANALYSIS": "Itigil ang Pagsusuri",
+    "DOWNLOAD_RESULT": "I-download ang Resulta",
+    "PROCESS_ANOTHER": "Iproseso ang Isa Pang Video",
+    "STOPPED_MSG": "Ang pagpoproseso ay itinigil",
+    "START_ANALYSIS": "Simulan ang Pagsusuri"
+  },
+  "PROGRESS": {
+    "UPLOADING": "Ina-upload...",
+    "ANALYZING": "Sinusuri...",
+    "LIVE_DETECTION": "Live na Preview ng Pagtuklas",
+    "RESULT_PREVIEW": "Preview ng Resulta",
+    "LOADING_VIDEO": "Nino-load ang video…",
+    "ERROR_TITLE": "Oops! May nangyaring mali.",
+    "ERROR_DESC": "Naganap ang hindi kilalang error. Mangyaring subukan ang ibang video."
+  },
+  "AUTH": {
+    "LOGIN": "Mag-login",
+    "REGISTER": "Mag-register",
+    "DISCONNECT": "Mag-disconnect",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Kumpirmahin ang Password",
+    "LOGIN_SUBMIT": "Mag-sign In",
+    "REGISTER_SUBMIT": "Gumawa ng Account",
+    "SWITCH_TO_REGISTER": "Wala pang account? Mag-register",
+    "SWITCH_TO_LOGIN": "May account na? Mag-login",
+    "LOGIN_ERROR": "Mali ang email o password. Subukan muli.",
+    "REGISTER_ERROR": "Nabigo ang pagpaparehistro. Subukan muli.",
+    "REGISTER_SUCCESS": "Account na nagawa! Suriin ang iyong email para kumpirmahin ang account.",
+    "USERNAME": "Username",
+    "PROFILE": "Profile",
+    "CHANGE_PASSWORD": "Baguhin ang Password",
+    "NEW_PASSWORD": "Bagong Password",
+    "CONFIRM_NEW_PASSWORD": "Kumpirmahin ang Bagong Password",
+    "PASSWORD_UPDATED": "Matagumpay na na-update ang password.",
+    "PASSWORD_UPDATE_ERROR": "Hindi na-update ang password. Subukan muli.",
+    "REDIRECT_COUNTDOWN": "Ire-redirect ka sa login sa loob ng {{seconds}} segundo.",
+    "FORGOT_PASSWORD": "Nakalimutan ang password?",
+    "FORGOT_PASSWORD_LINK": "Nakalimutan ang iyong password?",
+    "FORGOT_PASSWORD_SUBMIT": "Magpadala ng reset na email",
+    "FORGOT_PASSWORD_SUCCESS": "Suriin ang iyong email para sa link na pag-reset ng password.",
+    "FORGOT_PASSWORD_ERROR": "Hindi mapadala ang reset na email. Subukan muli.",
+    "BACK_TO_LOGIN": "Bumalik sa login"
+  },
+  "HARDWARE": {
+    "TITLE": "Hardware ng Sistema",
+    "BROWSER_MODE_NOTICE": "Tumatakbo sa browser — limitadong impormasyon ng hardware ang available",
+    "CPU_TITLE": "CPU",
+    "CPU_MODEL": "Modelo",
+    "CPU_PHYSICAL_CORES": "Mga Pisikal na Core",
+    "CPU_THREADS": "Mga Thread",
+    "CPU_FREQUENCY": "Dalas",
+    "RAM_TITLE": "Memorya (RAM)",
+    "RAM_TOTAL": "Kabuuan",
+    "RAM_AVAILABLE": "Available",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "Pangalan",
+    "GPU_BACKEND": "Backend",
+    "GPU_VENDOR": "Vendor",
+    "OS_TITLE": "Operating System",
+    "OS_NAME": "Pangalan",
+    "OS_VERSION": "Bersyon",
+    "CUDA_TITLE": "GPU Acceleration",
+    "LIBCUDA": "CUDA Driver (libcuda)",
+    "ORT_CUDA": "ORT CUDA Execution Provider",
+    "AVAILABLE": "Available",
+    "NOT_AVAILABLE": "Hindi available",
+    "UNKNOWN": "—",
+    "LOADING": "Nino-load ang impormasyon ng hardware...",
+    "ERROR": "Nabigo ang pag-load ng impormasyon ng hardware.",
+    "WEBGL": "Suporta ng WebGL"
+  },
+  "DASHBOARD": {
+    "TITLE": "Dashboard",
+    "CHART_TITLE": "Mga Tira at Basket sa Paglipas ng Oras",
+    "LIST_TITLE": "Kasaysayan ng Pagpoproseso",
+    "LOADING": "Nilo-load ang mga istatistika...",
+    "EMPTY_TITLE": "Walang istatistika pa",
+    "EMPTY_DESC": "Iproseso ang isang video para makita ang iyong mga istatistika dito",
+    "DELETE": "Burahin ang entry",
+    "LOGIN_REQUIRED": "Mag-login para makita ang iyong personal na dashboard ng istatistika"
+  },
+  "VIDEOS": {
+    "TITLE": "Mga Naprosesong Video",
+    "REMOVE_CONFIRM": "Alisin ang \"{{name}}\" mula sa kasaysayan?",
+    "REMOVE_DIALOG_TITLE": "Alisin ang video",
+    "LOADING": "Nilo-load ang kasaysayan...",
+    "EMPTY_TITLE": "Walang mga video pa",
+    "EMPTY_DESC": "Iproseso ang isang video para makita ito dito",
+    "EMPTY_BUTTON": "Magproseso ng Video",
+    "DESKTOP_ONLY_TITLE": "Para sa Desktop Lamang",
+    "DESKTOP_ONLY_DESC": "Ang pahina ng Mga Video ay available lamang sa {{app}}. I-download ang app para mag-browse at pamahalaan ang iyong mga naprosesong video.",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "I-play",
+    "PLAY_TITLE": "I-play ang video",
+    "DOWNLOAD_TITLE": "I-download ang video",
+    "REMOVE_TITLE": "Alisin mula sa kasaysayan",
+    "RENAME": "Palitan ang pangalan",
+    "CONFIRM_RENAME": "Kumpirmahin",
+    "CANCEL_RENAME": "Kanselahin",
+    "PLAYER_LOADING": "Nino-load ang video...",
+    "PLAYER_NOT_AVAILABLE": "Hindi available ang file ng video"
+  }
+}

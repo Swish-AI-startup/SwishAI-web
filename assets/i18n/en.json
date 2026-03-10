@@ -1,0 +1,163 @@
+{
+  "COMMON": {
+    "SHOTS": "Shots",
+    "BASKETS": "Baskets",
+    "ACCURACY": "Accuracy",
+    "PROCESSING_TIME": "Processing time"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "Process Video",
+    "VIDEOS": "Videos",
+    "DASHBOARD": "Dashboard",
+    "HARDWARE": "Hardware",
+    "ABOUT": "About"
+  },
+  "EXIT": {
+    "LABEL": "Exit",
+    "CONFIRM_MESSAGE": "Are you sure you want to exit SwishAI?",
+    "CONFIRM_TITLE": "Confirm Exit",
+    "CONFIRM_YES": "Exit",
+    "CONFIRM_NO": "Cancel"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. All rights reserved."
+  },
+  "LOGO": {
+    "ALT": "SwishAI Logo"
+  },
+  "ABOUT": {
+    "TITLE": "About SwishAI",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "Version {{version}}",
+    "DESCRIPTION": "SwishAI is an AI-powered basketball video analysis tool that uses advanced computer vision to detect and track shots, balls, and players in basketball footage. Analyze your game, improve your skills, and gain insights with cutting-edge AI technology.",
+    "AUTHORS_TITLE": "Authors",
+    "LINKEDIN": "LinkedIn Profile"
+  },
+  "GUIDE": {
+    "TITLE": "For Best Results",
+    "LIGHTING_TITLE": "Good Lighting",
+    "LIGHTING_DESC": "Ensure the court is well lit and avoid strong backlights.",
+    "VIEW_TITLE": "Clear View",
+    "VIEW_DESC": "The camera must clearly see the hoop and the shooter.",
+    "DURATION_TITLE": "Max Duration",
+    "DURATION_DESC": "1 min (free), 10 min (logged in), 30 min (premium). Videos are trimmed to the limit."
+  },
+  "UPLOAD": {
+    "CLICK": "Click to Upload Video",
+    "DROP": "Drop video here",
+    "FORMATS": "Supports MP4, MOV, AVI",
+    "VIDEO_EXCEEDS_LIMIT": "Your video exceeds the {{limit}}-minute limit. Only the first {{limit}} minutes will be processed.",
+    "UPGRADE_HINT_LOGIN": "Log in to process up to 10 minutes.",
+    "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
+    "BROWSER_PERF_WARNING": "You're using the browser version. Performance is slower than the desktop app. For best results, download and use the desktop version."
+  },
+  "FILE_INFO": {
+    "READY": "Ready to process",
+    "CHANGE_FILE": "Change File"
+  },
+  "ACTIONS": {
+    "UPLOADING": "Uploading Video... Please Wait",
+    "STOP_ANALYSIS": "Stop Analysis",
+    "DOWNLOAD_RESULT": "Download Result",
+    "PROCESS_ANOTHER": "Process Another Video",
+    "STOPPED_MSG": "Processing was stopped",
+    "START_ANALYSIS": "Start Analysis"
+  },
+  "PROGRESS": {
+    "UPLOADING": "Uploading...",
+    "ANALYZING": "Analyzing...",
+    "LIVE_DETECTION": "Live Detection Preview",
+    "RESULT_PREVIEW": "Result Preview",
+    "LOADING_VIDEO": "Loading video…",
+    "ERROR_TITLE": "Oops! Something went wrong.",
+    "ERROR_DESC": "An unknown error occurred. Please try a different video."
+  },
+  "AUTH": {
+    "LOGIN": "Login",
+    "REGISTER": "Register",
+    "DISCONNECT": "Disconnect",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "LOGIN_SUBMIT": "Sign In",
+    "REGISTER_SUBMIT": "Create Account",
+    "SWITCH_TO_REGISTER": "Don't have an account? Register",
+    "SWITCH_TO_LOGIN": "Already have an account? Login",
+    "LOGIN_ERROR": "Invalid email or password. Please try again.",
+    "REGISTER_ERROR": "Registration failed. Please try again.",
+    "REGISTER_SUCCESS": "Account created! Please check your email to confirm your account.",
+    "USERNAME": "Username",
+    "PROFILE": "Profile",
+    "CHANGE_PASSWORD": "Change Password",
+    "NEW_PASSWORD": "New Password",
+    "CONFIRM_NEW_PASSWORD": "Confirm New Password",
+    "PASSWORD_UPDATED": "Password updated successfully.",
+    "PASSWORD_UPDATE_ERROR": "Failed to update password. Please try again.",
+    "REDIRECT_COUNTDOWN": "You will be redirected to login in {{seconds}} seconds.",
+    "FORGOT_PASSWORD": "Forgot Password?",
+    "FORGOT_PASSWORD_LINK": "Forgot your password?",
+    "FORGOT_PASSWORD_SUBMIT": "Send Reset Email",
+    "FORGOT_PASSWORD_SUCCESS": "Check your email for a password reset link.",
+    "FORGOT_PASSWORD_ERROR": "Failed to send reset email. Please try again.",
+    "BACK_TO_LOGIN": "Back to Login"
+  },
+  "HARDWARE": {
+    "TITLE": "System Hardware",
+    "BROWSER_MODE_NOTICE": "Running in browser — limited hardware info available",
+    "CPU_TITLE": "CPU",
+    "CPU_MODEL": "Model",
+    "CPU_PHYSICAL_CORES": "Physical Cores",
+    "CPU_THREADS": "Threads",
+    "CPU_FREQUENCY": "Frequency",
+    "RAM_TITLE": "Memory (RAM)",
+    "RAM_TOTAL": "Total",
+    "RAM_AVAILABLE": "Available",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "Name",
+    "GPU_BACKEND": "Backend",
+    "GPU_VENDOR": "Vendor",
+    "OS_TITLE": "Operating System",
+    "OS_NAME": "Name",
+    "OS_VERSION": "Version",
+    "CUDA_TITLE": "GPU Acceleration",
+    "LIBCUDA": "CUDA Driver (libcuda)",
+    "ORT_CUDA": "ORT CUDA Execution Provider",
+    "AVAILABLE": "Available",
+    "NOT_AVAILABLE": "Not available",
+    "UNKNOWN": "—",
+    "LOADING": "Loading hardware info...",
+    "ERROR": "Failed to load hardware information.",
+    "WEBGL": "WebGL Support"
+  },
+  "DASHBOARD": {
+    "TITLE": "Dashboard",
+    "CHART_TITLE": "Shots & Baskets over time",
+    "LIST_TITLE": "Processing History",
+    "LOADING": "Loading stats...",
+    "EMPTY_TITLE": "No stats yet",
+    "EMPTY_DESC": "Process a video to see your stats here",
+    "DELETE": "Delete entry",
+    "LOGIN_REQUIRED": "Log in to see your personal stats dashboard"
+  },
+  "VIDEOS": {
+    "TITLE": "Processed Videos",
+    "REMOVE_CONFIRM": "Remove \"{{name}}\" from history?",
+    "REMOVE_DIALOG_TITLE": "Remove video",
+    "LOADING": "Loading history...",
+    "EMPTY_TITLE": "No videos yet",
+    "EMPTY_DESC": "Process a video to see it here",
+    "EMPTY_BUTTON": "Process a Video",
+    "DESKTOP_ONLY_TITLE": "Desktop Only",
+    "DESKTOP_ONLY_DESC": "The Videos page is only available in {{app}}. Download the app to browse and manage your processed videos.",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "Play",
+    "PLAY_TITLE": "Play video",
+    "DOWNLOAD_TITLE": "Download video",
+    "REMOVE_TITLE": "Remove from history",
+    "RENAME": "Rename",
+    "CONFIRM_RENAME": "Confirm",
+    "CANCEL_RENAME": "Cancel",
+    "PLAYER_LOADING": "Loading video...",
+    "PLAYER_NOT_AVAILABLE": "Video file not available"
+  }
+}

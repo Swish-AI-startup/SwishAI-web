@@ -1,0 +1,163 @@
+{
+  "COMMON": {
+    "SHOTS": "シュート",
+    "BASKETS": "ゴール",
+    "ACCURACY": "精度",
+    "PROCESSING_TIME": "処理時間"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "動画を処理",
+    "VIDEOS": "動画",
+    "DASHBOARD": "ダッシュボード",
+    "HARDWARE": "ハードウェア",
+    "ABOUT": "について"
+  },
+  "EXIT": {
+    "LABEL": "終了",
+    "CONFIRM_MESSAGE": "SwishAI を終了してもよろしいですか？",
+    "CONFIRM_TITLE": "終了の確認",
+    "CONFIRM_YES": "終了",
+    "CONFIRM_NO": "キャンセル"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. 全著作権所有。"
+  },
+  "LOGO": {
+    "ALT": "SwishAI ロゴ"
+  },
+  "ABOUT": {
+    "TITLE": "SwishAI について",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "バージョン {{version}}",
+    "DESCRIPTION": "SwishAI は、高度なコンピュータビジョンを使用してバスケットボール映像内のシュート、ボール、プレイヤーを検出・追跡する AI 搭載の動画分析ツールです。自分のゲームを分析し、スキルを向上させ、最先端の AI 技術でインサイトを得ましょう。",
+    "AUTHORS_TITLE": "作者",
+    "LINKEDIN": "LinkedIn プロフィール"
+  },
+  "GUIDE": {
+    "TITLE": "最良の結果のために",
+    "LIGHTING_TITLE": "良い照明",
+    "LIGHTING_DESC": "コートが十分に照らされていることを確認し、強い逆光を避けてください。",
+    "VIEW_TITLE": "クリアな視界",
+    "VIEW_DESC": "カメラはフープとシューターを明確に見えるようにしてください。",
+    "DURATION_TITLE": "最大時間",
+    "DURATION_DESC": "1分（無料）、10分（ログイン済み）、30分（プレミアム）。動画は上限で切り取られます。"
+  },
+  "UPLOAD": {
+    "CLICK": "クリックして動画をアップロード",
+    "DROP": "ここに動画をドロップ",
+    "FORMATS": "MP4、MOV、AVI に対応",
+    "VIDEO_EXCEEDS_LIMIT": "動画が{{limit}}分の制限を超えています。最初の{{limit}}分のみ処理されます。",
+    "UPGRADE_HINT_LOGIN": "ログインして最大10分まで処理できます。",
+    "LOW_SPEC_WARNING": "お使いのPCの仕様が推奨値を下回っています。処理に通常より時間がかかります。より速い処理速度のために、より良いハードウェアの使用をお勧めします。",
+    "BROWSER_PERF_WARNING": "ブラウザ版を使用しています。デスクトップアプリよりもパフォーマンスが低下します。最良の結果のためにデスクトップ版をダウンロードして使用してください。"
+  },
+  "FILE_INFO": {
+    "READY": "処理準備完了",
+    "CHANGE_FILE": "ファイルを変更"
+  },
+  "ACTIONS": {
+    "UPLOADING": "動画をアップロード中... お待ちください",
+    "STOP_ANALYSIS": "分析を停止",
+    "DOWNLOAD_RESULT": "結果をダウンロード",
+    "PROCESS_ANOTHER": "別の動画を処理",
+    "STOPPED_MSG": "処理が停止されました",
+    "START_ANALYSIS": "分析を開始"
+  },
+  "PROGRESS": {
+    "UPLOADING": "アップロード中...",
+    "ANALYZING": "分析中...",
+    "LIVE_DETECTION": "リアルタイム検出プレビュー",
+    "RESULT_PREVIEW": "結果プレビュー",
+    "LOADING_VIDEO": "動画を読み込み中…",
+    "ERROR_TITLE": "おっと！何か問題が発生しました。",
+    "ERROR_DESC": "不明なエラーが発生しました。別の動画をお試しください。"
+  },
+  "AUTH": {
+    "LOGIN": "ログイン",
+    "REGISTER": "登録",
+    "DISCONNECT": "切断する",
+    "EMAIL": "メールアドレス",
+    "PASSWORD": "パスワード",
+    "CONFIRM_PASSWORD": "パスワードを確認",
+    "LOGIN_SUBMIT": "ログイン",
+    "REGISTER_SUBMIT": "アカウントを作成",
+    "SWITCH_TO_REGISTER": "アカウントをお持ちでない方は登録",
+    "SWITCH_TO_LOGIN": "すでにアカウントをお持ちの方はログイン",
+    "LOGIN_ERROR": "メールアドレスまたはパスワードが正しくありません。再試行してください。",
+    "REGISTER_ERROR": "登録に失敗しました。再試行してください。",
+    "REGISTER_SUCCESS": "アカウントが作成されました！メールアドレスを確認してください。",
+    "USERNAME": "ユーザー名",
+    "PROFILE": "プロフィール",
+    "CHANGE_PASSWORD": "パスワードを変更",
+    "NEW_PASSWORD": "新しいパスワード",
+    "CONFIRM_NEW_PASSWORD": "新しいパスワードを確認",
+    "PASSWORD_UPDATED": "パスワードが正常に更新されました。",
+    "PASSWORD_UPDATE_ERROR": "パスワードの更新に失敗しました。再試行してください。",
+    "REDIRECT_COUNTDOWN": "{{seconds}} 秒後にログインページにリダイレクトされます。",
+    "FORGOT_PASSWORD": "パスワードをお忘れですか？",
+    "FORGOT_PASSWORD_LINK": "パスワードをお忘れですか？",
+    "FORGOT_PASSWORD_SUBMIT": "リセットメールを送信",
+    "FORGOT_PASSWORD_SUCCESS": "パスワードリセットのリンクをメールでご確認ください。",
+    "FORGOT_PASSWORD_ERROR": "リセットメールの送信に失敗しました。再試行してください。",
+    "BACK_TO_LOGIN": "ログインに戻る"
+  },
+  "HARDWARE": {
+    "TITLE": "システムハードウェア",
+    "BROWSER_MODE_NOTICE": "ブラウザで実行中 — ハードウェア情報は制限されています",
+    "CPU_TITLE": "CPU",
+    "CPU_MODEL": "モデル",
+    "CPU_PHYSICAL_CORES": "物理コア数",
+    "CPU_THREADS": "スレッド数",
+    "CPU_FREQUENCY": "クロック周波数",
+    "RAM_TITLE": "メモリ (RAM)",
+    "RAM_TOTAL": "合計",
+    "RAM_AVAILABLE": "利用可能",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "名称",
+    "GPU_BACKEND": "バックエンド",
+    "GPU_VENDOR": "ベンダー",
+    "OS_TITLE": "オペレーティングシステム",
+    "OS_NAME": "名称",
+    "OS_VERSION": "バージョン",
+    "CUDA_TITLE": "GPU アクセラレーション",
+    "LIBCUDA": "CUDA ドライバ (libcuda)",
+    "ORT_CUDA": "ORT CUDA 実行プロバイダー",
+    "AVAILABLE": "利用可能",
+    "NOT_AVAILABLE": "利用不可",
+    "UNKNOWN": "—",
+    "LOADING": "ハードウェア情報を読み込んでいます...",
+    "ERROR": "ハードウェア情報の読み込みに失敗しました。",
+    "WEBGL": "WebGL サポート"
+  },
+  "DASHBOARD": {
+    "TITLE": "ダッシュボード",
+    "CHART_TITLE": "時系列のシュートとゴール",
+    "LIST_TITLE": "処理履歴",
+    "LOADING": "統計を読み込んでいます...",
+    "EMPTY_TITLE": "まだ統計がありません",
+    "EMPTY_DESC": "動画を処理してここに統計を表示してください",
+    "DELETE": "エントリを削除",
+    "LOGIN_REQUIRED": "個人統計ダッシュボードを見るにはログインしてください"
+  },
+  "VIDEOS": {
+    "TITLE": "処理済み動画",
+    "REMOVE_CONFIRM": "「{{name}}」を履歴から削除しますか？",
+    "REMOVE_DIALOG_TITLE": "動画を削除",
+    "LOADING": "履歴を読み込み中...",
+    "EMPTY_TITLE": "動画がありません",
+    "EMPTY_DESC": "動画を処理するとここに表示されます",
+    "EMPTY_BUTTON": "動画を処理する",
+    "DESKTOP_ONLY_TITLE": "デスクトップ専用",
+    "DESKTOP_ONLY_DESC": "動画ページは {{app}} でのみ利用可能です。アプリをダウンロードして処理済み動画を閲覧・管理してください。",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "再生",
+    "PLAY_TITLE": "動画を再生",
+    "DOWNLOAD_TITLE": "動画をダウンロード",
+    "REMOVE_TITLE": "履歴から削除",
+    "RENAME": "名前を変更",
+    "CONFIRM_RENAME": "確認",
+    "CANCEL_RENAME": "キャンセル",
+    "PLAYER_LOADING": "動画を読み込み中...",
+    "PLAYER_NOT_AVAILABLE": "動画ファイルを利用できません"
+  }
+}

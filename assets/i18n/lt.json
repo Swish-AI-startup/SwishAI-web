@@ -1,0 +1,163 @@
+{
+  "COMMON": {
+    "SHOTS": "Metimai",
+    "BASKETS": "Krepšiai",
+    "ACCURACY": "Tikslumas",
+    "PROCESSING_TIME": "Apdorojimo laikas"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "Apdoroti Vaizdo įrašą",
+    "VIDEOS": "Vaizdo įrašai",
+    "DASHBOARD": "Valdymo skydas",
+    "HARDWARE": "Aparatinė įranga",
+    "ABOUT": "Apie"
+  },
+  "EXIT": {
+    "LABEL": "Išeiti",
+    "CONFIRM_MESSAGE": "Ar tikrai norite uždaryti SwishAI?",
+    "CONFIRM_TITLE": "Patvirtinti Išėjimą",
+    "CONFIRM_YES": "Išeiti",
+    "CONFIRM_NO": "Atšaukti"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. Visos teisės saugomos."
+  },
+  "LOGO": {
+    "ALT": "SwishAI Logotipas"
+  },
+  "ABOUT": {
+    "TITLE": "Apie SwishAI",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "Versija {{version}}",
+    "DESCRIPTION": "SwishAI yra dirbtinio intelekto vaizdo įrašų analizės įrankis krepšiniui, kuris naudoja pažangų kompiuterinį regėjimą, kad aptiktų ir sekti metimus, kamuolius ir žaidėjus krepšinio vaizdo įrašuose. Analizuokite savo žaidimą, tobulinkite įgūdžius ir gaukite įžvalgų naudodami pažangiausią DI technologiją.",
+    "AUTHORS_TITLE": "Autoriai",
+    "LINKEDIN": "LinkedIn Profilis"
+  },
+  "GUIDE": {
+    "TITLE": "Geriausių Rezultatų Gavimui",
+    "LIGHTING_TITLE": "Geras Apšvietimas",
+    "LIGHTING_DESC": "Įsitikinkite, kad aikštelė yra gerai apšviesta ir venkite stiprios foninės šviesos.",
+    "VIEW_TITLE": "Aiškus Vaizdas",
+    "VIEW_DESC": "Kamera turi aiškiai matyti krepšį ir metėją.",
+    "DURATION_TITLE": "Didžiausia Trukmė",
+    "DURATION_DESC": "1 min (nemokama), 10 min (prisijungus), 30 min (premium). Vaizdo įrašai apkarpomi iki limito."
+  },
+  "UPLOAD": {
+    "CLICK": "Spustelėkite, kad įkeltumėte vaizdo įrašą",
+    "DROP": "Numeskite vaizdo įrašą čia",
+    "FORMATS": "Palaiko MP4, MOV, AVI",
+    "VIDEO_EXCEEDS_LIMIT": "Jūsų vaizdo įrašas viršija {{limit}} min. limitą. Bus apdoroti tik pirmieji {{limit}} minutės.",
+    "UPGRADE_HINT_LOGIN": "Prisijunkite, kad apdorotumėte iki 10 minučių.",
+    "LOW_SPEC_WARNING": "Jūsų kompiuterio specifikacijos yra žemesnės nei rekomenduojamos. Apdorojimas užims ilgiau nei įprastai. Rekomenduojame naudoti geresnę aparatinę įrangą greitesniam apdorojimui.",
+    "BROWSER_PERF_WARNING": "Naudojate naršyklės versiją. Veikimas yra lėtesnis nei darbastalio programėlė. Geriausiems rezultatams atsisiųskite ir naudokite darbastalio versiją."
+  },
+  "FILE_INFO": {
+    "READY": "Paruošta apdoroti",
+    "CHANGE_FILE": "Keisti failą"
+  },
+  "ACTIONS": {
+    "UPLOADING": "Įkeliamas Vaizdo įrašas... Palaukite",
+    "STOP_ANALYSIS": "Sustabdyti Analizę",
+    "DOWNLOAD_RESULT": "Atsisiųsti Rezultatą",
+    "PROCESS_ANOTHER": "Apdoroti Kitą Vaizdo įrašą",
+    "STOPPED_MSG": "Apdorojimas buvo sustabdytas",
+    "START_ANALYSIS": "Pradėti Analizę"
+  },
+  "PROGRESS": {
+    "UPLOADING": "Įkeliama...",
+    "ANALYZING": "Analizuojama...",
+    "LIVE_DETECTION": "Tiesioginės Aptikties Peržiūra",
+    "RESULT_PREVIEW": "Rezultato Peržiūra",
+    "LOADING_VIDEO": "Kraunamas vaizdo įrašas…",
+    "ERROR_TITLE": "Oi! Kažkas nutiko.",
+    "ERROR_DESC": "Įvyko nežinoma klaida. Bandykite kitą vaizdo įrašą."
+  },
+  "AUTH": {
+    "LOGIN": "Prisijungti",
+    "REGISTER": "Registruotis",
+    "DISCONNECT": "Atsijungti",
+    "EMAIL": "El. paštas",
+    "PASSWORD": "Slaptažodis",
+    "CONFIRM_PASSWORD": "Patvirtinti slaptažodį",
+    "LOGIN_SUBMIT": "Prisijungti",
+    "REGISTER_SUBMIT": "Sukurti paskyrą",
+    "SWITCH_TO_REGISTER": "Neturite paskyros? Registruokitės",
+    "SWITCH_TO_LOGIN": "Jau turite paskyrą? Prisijunkite",
+    "LOGIN_ERROR": "Neteisingas el. paštas arba slaptažodis. Bandykite dar kartą.",
+    "REGISTER_ERROR": "Registracija nepavyko. Bandykite dar kartą.",
+    "REGISTER_SUCCESS": "Paskyra sukurta! Patikrinkite el. paštą, kad patvirtintumėte paskyrą.",
+    "USERNAME": "Vartotojo vardas",
+    "PROFILE": "Profilis",
+    "CHANGE_PASSWORD": "Keisti slaptažodį",
+    "NEW_PASSWORD": "Naujas slaptažodis",
+    "CONFIRM_NEW_PASSWORD": "Patvirtinti naują slaptažodį",
+    "PASSWORD_UPDATED": "Slaptažodis sėkmingai atnaujintas.",
+    "PASSWORD_UPDATE_ERROR": "Nepavyko atnaujinti slaptažodžio. Bandykite dar kartą.",
+    "REDIRECT_COUNTDOWN": "Po {{seconds}} sekundžių būsite nukreipti į prisijungimą.",
+    "FORGOT_PASSWORD": "Pamiršote slaptažodį?",
+    "FORGOT_PASSWORD_LINK": "Pamiršote slaptažodį?",
+    "FORGOT_PASSWORD_SUBMIT": "Siųsti atstatymo el. laišką",
+    "FORGOT_PASSWORD_SUCCESS": "Patikrinkite el. paštą dėl slaptažodžio atstatymo nuorodos.",
+    "FORGOT_PASSWORD_ERROR": "Nepavyko išsiųsti atstatymo el. laiško. Bandykite dar kartą.",
+    "BACK_TO_LOGIN": "Grįžti į prisijungimą"
+  },
+  "HARDWARE": {
+    "TITLE": "Sistemos aparatinė įranga",
+    "BROWSER_MODE_NOTICE": "Veikia naršyklėje — ribota aparatinės įrangos informacija",
+    "CPU_TITLE": "Procesorius",
+    "CPU_MODEL": "Modelis",
+    "CPU_PHYSICAL_CORES": "Fiziniai branduoliai",
+    "CPU_THREADS": "Gijos",
+    "CPU_FREQUENCY": "Dažnis",
+    "RAM_TITLE": "Atmintis (RAM)",
+    "RAM_TOTAL": "Viso",
+    "RAM_AVAILABLE": "Laisva",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "Pavadinimas",
+    "GPU_BACKEND": "Backend",
+    "GPU_VENDOR": "Gamintojas",
+    "OS_TITLE": "Operacinė sistema",
+    "OS_NAME": "Pavadinimas",
+    "OS_VERSION": "Versija",
+    "CUDA_TITLE": "GPU spartinimas",
+    "LIBCUDA": "CUDA tvarkyklė (libcuda)",
+    "ORT_CUDA": "ORT CUDA vykdymo teikėjas",
+    "AVAILABLE": "Pasiekiama",
+    "NOT_AVAILABLE": "Nepasiekiama",
+    "UNKNOWN": "—",
+    "LOADING": "Kraunama aparatinės įrangos informacija...",
+    "ERROR": "Nepavyko įkelti aparatinės įrangos informacijos.",
+    "WEBGL": "WebGL palaikymas"
+  },
+  "DASHBOARD": {
+    "TITLE": "Valdymo skydas",
+    "CHART_TITLE": "Metimai ir krepšiai laikui bėgant",
+    "LIST_TITLE": "Apdorojimo istorija",
+    "LOADING": "Kraunama statistika...",
+    "EMPTY_TITLE": "Dar nėra statistikos",
+    "EMPTY_DESC": "Apdorokite vaizdo įrašą, kad matytumėte statistiką čia",
+    "DELETE": "Ištrinti įrašą",
+    "LOGIN_REQUIRED": "Prisijunkite, kad matytumėte asmeninį statistikos valdymo skydą"
+  },
+  "VIDEOS": {
+    "TITLE": "Apdoroti Vaizdo įrašai",
+    "REMOVE_CONFIRM": "Pašalinti \"{{name}}\" iš istorijos?",
+    "REMOVE_DIALOG_TITLE": "Pašalinti vaizdo įrašą",
+    "LOADING": "Kraunama istorija...",
+    "EMPTY_TITLE": "Dar nėra vaizdo įrašų",
+    "EMPTY_DESC": "Apdorokite vaizdo įrašą, kad matytumėte jį čia",
+    "EMPTY_BUTTON": "Apdoroti Vaizdo įrašą",
+    "DESKTOP_ONLY_TITLE": "Tik Desktop",
+    "DESKTOP_ONLY_DESC": "Vaizdo įrašų puslapis prieinamas tik {{app}}. Atsisiųskite programą, kad galėtumėte naršyti ir tvarkyti apdorotus vaizdo įrašus.",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "Paleisti",
+    "PLAY_TITLE": "Paleisti vaizdo įrašą",
+    "DOWNLOAD_TITLE": "Atsisiųsti vaizdo įrašą",
+    "REMOVE_TITLE": "Pašalinti iš istorijos",
+    "RENAME": "Pervardyti",
+    "CONFIRM_RENAME": "Patvirtinti",
+    "CANCEL_RENAME": "Atšaukti",
+    "PLAYER_LOADING": "Kraunamas vaizdo įrašas...",
+    "PLAYER_NOT_AVAILABLE": "Vaizdo įrašo failas neprieinamas"
+  }
+}

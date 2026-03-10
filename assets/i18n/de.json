@@ -1,0 +1,163 @@
+{
+  "COMMON": {
+    "SHOTS": "Würfe",
+    "BASKETS": "Körbe",
+    "ACCURACY": "Genauigkeit",
+    "PROCESSING_TIME": "Verarbeitungszeit"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "Video verarbeiten",
+    "VIDEOS": "Videos",
+    "DASHBOARD": "Dashboard",
+    "HARDWARE": "Hardware",
+    "ABOUT": "Über"
+  },
+  "EXIT": {
+    "LABEL": "Beenden",
+    "CONFIRM_MESSAGE": "Möchten Sie SwishAI wirklich beenden?",
+    "CONFIRM_TITLE": "Beenden bestätigen",
+    "CONFIRM_YES": "Beenden",
+    "CONFIRM_NO": "Abbrechen"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. Alle Rechte vorbehalten."
+  },
+  "LOGO": {
+    "ALT": "SwishAI Logo"
+  },
+  "ABOUT": {
+    "TITLE": "Über SwishAI",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "Version {{version}}",
+    "DESCRIPTION": "SwishAI ist ein KI-gestütztes Basketball-Videoanalyse-Tool, das fortschrittliche Computer Vision verwendet, um Würfe, Bälle und Spieler in Basketball-Aufnahmen zu erkennen und zu verfolgen. Analysieren Sie Ihr Spiel, verbessern Sie Ihre Fähigkeiten und gewinnen Sie mit modernster KI-Technologie Erkenntnisse.",
+    "AUTHORS_TITLE": "Autoren",
+    "LINKEDIN": "LinkedIn-Profil"
+  },
+  "GUIDE": {
+    "TITLE": "Für Beste Ergebnisse",
+    "LIGHTING_TITLE": "Gute Beleuchtung",
+    "LIGHTING_DESC": "Stellen Sie sicher, dass der Platz gut beleuchtet ist und vermeiden Sie starkes Gegenlicht.",
+    "VIEW_TITLE": "Freie Sicht",
+    "VIEW_DESC": "Die Kamera muss den Korb und den Werfer klar sehen.",
+    "DURATION_TITLE": "Maximale Dauer",
+    "DURATION_DESC": "1 Min. (kostenlos), 10 Min. (angemeldet), 30 Min. (Premium). Videos werden auf das Limit gekürzt."
+  },
+  "UPLOAD": {
+    "CLICK": "Klicken um Video hochzuladen",
+    "DROP": "Video hier ablegen",
+    "FORMATS": "Unterstützt MP4, MOV, AVI",
+    "VIDEO_EXCEEDS_LIMIT": "Ihr Video überschreitet das Limit von {{limit}} Minute(n). Nur die ersten {{limit}} Minuten werden verarbeitet.",
+    "UPGRADE_HINT_LOGIN": "Melden Sie sich an, um bis zu 10 Minuten zu verarbeiten.",
+    "LOW_SPEC_WARNING": "Ihr PC hat Spezifikationen unterhalb der empfohlenen. Die Verarbeitung wird länger als üblich dauern. Wir empfehlen bessere Hardware für schnellere Verarbeitungsgeschwindigkeiten.",
+    "BROWSER_PERF_WARNING": "Sie verwenden die Browserversion. Die Leistung ist langsamer als die Desktop-App. Für beste Ergebnisse laden Sie die Desktop-Version herunter und verwenden Sie diese."
+  },
+  "FILE_INFO": {
+    "READY": "Bereit zur Verarbeitung",
+    "CHANGE_FILE": "Datei ändern"
+  },
+  "ACTIONS": {
+    "UPLOADING": "Video wird hochgeladen... Bitte warten",
+    "STOP_ANALYSIS": "Analyse stoppen",
+    "DOWNLOAD_RESULT": "Ergebnis herunterladen",
+    "PROCESS_ANOTHER": "Weiteres Video verarbeiten",
+    "STOPPED_MSG": "Die Verarbeitung wurde gestoppt",
+    "START_ANALYSIS": "Analyse starten"
+  },
+  "PROGRESS": {
+    "UPLOADING": "Hochladen...",
+    "ANALYZING": "Analysieren...",
+    "LIVE_DETECTION": "Live-Erkennungsvorschau",
+    "RESULT_PREVIEW": "Ergebnisvorschau",
+    "LOADING_VIDEO": "Video wird geladen…",
+    "ERROR_TITLE": "Hoppla! Etwas ist schiefgelaufen.",
+    "ERROR_DESC": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie ein anderes Video."
+  },
+  "AUTH": {
+    "LOGIN": "Anmelden",
+    "REGISTER": "Registrieren",
+    "DISCONNECT": "Trennen",
+    "EMAIL": "E-Mail",
+    "PASSWORD": "Passwort",
+    "CONFIRM_PASSWORD": "Passwort bestätigen",
+    "LOGIN_SUBMIT": "Anmelden",
+    "REGISTER_SUBMIT": "Konto erstellen",
+    "SWITCH_TO_REGISTER": "Noch kein Konto? Registrieren",
+    "SWITCH_TO_LOGIN": "Bereits ein Konto? Anmelden",
+    "LOGIN_ERROR": "Ungültige E-Mail oder ungültiges Passwort. Bitte versuchen Sie es erneut.",
+    "REGISTER_ERROR": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "REGISTER_SUCCESS": "Konto erstellt! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu bestätigen.",
+    "USERNAME": "Benutzername",
+    "PROFILE": "Profil",
+    "CHANGE_PASSWORD": "Passwort ändern",
+    "NEW_PASSWORD": "Neues Passwort",
+    "CONFIRM_NEW_PASSWORD": "Neues Passwort bestätigen",
+    "PASSWORD_UPDATED": "Passwort erfolgreich aktualisiert.",
+    "PASSWORD_UPDATE_ERROR": "Passwort konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
+    "REDIRECT_COUNTDOWN": "Sie werden in {{seconds}} Sekunden zur Anmeldung weitergeleitet.",
+    "FORGOT_PASSWORD": "Passwort vergessen?",
+    "FORGOT_PASSWORD_LINK": "Passwort vergessen?",
+    "FORGOT_PASSWORD_SUBMIT": "Zurücksetze-E-Mail senden",
+    "FORGOT_PASSWORD_SUCCESS": "Prüfen Sie Ihre E-Mail für den Passwort-Reset-Link.",
+    "FORGOT_PASSWORD_ERROR": "Fehler beim Senden der Zurücksetze-E-Mail. Bitte versuchen Sie es erneut.",
+    "BACK_TO_LOGIN": "Zurück zur Anmeldung"
+  },
+  "HARDWARE": {
+    "TITLE": "System-Hardware",
+    "BROWSER_MODE_NOTICE": "Im Browser ausgeführt — begrenzte Hardware-Informationen verfügbar",
+    "CPU_TITLE": "Prozessor",
+    "CPU_MODEL": "Modell",
+    "CPU_PHYSICAL_CORES": "Physische Kerne",
+    "CPU_THREADS": "Threads",
+    "CPU_FREQUENCY": "Taktfrequenz",
+    "RAM_TITLE": "Arbeitsspeicher (RAM)",
+    "RAM_TOTAL": "Gesamt",
+    "RAM_AVAILABLE": "Verfügbar",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "Name",
+    "GPU_BACKEND": "Backend",
+    "GPU_VENDOR": "Hersteller",
+    "OS_TITLE": "Betriebssystem",
+    "OS_NAME": "Name",
+    "OS_VERSION": "Version",
+    "CUDA_TITLE": "GPU-Beschleunigung",
+    "LIBCUDA": "CUDA-Treiber (libcuda)",
+    "ORT_CUDA": "ORT CUDA Execution Provider",
+    "AVAILABLE": "Verfügbar",
+    "NOT_AVAILABLE": "Nicht verfügbar",
+    "UNKNOWN": "—",
+    "LOADING": "Hardware-Informationen werden geladen...",
+    "ERROR": "Hardware-Informationen konnten nicht geladen werden.",
+    "WEBGL": "WebGL-Unterstützung"
+  },
+  "DASHBOARD": {
+    "TITLE": "Dashboard",
+    "CHART_TITLE": "Würfe und Körbe im Zeitverlauf",
+    "LIST_TITLE": "Verarbeitungsverlauf",
+    "LOADING": "Statistiken werden geladen...",
+    "EMPTY_TITLE": "Noch keine Statistiken",
+    "EMPTY_DESC": "Verarbeiten Sie ein Video, um Ihre Statistiken hier zu sehen",
+    "DELETE": "Eintrag löschen",
+    "LOGIN_REQUIRED": "Melden Sie sich an, um Ihr persönliches Statistik-Dashboard zu sehen"
+  },
+  "VIDEOS": {
+    "TITLE": "Verarbeitete Videos",
+    "REMOVE_CONFIRM": "\"{{name}}\" aus dem Verlauf entfernen?",
+    "REMOVE_DIALOG_TITLE": "Video entfernen",
+    "LOADING": "Verlauf wird geladen...",
+    "EMPTY_TITLE": "Noch keine Videos",
+    "EMPTY_DESC": "Verarbeiten Sie ein Video, um es hier zu sehen",
+    "EMPTY_BUTTON": "Video verarbeiten",
+    "DESKTOP_ONLY_TITLE": "Nur Desktop",
+    "DESKTOP_ONLY_DESC": "Die Videos-Seite ist nur in {{app}} verfügbar. Laden Sie die App herunter, um Ihre verarbeiteten Videos zu durchsuchen und zu verwalten.",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "Abspielen",
+    "PLAY_TITLE": "Video abspielen",
+    "DOWNLOAD_TITLE": "Video herunterladen",
+    "REMOVE_TITLE": "Aus Verlauf entfernen",
+    "RENAME": "Umbenennen",
+    "CONFIRM_RENAME": "Bestätigen",
+    "CANCEL_RENAME": "Abbrechen",
+    "PLAYER_LOADING": "Video wird geladen...",
+    "PLAYER_NOT_AVAILABLE": "Videodatei nicht verfügbar"
+  }
+}

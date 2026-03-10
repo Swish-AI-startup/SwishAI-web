@@ -1,0 +1,164 @@
+{
+  "COMMON": {
+    "SHOTS": "投篮",
+    "BASKETS": "得分",
+    "ACCURACY": "准确率",
+    "PROCESSING_TIME": "处理时间"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "处理视频",
+    "VIDEOS": "视频",
+    "DASHBOARD": "仪表盘",
+    "HARDWARE": "硬件",
+    "ABOUT": "关于"
+  },
+  "EXIT": {
+    "LABEL": "退出",
+    "CONFIRM_MESSAGE": "确定要退出 SwishAI 吗？",
+    "CONFIRM_TITLE": "确认退出",
+    "CONFIRM_YES": "退出",
+    "CONFIRM_NO": "取消"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. 保留所有权利。"
+  },
+  "LOGO": {
+    "ALT": "SwishAI 标志"
+  },
+  "ABOUT": {
+    "TITLE": "关于 SwishAI",
+    "APP_NAME": "SwishAI 桌面版",
+    "VERSION": "版本 {{version}}",
+    "DESCRIPTION": "SwishAI 是一款 AI 驱动的篮球视频分析工具，使用先进的计算机视觉技术检测和追踪篮球录像中的投篮、球和球员。分析您的比赛，提升技能，并通过前沿 AI 技术获得洞察。",
+    "AUTHORS_TITLE": "作者",
+    "LINKEDIN": "LinkedIn 主页"
+  },
+  "GUIDE": {
+    "TITLE": "最佳效果建议",
+    "LIGHTING_TITLE": "良好光线",
+    "LIGHTING_DESC": "确保球场光线充足，避免强逆光。",
+    "VIEW_TITLE": "清晰视角",
+    "VIEW_DESC": "摄像机必须清晰看到篮筐和投篮者。",
+    "DURATION_TITLE": "最大时长",
+    "DURATION_DESC": "免费1分钟，登录10分钟，高级30分钟。视频将被截取至限制时长。"
+  },
+  "UPLOAD": {
+    "CLICK": "点击上传视频",
+    "DROP": "将视频拖放到此处",
+    "FORMATS": "支持 MP4、MOV、AVI",
+    "VIDEO_EXCEEDS_LIMIT": "您的视频超过了{{limit}}分钟的限制。仅处理前{{limit}}分钟。",
+    "UPGRADE_HINT_LOGIN": "登录以处理最多10分钟的视频。",
+    "LOW_SPEC_WARNING": "您的电脑规格低于推荐配置。处理时间将比平常更长。我们建议使用更好的硬件以获得更快的处理速度。",
+    "BROWSER_PERF_WARNING": "您正在使用浏览器版本。性能比桌面应用程序慢。为获得最佳效果，请下载并使用桌面版本。"
+  },
+  "FILE_INFO": {
+    "READY": "准备处理",
+    "CHANGE_FILE": "更换文件"
+  },
+
+  "ACTIONS": {
+    "UPLOADING": "正在上传视频... 请稍候",
+    "STOP_ANALYSIS": "停止分析",
+    "DOWNLOAD_RESULT": "下载结果",
+    "PROCESS_ANOTHER": "处理另一个视频",
+    "STOPPED_MSG": "处理已停止",
+    "START_ANALYSIS": "开始分析"
+  },
+  "PROGRESS": {
+    "UPLOADING": "正在上传...",
+    "ANALYZING": "正在分析...",
+    "LIVE_DETECTION": "实时检测预览",
+    "RESULT_PREVIEW": "结果预览",
+    "LOADING_VIDEO": "正在加载视频…",
+    "ERROR_TITLE": "哎呀！出错了。",
+    "ERROR_DESC": "发生未知错误，请尝试其他视频。"
+  },
+  "AUTH": {
+    "LOGIN": "登录",
+    "REGISTER": "注册",
+    "DISCONNECT": "断开连接",
+    "EMAIL": "邮箱",
+    "PASSWORD": "密码",
+    "CONFIRM_PASSWORD": "确认密码",
+    "LOGIN_SUBMIT": "登录",
+    "REGISTER_SUBMIT": "创建账户",
+    "SWITCH_TO_REGISTER": "没有账户？注册",
+    "SWITCH_TO_LOGIN": "已有账户？登录",
+    "LOGIN_ERROR": "邮箱或密码无效，请重试。",
+    "REGISTER_ERROR": "注册失败，请重试。",
+    "REGISTER_SUCCESS": "账户已创建！请查看您的邮箱以确认账户。",
+    "USERNAME": "用户名",
+    "PROFILE": "个人资料",
+    "CHANGE_PASSWORD": "修改密码",
+    "NEW_PASSWORD": "新密码",
+    "CONFIRM_NEW_PASSWORD": "确认新密码",
+    "PASSWORD_UPDATED": "密码更新成功。",
+    "PASSWORD_UPDATE_ERROR": "密码更新失败，请重试。",
+    "REDIRECT_COUNTDOWN": "您将在 {{seconds}} 秒后被重定向到登录页面。",
+    "FORGOT_PASSWORD": "忘记密码？",
+    "FORGOT_PASSWORD_LINK": "忘记密码了吗？",
+    "FORGOT_PASSWORD_SUBMIT": "发送重置邮件",
+    "FORGOT_PASSWORD_SUCCESS": "请查看您的邮箱以获取密码重置链接。",
+    "FORGOT_PASSWORD_ERROR": "发送重置邮件失败，请重试。",
+    "BACK_TO_LOGIN": "返回登录"
+  },
+  "HARDWARE": {
+    "TITLE": "系统硬件",
+    "BROWSER_MODE_NOTICE": "在浏览器中运行 — 硬件信息有限",
+    "CPU_TITLE": "处理器",
+    "CPU_MODEL": "型号",
+    "CPU_PHYSICAL_CORES": "物理核心数",
+    "CPU_THREADS": "线程数",
+    "CPU_FREQUENCY": "频率",
+    "RAM_TITLE": "内存 (RAM)",
+    "RAM_TOTAL": "总计",
+    "RAM_AVAILABLE": "可用",
+    "GPU_TITLE": "显卡",
+    "GPU_NAME": "名称",
+    "GPU_BACKEND": "后端",
+    "GPU_VENDOR": "厂商",
+    "OS_TITLE": "操作系统",
+    "OS_NAME": "名称",
+    "OS_VERSION": "版本",
+    "CUDA_TITLE": "GPU 加速",
+    "LIBCUDA": "CUDA 驱动 (libcuda)",
+    "ORT_CUDA": "ORT CUDA 执行提供程序",
+    "AVAILABLE": "可用",
+    "NOT_AVAILABLE": "不可用",
+    "UNKNOWN": "—",
+    "LOADING": "正在加载硬件信息...",
+    "ERROR": "无法加载硬件信息。",
+    "WEBGL": "WebGL 支持"
+  },
+  "DASHBOARD": {
+    "TITLE": "仪表盘",
+    "CHART_TITLE": "随时间变化的投篮和得分",
+    "LIST_TITLE": "处理历史",
+    "LOADING": "正在加载统计数据...",
+    "EMPTY_TITLE": "暂无统计数据",
+    "EMPTY_DESC": "处理一个视频以在此处查看您的统计数据",
+    "DELETE": "删除记录",
+    "LOGIN_REQUIRED": "登录以查看您的个人统计仪表盘"
+  },
+  "VIDEOS": {
+    "TITLE": "已处理的视频",
+    "REMOVE_CONFIRM": "从历史记录中删除\"{{name}}\"？",
+    "REMOVE_DIALOG_TITLE": "删除视频",
+    "LOADING": "正在加载历史记录...",
+    "EMPTY_TITLE": "暂无视频",
+    "EMPTY_DESC": "处理一个视频以在此处查看",
+    "EMPTY_BUTTON": "处理视频",
+    "DESKTOP_ONLY_TITLE": "仅限桌面版",
+    "DESKTOP_ONLY_DESC": "视频页面仅在 {{app}} 中可用。下载应用以浏览和管理您的已处理视频。",
+    "DESKTOP_ONLY_APP": "SwishAI 桌面版",
+    "PLAY": "播放",
+    "PLAY_TITLE": "播放视频",
+    "DOWNLOAD_TITLE": "下载视频",
+    "REMOVE_TITLE": "从历史记录中删除",
+    "RENAME": "重命名",
+    "CONFIRM_RENAME": "确认",
+    "CANCEL_RENAME": "取消",
+    "PLAYER_LOADING": "正在加载视频...",
+    "PLAYER_NOT_AVAILABLE": "视频文件不可用"
+  }
+}

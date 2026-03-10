@@ -1,0 +1,164 @@
+{
+  "COMMON": {
+    "SHOTS": "Tirs",
+    "BASKETS": "Paniers",
+    "ACCURACY": "Précision",
+    "PROCESSING_TIME": "Temps de traitement"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "Traiter une vidéo",
+    "VIDEOS": "Vidéos",
+    "DASHBOARD": "Tableau de bord",
+    "HARDWARE": "Matériel",
+    "ABOUT": "À propos"
+  },
+  "EXIT": {
+    "LABEL": "Quitter",
+    "CONFIRM_MESSAGE": "Êtes-vous sûr de vouloir quitter SwishAI ?",
+    "CONFIRM_TITLE": "Confirmer la sortie",
+    "CONFIRM_YES": "Quitter",
+    "CONFIRM_NO": "Annuler"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. Tous droits réservés."
+  },
+  "LOGO": {
+    "ALT": "Logo SwishAI"
+  },
+  "ABOUT": {
+    "TITLE": "À propos de SwishAI",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "Version {{version}}",
+    "DESCRIPTION": "SwishAI est un outil d'analyse vidéo de basketball propulsé par l'IA qui utilise la vision par ordinateur avancée pour détecter et suivre les tirs, les ballons et les joueurs dans les vidéos de basketball. Analysez votre jeu, améliorez vos compétences et obtenez des informations grâce à la technologie IA de pointe.",
+    "AUTHORS_TITLE": "Auteurs",
+    "LINKEDIN": "Profil LinkedIn"
+  },
+  "GUIDE": {
+    "TITLE": "Pour de Meilleurs Résultats",
+    "LIGHTING_TITLE": "Bon Éclairage",
+    "LIGHTING_DESC": "Assurez-vous que le terrain est bien éclairé et évitez les forts contre-jours.",
+    "VIEW_TITLE": "Vue Dégagée",
+    "VIEW_DESC": "La caméra doit clairement voir le panier et le tireur.",
+    "DURATION_TITLE": "Durée Maximale",
+    "DURATION_DESC": "1 min (gratuit), 10 min (connecté), 30 min (premium). Les vidéos sont découpées à la limite."
+  },
+  "UPLOAD": {
+    "CLICK": "Cliquez pour télécharger une vidéo",
+    "DROP": "Déposez la vidéo ici",
+    "FORMATS": "Supporte MP4, MOV, AVI",
+    "VIDEO_EXCEEDS_LIMIT": "Votre vidéo dépasse la limite de {{limit}} minute(s). Seules les premières {{limit}} minutes seront traitées.",
+    "UPGRADE_HINT_LOGIN": "Connectez-vous pour traiter jusqu'à 10 minutes.",
+    "LOW_SPEC_WARNING": "Votre PC a des spécifications inférieures à celles recommandées. Le traitement prendra plus de temps que d'habitude. Nous recommandons un meilleur matériel pour des vitesses de traitement plus rapides.",
+    "BROWSER_PERF_WARNING": "Vous utilisez la version navigateur. Les performances sont plus lentes que l'application de bureau. Pour de meilleurs résultats, téléchargez et utilisez la version de bureau."
+  },
+  "FILE_INFO": {
+    "READY": "Prêt à traiter",
+    "CHANGE_FILE": "Changer de fichier"
+  },
+
+  "ACTIONS": {
+    "UPLOADING": "Téléchargement de la vidéo... Veuillez patienter",
+    "STOP_ANALYSIS": "Arrêter l'analyse",
+    "DOWNLOAD_RESULT": "Télécharger le résultat",
+    "PROCESS_ANOTHER": "Traiter une autre vidéo",
+    "STOPPED_MSG": "Le traitement a été arrêté",
+    "START_ANALYSIS": "Démarrer l'analyse"
+  },
+  "PROGRESS": {
+    "UPLOADING": "Téléchargement...",
+    "ANALYZING": "Analyse...",
+    "LIVE_DETECTION": "Aperçu de détection en direct",
+    "RESULT_PREVIEW": "Aperçu du résultat",
+    "LOADING_VIDEO": "Chargement de la vidéo…",
+    "ERROR_TITLE": "Oups ! Quelque chose s'est mal passé.",
+    "ERROR_DESC": "Une erreur inconnue s'est produite. Veuillez essayer une autre vidéo."
+  },
+  "AUTH": {
+    "LOGIN": "Connexion",
+    "REGISTER": "S'inscrire",
+    "DISCONNECT": "Se déconnecter",
+    "EMAIL": "E-mail",
+    "PASSWORD": "Mot de passe",
+    "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "LOGIN_SUBMIT": "Se connecter",
+    "REGISTER_SUBMIT": "Créer un compte",
+    "SWITCH_TO_REGISTER": "Pas de compte ? S'inscrire",
+    "SWITCH_TO_LOGIN": "Déjà un compte ? Se connecter",
+    "LOGIN_ERROR": "E-mail ou mot de passe invalide. Veuillez réessayer.",
+    "REGISTER_ERROR": "Échec de l'inscription. Veuillez réessayer.",
+    "REGISTER_SUCCESS": "Compte créé ! Vérifiez votre e-mail pour confirmer votre compte.",
+    "USERNAME": "Nom d'utilisateur",
+    "PROFILE": "Profil",
+    "CHANGE_PASSWORD": "Changer le mot de passe",
+    "NEW_PASSWORD": "Nouveau mot de passe",
+    "CONFIRM_NEW_PASSWORD": "Confirmer le nouveau mot de passe",
+    "PASSWORD_UPDATED": "Mot de passe mis à jour avec succès.",
+    "PASSWORD_UPDATE_ERROR": "Échec de la mise à jour du mot de passe. Veuillez réessayer.",
+    "REDIRECT_COUNTDOWN": "Vous serez redirigé vers la connexion dans {{seconds}} secondes.",
+    "FORGOT_PASSWORD": "Mot de passe oublié ?",
+    "FORGOT_PASSWORD_LINK": "Mot de passe oublié ?",
+    "FORGOT_PASSWORD_SUBMIT": "Envoyer l'e-mail de réinitialisation",
+    "FORGOT_PASSWORD_SUCCESS": "Vérifiez votre e-mail pour trouver le lien de réinitialisation.",
+    "FORGOT_PASSWORD_ERROR": "Échec de l'envoi de l'e-mail de réinitialisation. Veuillez réessayer.",
+    "BACK_TO_LOGIN": "Retour à la connexion"
+  },
+  "HARDWARE": {
+    "TITLE": "Matériel Système",
+    "BROWSER_MODE_NOTICE": "Exécution dans le navigateur — informations matérielles limitées disponibles",
+    "CPU_TITLE": "Processeur",
+    "CPU_MODEL": "Modèle",
+    "CPU_PHYSICAL_CORES": "Cœurs Physiques",
+    "CPU_THREADS": "Threads",
+    "CPU_FREQUENCY": "Fréquence",
+    "RAM_TITLE": "Mémoire (RAM)",
+    "RAM_TOTAL": "Total",
+    "RAM_AVAILABLE": "Disponible",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "Nom",
+    "GPU_BACKEND": "Backend",
+    "GPU_VENDOR": "Fabricant",
+    "OS_TITLE": "Système d'Exploitation",
+    "OS_NAME": "Nom",
+    "OS_VERSION": "Version",
+    "CUDA_TITLE": "Accélération GPU",
+    "LIBCUDA": "Pilote CUDA (libcuda)",
+    "ORT_CUDA": "ORT CUDA Execution Provider",
+    "AVAILABLE": "Disponible",
+    "NOT_AVAILABLE": "Non disponible",
+    "UNKNOWN": "—",
+    "LOADING": "Chargement des informations matérielles...",
+    "ERROR": "Échec du chargement des informations matérielles.",
+    "WEBGL": "Support WebGL"
+  },
+  "DASHBOARD": {
+    "TITLE": "Tableau de bord",
+    "CHART_TITLE": "Tirs et paniers dans le temps",
+    "LIST_TITLE": "Historique des traitements",
+    "LOADING": "Chargement des statistiques...",
+    "EMPTY_TITLE": "Pas encore de statistiques",
+    "EMPTY_DESC": "Traitez une vidéo pour voir vos statistiques ici",
+    "DELETE": "Supprimer l'entrée",
+    "LOGIN_REQUIRED": "Connectez-vous pour voir votre tableau de bord personnel des statistiques"
+  },
+  "VIDEOS": {
+    "TITLE": "Vidéos traitées",
+    "REMOVE_CONFIRM": "Supprimer \"{{name}}\" de l'historique ?",
+    "REMOVE_DIALOG_TITLE": "Supprimer la vidéo",
+    "LOADING": "Chargement de l'historique...",
+    "EMPTY_TITLE": "Aucune vidéo pour l'instant",
+    "EMPTY_DESC": "Traitez une vidéo pour la voir ici",
+    "EMPTY_BUTTON": "Traiter une vidéo",
+    "DESKTOP_ONLY_TITLE": "Bureau uniquement",
+    "DESKTOP_ONLY_DESC": "La page Vidéos est uniquement disponible dans {{app}}. Téléchargez l'application pour parcourir et gérer vos vidéos traitées.",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "Lire",
+    "PLAY_TITLE": "Lire la vidéo",
+    "DOWNLOAD_TITLE": "Télécharger la vidéo",
+    "REMOVE_TITLE": "Supprimer de l'historique",
+    "RENAME": "Renommer",
+    "CONFIRM_RENAME": "Confirmer",
+    "CANCEL_RENAME": "Annuler",
+    "PLAYER_LOADING": "Chargement de la vidéo...",
+    "PLAYER_NOT_AVAILABLE": "Fichier vidéo non disponible"
+  }
+}

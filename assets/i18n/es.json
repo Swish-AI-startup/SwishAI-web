@@ -1,0 +1,163 @@
+{
+  "COMMON": {
+    "SHOTS": "Tiros",
+    "BASKETS": "Canastas",
+    "ACCURACY": "Precisión",
+    "PROCESSING_TIME": "Tiempo de procesamiento"
+  },
+  "NAV": {
+    "PROCESS_VIDEO": "Procesar Video",
+    "VIDEOS": "Videos",
+    "DASHBOARD": "Panel",
+    "HARDWARE": "Hardware",
+    "ABOUT": "Acerca de"
+  },
+  "EXIT": {
+    "LABEL": "Salir",
+    "CONFIRM_MESSAGE": "¿Estás seguro de que quieres salir de SwishAI?",
+    "CONFIRM_TITLE": "Confirmar Salida",
+    "CONFIRM_YES": "Salir",
+    "CONFIRM_NO": "Cancelar"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© {{year}} SwishAI. Todos los derechos reservados."
+  },
+  "LOGO": {
+    "ALT": "Logo de SwishAI"
+  },
+  "ABOUT": {
+    "TITLE": "Acerca de SwishAI",
+    "APP_NAME": "SwishAI Desktop",
+    "VERSION": "Versión {{version}}",
+    "DESCRIPTION": "SwishAI es una herramienta de análisis de video de baloncesto impulsada por IA que utiliza visión por computadora avanzada para detectar y rastrear tiros, balones y jugadores en material de baloncesto. Analiza tu juego, mejora tus habilidades y obtén información con tecnología de IA de vanguardia.",
+    "AUTHORS_TITLE": "Autores",
+    "LINKEDIN": "Perfil de LinkedIn"
+  },
+  "GUIDE": {
+    "TITLE": "Para Mejores Resultados",
+    "LIGHTING_TITLE": "Buena Iluminación",
+    "LIGHTING_DESC": "Asegúrate de que la cancha esté bien iluminada y evita contraluces fuertes.",
+    "VIEW_TITLE": "Vista Clara",
+    "VIEW_DESC": "La cámara debe ver claramente el aro y el lanzador.",
+    "DURATION_TITLE": "Duración Máxima",
+    "DURATION_DESC": "1 min (gratis), 10 min (conectado), 30 min (premium). Los videos se recortan al límite."
+  },
+  "UPLOAD": {
+    "CLICK": "Haz clic para subir un video",
+    "DROP": "Suelta el video aquí",
+    "FORMATS": "Soporta MP4, MOV, AVI",
+    "VIDEO_EXCEEDS_LIMIT": "Tu video supera el límite de {{limit}} minuto(s). Solo se procesarán los primeros {{limit}} minutos.",
+    "UPGRADE_HINT_LOGIN": "Inicia sesión para procesar hasta 10 minutos.",
+    "LOW_SPEC_WARNING": "Tu PC tiene especificaciones inferiores a las recomendadas. El procesamiento tardará más de lo habitual. Recomendamos usar mejor hardware para velocidades de procesamiento más rápidas.",
+    "BROWSER_PERF_WARNING": "Estás usando la versión del navegador. El rendimiento es más lento que la aplicación de escritorio. Para mejores resultados, descarga y usa la versión de escritorio."
+  },
+  "FILE_INFO": {
+    "READY": "Listo para procesar",
+    "CHANGE_FILE": "Cambiar Archivo"
+  },
+  "ACTIONS": {
+    "UPLOADING": "Subiendo Video... Por favor espera",
+    "STOP_ANALYSIS": "Detener Análisis",
+    "DOWNLOAD_RESULT": "Descargar Resultado",
+    "PROCESS_ANOTHER": "Procesar Otro Video",
+    "STOPPED_MSG": "El procesamiento fue detenido",
+    "START_ANALYSIS": "Iniciar Análisis"
+  },
+  "PROGRESS": {
+    "UPLOADING": "Subiendo...",
+    "ANALYZING": "Analizando...",
+    "LIVE_DETECTION": "Vista Previa de Detección en Vivo",
+    "RESULT_PREVIEW": "Vista Previa del Resultado",
+    "LOADING_VIDEO": "Cargando video…",
+    "ERROR_TITLE": "¡Vaya! Algo salió mal.",
+    "ERROR_DESC": "Ocurrió un error desconocido. Por favor intenta con un video diferente."
+  },
+  "AUTH": {
+    "LOGIN": "Iniciar sesión",
+    "REGISTER": "Registrarse",
+    "DISCONNECT": "Desconectar",
+    "EMAIL": "Correo electrónico",
+    "PASSWORD": "Contraseña",
+    "CONFIRM_PASSWORD": "Confirmar Contraseña",
+    "LOGIN_SUBMIT": "Iniciar Sesión",
+    "REGISTER_SUBMIT": "Crear Cuenta",
+    "SWITCH_TO_REGISTER": "¿No tienes cuenta? Regístrate",
+    "SWITCH_TO_LOGIN": "¿Ya tienes cuenta? Inicia sesión",
+    "LOGIN_ERROR": "Correo o contraseña incorrectos. Inténtalo de nuevo.",
+    "REGISTER_ERROR": "El registro falló. Inténtalo de nuevo.",
+    "REGISTER_SUCCESS": "¡Cuenta creada! Revisa tu correo para confirmar tu cuenta.",
+    "USERNAME": "Nombre de usuario",
+    "PROFILE": "Perfil",
+    "CHANGE_PASSWORD": "Cambiar Contraseña",
+    "NEW_PASSWORD": "Nueva Contraseña",
+    "CONFIRM_NEW_PASSWORD": "Confirmar Nueva Contraseña",
+    "PASSWORD_UPDATED": "Contraseña actualizada correctamente.",
+    "PASSWORD_UPDATE_ERROR": "Error al actualizar la contraseña. Inténtalo de nuevo.",
+    "REDIRECT_COUNTDOWN": "Serás redirigido al inicio de sesión en {{seconds}} segundos.",
+    "FORGOT_PASSWORD": "¿Olvidaste tu contraseña?",
+    "FORGOT_PASSWORD_LINK": "¿Olvidaste tu contraseña?",
+    "FORGOT_PASSWORD_SUBMIT": "Enviar correo de restablecimiento",
+    "FORGOT_PASSWORD_SUCCESS": "Revisa tu correo para encontrar el enlace de restablecimiento.",
+    "FORGOT_PASSWORD_ERROR": "Error al enviar el correo de restablecimiento. Inténtalo de nuevo.",
+    "BACK_TO_LOGIN": "Volver al inicio de sesión"
+  },
+  "HARDWARE": {
+    "TITLE": "Hardware del Sistema",
+    "BROWSER_MODE_NOTICE": "Ejecutando en el navegador — información de hardware limitada disponible",
+    "CPU_TITLE": "Procesador",
+    "CPU_MODEL": "Modelo",
+    "CPU_PHYSICAL_CORES": "Núcleos Físicos",
+    "CPU_THREADS": "Hilos",
+    "CPU_FREQUENCY": "Frecuencia",
+    "RAM_TITLE": "Memoria (RAM)",
+    "RAM_TOTAL": "Total",
+    "RAM_AVAILABLE": "Disponible",
+    "GPU_TITLE": "GPU",
+    "GPU_NAME": "Nombre",
+    "GPU_BACKEND": "Backend",
+    "GPU_VENDOR": "Fabricante",
+    "OS_TITLE": "Sistema Operativo",
+    "OS_NAME": "Nombre",
+    "OS_VERSION": "Versión",
+    "CUDA_TITLE": "Aceleración GPU",
+    "LIBCUDA": "Controlador CUDA (libcuda)",
+    "ORT_CUDA": "ORT CUDA Execution Provider",
+    "AVAILABLE": "Disponible",
+    "NOT_AVAILABLE": "No disponible",
+    "UNKNOWN": "—",
+    "LOADING": "Cargando información de hardware...",
+    "ERROR": "Error al cargar información de hardware.",
+    "WEBGL": "Soporte WebGL"
+  },
+  "DASHBOARD": {
+    "TITLE": "Panel",
+    "CHART_TITLE": "Tiros y canastas a lo largo del tiempo",
+    "LIST_TITLE": "Historial de procesamientos",
+    "LOADING": "Cargando estadísticas...",
+    "EMPTY_TITLE": "Sin estadísticas aún",
+    "EMPTY_DESC": "Procesa un video para ver tus estadísticas aquí",
+    "DELETE": "Eliminar entrada",
+    "LOGIN_REQUIRED": "Inicia sesión para ver tu panel personal de estadísticas"
+  },
+  "VIDEOS": {
+    "TITLE": "Videos Procesados",
+    "REMOVE_CONFIRM": "¿Eliminar \"{{name}}\" del historial?",
+    "REMOVE_DIALOG_TITLE": "Eliminar video",
+    "LOADING": "Cargando historial...",
+    "EMPTY_TITLE": "Sin videos aún",
+    "EMPTY_DESC": "Procesa un video para verlo aquí",
+    "EMPTY_BUTTON": "Procesar un Video",
+    "DESKTOP_ONLY_TITLE": "Solo Escritorio",
+    "DESKTOP_ONLY_DESC": "La página de Videos solo está disponible en {{app}}. Descarga la app para explorar y gestionar tus videos procesados.",
+    "DESKTOP_ONLY_APP": "SwishAI Desktop",
+    "PLAY": "Reproducir",
+    "PLAY_TITLE": "Reproducir video",
+    "DOWNLOAD_TITLE": "Descargar video",
+    "REMOVE_TITLE": "Eliminar del historial",
+    "RENAME": "Renombrar",
+    "CONFIRM_RENAME": "Confirmar",
+    "CANCEL_RENAME": "Cancelar",
+    "PLAYER_LOADING": "Cargando video...",
+    "PLAYER_NOT_AVAILABLE": "Archivo de video no disponible"
+  }
+}
