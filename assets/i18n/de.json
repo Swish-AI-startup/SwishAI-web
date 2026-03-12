@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "Hardware-Einstellungen",
+    "HARDWARE_DESC": "Wähle aus, welche Hardware das Video verarbeitet. Diese Einstellung gilt nur für die aktuelle Sitzung.",
+    "EP_CPU_LABEL": "CPU (Leicht)",
+    "EP_CPU_DESC": "Empfohlen für einfache PCs oder Laptops ohne dedizierte GPU. Stabil, aber langsamer.",
+    "EP_GPU_LABEL": "GPU (Normal)",
+    "EP_GPU_DESC": "Empfohlen für die meisten PCs mit einer dedizierten Grafikkarte. Gute Balance zwischen Geschwindigkeit und Präzision.",
+    "EP_GPU_DEEP_LABEL": "GPU (Tief)",
+    "EP_GPU_DEEP_DESC": "Nur für Gaming-PCs / Workstations empfohlen. Nutzt TensorRT für maximale Präzision bei jedem Frame.",
+    "EP_DEFAULT": "Standard",
+    "EP_GPU_DEEP_WARNING": "Der Tiefmodus erfordert eine NVIDIA-GPU mit installierten TensorRT-Treibern. Falls nicht verfügbar, wird automatisch auf CUDA zurückgefallen. Empfohlene Spezifikationen: NVIDIA RTX 3070+ oder gleichwertig mit 8 GB+ VRAM."
+  },
   "COMMON": {
     "SHOTS": "Würfe",
     "BASKETS": "Körbe",
@@ -111,6 +123,7 @@
     "CPU_FREQUENCY": "Taktfrequenz",
     "RAM_TITLE": "Arbeitsspeicher (RAM)",
     "RAM_TOTAL": "Gesamt",
+    "RAM_BROWSER_NOTE": "Browser-APIs begrenzen den gemeldeten RAM aus Datenschutzgründen auf 8 GB",
     "RAM_AVAILABLE": "Verfügbar",
     "GPU_TITLE": "GPU",
     "GPU_NAME": "Name",

@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "ハードウェア設定",
+    "HARDWARE_DESC": "動画を処理するハードウェアを選択してください。この設定は現在のセッションにのみ適用されます。",
+    "EP_CPU_LABEL": "CPU（軽量）",
+    "EP_CPU_DESC": "専用GPUのない基本的なPCやノートパソコンに推奨。安定していますが処理は遅めです。",
+    "EP_GPU_LABEL": "GPU（通常）",
+    "EP_GPU_DESC": "専用グラフィックカードを搭載したほとんどのPCに推奨。速度と精度のバランスが優れています。",
+    "EP_GPU_DEEP_LABEL": "GPU（ディープ）",
+    "EP_GPU_DEEP_DESC": "ゲーミングPC・ワークステーション専用推奨。TensorRTを使用してすべてのフレームを最高精度で処理します。",
+    "EP_DEFAULT": "デフォルト",
+    "EP_GPU_DEEP_WARNING": "ディープモードにはTensorRTドライバーがインストールされたNVIDIA GPUが必要です。利用できない場合は自動的にCUDAにフォールバックします。推奨スペック：NVIDIA RTX 3070+または同等品、VRAM 8GB以上。"
+  },
   "COMMON": {
     "SHOTS": "シュート",
     "BASKETS": "ゴール",
@@ -111,6 +123,7 @@
     "CPU_FREQUENCY": "クロック周波数",
     "RAM_TITLE": "メモリ (RAM)",
     "RAM_TOTAL": "合計",
+    "RAM_BROWSER_NOTE": "ブラウザAPIはプライバシーのため報告されるRAMを8GBに制限しています",
     "RAM_AVAILABLE": "利用可能",
     "GPU_TITLE": "GPU",
     "GPU_NAME": "名称",

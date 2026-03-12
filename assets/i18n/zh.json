@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "硬件设置",
+    "HARDWARE_DESC": "选择用于处理视频的硬件组件。此设置仅影响当前会话。",
+    "EP_CPU_LABEL": "CPU（轻量）",
+    "EP_CPU_DESC": "适用于没有独立显卡的基础电脑或笔记本。稳定但速度较慢。",
+    "EP_GPU_LABEL": "GPU（普通）",
+    "EP_GPU_DESC": "适用于大多数配有独立显卡的电脑。速度与精度的最佳平衡。",
+    "EP_GPU_DEEP_LABEL": "GPU（深度）",
+    "EP_GPU_DEEP_DESC": "仅推荐用于游戏PC或工作站。使用 TensorRT 对每一帧进行最高精度处理。",
+    "EP_DEFAULT": "默认",
+    "EP_GPU_DEEP_WARNING": "深度模式需要已安装 TensorRT 驱动的 NVIDIA GPU。如不可用，将自动回退至 CUDA。推荐配置：NVIDIA RTX 3070+ 或同等性能显卡，8 GB+ 显存。"
+  },
   "COMMON": {
     "SHOTS": "投篮",
     "BASKETS": "得分",
@@ -112,6 +124,7 @@
     "CPU_FREQUENCY": "频率",
     "RAM_TITLE": "内存 (RAM)",
     "RAM_TOTAL": "总计",
+    "RAM_BROWSER_NOTE": "浏览器 API 出于隐私原因将报告的内存限制为 8 GB",
     "RAM_AVAILABLE": "可用",
     "GPU_TITLE": "显卡",
     "GPU_NAME": "名称",

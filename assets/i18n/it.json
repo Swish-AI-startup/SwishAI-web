@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "Impostazioni hardware",
+    "HARDWARE_DESC": "Scegli quale componente hardware elabora il video. Questa impostazione riguarda solo la sessione corrente.",
+    "EP_CPU_LABEL": "CPU (Leggero)",
+    "EP_CPU_DESC": "Consigliato per PC base o laptop senza GPU dedicata. Stabile ma più lento.",
+    "EP_GPU_LABEL": "GPU (Normale)",
+    "EP_GPU_DESC": "Consigliato per la maggior parte dei PC con scheda grafica dedicata. Ottimo equilibrio tra velocità e precisione.",
+    "EP_GPU_DEEP_LABEL": "GPU (Profondo)",
+    "EP_GPU_DEEP_DESC": "Consigliato solo per PC da gaming / workstation. Utilizza TensorRT per la massima precisione su ogni fotogramma.",
+    "EP_DEFAULT": "predefinito",
+    "EP_GPU_DEEP_WARNING": "La modalità profonda richiede una GPU NVIDIA con driver TensorRT installati. Se non disponibile, passa automaticamente a CUDA. Specifiche consigliate: NVIDIA RTX 3070+ o equivalente con 8 GB+ di VRAM."
+  },
   "COMMON": {
     "SHOTS": "Tiri",
     "BASKETS": "Canestri",
@@ -112,6 +124,7 @@
     "CPU_FREQUENCY": "Frequenza",
     "RAM_TITLE": "Memoria (RAM)",
     "RAM_TOTAL": "Totale",
+    "RAM_BROWSER_NOTE": "Le API del browser limitano la RAM segnalata a 8 GB per la privacy",
     "RAM_AVAILABLE": "Disponibile",
     "GPU_TITLE": "GPU",
     "GPU_NAME": "Nome",

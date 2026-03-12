@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "Paramètres matériels",
+    "HARDWARE_DESC": "Choisissez quel composant matériel traite la vidéo. Ce paramètre n'affecte que la session en cours.",
+    "EP_CPU_LABEL": "CPU (Léger)",
+    "EP_CPU_DESC": "Recommandé pour les PC de base ou les portables sans GPU dédié. Stable mais plus lent.",
+    "EP_GPU_LABEL": "GPU (Normal)",
+    "EP_GPU_DESC": "Recommandé pour la plupart des PC avec une carte graphique dédiée. Bon équilibre entre vitesse et précision.",
+    "EP_GPU_DEEP_LABEL": "GPU (Profond)",
+    "EP_GPU_DEEP_DESC": "Recommandé uniquement pour les PC gamer / stations de travail. Utilise TensorRT pour une précision maximale sur chaque image.",
+    "EP_DEFAULT": "défaut",
+    "EP_GPU_DEEP_WARNING": "Le mode profond nécessite un GPU NVIDIA avec les pilotes TensorRT installés. Si indisponible, il bascule automatiquement sur CUDA. Configuration recommandée : NVIDIA RTX 3070+ ou équivalent avec 8 Go+ de VRAM."
+  },
   "COMMON": {
     "SHOTS": "Tirs",
     "BASKETS": "Paniers",
@@ -112,6 +124,7 @@
     "CPU_FREQUENCY": "Fréquence",
     "RAM_TITLE": "Mémoire (RAM)",
     "RAM_TOTAL": "Total",
+    "RAM_BROWSER_NOTE": "Les API du navigateur limitent la RAM signalée à 8 Go pour des raisons de confidentialité",
     "RAM_AVAILABLE": "Disponible",
     "GPU_TITLE": "GPU",
     "GPU_NAME": "Nom",

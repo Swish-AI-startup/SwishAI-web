@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "Aparatinės įrangos nustatymai",
+    "HARDWARE_DESC": "Pasirinkite, kuris aparatinės įrangos komponentas apdoros vaizdo įrašą. Šis nustatymas veikia tik dabartinei sesijai.",
+    "EP_CPU_LABEL": "CPU (Lengvas)",
+    "EP_CPU_DESC": "Rekomenduojama paprastiems kompiuteriams ar nešiojamiesiems be atskiros GPU. Stabilu, bet lėčiau.",
+    "EP_GPU_LABEL": "GPU (Normalus)",
+    "EP_GPU_DESC": "Rekomenduojama daugumai kompiuterių su atskira grafikos plokšte. Puiki greičio ir tikslumo pusiausvyra.",
+    "EP_GPU_DEEP_LABEL": "GPU (Gilus)",
+    "EP_GPU_DEEP_DESC": "Rekomenduojama tik žaidimų kompiuteriams / darbo stotims. Naudoja TensorRT maksimaliam tikslumui kiekviename kadre.",
+    "EP_DEFAULT": "numatytasis",
+    "EP_GPU_DEEP_WARNING": "Gilusis režimas reikalauja NVIDIA GPU su įdiegtomis TensorRT tvarkyklėmis. Jei nepasiekiama, automatiškai pereinama prie CUDA. Rekomenduojamos specifikacijos: NVIDIA RTX 3070+ arba lygiavertis, 8 GB+ VRAM."
+  },
   "COMMON": {
     "SHOTS": "Metimai",
     "BASKETS": "Krepšiai",
@@ -111,6 +123,7 @@
     "CPU_FREQUENCY": "Dažnis",
     "RAM_TITLE": "Atmintis (RAM)",
     "RAM_TOTAL": "Viso",
+    "RAM_BROWSER_NOTE": "Naršyklių API apriboja rodomą RAM iki 8 GB dėl privatumo",
     "RAM_AVAILABLE": "Laisva",
     "GPU_TITLE": "GPU",
     "GPU_NAME": "Pavadinimas",

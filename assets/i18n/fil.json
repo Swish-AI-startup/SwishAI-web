@@ -1,4 +1,16 @@
 {
+  "DEBUG": {
+    "HARDWARE_TITLE": "Mga Setting ng Hardware",
+    "HARDWARE_DESC": "Piliin kung aling bahagi ng hardware ang magpo-proseso ng video. Ang setting na ito ay para lamang sa kasalukuyang session.",
+    "EP_CPU_LABEL": "CPU (Magaan)",
+    "EP_CPU_DESC": "Inirerekumenda para sa mga basic na PC o laptop na walang dedicated na GPU. Maaasahan ngunit mas mabagal.",
+    "EP_GPU_LABEL": "GPU (Normal)",
+    "EP_GPU_DESC": "Inirerekumenda para sa karamihan ng mga PC na may dedicated na graphics card. Mahusay na balanse ng bilis at katumpakan.",
+    "EP_GPU_DEEP_LABEL": "GPU (Malalim)",
+    "EP_GPU_DEEP_DESC": "Inirerekumenda lamang para sa mga gaming PC / workstation. Gumagamit ng TensorRT para sa pinakamataas na katumpakan sa bawat frame.",
+    "EP_DEFAULT": "default",
+    "EP_GPU_DEEP_WARNING": "Ang deep mode ay nangangailangan ng NVIDIA GPU na may naka-install na TensorRT drivers. Kung hindi available, awtomatikong babalik sa CUDA. Inirerekomendang specs: NVIDIA RTX 3070+ o katumbas na may 8 GB+ VRAM."
+  },
   "COMMON": {
     "SHOTS": "Mga Tira",
     "BASKETS": "Mga Basket",
@@ -111,6 +123,7 @@
     "CPU_FREQUENCY": "Dalas",
     "RAM_TITLE": "Memorya (RAM)",
     "RAM_TOTAL": "Kabuuan",
+    "RAM_BROWSER_NOTE": "Ang mga browser API ay naglilimita ng na-report na RAM sa 8 GB para sa privacy",
     "RAM_AVAILABLE": "Available",
     "GPU_TITLE": "GPU",
     "GPU_NAME": "Pangalan",
