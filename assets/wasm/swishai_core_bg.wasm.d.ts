@@ -1,0 +1,26 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const __wbg_wasmengine_free: (a: number, b: number) => void;
+export const __wbg_wasmglue_free: (a: number, b: number) => void;
+export const wasmengine_accuracy: (a: number) => number;
+export const wasmengine_basketsMade: (a: number) => number;
+export const wasmengine_new: (a: number, b: number, c: number, d: number) => number;
+export const wasmengine_shotsAttempted: (a: number) => number;
+export const wasmengine_update: (a: number, b: number, c: number, d: number) => [number, number, number];
+export const wasmglue_ensure_output: (a: number, b: number) => void;
+export const wasmglue_new: (a: number) => number;
+export const wasmglue_nms: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];
+export const wasmglue_output_len: (a: number) => number;
+export const wasmglue_output_ptr: (a: number) => number;
+export const wasmglue_preprocess_nchw: (a: number) => void;
+export const wasmglue_rgba_len: (a: number) => number;
+export const wasmglue_rgba_ptr: (a: number) => number;
+export const wasmglue_tensor_len: (a: number) => number;
+export const wasmglue_tensor_ptr: (a: number) => number;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __externref_table_dealloc: (a: number) => void;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __wbindgen_start: () => void;
