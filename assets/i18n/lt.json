@@ -15,14 +15,18 @@
     "SHOTS": "Metimai",
     "BASKETS": "Krepšiai",
     "ACCURACY": "Tikslumas",
-    "PROCESSING_TIME": "Apdorojimo laikas"
+    "PROCESSING_TIME": "Apdorojimo laikas",
+    "CANCEL": "Atšaukti",
+    "CONFIRM": "Patvirtinti",
+    "CLOSE": "Uždaryti"
   },
   "NAV": {
     "PROCESS_VIDEO": "Apdoroti Vaizdo įrašą",
     "VIDEOS": "Vaizdo įrašai",
     "DASHBOARD": "Valdymo skydas",
     "HARDWARE": "Aparatinė įranga",
-    "ABOUT": "Apie"
+    "ABOUT": "Apie",
+    "SUBSCRIPTION": "Prenumerata"
   },
   "EXIT": {
     "LABEL": "Išeiti",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Aiškus Vaizdas",
     "VIEW_DESC": "Kamera turi aiškiai matyti krepšį ir metėją.",
     "DURATION_TITLE": "Didžiausia Trukmė",
-    "DURATION_DESC": "1 min (nemokama), 10 min (prisijungus), 30 min (premium). Vaizdo įrašai apkarpomi iki limito."
+    "DURATION_DESC": "1 min (neprisijungus), 10 min (nemokamai), 30 min, 60 min arba neribotai su prenumerata. Vaizdo įrašai apkarpomi iki limito."
   },
   "UPLOAD": {
     "CLICK": "Spustelėkite, kad įkeltumėte vaizdo įrašą",
@@ -61,7 +65,8 @@
     "VIDEO_EXCEEDS_LIMIT": "Jūsų vaizdo įrašas viršija {{limit}} min. limitą. Bus apdoroti tik pirmieji {{limit}} minutės.",
     "UPGRADE_HINT_LOGIN": "Prisijunkite, kad apdorotumėte iki 10 minučių.",
     "LOW_SPEC_WARNING": "Jūsų kompiuterio specifikacijos yra žemesnės nei rekomenduojamos. Apdorojimas užims ilgiau nei įprastai. Rekomenduojame naudoti geresnę aparatinę įrangą greitesniam apdorojimui.",
-    "BROWSER_PERF_WARNING": "Naudojate naršyklės versiją. Veikimas yra lėtesnis nei darbastalio programėlė. Geriausiems rezultatams atsisiųskite ir naudokite darbastalio versiją."
+    "BROWSER_PERF_WARNING": "Naudojate naršyklės versiją. Veikimas yra lėtesnis nei darbastalio programėlė. Geriausiems rezultatams atsisiųskite ir naudokite darbastalio versiją.",
+    "UPGRADE_HINT_SUBSCRIBE": "Užsisakykite prenumeratą, kad apdorotumėte ilgesnius įrašus."
   },
   "FILE_INFO": {
     "READY": "Paruošta apdoroti",
@@ -172,5 +177,39 @@
     "CANCEL_RENAME": "Atšaukti",
     "PLAYER_LOADING": "Kraunamas vaizdo įrašas...",
     "PLAYER_NOT_AVAILABLE": "Vaizdo įrašo failas neprieinamas"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Prenumerata",
+    "LOGIN_REQUIRED": "Prisijunkite, kad valdytumėte prenumeratą.",
+    "CURRENT_PLAN": "Dabartinis planas",
+    "PLANS_TITLE": "Galimi planai",
+    "LOADING_PLANS": "Kraunami planai...",
+    "TIER_FREE": "Nemokamas",
+    "STATUS_FREE": "Nemokamas",
+    "STATUS_ACTIVE": "Aktyvus",
+    "STATUS_PAST_DUE": "Mokėjimo problema",
+    "STATUS_CANCELLING": "Atšaukiama",
+    "RENEWS_ON": "Atnaujinama {{date}}",
+    "ACCESS_UNTIL": "Prieiga iki {{date}}",
+    "MAX_DURATION": "Įrašai iki {{minutes}} min.",
+    "UNLIMITED_DURATION": "Bet kokios trukmės įrašai",
+    "INTERVAL_MONTH": "mėn.",
+    "INTERVAL_YEAR": "metus",
+    "SUBSCRIBE": "Prenumeruoti",
+    "UPGRADE": "Pereiti į aukštesnį",
+    "DOWNGRADE": "Pereiti į žemesnį",
+    "CURRENT": "Dabartinis planas",
+    "CANCEL": "Atšaukti planą",
+    "RESUME": "Tęsti planą",
+    "CHECKOUT_TITLE": "Mokėjimas",
+    "PREPARING_CHECKOUT": "Ruošiamas mokėjimas...",
+    "ACTIVATING": "Aktyvinamas jūsų planas...",
+    "ACTIVATING_SLOW": "Tai gali užtrukti akimirką. Jei niekas nesikeičia, netrukus atnaujinkite puslapį.",
+    "PAST_DUE_BANNER": "Nepavyko nuskaityti mokesčio nuo jūsų kortelės. Prieiga išlieka, kol kartojame mokėjimą — atnaujinkite mokėjimo būdą, kad jos neprarastumėte.",
+    "CONFIRM_CANCEL_TITLE": "Atšaukti planą?",
+    "CONFIRM_CANCEL_MESSAGE": "Prieiga išlieka iki dabartinio atsiskaitymo laikotarpio pabaigos. Pinigai negrąžinami, o planą galite tęsti bet kada iki tol.",
+    "CONFIRM_SWITCH_TITLE": "Keisti planą?",
+    "CONFIRM_SWITCH_MESSAGE": "Pakeitimas galioja iškart. Kainų skirtumas už likusį dabartinį laikotarpį nuskaitomas arba grąžinamas nedelsiant.",
+    "ERROR_GENERIC": "Kažkas nepavyko. Bandykite dar kartą."
   }
 }

@@ -15,14 +15,18 @@
     "SHOTS": "Tirs",
     "BASKETS": "Paniers",
     "ACCURACY": "Précision",
-    "PROCESSING_TIME": "Temps de traitement"
+    "PROCESSING_TIME": "Temps de traitement",
+    "CANCEL": "Annuler",
+    "CONFIRM": "Confirmer",
+    "CLOSE": "Fermer"
   },
   "NAV": {
     "PROCESS_VIDEO": "Traiter une vidéo",
     "VIDEOS": "Vidéos",
     "DASHBOARD": "Tableau de bord",
     "HARDWARE": "Matériel",
-    "ABOUT": "À propos"
+    "ABOUT": "À propos",
+    "SUBSCRIPTION": "Abonnement"
   },
   "EXIT": {
     "LABEL": "Quitter",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Vue Dégagée",
     "VIEW_DESC": "La caméra doit clairement voir le panier et le tireur.",
     "DURATION_TITLE": "Durée Maximale",
-    "DURATION_DESC": "1 min (gratuit), 10 min (connecté), 30 min (premium). Les vidéos sont découpées à la limite."
+    "DURATION_DESC": "1 min (non connecté), 10 min (gratuit), 30 min, 60 min ou illimité avec un abonnement. Les vidéos sont coupées à la limite."
   },
   "UPLOAD": {
     "CLICK": "Cliquez pour télécharger une vidéo",
@@ -61,13 +65,13 @@
     "VIDEO_EXCEEDS_LIMIT": "Votre vidéo dépasse la limite de {{limit}} minute(s). Seules les premières {{limit}} minutes seront traitées.",
     "UPGRADE_HINT_LOGIN": "Connectez-vous pour traiter jusqu'à 10 minutes.",
     "LOW_SPEC_WARNING": "Votre PC a des spécifications inférieures à celles recommandées. Le traitement prendra plus de temps que d'habitude. Nous recommandons un meilleur matériel pour des vitesses de traitement plus rapides.",
-    "BROWSER_PERF_WARNING": "Vous utilisez la version navigateur. Les performances sont plus lentes que l'application de bureau. Pour de meilleurs résultats, téléchargez et utilisez la version de bureau."
+    "BROWSER_PERF_WARNING": "Vous utilisez la version navigateur. Les performances sont plus lentes que l'application de bureau. Pour de meilleurs résultats, téléchargez et utilisez la version de bureau.",
+    "UPGRADE_HINT_SUBSCRIBE": "Abonnez-vous pour traiter des vidéos plus longues."
   },
   "FILE_INFO": {
     "READY": "Prêt à traiter",
     "CHANGE_FILE": "Changer de fichier"
   },
-
   "ACTIONS": {
     "UPLOADING": "Téléchargement de la vidéo... Veuillez patienter",
     "STOP_ANALYSIS": "Arrêter l'analyse",
@@ -173,5 +177,39 @@
     "CANCEL_RENAME": "Annuler",
     "PLAYER_LOADING": "Chargement de la vidéo...",
     "PLAYER_NOT_AVAILABLE": "Fichier vidéo non disponible"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Abonnement",
+    "LOGIN_REQUIRED": "Connectez-vous pour gérer votre abonnement.",
+    "CURRENT_PLAN": "Formule actuelle",
+    "PLANS_TITLE": "Formules disponibles",
+    "LOADING_PLANS": "Chargement des formules...",
+    "TIER_FREE": "Gratuit",
+    "STATUS_FREE": "Gratuit",
+    "STATUS_ACTIVE": "Actif",
+    "STATUS_PAST_DUE": "Problème de paiement",
+    "STATUS_CANCELLING": "Résiliation en cours",
+    "RENEWS_ON": "Se renouvelle le {{date}}",
+    "ACCESS_UNTIL": "Accès jusqu’au {{date}}",
+    "MAX_DURATION": "Vidéos jusqu’à {{minutes}} minutes",
+    "UNLIMITED_DURATION": "Vidéos de n’importe quelle durée",
+    "INTERVAL_MONTH": "mois",
+    "INTERVAL_YEAR": "an",
+    "SUBSCRIBE": "S’abonner",
+    "UPGRADE": "Passer au supérieur",
+    "DOWNGRADE": "Passer à l’inférieur",
+    "CURRENT": "Formule actuelle",
+    "CANCEL": "Résilier",
+    "RESUME": "Reprendre",
+    "CHECKOUT_TITLE": "Paiement",
+    "PREPARING_CHECKOUT": "Préparation du paiement...",
+    "ACTIVATING": "Activation de votre formule...",
+    "ACTIVATING_SLOW": "Cela peut prendre un instant. Rechargez la page sous peu si rien ne change.",
+    "PAST_DUE_BANNER": "Nous n’avons pas pu débiter votre carte. Vous conservez l’accès pendant que nous réessayons le paiement : mettez à jour votre moyen de paiement pour ne pas le perdre.",
+    "CONFIRM_CANCEL_TITLE": "Résilier votre formule ?",
+    "CONFIRM_CANCEL_MESSAGE": "Vous conservez l’accès jusqu’à la fin de la période de facturation en cours. Aucun remboursement n’est effectué et vous pouvez reprendre la formule à tout moment avant cette date.",
+    "CONFIRM_SWITCH_TITLE": "Changer de formule ?",
+    "CONFIRM_SWITCH_MESSAGE": "Le changement prend effet immédiatement. La différence de prix pour le reste de la période en cours est facturée ou créditée tout de suite.",
+    "ERROR_GENERIC": "Une erreur est survenue. Veuillez réessayer."
   }
 }

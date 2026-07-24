@@ -15,14 +15,18 @@
     "SHOTS": "Tiri",
     "BASKETS": "Canestri",
     "ACCURACY": "Precisione",
-    "PROCESSING_TIME": "Tempo di elaborazione"
+    "PROCESSING_TIME": "Tempo di elaborazione",
+    "CANCEL": "Annulla",
+    "CONFIRM": "Conferma",
+    "CLOSE": "Chiudi"
   },
   "NAV": {
     "PROCESS_VIDEO": "Elabora Video",
     "VIDEOS": "Video",
     "DASHBOARD": "Dashboard",
     "HARDWARE": "Hardware",
-    "ABOUT": "Informazioni"
+    "ABOUT": "Informazioni",
+    "SUBSCRIPTION": "Abbonamento"
   },
   "EXIT": {
     "LABEL": "Esci",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Visuale Chiara",
     "VIEW_DESC": "La telecamera deve vedere chiaramente il canestro e il tiratore.",
     "DURATION_TITLE": "Durata Massima",
-    "DURATION_DESC": "1 min (gratuito), 10 min (accesso), 30 min (premium). I video vengono tagliati al limite."
+    "DURATION_DESC": "1 min (non autenticato), 10 min (gratuito), 30 min, 60 min o illimitato con un abbonamento. I video vengono tagliati al limite."
   },
   "UPLOAD": {
     "CLICK": "Clicca per caricare un video",
@@ -61,13 +65,13 @@
     "VIDEO_EXCEEDS_LIMIT": "Il tuo video supera il limite di {{limit}} minuto/i. Solo i primi {{limit}} minuti verranno elaborati.",
     "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a 10 minuti.",
     "LOW_SPEC_WARNING": "Il tuo PC ha specifiche inferiori a quelle consigliate. L'elaborazione richiederà più tempo del solito. Consigliamo hardware migliore per velocità di elaborazione più rapide.",
-    "BROWSER_PERF_WARNING": "Stai usando la versione browser. Le prestazioni sono più lente rispetto all'app desktop. Per i migliori risultati, scarica e usa la versione desktop."
+    "BROWSER_PERF_WARNING": "Stai usando la versione browser. Le prestazioni sono più lente rispetto all'app desktop. Per i migliori risultati, scarica e usa la versione desktop.",
+    "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi."
   },
   "FILE_INFO": {
     "READY": "Pronto per l'elaborazione",
     "CHANGE_FILE": "Cambia File"
   },
-
   "ACTIONS": {
     "UPLOADING": "Caricamento Video in corso... Attendi",
     "STOP_ANALYSIS": "Interrompi Analisi",
@@ -173,5 +177,39 @@
     "CANCEL_RENAME": "Annulla",
     "PLAYER_LOADING": "Caricamento video...",
     "PLAYER_NOT_AVAILABLE": "File video non disponibile"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Abbonamento",
+    "LOGIN_REQUIRED": "Accedi per gestire il tuo abbonamento.",
+    "CURRENT_PLAN": "Piano attuale",
+    "PLANS_TITLE": "Piani disponibili",
+    "LOADING_PLANS": "Caricamento piani...",
+    "TIER_FREE": "Gratuito",
+    "STATUS_FREE": "Gratuito",
+    "STATUS_ACTIVE": "Attivo",
+    "STATUS_PAST_DUE": "Problema di pagamento",
+    "STATUS_CANCELLING": "In cancellazione",
+    "RENEWS_ON": "Si rinnova il {{date}}",
+    "ACCESS_UNTIL": "Accesso fino al {{date}}",
+    "MAX_DURATION": "Video fino a {{minutes}} minuti",
+    "UNLIMITED_DURATION": "Video di qualsiasi durata",
+    "INTERVAL_MONTH": "mese",
+    "INTERVAL_YEAR": "anno",
+    "SUBSCRIBE": "Abbonati",
+    "UPGRADE": "Passa a superiore",
+    "DOWNGRADE": "Passa a inferiore",
+    "CURRENT": "Piano attuale",
+    "CANCEL": "Annulla piano",
+    "RESUME": "Riprendi piano",
+    "CHECKOUT_TITLE": "Pagamento",
+    "PREPARING_CHECKOUT": "Preparazione del pagamento...",
+    "ACTIVATING": "Attivazione del piano...",
+    "ACTIVATING_SLOW": "Può richiedere qualche istante. Se non cambia nulla, ricarica la pagina tra poco.",
+    "PAST_DUE_BANNER": "Non siamo riusciti ad addebitare la tua carta. Mantieni l’accesso mentre riproviamo il pagamento: aggiorna il metodo di pagamento per non perderlo.",
+    "CONFIRM_CANCEL_TITLE": "Annullare il piano?",
+    "CONFIRM_CANCEL_MESSAGE": "Mantieni l’accesso fino alla fine del periodo di fatturazione in corso. Non viene emesso alcun rimborso e puoi riprendere il piano in qualsiasi momento prima di allora.",
+    "CONFIRM_SWITCH_TITLE": "Cambiare piano?",
+    "CONFIRM_SWITCH_MESSAGE": "La modifica ha effetto immediato. La differenza di prezzo per il resto del periodo in corso viene addebitata o accreditata subito.",
+    "ERROR_GENERIC": "Qualcosa è andato storto. Riprova."
   }
 }

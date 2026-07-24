@@ -15,14 +15,18 @@
     "SHOTS": "Würfe",
     "BASKETS": "Körbe",
     "ACCURACY": "Genauigkeit",
-    "PROCESSING_TIME": "Verarbeitungszeit"
+    "PROCESSING_TIME": "Verarbeitungszeit",
+    "CANCEL": "Abbrechen",
+    "CONFIRM": "Bestätigen",
+    "CLOSE": "Schließen"
   },
   "NAV": {
     "PROCESS_VIDEO": "Video verarbeiten",
     "VIDEOS": "Videos",
     "DASHBOARD": "Dashboard",
     "HARDWARE": "Hardware",
-    "ABOUT": "Über"
+    "ABOUT": "Über",
+    "SUBSCRIPTION": "Abonnement"
   },
   "EXIT": {
     "LABEL": "Beenden",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Freie Sicht",
     "VIEW_DESC": "Die Kamera muss den Korb und den Werfer klar sehen.",
     "DURATION_TITLE": "Maximale Dauer",
-    "DURATION_DESC": "1 Min. (kostenlos), 10 Min. (angemeldet), 30 Min. (Premium). Videos werden auf das Limit gekürzt."
+    "DURATION_DESC": "1 Min. (nicht angemeldet), 10 Min. (kostenlos), 30 Min., 60 Min. oder unbegrenzt mit Abonnement. Videos werden auf das Limit gekürzt."
   },
   "UPLOAD": {
     "CLICK": "Klicken um Video hochzuladen",
@@ -61,7 +65,8 @@
     "VIDEO_EXCEEDS_LIMIT": "Ihr Video überschreitet das Limit von {{limit}} Minute(n). Nur die ersten {{limit}} Minuten werden verarbeitet.",
     "UPGRADE_HINT_LOGIN": "Melden Sie sich an, um bis zu 10 Minuten zu verarbeiten.",
     "LOW_SPEC_WARNING": "Ihr PC hat Spezifikationen unterhalb der empfohlenen. Die Verarbeitung wird länger als üblich dauern. Wir empfehlen bessere Hardware für schnellere Verarbeitungsgeschwindigkeiten.",
-    "BROWSER_PERF_WARNING": "Sie verwenden die Browserversion. Die Leistung ist langsamer als die Desktop-App. Für beste Ergebnisse laden Sie die Desktop-Version herunter und verwenden Sie diese."
+    "BROWSER_PERF_WARNING": "Sie verwenden die Browserversion. Die Leistung ist langsamer als die Desktop-App. Für beste Ergebnisse laden Sie die Desktop-Version herunter und verwenden Sie diese.",
+    "UPGRADE_HINT_SUBSCRIBE": "Schließe ein Abonnement ab, um längere Videos zu verarbeiten."
   },
   "FILE_INFO": {
     "READY": "Bereit zur Verarbeitung",
@@ -172,5 +177,39 @@
     "CANCEL_RENAME": "Abbrechen",
     "PLAYER_LOADING": "Video wird geladen...",
     "PLAYER_NOT_AVAILABLE": "Videodatei nicht verfügbar"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Abonnement",
+    "LOGIN_REQUIRED": "Melde dich an, um dein Abonnement zu verwalten.",
+    "CURRENT_PLAN": "Aktueller Tarif",
+    "PLANS_TITLE": "Verfügbare Tarife",
+    "LOADING_PLANS": "Tarife werden geladen...",
+    "TIER_FREE": "Kostenlos",
+    "STATUS_FREE": "Kostenlos",
+    "STATUS_ACTIVE": "Aktiv",
+    "STATUS_PAST_DUE": "Zahlungsproblem",
+    "STATUS_CANCELLING": "Wird gekündigt",
+    "RENEWS_ON": "Verlängert sich am {{date}}",
+    "ACCESS_UNTIL": "Zugriff bis {{date}}",
+    "MAX_DURATION": "Videos bis zu {{minutes}} Minuten",
+    "UNLIMITED_DURATION": "Videos beliebiger Länge",
+    "INTERVAL_MONTH": "Monat",
+    "INTERVAL_YEAR": "Jahr",
+    "SUBSCRIBE": "Abonnieren",
+    "UPGRADE": "Upgrade",
+    "DOWNGRADE": "Downgrade",
+    "CURRENT": "Aktueller Tarif",
+    "CANCEL": "Tarif kündigen",
+    "RESUME": "Tarif fortsetzen",
+    "CHECKOUT_TITLE": "Zahlung",
+    "PREPARING_CHECKOUT": "Zahlung wird vorbereitet...",
+    "ACTIVATING": "Tarif wird aktiviert...",
+    "ACTIVATING_SLOW": "Das kann einen Moment dauern. Lade die Seite in Kürze neu, falls sich nichts ändert.",
+    "PAST_DUE_BANNER": "Wir konnten deine Karte nicht belasten. Du behältst den Zugriff, während wir die Zahlung erneut versuchen – aktualisiere deine Zahlungsmethode, um ihn nicht zu verlieren.",
+    "CONFIRM_CANCEL_TITLE": "Tarif kündigen?",
+    "CONFIRM_CANCEL_MESSAGE": "Du behältst den Zugriff bis zum Ende des aktuellen Abrechnungszeitraums. Es erfolgt keine Rückerstattung, und du kannst den Tarif bis dahin jederzeit fortsetzen.",
+    "CONFIRM_SWITCH_TITLE": "Tarif wechseln?",
+    "CONFIRM_SWITCH_MESSAGE": "Die Änderung gilt sofort. Die Preisdifferenz für den Rest des aktuellen Zeitraums wird sofort berechnet oder gutgeschrieben.",
+    "ERROR_GENERIC": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
   }
 }

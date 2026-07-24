@@ -15,14 +15,18 @@
     "SHOTS": "Arremessos",
     "BASKETS": "Cestas",
     "ACCURACY": "Precisão",
-    "PROCESSING_TIME": "Tempo de processamento"
+    "PROCESSING_TIME": "Tempo de processamento",
+    "CANCEL": "Cancelar",
+    "CONFIRM": "Confirmar",
+    "CLOSE": "Fechar"
   },
   "NAV": {
     "PROCESS_VIDEO": "Processar Vídeo",
     "VIDEOS": "Vídeos",
     "DASHBOARD": "Painel",
     "HARDWARE": "Hardware",
-    "ABOUT": "Sobre"
+    "ABOUT": "Sobre",
+    "SUBSCRIPTION": "Assinatura"
   },
   "EXIT": {
     "LABEL": "Sair",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Visão Clara",
     "VIEW_DESC": "A câmera deve ver claramente a cesta e o arremessador.",
     "DURATION_TITLE": "Duração Máxima",
-    "DURATION_DESC": "1 min (grátis), 10 min (conectado), 30 min (premium). Vídeos são cortados no limite."
+    "DURATION_DESC": "1 min (sem login), 10 min (gratuito), 30 min, 60 min ou ilimitado com uma assinatura. Vídeos são cortados no limite."
   },
   "UPLOAD": {
     "CLICK": "Clique para Enviar Vídeo",
@@ -61,7 +65,8 @@
     "VIDEO_EXCEEDS_LIMIT": "O seu vídeo excede o limite de {{limit}} minuto(s). Apenas os primeiros {{limit}} minutos serão processados.",
     "UPGRADE_HINT_LOGIN": "Faça login para processar até 10 minutos.",
     "LOW_SPEC_WARNING": "Seu PC tem especificações abaixo do recomendado. O processamento levará mais tempo que o normal. Recomendamos usar hardware melhor para velocidades de processamento mais rápidas.",
-    "BROWSER_PERF_WARNING": "Você está usando a versão do navegador. O desempenho é mais lento que o aplicativo de desktop. Para melhores resultados, baixe e use a versão desktop."
+    "BROWSER_PERF_WARNING": "Você está usando a versão do navegador. O desempenho é mais lento que o aplicativo de desktop. Para melhores resultados, baixe e use a versão desktop.",
+    "UPGRADE_HINT_SUBSCRIBE": "Assine para processar vídeos mais longos."
   },
   "FILE_INFO": {
     "READY": "Pronto para processar",
@@ -172,5 +177,39 @@
     "CANCEL_RENAME": "Cancelar",
     "PLAYER_LOADING": "Carregando vídeo...",
     "PLAYER_NOT_AVAILABLE": "Arquivo de vídeo não disponível"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Assinatura",
+    "LOGIN_REQUIRED": "Faça login para gerenciar sua assinatura.",
+    "CURRENT_PLAN": "Plano atual",
+    "PLANS_TITLE": "Planos disponíveis",
+    "LOADING_PLANS": "Carregando planos...",
+    "TIER_FREE": "Gratuito",
+    "STATUS_FREE": "Gratuito",
+    "STATUS_ACTIVE": "Ativo",
+    "STATUS_PAST_DUE": "Problema no pagamento",
+    "STATUS_CANCELLING": "Cancelando",
+    "RENEWS_ON": "Renova em {{date}}",
+    "ACCESS_UNTIL": "Acesso até {{date}}",
+    "MAX_DURATION": "Vídeos de até {{minutes}} minutos",
+    "UNLIMITED_DURATION": "Vídeos de qualquer duração",
+    "INTERVAL_MONTH": "mês",
+    "INTERVAL_YEAR": "ano",
+    "SUBSCRIBE": "Assinar",
+    "UPGRADE": "Fazer upgrade",
+    "DOWNGRADE": "Fazer downgrade",
+    "CURRENT": "Plano atual",
+    "CANCEL": "Cancelar plano",
+    "RESUME": "Retomar plano",
+    "CHECKOUT_TITLE": "Pagamento",
+    "PREPARING_CHECKOUT": "Preparando o pagamento...",
+    "ACTIVATING": "Ativando seu plano...",
+    "ACTIVATING_SLOW": "Isso pode levar um momento. Recarregue a página em breve se nada mudar.",
+    "PAST_DUE_BANNER": "Não conseguimos cobrar seu cartão. Você mantém o acesso enquanto tentamos o pagamento novamente — atualize sua forma de pagamento para não perdê-lo.",
+    "CONFIRM_CANCEL_TITLE": "Cancelar seu plano?",
+    "CONFIRM_CANCEL_MESSAGE": "Você mantém o acesso até o fim do período de cobrança atual. Não há reembolso e você pode retomar o plano a qualquer momento antes disso.",
+    "CONFIRM_SWITCH_TITLE": "Mudar de plano?",
+    "CONFIRM_SWITCH_MESSAGE": "A mudança vale imediatamente. A diferença de preço pelo restante do período atual é cobrada ou creditada na hora.",
+    "ERROR_GENERIC": "Algo deu errado. Tente novamente."
   }
 }

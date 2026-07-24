@@ -15,14 +15,18 @@
     "SHOTS": "投篮",
     "BASKETS": "得分",
     "ACCURACY": "准确率",
-    "PROCESSING_TIME": "处理时间"
+    "PROCESSING_TIME": "处理时间",
+    "CANCEL": "取消",
+    "CONFIRM": "确认",
+    "CLOSE": "关闭"
   },
   "NAV": {
     "PROCESS_VIDEO": "处理视频",
     "VIDEOS": "视频",
     "DASHBOARD": "仪表盘",
     "HARDWARE": "硬件",
-    "ABOUT": "关于"
+    "ABOUT": "关于",
+    "SUBSCRIPTION": "订阅"
   },
   "EXIT": {
     "LABEL": "退出",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "清晰视角",
     "VIEW_DESC": "摄像机必须清晰看到篮筐和投篮者。",
     "DURATION_TITLE": "最大时长",
-    "DURATION_DESC": "免费1分钟，登录10分钟，高级30分钟。视频将被截取至限制时长。"
+    "DURATION_DESC": "1 分钟（未登录）、10 分钟（免费）、30 分钟、60 分钟，订阅后不限时长。超出部分会被裁剪。"
   },
   "UPLOAD": {
     "CLICK": "点击上传视频",
@@ -61,13 +65,13 @@
     "VIDEO_EXCEEDS_LIMIT": "您的视频超过了{{limit}}分钟的限制。仅处理前{{limit}}分钟。",
     "UPGRADE_HINT_LOGIN": "登录以处理最多10分钟的视频。",
     "LOW_SPEC_WARNING": "您的电脑规格低于推荐配置。处理时间将比平常更长。我们建议使用更好的硬件以获得更快的处理速度。",
-    "BROWSER_PERF_WARNING": "您正在使用浏览器版本。性能比桌面应用程序慢。为获得最佳效果，请下载并使用桌面版本。"
+    "BROWSER_PERF_WARNING": "您正在使用浏览器版本。性能比桌面应用程序慢。为获得最佳效果，请下载并使用桌面版本。",
+    "UPGRADE_HINT_SUBSCRIBE": "订阅后可处理更长的视频。"
   },
   "FILE_INFO": {
     "READY": "准备处理",
     "CHANGE_FILE": "更换文件"
   },
-
   "ACTIONS": {
     "UPLOADING": "正在上传视频... 请稍候",
     "STOP_ANALYSIS": "停止分析",
@@ -173,5 +177,39 @@
     "CANCEL_RENAME": "取消",
     "PLAYER_LOADING": "正在加载视频...",
     "PLAYER_NOT_AVAILABLE": "视频文件不可用"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "订阅",
+    "LOGIN_REQUIRED": "登录后即可管理订阅。",
+    "CURRENT_PLAN": "当前方案",
+    "PLANS_TITLE": "可选方案",
+    "LOADING_PLANS": "正在加载方案...",
+    "TIER_FREE": "免费",
+    "STATUS_FREE": "免费",
+    "STATUS_ACTIVE": "生效中",
+    "STATUS_PAST_DUE": "付款问题",
+    "STATUS_CANCELLING": "即将取消",
+    "RENEWS_ON": "{{date}} 续订",
+    "ACCESS_UNTIL": "可使用至 {{date}}",
+    "MAX_DURATION": "视频最长 {{minutes}} 分钟",
+    "UNLIMITED_DURATION": "视频不限时长",
+    "INTERVAL_MONTH": "月",
+    "INTERVAL_YEAR": "年",
+    "SUBSCRIBE": "订阅",
+    "UPGRADE": "升级",
+    "DOWNGRADE": "降级",
+    "CURRENT": "当前方案",
+    "CANCEL": "取消订阅",
+    "RESUME": "恢复订阅",
+    "CHECKOUT_TITLE": "付款",
+    "PREPARING_CHECKOUT": "正在准备付款...",
+    "ACTIVATING": "正在激活你的方案...",
+    "ACTIVATING_SLOW": "这可能需要一点时间。如果没有变化，请稍后刷新页面。",
+    "PAST_DUE_BANNER": "我们无法扣款。重试付款期间你仍可继续使用，请更新付款方式以免失去访问权限。",
+    "CONFIRM_CANCEL_TITLE": "取消订阅？",
+    "CONFIRM_CANCEL_MESSAGE": "你可以继续使用到当前计费周期结束。不会退款，在此之前你随时可以恢复订阅。",
+    "CONFIRM_SWITCH_TITLE": "更换方案？",
+    "CONFIRM_SWITCH_MESSAGE": "更改立即生效。当前周期剩余时间的差价会立刻扣除或返还。",
+    "ERROR_GENERIC": "出错了，请重试。"
   }
 }

@@ -15,14 +15,18 @@
     "SHOTS": "Shots",
     "BASKETS": "Baskets",
     "ACCURACY": "Accuracy",
-    "PROCESSING_TIME": "Processing time"
+    "PROCESSING_TIME": "Processing time",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "CLOSE": "Close"
   },
   "NAV": {
     "PROCESS_VIDEO": "Process Video",
     "VIDEOS": "Videos",
     "DASHBOARD": "Dashboard",
     "HARDWARE": "Hardware",
-    "ABOUT": "About"
+    "ABOUT": "About",
+    "SUBSCRIPTION": "Subscription"
   },
   "EXIT": {
     "LABEL": "Exit",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Clear View",
     "VIEW_DESC": "The camera must clearly see the hoop and the shooter.",
     "DURATION_TITLE": "Max Duration",
-    "DURATION_DESC": "1 min (free), 10 min (logged in), 30 min (premium). Videos are trimmed to the limit."
+    "DURATION_DESC": "1 min (not logged in), 10 min (free), 30 min, 60 min or unlimited with a subscription. Videos are trimmed to the limit."
   },
   "UPLOAD": {
     "CLICK": "Click to Upload Video",
@@ -61,7 +65,8 @@
     "VIDEO_EXCEEDS_LIMIT": "Your video exceeds the {{limit}}-minute limit. Only the first {{limit}} minutes will be processed.",
     "UPGRADE_HINT_LOGIN": "Log in to process up to 10 minutes.",
     "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
-    "BROWSER_PERF_WARNING": "You're using the browser version. Performance is slower than the desktop app. For best results, download and use the desktop version."
+    "BROWSER_PERF_WARNING": "You're using the browser version. Performance is slower than the desktop app. For best results, download and use the desktop version.",
+    "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos."
   },
   "FILE_INFO": {
     "READY": "Ready to process",
@@ -172,5 +177,39 @@
     "CANCEL_RENAME": "Cancel",
     "PLAYER_LOADING": "Loading video...",
     "PLAYER_NOT_AVAILABLE": "Video file not available"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Subscription",
+    "LOGIN_REQUIRED": "Log in to manage your subscription.",
+    "CURRENT_PLAN": "Current plan",
+    "PLANS_TITLE": "Available plans",
+    "LOADING_PLANS": "Loading plans...",
+    "TIER_FREE": "Free",
+    "STATUS_FREE": "Free",
+    "STATUS_ACTIVE": "Active",
+    "STATUS_PAST_DUE": "Payment problem",
+    "STATUS_CANCELLING": "Cancelling",
+    "RENEWS_ON": "Renews on {{date}}",
+    "ACCESS_UNTIL": "Access until {{date}}",
+    "MAX_DURATION": "Videos up to {{minutes}} minutes",
+    "UNLIMITED_DURATION": "Videos of any length",
+    "INTERVAL_MONTH": "month",
+    "INTERVAL_YEAR": "year",
+    "SUBSCRIBE": "Subscribe",
+    "UPGRADE": "Upgrade",
+    "DOWNGRADE": "Downgrade",
+    "CURRENT": "Current plan",
+    "CANCEL": "Cancel plan",
+    "RESUME": "Resume plan",
+    "CHECKOUT_TITLE": "Payment",
+    "PREPARING_CHECKOUT": "Preparing payment...",
+    "ACTIVATING": "Activating your plan...",
+    "ACTIVATING_SLOW": "This can take a moment. Refresh the page shortly if nothing changes.",
+    "PAST_DUE_BANNER": "We could not charge your card. You keep access while we retry the payment — update your payment method to avoid losing it.",
+    "CONFIRM_CANCEL_TITLE": "Cancel your plan?",
+    "CONFIRM_CANCEL_MESSAGE": "You keep access until the end of the current billing period. No refund is issued, and you can resume the plan at any time before then.",
+    "CONFIRM_SWITCH_TITLE": "Switch plan?",
+    "CONFIRM_SWITCH_MESSAGE": "The change applies immediately. The price difference for the rest of the current period is charged or credited right away.",
+    "ERROR_GENERIC": "Something went wrong. Please try again."
   }
 }

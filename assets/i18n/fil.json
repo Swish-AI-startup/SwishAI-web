@@ -15,14 +15,18 @@
     "SHOTS": "Mga Tira",
     "BASKETS": "Mga Basket",
     "ACCURACY": "Katumpakan",
-    "PROCESSING_TIME": "Oras ng Pagpoproseso"
+    "PROCESSING_TIME": "Oras ng Pagpoproseso",
+    "CANCEL": "Kanselahin",
+    "CONFIRM": "Kumpirmahin",
+    "CLOSE": "Isara"
   },
   "NAV": {
     "PROCESS_VIDEO": "Iproseso ang Video",
     "VIDEOS": "Mga Video",
     "DASHBOARD": "Dashboard",
     "HARDWARE": "Hardware",
-    "ABOUT": "Tungkol"
+    "ABOUT": "Tungkol",
+    "SUBSCRIPTION": "Subscription"
   },
   "EXIT": {
     "LABEL": "Lumabas",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "Malinaw na Tingin",
     "VIEW_DESC": "Ang camera ay dapat na malinaw na makita ang hoop at ang manlalaro.",
     "DURATION_TITLE": "Pinakamataas na Tagal",
-    "DURATION_DESC": "1 min (libre), 10 min (naka-login), 30 min (premium). Ang mga video ay pinutol sa limitasyon."
+    "DURATION_DESC": "1 min (hindi naka-log in), 10 min (libre), 30 min, 60 min o walang limitasyon kapag may subscription. Pinuputol ang mga video sa limitasyon."
   },
   "UPLOAD": {
     "CLICK": "I-click para Mag-upload ng Video",
@@ -61,7 +65,8 @@
     "VIDEO_EXCEEDS_LIMIT": "Ang iyong video ay lumagpas sa limitasyong {{limit}} minuto. Ang unang {{limit}} minuto lamang ang ipoproseso.",
     "UPGRADE_HINT_LOGIN": "Mag-login para maproseso ang hanggang 10 minuto.",
     "LOW_SPEC_WARNING": "Ang iyong PC ay may mga detalye na mas mababa sa inirerekomenda. Ang pagpoproseso ay mas matagal kaysa karaniwan. Inirerekomenda naming gumamit ng mas magandang hardware para sa mas mabilis na bilis ng pagpoproseso.",
-    "BROWSER_PERF_WARNING": "Gumagamit ka ng bersyon ng browser. Mas mabagal ang pagganap kaysa sa desktop app. Para sa pinakamahusay na resulta, i-download at gamitin ang desktop na bersyon."
+    "BROWSER_PERF_WARNING": "Gumagamit ka ng bersyon ng browser. Mas mabagal ang pagganap kaysa sa desktop app. Para sa pinakamahusay na resulta, i-download at gamitin ang desktop na bersyon.",
+    "UPGRADE_HINT_SUBSCRIBE": "Mag-subscribe para makaproseso ng mas mahabang video."
   },
   "FILE_INFO": {
     "READY": "Handa na para iproseso",
@@ -172,5 +177,39 @@
     "CANCEL_RENAME": "Kanselahin",
     "PLAYER_LOADING": "Nino-load ang video...",
     "PLAYER_NOT_AVAILABLE": "Hindi available ang file ng video"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "Subscription",
+    "LOGIN_REQUIRED": "Mag-log in para pamahalaan ang iyong subscription.",
+    "CURRENT_PLAN": "Kasalukuyang plano",
+    "PLANS_TITLE": "Mga available na plano",
+    "LOADING_PLANS": "Nilo-load ang mga plano...",
+    "TIER_FREE": "Libre",
+    "STATUS_FREE": "Libre",
+    "STATUS_ACTIVE": "Aktibo",
+    "STATUS_PAST_DUE": "May problema sa bayad",
+    "STATUS_CANCELLING": "Kinakansela",
+    "RENEWS_ON": "Mare-renew sa {{date}}",
+    "ACCESS_UNTIL": "May access hanggang {{date}}",
+    "MAX_DURATION": "Mga video hanggang {{minutes}} minuto",
+    "UNLIMITED_DURATION": "Mga video na kahit gaano kahaba",
+    "INTERVAL_MONTH": "buwan",
+    "INTERVAL_YEAR": "taon",
+    "SUBSCRIBE": "Mag-subscribe",
+    "UPGRADE": "Mag-upgrade",
+    "DOWNGRADE": "Mag-downgrade",
+    "CURRENT": "Kasalukuyang plano",
+    "CANCEL": "Kanselahin ang plano",
+    "RESUME": "Ipagpatuloy ang plano",
+    "CHECKOUT_TITLE": "Bayad",
+    "PREPARING_CHECKOUT": "Inihahanda ang bayad...",
+    "ACTIVATING": "Ina-activate ang iyong plano...",
+    "ACTIVATING_SLOW": "Maaari itong tumagal nang saglit. I-refresh ang page mamaya kung walang nagbago.",
+    "PAST_DUE_BANNER": "Hindi namin nasingil ang iyong card. Mananatili ang access habang inuulit namin ang bayad — i-update ang paraan ng pagbabayad para hindi ito mawala.",
+    "CONFIRM_CANCEL_TITLE": "Kanselahin ang plano mo?",
+    "CONFIRM_CANCEL_MESSAGE": "Mananatili ang access mo hanggang matapos ang kasalukuyang billing period. Walang refund, at puwede mong ipagpatuloy ang plano anumang oras bago iyon.",
+    "CONFIRM_SWITCH_TITLE": "Palitan ang plano?",
+    "CONFIRM_SWITCH_MESSAGE": "Agad na maiipatupad ang pagbabago. Ang diperensya sa presyo para sa natitirang bahagi ng kasalukuyang period ay agad na sisingilin o ibabalik.",
+    "ERROR_GENERIC": "May nangyaring mali. Subukan ulit."
   }
 }

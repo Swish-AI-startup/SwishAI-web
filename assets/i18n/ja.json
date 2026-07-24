@@ -15,14 +15,18 @@
     "SHOTS": "シュート",
     "BASKETS": "ゴール",
     "ACCURACY": "精度",
-    "PROCESSING_TIME": "処理時間"
+    "PROCESSING_TIME": "処理時間",
+    "CANCEL": "キャンセル",
+    "CONFIRM": "確認",
+    "CLOSE": "閉じる"
   },
   "NAV": {
     "PROCESS_VIDEO": "動画を処理",
     "VIDEOS": "動画",
     "DASHBOARD": "ダッシュボード",
     "HARDWARE": "ハードウェア",
-    "ABOUT": "について"
+    "ABOUT": "について",
+    "SUBSCRIPTION": "サブスクリプション"
   },
   "EXIT": {
     "LABEL": "終了",
@@ -52,7 +56,7 @@
     "VIEW_TITLE": "クリアな視界",
     "VIEW_DESC": "カメラはフープとシューターを明確に見えるようにしてください。",
     "DURATION_TITLE": "最大時間",
-    "DURATION_DESC": "1分（無料）、10分（ログイン済み）、30分（プレミアム）。動画は上限で切り取られます。"
+    "DURATION_DESC": "1分（未ログイン）、10分（無料）、30分、60分、またはサブスクリプションで無制限。動画は上限で切り取られます。"
   },
   "UPLOAD": {
     "CLICK": "クリックして動画をアップロード",
@@ -61,7 +65,8 @@
     "VIDEO_EXCEEDS_LIMIT": "動画が{{limit}}分の制限を超えています。最初の{{limit}}分のみ処理されます。",
     "UPGRADE_HINT_LOGIN": "ログインして最大10分まで処理できます。",
     "LOW_SPEC_WARNING": "お使いのPCの仕様が推奨値を下回っています。処理に通常より時間がかかります。より速い処理速度のために、より良いハードウェアの使用をお勧めします。",
-    "BROWSER_PERF_WARNING": "ブラウザ版を使用しています。デスクトップアプリよりもパフォーマンスが低下します。最良の結果のためにデスクトップ版をダウンロードして使用してください。"
+    "BROWSER_PERF_WARNING": "ブラウザ版を使用しています。デスクトップアプリよりもパフォーマンスが低下します。最良の結果のためにデスクトップ版をダウンロードして使用してください。",
+    "UPGRADE_HINT_SUBSCRIBE": "より長い動画を処理するにはサブスクリプションをご利用ください。"
   },
   "FILE_INFO": {
     "READY": "処理準備完了",
@@ -172,5 +177,39 @@
     "CANCEL_RENAME": "キャンセル",
     "PLAYER_LOADING": "動画を読み込み中...",
     "PLAYER_NOT_AVAILABLE": "動画ファイルを利用できません"
+  },
+  "SUBSCRIPTION": {
+    "TITLE": "サブスクリプション",
+    "LOGIN_REQUIRED": "サブスクリプションを管理するにはログインしてください。",
+    "CURRENT_PLAN": "現在のプラン",
+    "PLANS_TITLE": "利用可能なプラン",
+    "LOADING_PLANS": "プランを読み込み中...",
+    "TIER_FREE": "無料",
+    "STATUS_FREE": "無料",
+    "STATUS_ACTIVE": "有効",
+    "STATUS_PAST_DUE": "支払いに問題があります",
+    "STATUS_CANCELLING": "解約予定",
+    "RENEWS_ON": "{{date}} に更新されます",
+    "ACCESS_UNTIL": "{{date}} まで利用できます",
+    "MAX_DURATION": "最大 {{minutes}} 分の動画",
+    "UNLIMITED_DURATION": "長さ無制限の動画",
+    "INTERVAL_MONTH": "月",
+    "INTERVAL_YEAR": "年",
+    "SUBSCRIBE": "登録する",
+    "UPGRADE": "アップグレード",
+    "DOWNGRADE": "ダウングレード",
+    "CURRENT": "現在のプラン",
+    "CANCEL": "プランを解約",
+    "RESUME": "プランを再開",
+    "CHECKOUT_TITLE": "お支払い",
+    "PREPARING_CHECKOUT": "お支払いを準備しています...",
+    "ACTIVATING": "プランを有効化しています...",
+    "ACTIVATING_SLOW": "少し時間がかかる場合があります。変化がなければ、しばらくしてページを再読み込みしてください。",
+    "PAST_DUE_BANNER": "カードへの請求ができませんでした。再試行の間もご利用いただけますが、失わないようお支払い方法を更新してください。",
+    "CONFIRM_CANCEL_TITLE": "プランを解約しますか？",
+    "CONFIRM_CANCEL_MESSAGE": "現在の請求期間の終了まで引き続き利用できます。返金は行われず、それまでならいつでもプランを再開できます。",
+    "CONFIRM_SWITCH_TITLE": "プランを変更しますか？",
+    "CONFIRM_SWITCH_MESSAGE": "変更は即時に適用されます。現在の期間の残り分の差額は、すぐに請求または返金されます。",
+    "ERROR_GENERIC": "問題が発生しました。もう一度お試しください。"
   }
 }
