@@ -65,7 +65,7 @@
     "VIDEO_EXCEEDS_LIMIT": "O seu vídeo excede o limite de {{limit}} minuto(s). Apenas os primeiros {{limit}} minutos serão processados.",
     "UPGRADE_HINT_LOGIN": "Faça login para processar até 10 minutos.",
     "LOW_SPEC_WARNING": "Seu PC tem especificações abaixo do recomendado. O processamento levará mais tempo que o normal. Recomendamos usar hardware melhor para velocidades de processamento mais rápidas.",
-    "BROWSER_PERF_WARNING": "Você está usando a versão do navegador. O desempenho é mais lento que o aplicativo de desktop. Para melhores resultados, baixe e use a versão desktop.",
+    "MOBILE_PERF_WARNING": "Você está em um dispositivo móvel: o processamento é mais lento e os vídeos são limitados a {{limit}} minuto. Para a melhor experiência, use um computador.",
     "UPGRADE_HINT_SUBSCRIBE": "Assine para processar vídeos mais longos."
   },
   "FILE_INFO": {

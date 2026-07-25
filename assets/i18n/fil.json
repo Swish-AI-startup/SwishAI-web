@@ -65,7 +65,7 @@
     "VIDEO_EXCEEDS_LIMIT": "Ang iyong video ay lumagpas sa limitasyong {{limit}} minuto. Ang unang {{limit}} minuto lamang ang ipoproseso.",
     "UPGRADE_HINT_LOGIN": "Mag-login para maproseso ang hanggang 10 minuto.",
     "LOW_SPEC_WARNING": "Ang iyong PC ay may mga detalye na mas mababa sa inirerekomenda. Ang pagpoproseso ay mas matagal kaysa karaniwan. Inirerekomenda naming gumamit ng mas magandang hardware para sa mas mabilis na bilis ng pagpoproseso.",
-    "BROWSER_PERF_WARNING": "Gumagamit ka ng bersyon ng browser. Mas mabagal ang pagganap kaysa sa desktop app. Para sa pinakamahusay na resulta, i-download at gamitin ang desktop na bersyon.",
+    "MOBILE_PERF_WARNING": "Gumagamit ka ng mobile device: mas mabagal ang pagpoproseso at limitado sa {{limit}} minuto ang mga video. Para sa pinakamahusay na karanasan, gumamit ng computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Mag-subscribe para makaproseso ng mas mahabang video."
   },
   "FILE_INFO": {

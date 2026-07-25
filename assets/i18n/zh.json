@@ -65,7 +65,7 @@
     "VIDEO_EXCEEDS_LIMIT": "您的视频超过了{{limit}}分钟的限制。仅处理前{{limit}}分钟。",
     "UPGRADE_HINT_LOGIN": "登录以处理最多10分钟的视频。",
     "LOW_SPEC_WARNING": "您的电脑规格低于推荐配置。处理时间将比平常更长。我们建议使用更好的硬件以获得更快的处理速度。",
-    "BROWSER_PERF_WARNING": "您正在使用浏览器版本。性能比桌面应用程序慢。为获得最佳效果，请下载并使用桌面版本。",
+    "MOBILE_PERF_WARNING": "您正在使用移动设备：处理速度较慢，视频时长限制为 {{limit}} 分钟。为获得最佳体验，请使用电脑。",
     "UPGRADE_HINT_SUBSCRIBE": "订阅后可处理更长的视频。"
   },
   "FILE_INFO": {

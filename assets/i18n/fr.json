@@ -65,7 +65,7 @@
     "VIDEO_EXCEEDS_LIMIT": "Votre vidéo dépasse la limite de {{limit}} minute(s). Seules les premières {{limit}} minutes seront traitées.",
     "UPGRADE_HINT_LOGIN": "Connectez-vous pour traiter jusqu'à 10 minutes.",
     "LOW_SPEC_WARNING": "Votre PC a des spécifications inférieures à celles recommandées. Le traitement prendra plus de temps que d'habitude. Nous recommandons un meilleur matériel pour des vitesses de traitement plus rapides.",
-    "BROWSER_PERF_WARNING": "Vous utilisez la version navigateur. Les performances sont plus lentes que l'application de bureau. Pour de meilleurs résultats, téléchargez et utilisez la version de bureau.",
+    "MOBILE_PERF_WARNING": "Vous êtes sur un appareil mobile : le traitement est plus lent et les vidéos sont limitées à {{limit}} minute. Pour une meilleure expérience, utilisez un ordinateur.",
     "UPGRADE_HINT_SUBSCRIBE": "Abonnez-vous pour traiter des vidéos plus longues."
   },
   "FILE_INFO": {
