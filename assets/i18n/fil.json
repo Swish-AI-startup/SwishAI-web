@@ -56,7 +56,9 @@
     "VIEW_TITLE": "Malinaw na Tingin",
     "VIEW_DESC": "Ang camera ay dapat na malinaw na makita ang hoop at ang manlalaro.",
     "DURATION_TITLE": "Pinakamataas na Tagal",
-    "DURATION_DESC": "<strong>1 min</strong> sa mobile o hindi naka-log in, <strong>5 min</strong> kapag naka-log in, at <strong>walang limitasyon</strong> kapag may subscription. Pinuputol ang mga video sa limitasyon."
+    "DURATION_DESC": "<strong>1 min</strong> sa mobile o hindi naka-log in, <strong>5 min</strong> kapag naka-log in, at <strong>walang limitasyon</strong> kapag may subscription. Pinuputol ang mga video sa limitasyon.",
+    "EXAMPLE_PROMPT": "Gusto mong makita ang resulta?",
+    "EXAMPLE_LINK": "Panoorin ang halimbawang video!"
   },
   "UPLOAD": {
     "CLICK": "I-click para Mag-upload ng Video",

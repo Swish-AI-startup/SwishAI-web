@@ -57,7 +57,10 @@
     "VIEW_DESC": "The camera must clearly see the hoop and the shooter.",
     "DURATION_TITLE": "Max Duration",
     "DURATION_DESC": "<strong>1 min</strong> on mobile or when not logged in, <strong>5 min</strong> when logged in, and <strong>unlimited</strong> with a subscription. Videos are trimmed to the limit.",
-    "WEBGPU_WARNING": "WebGPU is not available in your browser. Processing will be significantly slower without it. For better performance, use a browser that supports WebGPU (e.g. Chrome or Edge)."
+    "EXAMPLE_PROMPT": "Curious what the result looks like?",
+    "EXAMPLE_LINK": "Watch an example output video!",
+    "WEBGPU_WARNING": "WebGPU is not available in your browser. Processing will be significantly slower without it. For better performance, use a browser that supports WebGPU (e.g. Chrome or Edge).",
+    "NATIVE_FALLBACK_WARNING": "The GPU-accelerated pipeline could not start, so this video is being processed by the slower in-app one."
   },
   "UPLOAD": {
     "CLICK": "Click to Upload Video",
@@ -104,6 +107,7 @@
     "LOGIN_ERROR": "Invalid email or password. Please try again.",
     "LOGIN_UNVERIFIED": "Please confirm your email address before logging in.",
     "REGISTER_ERROR": "Registration failed. Please try again.",
+    "REGISTER_EMAIL_TAKEN": "An account with this email already exists.",
     "REGISTER_SUCCESS": "Account created! Please check your email to confirm your account.",
     "USERNAME": "Username",
     "PROFILE": "Profile",
@@ -146,7 +150,22 @@
     "UNKNOWN": "—",
     "LOADING": "Loading hardware info...",
     "ERROR": "Failed to load hardware information.",
-    "WEBGPU": "WebGPU Support"
+    "WEBGPU": "WebGPU Support",
+    "PIPELINE_TITLE": "Processing Pipeline",
+    "PIPELINE": "Pipeline",
+    "PIPELINE_NATIVE": "Native (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "In-app web pipeline (fallback)",
+    "PIPELINE_WEBVIEW_NOTE": "The native pipeline could not start, so the slower in-app one took over",
+    "NATIVE_EP": "Execution provider",
+    "NATIVE_EP_CPU_NOTE": "No GPU provider could be registered — running on the CPU",
+    "INFERENCE_BACKEND": "Inference backend",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "WebAssembly threads",
+    "WASM_THREADS_AVAILABLE": "WebAssembly threads available",
+    "WASM_THREADS_NOTE": "Single-threaded: SharedArrayBuffer is unavailable, either because the page is not cross-origin isolated or because the webview does not implement it",
+    "NOT_MEASURED": "Not measured yet",
+    "NOT_MEASURED_NOTE": "Process a video to measure this"
   },
   "DASHBOARD": {
     "TITLE": "Dashboard",

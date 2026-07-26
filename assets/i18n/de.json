@@ -56,7 +56,9 @@
     "VIEW_TITLE": "Freie Sicht",
     "VIEW_DESC": "Die Kamera muss den Korb und den Werfer klar sehen.",
     "DURATION_TITLE": "Maximale Dauer",
-    "DURATION_DESC": "<strong>1 Min.</strong> auf Mobilgeräten oder nicht angemeldet, <strong>5 Min.</strong> angemeldet und <strong>unbegrenzt</strong> mit Abonnement. Videos werden auf das Limit gekürzt."
+    "DURATION_DESC": "<strong>1 Min.</strong> auf Mobilgeräten oder nicht angemeldet, <strong>5 Min.</strong> angemeldet und <strong>unbegrenzt</strong> mit Abonnement. Videos werden auf das Limit gekürzt.",
+    "EXAMPLE_PROMPT": "Neugierig, wie das Ergebnis aussieht?",
+    "EXAMPLE_LINK": "Beispielvideo ansehen!"
   },
   "UPLOAD": {
     "CLICK": "Klicken um Video hochzuladen",

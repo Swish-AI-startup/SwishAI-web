@@ -56,7 +56,9 @@
     "VIEW_TITLE": "Vista Clara",
     "VIEW_DESC": "La cámara debe ver claramente el aro y el lanzador.",
     "DURATION_TITLE": "Duración Máxima",
-    "DURATION_DESC": "<strong>1 min</strong> en móvil o sin conectar, <strong>5 min</strong> con la sesión iniciada e <strong>ilimitado</strong> con una suscripción. Los vídeos se recortan al límite."
+    "DURATION_DESC": "<strong>1 min</strong> en móvil o sin conectar, <strong>5 min</strong> con la sesión iniciada e <strong>ilimitado</strong> con una suscripción. Los vídeos se recortan al límite.",
+    "EXAMPLE_PROMPT": "¿Tienes curiosidad por ver el resultado?",
+    "EXAMPLE_LINK": "¡Mira un vídeo de ejemplo!"
   },
   "UPLOAD": {
     "CLICK": "Haz clic para subir un video",

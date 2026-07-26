@@ -56,7 +56,10 @@
     "VIEW_TITLE": "Visuale Chiara",
     "VIEW_DESC": "La telecamera deve vedere chiaramente il canestro e il tiratore.",
     "DURATION_TITLE": "Durata Massima",
-    "DURATION_DESC": "<strong>1 min</strong> su mobile o senza accesso, <strong>5 min</strong> dopo l'accesso e <strong>illimitato</strong> con un abbonamento. I video vengono tagliati al limite."
+    "DURATION_DESC": "<strong>1 min</strong> su mobile o senza accesso, <strong>5 min</strong> dopo l'accesso e <strong>illimitato</strong> con un abbonamento. I video vengono tagliati al limite.",
+    "EXAMPLE_PROMPT": "Curioso di vedere il risultato?",
+    "EXAMPLE_LINK": "Guarda un video di esempio!",
+    "NATIVE_FALLBACK_WARNING": "La pipeline accelerata su GPU non è riuscita a partire, quindi questo video viene elaborato da quella interna, più lenta."
   },
   "UPLOAD": {
     "CLICK": "Clicca per caricare un video",
@@ -103,6 +106,7 @@
     "LOGIN_ERROR": "Email o password non validi. Riprova.",
     "LOGIN_UNVERIFIED": "Conferma il tuo indirizzo email prima di accedere.",
     "REGISTER_ERROR": "Registrazione fallita. Riprova.",
+    "REGISTER_EMAIL_TAKEN": "Esiste già un account con questa email.",
     "REGISTER_SUCCESS": "Account creato! Controlla la tua email per confermare l'account.",
     "USERNAME": "Nome utente",
     "PROFILE": "Profilo",
@@ -145,7 +149,22 @@
     "UNKNOWN": "—",
     "LOADING": "Caricamento informazioni hardware...",
     "ERROR": "Impossibile caricare le informazioni hardware.",
-    "WEBGL": "Supporto WebGL"
+    "WEBGL": "Supporto WebGL",
+    "PIPELINE_TITLE": "Pipeline di elaborazione",
+    "PIPELINE": "Pipeline",
+    "PIPELINE_NATIVE": "Nativa (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "Pipeline web interna (fallback)",
+    "PIPELINE_WEBVIEW_NOTE": "La pipeline nativa non è riuscita a partire, quindi è subentrata quella interna, più lenta",
+    "NATIVE_EP": "Execution provider",
+    "NATIVE_EP_CPU_NOTE": "Nessun provider GPU registrato — elaborazione sulla CPU",
+    "INFERENCE_BACKEND": "Backend di inferenza",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "Thread WebAssembly",
+    "WASM_THREADS_AVAILABLE": "Thread WebAssembly disponibili",
+    "WASM_THREADS_NOTE": "Thread singolo: SharedArrayBuffer non è disponibile, perché la pagina non è cross-origin isolated o perché la webview non lo implementa",
+    "NOT_MEASURED": "Non ancora misurato",
+    "NOT_MEASURED_NOTE": "Elabora un video per misurarlo"
   },
   "DASHBOARD": {
     "TITLE": "Dashboard",

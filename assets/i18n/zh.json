@@ -56,7 +56,9 @@
     "VIEW_TITLE": "清晰视角",
     "VIEW_DESC": "摄像机必须清晰看到篮筐和投篮者。",
     "DURATION_TITLE": "最大时长",
-    "DURATION_DESC": "移动设备或未登录 <strong>1 分钟</strong>、登录后 <strong>5 分钟</strong>、订阅后<strong>不限时长</strong>。超出部分会被裁剪。"
+    "DURATION_DESC": "移动设备或未登录 <strong>1 分钟</strong>、登录后 <strong>5 分钟</strong>、订阅后<strong>不限时长</strong>。超出部分会被裁剪。",
+    "EXAMPLE_PROMPT": "想看看处理后的效果吗？",
+    "EXAMPLE_LINK": "观看示例视频！"
   },
   "UPLOAD": {
     "CLICK": "点击上传视频",

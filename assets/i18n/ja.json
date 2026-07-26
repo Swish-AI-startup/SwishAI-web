@@ -56,7 +56,9 @@
     "VIEW_TITLE": "クリアな視界",
     "VIEW_DESC": "カメラはフープとシューターを明確に見えるようにしてください。",
     "DURATION_TITLE": "最大時間",
-    "DURATION_DESC": "モバイルまたは未ログインで<strong>1分</strong>、ログイン時は<strong>5分</strong>、サブスクリプションで<strong>無制限</strong>。動画は上限で切り取られます。"
+    "DURATION_DESC": "モバイルまたは未ログインで<strong>1分</strong>、ログイン時は<strong>5分</strong>、サブスクリプションで<strong>無制限</strong>。動画は上限で切り取られます。",
+    "EXAMPLE_PROMPT": "処理後の映像が気になりますか？",
+    "EXAMPLE_LINK": "サンプル動画を見る！"
   },
   "UPLOAD": {
     "CLICK": "クリックして動画をアップロード",

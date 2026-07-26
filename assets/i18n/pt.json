@@ -56,7 +56,9 @@
     "VIEW_TITLE": "Visão Clara",
     "VIEW_DESC": "A câmera deve ver claramente a cesta e o arremessador.",
     "DURATION_TITLE": "Duração Máxima",
-    "DURATION_DESC": "<strong>1 min</strong> no celular ou sem login, <strong>5 min</strong> com login e <strong>ilimitado</strong> com uma assinatura. Vídeos são cortados no limite."
+    "DURATION_DESC": "<strong>1 min</strong> no celular ou sem login, <strong>5 min</strong> com login e <strong>ilimitado</strong> com uma assinatura. Vídeos são cortados no limite.",
+    "EXAMPLE_PROMPT": "Curioso para ver o resultado?",
+    "EXAMPLE_LINK": "Veja um vídeo de exemplo!"
   },
   "UPLOAD": {
     "CLICK": "Clique para Enviar Vídeo",

@@ -56,7 +56,9 @@
     "VIEW_TITLE": "Aiškus Vaizdas",
     "VIEW_DESC": "Kamera turi aiškiai matyti krepšį ir metėją.",
     "DURATION_TITLE": "Didžiausia Trukmė",
-    "DURATION_DESC": "<strong>1 min</strong> mobiliajame arba neprisijungus, <strong>5 min</strong> prisijungus ir <strong>neribotai</strong> su prenumerata. Vaizdo įrašai apkarpomi iki limito."
+    "DURATION_DESC": "<strong>1 min</strong> mobiliajame arba neprisijungus, <strong>5 min</strong> prisijungus ir <strong>neribotai</strong> su prenumerata. Vaizdo įrašai apkarpomi iki limito.",
+    "EXAMPLE_PROMPT": "Įdomu, kaip atrodo rezultatas?",
+    "EXAMPLE_LINK": "Žiūrėti pavyzdinį vaizdo įrašą!"
   },
   "UPLOAD": {
     "CLICK": "Spustelėkite, kad įkeltumėte vaizdo įrašą",

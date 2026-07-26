@@ -56,7 +56,9 @@
     "VIEW_TITLE": "Vue Dégagée",
     "VIEW_DESC": "La caméra doit clairement voir le panier et le tireur.",
     "DURATION_TITLE": "Durée Maximale",
-    "DURATION_DESC": "<strong>1 min</strong> sur mobile ou non connecté, <strong>5 min</strong> une fois connecté et <strong>illimité</strong> avec un abonnement. Les vidéos sont coupées à la limite."
+    "DURATION_DESC": "<strong>1 min</strong> sur mobile ou non connecté, <strong>5 min</strong> une fois connecté et <strong>illimité</strong> avec un abonnement. Les vidéos sont coupées à la limite.",
+    "EXAMPLE_PROMPT": "Envie de voir le résultat ?",
+    "EXAMPLE_LINK": "Regarder une vidéo d'exemple !"
   },
   "UPLOAD": {
     "CLICK": "Cliquez pour télécharger une vidéo",
