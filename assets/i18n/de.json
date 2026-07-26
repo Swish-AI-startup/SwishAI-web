@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Freie Sicht",
     "VIEW_DESC": "Die Kamera muss den Korb und den Werfer klar sehen.",
     "DURATION_TITLE": "Maximale Dauer",
-    "DURATION_DESC": "1 Min. (nicht angemeldet), 10 Min. (kostenlos), 30 Min., 60 Min. oder unbegrenzt mit Abonnement. Videos werden auf das Limit gekürzt."
+    "DURATION_DESC": "<strong>1 Min.</strong> auf Mobilgeräten oder nicht angemeldet, <strong>5 Min.</strong> angemeldet und <strong>unbegrenzt</strong> mit Abonnement. Videos werden auf das Limit gekürzt."
   },
   "UPLOAD": {
     "CLICK": "Klicken um Video hochzuladen",
     "DROP": "Video hier ablegen",
     "FORMATS": "Unterstützt MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Ihr Video überschreitet das Limit von {{limit}} Minute(n). Nur die ersten {{limit}} Minuten werden verarbeitet.",
-    "UPGRADE_HINT_LOGIN": "Melden Sie sich an, um bis zu 10 Minuten zu verarbeiten.",
+    "UPGRADE_HINT_LOGIN": "Melden Sie sich an, um bis zu 5 Minuten zu verarbeiten.",
     "LOW_SPEC_WARNING": "Ihr PC hat Spezifikationen unterhalb der empfohlenen. Die Verarbeitung wird länger als üblich dauern. Wir empfehlen bessere Hardware für schnellere Verarbeitungsgeschwindigkeiten.",
     "MOBILE_PERF_WARNING": "Sie verwenden ein Mobilgerät: Die Verarbeitung ist langsamer und Videos sind auf {{limit}} Minute begrenzt. Für die beste Erfahrung verwenden Sie einen Computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Schließe ein Abonnement ab, um längere Videos zu verarbeiten."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "Noch kein Konto? Registrieren",
     "SWITCH_TO_LOGIN": "Bereits ein Konto? Anmelden",
     "LOGIN_ERROR": "Ungültige E-Mail oder ungültiges Passwort. Bitte versuchen Sie es erneut.",
+    "LOGIN_UNVERIFIED": "Bitte bestätigen Sie Ihre E-Mail-Adresse, bevor Sie sich anmelden.",
     "REGISTER_ERROR": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
     "REGISTER_SUCCESS": "Konto erstellt! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu bestätigen.",
     "USERNAME": "Benutzername",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "System-Hardware",
-    "BROWSER_MODE_NOTICE": "Im Browser ausgeführt — begrenzte Hardware-Informationen verfügbar",
     "CPU_TITLE": "Prozessor",
     "CPU_MODEL": "Modell",
     "CPU_PHYSICAL_CORES": "Physische Kerne",

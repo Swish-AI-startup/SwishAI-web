@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Visão Clara",
     "VIEW_DESC": "A câmera deve ver claramente a cesta e o arremessador.",
     "DURATION_TITLE": "Duração Máxima",
-    "DURATION_DESC": "1 min (sem login), 10 min (gratuito), 30 min, 60 min ou ilimitado com uma assinatura. Vídeos são cortados no limite."
+    "DURATION_DESC": "<strong>1 min</strong> no celular ou sem login, <strong>5 min</strong> com login e <strong>ilimitado</strong> com uma assinatura. Vídeos são cortados no limite."
   },
   "UPLOAD": {
     "CLICK": "Clique para Enviar Vídeo",
     "DROP": "Solte o vídeo aqui",
     "FORMATS": "Suporta MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "O seu vídeo excede o limite de {{limit}} minuto(s). Apenas os primeiros {{limit}} minutos serão processados.",
-    "UPGRADE_HINT_LOGIN": "Faça login para processar até 10 minutos.",
+    "UPGRADE_HINT_LOGIN": "Faça login para processar até 5 minutos.",
     "LOW_SPEC_WARNING": "Seu PC tem especificações abaixo do recomendado. O processamento levará mais tempo que o normal. Recomendamos usar hardware melhor para velocidades de processamento mais rápidas.",
     "MOBILE_PERF_WARNING": "Você está em um dispositivo móvel: o processamento é mais lento e os vídeos são limitados a {{limit}} minuto. Para a melhor experiência, use um computador.",
     "UPGRADE_HINT_SUBSCRIBE": "Assine para processar vídeos mais longos."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "Não tem uma conta? Registre-se",
     "SWITCH_TO_LOGIN": "Já tem uma conta? Entrar",
     "LOGIN_ERROR": "E-mail ou senha inválidos. Tente novamente.",
+    "LOGIN_UNVERIFIED": "Confirme o seu endereço de e-mail antes de entrar.",
     "REGISTER_ERROR": "Falha no registro. Tente novamente.",
     "REGISTER_SUCCESS": "Conta criada! Verifique seu e-mail para confirmar sua conta.",
     "USERNAME": "Nome de usuário",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "Hardware do Sistema",
-    "BROWSER_MODE_NOTICE": "Executando no navegador — informações de hardware limitadas disponíveis",
     "CPU_TITLE": "Processador",
     "CPU_MODEL": "Modelo",
     "CPU_PHYSICAL_CORES": "Núcleos Físicos",

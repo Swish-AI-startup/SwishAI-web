@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Vue Dégagée",
     "VIEW_DESC": "La caméra doit clairement voir le panier et le tireur.",
     "DURATION_TITLE": "Durée Maximale",
-    "DURATION_DESC": "1 min (non connecté), 10 min (gratuit), 30 min, 60 min ou illimité avec un abonnement. Les vidéos sont coupées à la limite."
+    "DURATION_DESC": "<strong>1 min</strong> sur mobile ou non connecté, <strong>5 min</strong> une fois connecté et <strong>illimité</strong> avec un abonnement. Les vidéos sont coupées à la limite."
   },
   "UPLOAD": {
     "CLICK": "Cliquez pour télécharger une vidéo",
     "DROP": "Déposez la vidéo ici",
     "FORMATS": "Supporte MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Votre vidéo dépasse la limite de {{limit}} minute(s). Seules les premières {{limit}} minutes seront traitées.",
-    "UPGRADE_HINT_LOGIN": "Connectez-vous pour traiter jusqu'à 10 minutes.",
+    "UPGRADE_HINT_LOGIN": "Connectez-vous pour traiter jusqu'à 5 minutes.",
     "LOW_SPEC_WARNING": "Votre PC a des spécifications inférieures à celles recommandées. Le traitement prendra plus de temps que d'habitude. Nous recommandons un meilleur matériel pour des vitesses de traitement plus rapides.",
     "MOBILE_PERF_WARNING": "Vous êtes sur un appareil mobile : le traitement est plus lent et les vidéos sont limitées à {{limit}} minute. Pour une meilleure expérience, utilisez un ordinateur.",
     "UPGRADE_HINT_SUBSCRIBE": "Abonnez-vous pour traiter des vidéos plus longues."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "Pas de compte ? S'inscrire",
     "SWITCH_TO_LOGIN": "Déjà un compte ? Se connecter",
     "LOGIN_ERROR": "E-mail ou mot de passe invalide. Veuillez réessayer.",
+    "LOGIN_UNVERIFIED": "Veuillez confirmer votre adresse e-mail avant de vous connecter.",
     "REGISTER_ERROR": "Échec de l'inscription. Veuillez réessayer.",
     "REGISTER_SUCCESS": "Compte créé ! Vérifiez votre e-mail pour confirmer votre compte.",
     "USERNAME": "Nom d'utilisateur",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "Matériel Système",
-    "BROWSER_MODE_NOTICE": "Exécution dans le navigateur — informations matérielles limitées disponibles",
     "CPU_TITLE": "Processeur",
     "CPU_MODEL": "Modèle",
     "CPU_PHYSICAL_CORES": "Cœurs Physiques",

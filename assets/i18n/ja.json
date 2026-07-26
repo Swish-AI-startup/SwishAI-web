@@ -56,14 +56,14 @@
     "VIEW_TITLE": "クリアな視界",
     "VIEW_DESC": "カメラはフープとシューターを明確に見えるようにしてください。",
     "DURATION_TITLE": "最大時間",
-    "DURATION_DESC": "1分（未ログイン）、10分（無料）、30分、60分、またはサブスクリプションで無制限。動画は上限で切り取られます。"
+    "DURATION_DESC": "モバイルまたは未ログインで<strong>1分</strong>、ログイン時は<strong>5分</strong>、サブスクリプションで<strong>無制限</strong>。動画は上限で切り取られます。"
   },
   "UPLOAD": {
     "CLICK": "クリックして動画をアップロード",
     "DROP": "ここに動画をドロップ",
     "FORMATS": "MP4、MOV、AVI に対応",
     "VIDEO_EXCEEDS_LIMIT": "動画が{{limit}}分の制限を超えています。最初の{{limit}}分のみ処理されます。",
-    "UPGRADE_HINT_LOGIN": "ログインして最大10分まで処理できます。",
+    "UPGRADE_HINT_LOGIN": "ログインして最大5分まで処理できます。",
     "LOW_SPEC_WARNING": "お使いのPCの仕様が推奨値を下回っています。処理に通常より時間がかかります。より速い処理速度のために、より良いハードウェアの使用をお勧めします。",
     "MOBILE_PERF_WARNING": "モバイル端末をご利用中です。処理が遅く、動画は{{limit}}分に制限されます。最適な体験のためにパソコンのご利用をおすすめします。",
     "UPGRADE_HINT_SUBSCRIBE": "より長い動画を処理するにはサブスクリプションをご利用ください。"
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "アカウントをお持ちでない方は登録",
     "SWITCH_TO_LOGIN": "すでにアカウントをお持ちの方はログイン",
     "LOGIN_ERROR": "メールアドレスまたはパスワードが正しくありません。再試行してください。",
+    "LOGIN_UNVERIFIED": "ログインする前にメールアドレスを確認してください。",
     "REGISTER_ERROR": "登録に失敗しました。再試行してください。",
     "REGISTER_SUCCESS": "アカウントが作成されました！メールアドレスを確認してください。",
     "USERNAME": "ユーザー名",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "システムハードウェア",
-    "BROWSER_MODE_NOTICE": "ブラウザで実行中 — ハードウェア情報は制限されています",
     "CPU_TITLE": "CPU",
     "CPU_MODEL": "モデル",
     "CPU_PHYSICAL_CORES": "物理コア数",

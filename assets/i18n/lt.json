@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Aiškus Vaizdas",
     "VIEW_DESC": "Kamera turi aiškiai matyti krepšį ir metėją.",
     "DURATION_TITLE": "Didžiausia Trukmė",
-    "DURATION_DESC": "1 min (neprisijungus), 10 min (nemokamai), 30 min, 60 min arba neribotai su prenumerata. Vaizdo įrašai apkarpomi iki limito."
+    "DURATION_DESC": "<strong>1 min</strong> mobiliajame arba neprisijungus, <strong>5 min</strong> prisijungus ir <strong>neribotai</strong> su prenumerata. Vaizdo įrašai apkarpomi iki limito."
   },
   "UPLOAD": {
     "CLICK": "Spustelėkite, kad įkeltumėte vaizdo įrašą",
     "DROP": "Numeskite vaizdo įrašą čia",
     "FORMATS": "Palaiko MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Jūsų vaizdo įrašas viršija {{limit}} min. limitą. Bus apdoroti tik pirmieji {{limit}} minutės.",
-    "UPGRADE_HINT_LOGIN": "Prisijunkite, kad apdorotumėte iki 10 minučių.",
+    "UPGRADE_HINT_LOGIN": "Prisijunkite, kad apdorotumėte iki 5 minučių.",
     "LOW_SPEC_WARNING": "Jūsų kompiuterio specifikacijos yra žemesnės nei rekomenduojamos. Apdorojimas užims ilgiau nei įprastai. Rekomenduojame naudoti geresnę aparatinę įrangą greitesniam apdorojimui.",
     "MOBILE_PERF_WARNING": "Naudojate mobilųjį įrenginį: apdorojimas yra lėtesnis, o vaizdo įrašai ribojami iki {{limit}} minutės. Geriausiems rezultatams naudokite kompiuterį.",
     "UPGRADE_HINT_SUBSCRIBE": "Užsisakykite prenumeratą, kad apdorotumėte ilgesnius įrašus."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "Neturite paskyros? Registruokitės",
     "SWITCH_TO_LOGIN": "Jau turite paskyrą? Prisijunkite",
     "LOGIN_ERROR": "Neteisingas el. paštas arba slaptažodis. Bandykite dar kartą.",
+    "LOGIN_UNVERIFIED": "Prieš prisijungdami patvirtinkite savo el. pašto adresą.",
     "REGISTER_ERROR": "Registracija nepavyko. Bandykite dar kartą.",
     "REGISTER_SUCCESS": "Paskyra sukurta! Patikrinkite el. paštą, kad patvirtintumėte paskyrą.",
     "USERNAME": "Vartotojo vardas",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "Sistemos aparatinė įranga",
-    "BROWSER_MODE_NOTICE": "Veikia naršyklėje — ribota aparatinės įrangos informacija",
     "CPU_TITLE": "Procesorius",
     "CPU_MODEL": "Modelis",
     "CPU_PHYSICAL_CORES": "Fiziniai branduoliai",

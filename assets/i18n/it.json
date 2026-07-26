@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Visuale Chiara",
     "VIEW_DESC": "La telecamera deve vedere chiaramente il canestro e il tiratore.",
     "DURATION_TITLE": "Durata Massima",
-    "DURATION_DESC": "1 min (non autenticato), 10 min (gratuito), 30 min, 60 min o illimitato con un abbonamento. I video vengono tagliati al limite."
+    "DURATION_DESC": "<strong>1 min</strong> su mobile o senza accesso, <strong>5 min</strong> dopo l'accesso e <strong>illimitato</strong> con un abbonamento. I video vengono tagliati al limite."
   },
   "UPLOAD": {
     "CLICK": "Clicca per caricare un video",
     "DROP": "Trascina il video qui",
     "FORMATS": "Supporta MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Il tuo video supera il limite di {{limit}} minuto/i. Solo i primi {{limit}} minuti verranno elaborati.",
-    "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a 10 minuti.",
+    "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a 5 minuti.",
     "LOW_SPEC_WARNING": "Il tuo PC ha specifiche inferiori a quelle consigliate. L'elaborazione richiederà più tempo del solito. Consigliamo hardware migliore per velocità di elaborazione più rapide.",
     "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta e i video sono limitati a {{limit}} minuto. Per la migliore esperienza, usa un computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "Non hai un account? Registrati",
     "SWITCH_TO_LOGIN": "Hai già un account? Accedi",
     "LOGIN_ERROR": "Email o password non validi. Riprova.",
+    "LOGIN_UNVERIFIED": "Conferma il tuo indirizzo email prima di accedere.",
     "REGISTER_ERROR": "Registrazione fallita. Riprova.",
     "REGISTER_SUCCESS": "Account creato! Controlla la tua email per confermare l'account.",
     "USERNAME": "Nome utente",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "Hardware di Sistema",
-    "BROWSER_MODE_NOTICE": "In esecuzione nel browser — informazioni hardware limitate disponibili",
     "CPU_TITLE": "CPU",
     "CPU_MODEL": "Modello",
     "CPU_PHYSICAL_CORES": "Core Fisici",

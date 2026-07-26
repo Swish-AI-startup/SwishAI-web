@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Vista Clara",
     "VIEW_DESC": "La cámara debe ver claramente el aro y el lanzador.",
     "DURATION_TITLE": "Duración Máxima",
-    "DURATION_DESC": "1 min (sin conectar), 10 min (gratis), 30 min, 60 min o ilimitado con una suscripción. Los vídeos se recortan al límite."
+    "DURATION_DESC": "<strong>1 min</strong> en móvil o sin conectar, <strong>5 min</strong> con la sesión iniciada e <strong>ilimitado</strong> con una suscripción. Los vídeos se recortan al límite."
   },
   "UPLOAD": {
     "CLICK": "Haz clic para subir un video",
     "DROP": "Suelta el video aquí",
     "FORMATS": "Soporta MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Tu video supera el límite de {{limit}} minuto(s). Solo se procesarán los primeros {{limit}} minutos.",
-    "UPGRADE_HINT_LOGIN": "Inicia sesión para procesar hasta 10 minutos.",
+    "UPGRADE_HINT_LOGIN": "Inicia sesión para procesar hasta 5 minutos.",
     "LOW_SPEC_WARNING": "Tu PC tiene especificaciones inferiores a las recomendadas. El procesamiento tardará más de lo habitual. Recomendamos usar mejor hardware para velocidades de procesamiento más rápidas.",
     "MOBILE_PERF_WARNING": "Estás en un dispositivo móvil: el procesamiento es más lento y los vídeos están limitados a {{limit}} minuto. Para una mejor experiencia, usa un ordenador.",
     "UPGRADE_HINT_SUBSCRIBE": "Suscríbete para procesar vídeos más largos."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "¿No tienes cuenta? Regístrate",
     "SWITCH_TO_LOGIN": "¿Ya tienes cuenta? Inicia sesión",
     "LOGIN_ERROR": "Correo o contraseña incorrectos. Inténtalo de nuevo.",
+    "LOGIN_UNVERIFIED": "Confirma tu dirección de correo electrónico antes de iniciar sesión.",
     "REGISTER_ERROR": "El registro falló. Inténtalo de nuevo.",
     "REGISTER_SUCCESS": "¡Cuenta creada! Revisa tu correo para confirmar tu cuenta.",
     "USERNAME": "Nombre de usuario",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "Hardware del Sistema",
-    "BROWSER_MODE_NOTICE": "Ejecutando en el navegador — información de hardware limitada disponible",
     "CPU_TITLE": "Procesador",
     "CPU_MODEL": "Modelo",
     "CPU_PHYSICAL_CORES": "Núcleos Físicos",

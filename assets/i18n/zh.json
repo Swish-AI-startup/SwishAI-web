@@ -56,14 +56,14 @@
     "VIEW_TITLE": "清晰视角",
     "VIEW_DESC": "摄像机必须清晰看到篮筐和投篮者。",
     "DURATION_TITLE": "最大时长",
-    "DURATION_DESC": "1 分钟（未登录）、10 分钟（免费）、30 分钟、60 分钟，订阅后不限时长。超出部分会被裁剪。"
+    "DURATION_DESC": "移动设备或未登录 <strong>1 分钟</strong>、登录后 <strong>5 分钟</strong>、订阅后<strong>不限时长</strong>。超出部分会被裁剪。"
   },
   "UPLOAD": {
     "CLICK": "点击上传视频",
     "DROP": "将视频拖放到此处",
     "FORMATS": "支持 MP4、MOV、AVI",
     "VIDEO_EXCEEDS_LIMIT": "您的视频超过了{{limit}}分钟的限制。仅处理前{{limit}}分钟。",
-    "UPGRADE_HINT_LOGIN": "登录以处理最多10分钟的视频。",
+    "UPGRADE_HINT_LOGIN": "登录以处理最多5分钟的视频。",
     "LOW_SPEC_WARNING": "您的电脑规格低于推荐配置。处理时间将比平常更长。我们建议使用更好的硬件以获得更快的处理速度。",
     "MOBILE_PERF_WARNING": "您正在使用移动设备：处理速度较慢，视频时长限制为 {{limit}} 分钟。为获得最佳体验，请使用电脑。",
     "UPGRADE_HINT_SUBSCRIBE": "订阅后可处理更长的视频。"
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "没有账户？注册",
     "SWITCH_TO_LOGIN": "已有账户？登录",
     "LOGIN_ERROR": "邮箱或密码无效，请重试。",
+    "LOGIN_UNVERIFIED": "登录前请先确认您的邮箱地址。",
     "REGISTER_ERROR": "注册失败，请重试。",
     "REGISTER_SUCCESS": "账户已创建！请查看您的邮箱以确认账户。",
     "USERNAME": "用户名",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "系统硬件",
-    "BROWSER_MODE_NOTICE": "在浏览器中运行 — 硬件信息有限",
     "CPU_TITLE": "处理器",
     "CPU_MODEL": "型号",
     "CPU_PHYSICAL_CORES": "物理核心数",

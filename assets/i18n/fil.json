@@ -56,14 +56,14 @@
     "VIEW_TITLE": "Malinaw na Tingin",
     "VIEW_DESC": "Ang camera ay dapat na malinaw na makita ang hoop at ang manlalaro.",
     "DURATION_TITLE": "Pinakamataas na Tagal",
-    "DURATION_DESC": "1 min (hindi naka-log in), 10 min (libre), 30 min, 60 min o walang limitasyon kapag may subscription. Pinuputol ang mga video sa limitasyon."
+    "DURATION_DESC": "<strong>1 min</strong> sa mobile o hindi naka-log in, <strong>5 min</strong> kapag naka-log in, at <strong>walang limitasyon</strong> kapag may subscription. Pinuputol ang mga video sa limitasyon."
   },
   "UPLOAD": {
     "CLICK": "I-click para Mag-upload ng Video",
     "DROP": "Ihulog ang video dito",
     "FORMATS": "Sumusuporta sa MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Ang iyong video ay lumagpas sa limitasyong {{limit}} minuto. Ang unang {{limit}} minuto lamang ang ipoproseso.",
-    "UPGRADE_HINT_LOGIN": "Mag-login para maproseso ang hanggang 10 minuto.",
+    "UPGRADE_HINT_LOGIN": "Mag-login para maproseso ang hanggang 5 minuto.",
     "LOW_SPEC_WARNING": "Ang iyong PC ay may mga detalye na mas mababa sa inirerekomenda. Ang pagpoproseso ay mas matagal kaysa karaniwan. Inirerekomenda naming gumamit ng mas magandang hardware para sa mas mabilis na bilis ng pagpoproseso.",
     "MOBILE_PERF_WARNING": "Gumagamit ka ng mobile device: mas mabagal ang pagpoproseso at limitado sa {{limit}} minuto ang mga video. Para sa pinakamahusay na karanasan, gumamit ng computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Mag-subscribe para makaproseso ng mas mahabang video."
@@ -101,6 +101,7 @@
     "SWITCH_TO_REGISTER": "Wala pang account? Mag-register",
     "SWITCH_TO_LOGIN": "May account na? Mag-login",
     "LOGIN_ERROR": "Mali ang email o password. Subukan muli.",
+    "LOGIN_UNVERIFIED": "Pakikumpirma ang iyong email address bago mag-login.",
     "REGISTER_ERROR": "Nabigo ang pagpaparehistro. Subukan muli.",
     "REGISTER_SUCCESS": "Account na nagawa! Suriin ang iyong email para kumpirmahin ang account.",
     "USERNAME": "Username",
@@ -120,7 +121,6 @@
   },
   "HARDWARE": {
     "TITLE": "Hardware ng Sistema",
-    "BROWSER_MODE_NOTICE": "Tumatakbo sa browser — limitadong impormasyon ng hardware ang available",
     "CPU_TITLE": "CPU",
     "CPU_MODEL": "Modelo",
     "CPU_PHYSICAL_CORES": "Mga Pisikal na Core",

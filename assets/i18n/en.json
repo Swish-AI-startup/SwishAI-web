@@ -56,14 +56,15 @@
     "VIEW_TITLE": "Clear View",
     "VIEW_DESC": "The camera must clearly see the hoop and the shooter.",
     "DURATION_TITLE": "Max Duration",
-    "DURATION_DESC": "1 min (not logged in), 10 min (free), 30 min, 60 min or unlimited with a subscription. Videos are trimmed to the limit."
+    "DURATION_DESC": "<strong>1 min</strong> on mobile or when not logged in, <strong>5 min</strong> when logged in, and <strong>unlimited</strong> with a subscription. Videos are trimmed to the limit.",
+    "WEBGPU_WARNING": "WebGPU is not available in your browser. Processing will be significantly slower without it. For better performance, use a browser that supports WebGPU (e.g. Chrome or Edge)."
   },
   "UPLOAD": {
     "CLICK": "Click to Upload Video",
     "DROP": "Drop video here",
     "FORMATS": "Supports MP4, MOV, AVI",
     "VIDEO_EXCEEDS_LIMIT": "Your video exceeds the {{limit}}-minute limit. Only the first {{limit}} minutes will be processed.",
-    "UPGRADE_HINT_LOGIN": "Log in to process up to 10 minutes.",
+    "UPGRADE_HINT_LOGIN": "Log in to process up to 5 minutes.",
     "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
     "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here and videos are limited to {{limit}} minute. For the best experience, use a computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos."
@@ -101,6 +102,7 @@
     "SWITCH_TO_REGISTER": "Don't have an account? Register",
     "SWITCH_TO_LOGIN": "Already have an account? Login",
     "LOGIN_ERROR": "Invalid email or password. Please try again.",
+    "LOGIN_UNVERIFIED": "Please confirm your email address before logging in.",
     "REGISTER_ERROR": "Registration failed. Please try again.",
     "REGISTER_SUCCESS": "Account created! Please check your email to confirm your account.",
     "USERNAME": "Username",
@@ -120,7 +122,6 @@
   },
   "HARDWARE": {
     "TITLE": "System Hardware",
-    "BROWSER_MODE_NOTICE": "Running in browser — limited hardware info available",
     "CPU_TITLE": "CPU",
     "CPU_MODEL": "Model",
     "CPU_PHYSICAL_CORES": "Physical Cores",
@@ -145,7 +146,7 @@
     "UNKNOWN": "—",
     "LOADING": "Loading hardware info...",
     "ERROR": "Failed to load hardware information.",
-    "WEBGL": "WebGL Support"
+    "WEBGPU": "WebGPU Support"
   },
   "DASHBOARD": {
     "TITLE": "Dashboard",
