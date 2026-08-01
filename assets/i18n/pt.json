@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "Faça login para processar até 5 minutos.",
     "LOW_SPEC_WARNING": "Seu PC tem especificações abaixo do recomendado. O processamento levará mais tempo que o normal. Recomendamos usar hardware melhor para velocidades de processamento mais rápidas.",
     "MOBILE_PERF_WARNING": "Você está em um dispositivo móvel: o processamento é mais lento e os vídeos são limitados a {{limit}} minuto. Para a melhor experiência, use um computador.",
-    "UPGRADE_HINT_SUBSCRIBE": "Assine para processar vídeos mais longos."
+    "UPGRADE_HINT_SUBSCRIBE": "Assine para processar vídeos mais longos.",
+    "SHOW_OVERLAY": "Mostrar sobreposição de deteção",
+    "SHOW_OVERLAY_DESC": "Desenha as caixas de deteção, as etiquetas e a zona de lançamento no vídeo anotado. Desativado, ficam apenas o painel de pontuação e a trajetória da bola."
   },
   "FILE_INFO": {
     "READY": "Pronto para processar",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "Confirmar",
     "CANCEL_RENAME": "Cancelar",
     "PLAYER_LOADING": "Carregando vídeo...",
-    "PLAYER_NOT_AVAILABLE": "Arquivo de vídeo não disponível"
+    "PLAYER_NOT_AVAILABLE": "Arquivo de vídeo não disponível",
+    "PAGINATION_RANGE": "{{from}}–{{to}} de {{total}}",
+    "PAGINATION_PREV": "Anterior",
+    "PAGINATION_NEXT": "Próximo"
   },
   "SUBSCRIPTION": {
     "TITLE": "Assinatura",

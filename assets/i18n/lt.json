@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "Prisijunkite, kad apdorotumėte iki 5 minučių.",
     "LOW_SPEC_WARNING": "Jūsų kompiuterio specifikacijos yra žemesnės nei rekomenduojamos. Apdorojimas užims ilgiau nei įprastai. Rekomenduojame naudoti geresnę aparatinę įrangą greitesniam apdorojimui.",
     "MOBILE_PERF_WARNING": "Naudojate mobilųjį įrenginį: apdorojimas yra lėtesnis, o vaizdo įrašai ribojami iki {{limit}} minutės. Geriausiems rezultatams naudokite kompiuterį.",
-    "UPGRADE_HINT_SUBSCRIBE": "Užsisakykite prenumeratą, kad apdorotumėte ilgesnius įrašus."
+    "UPGRADE_HINT_SUBSCRIBE": "Užsisakykite prenumeratą, kad apdorotumėte ilgesnius įrašus.",
+    "SHOW_OVERLAY": "Rodyti aptikimo sluoksnį",
+    "SHOW_OVERLAY_DESC": "Piešia aptikimo rėmelius, etiketes ir metimo zoną anotuotame vaizdo įraše. Išjungus lieka tik rezultatų skydelis ir kamuolio trajektorija."
   },
   "FILE_INFO": {
     "READY": "Paruošta apdoroti",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "Patvirtinti",
     "CANCEL_RENAME": "Atšaukti",
     "PLAYER_LOADING": "Kraunamas vaizdo įrašas...",
-    "PLAYER_NOT_AVAILABLE": "Vaizdo įrašo failas neprieinamas"
+    "PLAYER_NOT_AVAILABLE": "Vaizdo įrašo failas neprieinamas",
+    "PAGINATION_RANGE": "{{from}}–{{to}} iš {{total}}",
+    "PAGINATION_PREV": "Ankstesnis",
+    "PAGINATION_NEXT": "Tolesnis"
   },
   "SUBSCRIPTION": {
     "TITLE": "Prenumerata",

@@ -70,7 +70,9 @@
     "UPGRADE_HINT_LOGIN": "Log in to process up to 5 minutes.",
     "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
     "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here and videos are limited to {{limit}} minute. For the best experience, use a computer.",
-    "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos."
+    "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos.",
+    "SHOW_OVERLAY": "Show detection overlay",
+    "SHOW_OVERLAY_DESC": "Draws detection boxes, labels and the shot zone on the annotated video. Off means only the score panel and the ball trajectory."
   },
   "FILE_INFO": {
     "READY": "Ready to process",
@@ -196,7 +198,10 @@
     "CONFIRM_RENAME": "Confirm",
     "CANCEL_RENAME": "Cancel",
     "PLAYER_LOADING": "Loading video...",
-    "PLAYER_NOT_AVAILABLE": "Video file not available"
+    "PLAYER_NOT_AVAILABLE": "Video file not available",
+    "PAGINATION_RANGE": "{{from}}–{{to}} of {{total}}",
+    "PAGINATION_PREV": "Previous",
+    "PAGINATION_NEXT": "Next"
   },
   "SUBSCRIPTION": {
     "TITLE": "Subscription",

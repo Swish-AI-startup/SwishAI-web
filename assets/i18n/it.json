@@ -69,7 +69,9 @@
     "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a 5 minuti.",
     "LOW_SPEC_WARNING": "Il tuo PC ha specifiche inferiori a quelle consigliate. L'elaborazione richiederà più tempo del solito. Consigliamo hardware migliore per velocità di elaborazione più rapide.",
     "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta e i video sono limitati a {{limit}} minuto. Per la migliore esperienza, usa un computer.",
-    "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi."
+    "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi.",
+    "SHOW_OVERLAY": "Mostra overlay di rilevamento",
+    "SHOW_OVERLAY_DESC": "Disegna i box di rilevamento, le etichette e la zona di tiro sul video annotato. Se disattivato restano solo il pannello del punteggio e la traiettoria della palla."
   },
   "FILE_INFO": {
     "READY": "Pronto per l'elaborazione",
@@ -195,7 +197,10 @@
     "CONFIRM_RENAME": "Conferma",
     "CANCEL_RENAME": "Annulla",
     "PLAYER_LOADING": "Caricamento video...",
-    "PLAYER_NOT_AVAILABLE": "File video non disponibile"
+    "PLAYER_NOT_AVAILABLE": "File video non disponibile",
+    "PAGINATION_RANGE": "{{from}}–{{to}} di {{total}}",
+    "PAGINATION_PREV": "Precedente",
+    "PAGINATION_NEXT": "Successivo"
   },
   "SUBSCRIPTION": {
     "TITLE": "Abbonamento",

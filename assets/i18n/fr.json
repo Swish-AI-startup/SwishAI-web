@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "Connectez-vous pour traiter jusqu'à 5 minutes.",
     "LOW_SPEC_WARNING": "Votre PC a des spécifications inférieures à celles recommandées. Le traitement prendra plus de temps que d'habitude. Nous recommandons un meilleur matériel pour des vitesses de traitement plus rapides.",
     "MOBILE_PERF_WARNING": "Vous êtes sur un appareil mobile : le traitement est plus lent et les vidéos sont limitées à {{limit}} minute. Pour une meilleure expérience, utilisez un ordinateur.",
-    "UPGRADE_HINT_SUBSCRIBE": "Abonnez-vous pour traiter des vidéos plus longues."
+    "UPGRADE_HINT_SUBSCRIBE": "Abonnez-vous pour traiter des vidéos plus longues.",
+    "SHOW_OVERLAY": "Afficher la superposition de détection",
+    "SHOW_OVERLAY_DESC": "Dessine les cadres de détection, les étiquettes et la zone de tir sur la vidéo annotée. Désactivé, il ne reste que le panneau de score et la trajectoire du ballon."
   },
   "FILE_INFO": {
     "READY": "Prêt à traiter",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "Confirmer",
     "CANCEL_RENAME": "Annuler",
     "PLAYER_LOADING": "Chargement de la vidéo...",
-    "PLAYER_NOT_AVAILABLE": "Fichier vidéo non disponible"
+    "PLAYER_NOT_AVAILABLE": "Fichier vidéo non disponible",
+    "PAGINATION_RANGE": "{{from}}–{{to}} sur {{total}}",
+    "PAGINATION_PREV": "Précédent",
+    "PAGINATION_NEXT": "Suivant"
   },
   "SUBSCRIPTION": {
     "TITLE": "Abonnement",

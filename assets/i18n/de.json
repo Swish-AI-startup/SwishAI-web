@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "Melden Sie sich an, um bis zu 5 Minuten zu verarbeiten.",
     "LOW_SPEC_WARNING": "Ihr PC hat Spezifikationen unterhalb der empfohlenen. Die Verarbeitung wird länger als üblich dauern. Wir empfehlen bessere Hardware für schnellere Verarbeitungsgeschwindigkeiten.",
     "MOBILE_PERF_WARNING": "Sie verwenden ein Mobilgerät: Die Verarbeitung ist langsamer und Videos sind auf {{limit}} Minute begrenzt. Für die beste Erfahrung verwenden Sie einen Computer.",
-    "UPGRADE_HINT_SUBSCRIBE": "Schließe ein Abonnement ab, um längere Videos zu verarbeiten."
+    "UPGRADE_HINT_SUBSCRIBE": "Schließe ein Abonnement ab, um längere Videos zu verarbeiten.",
+    "SHOW_OVERLAY": "Erkennungs-Overlay anzeigen",
+    "SHOW_OVERLAY_DESC": "Zeichnet Erkennungsrahmen, Beschriftungen und die Wurfzone in das annotierte Video. Ausgeschaltet bleiben nur das Punktefeld und die Ballflugbahn."
   },
   "FILE_INFO": {
     "READY": "Bereit zur Verarbeitung",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "Bestätigen",
     "CANCEL_RENAME": "Abbrechen",
     "PLAYER_LOADING": "Video wird geladen...",
-    "PLAYER_NOT_AVAILABLE": "Videodatei nicht verfügbar"
+    "PLAYER_NOT_AVAILABLE": "Videodatei nicht verfügbar",
+    "PAGINATION_RANGE": "{{from}}–{{to}} von {{total}}",
+    "PAGINATION_PREV": "Zurück",
+    "PAGINATION_NEXT": "Weiter"
   },
   "SUBSCRIPTION": {
     "TITLE": "Abonnement",

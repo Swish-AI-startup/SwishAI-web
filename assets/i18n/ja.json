@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "ログインして最大5分まで処理できます。",
     "LOW_SPEC_WARNING": "お使いのPCの仕様が推奨値を下回っています。処理に通常より時間がかかります。より速い処理速度のために、より良いハードウェアの使用をお勧めします。",
     "MOBILE_PERF_WARNING": "モバイル端末をご利用中です。処理が遅く、動画は{{limit}}分に制限されます。最適な体験のためにパソコンのご利用をおすすめします。",
-    "UPGRADE_HINT_SUBSCRIBE": "より長い動画を処理するにはサブスクリプションをご利用ください。"
+    "UPGRADE_HINT_SUBSCRIBE": "より長い動画を処理するにはサブスクリプションをご利用ください。",
+    "SHOW_OVERLAY": "検出オーバーレイを表示",
+    "SHOW_OVERLAY_DESC": "注釈付き動画に検出ボックス、ラベル、シュートゾーンを描画します。オフにするとスコアパネルとボールの軌道だけになります。"
   },
   "FILE_INFO": {
     "READY": "処理準備完了",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "確認",
     "CANCEL_RENAME": "キャンセル",
     "PLAYER_LOADING": "動画を読み込み中...",
-    "PLAYER_NOT_AVAILABLE": "動画ファイルを利用できません"
+    "PLAYER_NOT_AVAILABLE": "動画ファイルを利用できません",
+    "PAGINATION_RANGE": "{{total}} 件中 {{from}}–{{to}} 件",
+    "PAGINATION_PREV": "前へ",
+    "PAGINATION_NEXT": "次へ"
   },
   "SUBSCRIPTION": {
     "TITLE": "サブスクリプション",

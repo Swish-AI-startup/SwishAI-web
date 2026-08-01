@@ -26,6 +26,37 @@ export class WasmEngine {
         return ret;
     }
     /**
+     * Sizes the RGBA frame buffer. Reallocating moves it, so JS must re-derive
+     * its view afterwards.
+     * @param {number} width
+     * @param {number} height
+     */
+    ensure_frame(width, height) {
+        wasm.wasmengine_ensure_frame(this.__wbg_ptr, width, height);
+    }
+    /**
+     * Registers every basket still waiting for evidence that will never arrive.
+     * Call once the last frame has been processed, before reading the totals.
+     * @param {number} frame_idx
+     */
+    finish(frame_idx) {
+        wasm.wasmengine_finish(this.__wbg_ptr, frame_idx);
+    }
+    /**
+     * @returns {number}
+     */
+    frame_len() {
+        const ret = wasm.wasmengine_frame_len(this.__wbg_ptr);
+        return ret >>> 0;
+    }
+    /**
+     * @returns {number}
+     */
+    frame_ptr() {
+        const ret = wasm.wasmengine_frame_ptr(this.__wbg_ptr);
+        return ret >>> 0;
+    }
+    /**
      * `fps` is the inference rate, `original_fps` the source rate — their ratio
      * scales every pixel constant in the core.
      *
@@ -54,15 +85,19 @@ export class WasmEngine {
     }
     /**
      * `detections` is a flat `[x1, y1, x2, y2, class_idx, conf]` buffer.
+     *
+     * With `use_frame`, the contents of the buffer behind [`Self::frame_ptr`] are
+     * read as this frame's pixels; without it the net-disturbance check abstains.
      * Returns the frame's `FrameState` as a plain JS object.
      * @param {Float32Array} detections
      * @param {number} frame_idx
+     * @param {boolean} use_frame
      * @returns {any}
      */
-    update(detections, frame_idx) {
+    update(detections, frame_idx, use_frame) {
         const ptr0 = passArrayF32ToWasm0(detections, wasm.__wbindgen_malloc);
         const len0 = WASM_VECTOR_LEN;
-        const ret = wasm.wasmengine_update(this.__wbg_ptr, ptr0, len0, frame_idx);
+        const ret = wasm.wasmengine_update(this.__wbg_ptr, ptr0, len0, frame_idx, use_frame);
         if (ret[2]) {
             throw takeFromExternrefTable0(ret[1]);
         }

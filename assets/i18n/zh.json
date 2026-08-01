@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "登录以处理最多5分钟的视频。",
     "LOW_SPEC_WARNING": "您的电脑规格低于推荐配置。处理时间将比平常更长。我们建议使用更好的硬件以获得更快的处理速度。",
     "MOBILE_PERF_WARNING": "您正在使用移动设备：处理速度较慢，视频时长限制为 {{limit}} 分钟。为获得最佳体验，请使用电脑。",
-    "UPGRADE_HINT_SUBSCRIBE": "订阅后可处理更长的视频。"
+    "UPGRADE_HINT_SUBSCRIBE": "订阅后可处理更长的视频。",
+    "SHOW_OVERLAY": "显示检测叠加层",
+    "SHOW_OVERLAY_DESC": "在标注视频上绘制检测框、标签和投篮区域。关闭后只保留比分面板和篮球轨迹。"
   },
   "FILE_INFO": {
     "READY": "准备处理",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "确认",
     "CANCEL_RENAME": "取消",
     "PLAYER_LOADING": "正在加载视频...",
-    "PLAYER_NOT_AVAILABLE": "视频文件不可用"
+    "PLAYER_NOT_AVAILABLE": "视频文件不可用",
+    "PAGINATION_RANGE": "第 {{from}}–{{to}} 个，共 {{total}} 个",
+    "PAGINATION_PREV": "上一页",
+    "PAGINATION_NEXT": "下一页"
   },
   "SUBSCRIPTION": {
     "TITLE": "订阅",

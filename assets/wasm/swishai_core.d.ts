@@ -5,6 +5,18 @@ export class WasmEngine {
     free(): void;
     [Symbol.dispose](): void;
     /**
+     * Sizes the RGBA frame buffer. Reallocating moves it, so JS must re-derive
+     * its view afterwards.
+     */
+    ensure_frame(width: number, height: number): void;
+    /**
+     * Registers every basket still waiting for evidence that will never arrive.
+     * Call once the last frame has been processed, before reading the totals.
+     */
+    finish(frame_idx: number): void;
+    frame_len(): number;
+    frame_ptr(): number;
+    /**
      * `fps` is the inference rate, `original_fps` the source rate — their ratio
      * scales every pixel constant in the core.
      *
@@ -16,9 +28,12 @@ export class WasmEngine {
     constructor(fps: number, original_fps: number, thresholds?: Float64Array | null);
     /**
      * `detections` is a flat `[x1, y1, x2, y2, class_idx, conf]` buffer.
+     *
+     * With `use_frame`, the contents of the buffer behind [`Self::frame_ptr`] are
+     * read as this frame's pixels; without it the net-disturbance check abstains.
      * Returns the frame's `FrameState` as a plain JS object.
      */
-    update(detections: Float32Array, frame_idx: number): any;
+    update(detections: Float32Array, frame_idx: number, use_frame: boolean): any;
     readonly accuracy: number;
     readonly basketsMade: number;
     readonly shotsAttempted: number;
@@ -94,9 +109,13 @@ export interface InitOutput {
     readonly __wbg_wasmglue_free: (a: number, b: number) => void;
     readonly wasmengine_accuracy: (a: number) => number;
     readonly wasmengine_basketsMade: (a: number) => number;
+    readonly wasmengine_ensure_frame: (a: number, b: number, c: number) => void;
+    readonly wasmengine_finish: (a: number, b: number) => void;
+    readonly wasmengine_frame_len: (a: number) => number;
+    readonly wasmengine_frame_ptr: (a: number) => number;
     readonly wasmengine_new: (a: number, b: number, c: number, d: number) => number;
     readonly wasmengine_shotsAttempted: (a: number) => number;
-    readonly wasmengine_update: (a: number, b: number, c: number, d: number) => [number, number, number];
+    readonly wasmengine_update: (a: number, b: number, c: number, d: number, e: number) => [number, number, number];
     readonly wasmglue_ensure_output: (a: number, b: number) => void;
     readonly wasmglue_new: (a: number) => number;
     readonly wasmglue_nms: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];

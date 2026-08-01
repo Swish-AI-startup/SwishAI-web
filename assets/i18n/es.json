@@ -68,7 +68,9 @@
     "UPGRADE_HINT_LOGIN": "Inicia sesión para procesar hasta 5 minutos.",
     "LOW_SPEC_WARNING": "Tu PC tiene especificaciones inferiores a las recomendadas. El procesamiento tardará más de lo habitual. Recomendamos usar mejor hardware para velocidades de procesamiento más rápidas.",
     "MOBILE_PERF_WARNING": "Estás en un dispositivo móvil: el procesamiento es más lento y los vídeos están limitados a {{limit}} minuto. Para una mejor experiencia, usa un ordenador.",
-    "UPGRADE_HINT_SUBSCRIBE": "Suscríbete para procesar vídeos más largos."
+    "UPGRADE_HINT_SUBSCRIBE": "Suscríbete para procesar vídeos más largos.",
+    "SHOW_OVERLAY": "Mostrar superposición de detección",
+    "SHOW_OVERLAY_DESC": "Dibuja las cajas de detección, las etiquetas y la zona de tiro en el vídeo anotado. Desactivado deja solo el panel de puntuación y la trayectoria del balón."
   },
   "FILE_INFO": {
     "READY": "Listo para procesar",
@@ -178,7 +180,10 @@
     "CONFIRM_RENAME": "Confirmar",
     "CANCEL_RENAME": "Cancelar",
     "PLAYER_LOADING": "Cargando video...",
-    "PLAYER_NOT_AVAILABLE": "Archivo de video no disponible"
+    "PLAYER_NOT_AVAILABLE": "Archivo de video no disponible",
+    "PAGINATION_RANGE": "{{from}}–{{to}} de {{total}}",
+    "PAGINATION_PREV": "Anterior",
+    "PAGINATION_NEXT": "Siguiente"
   },
   "SUBSCRIPTION": {
     "TITLE": "Suscripción",
