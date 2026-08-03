@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "发送重置邮件",
     "FORGOT_PASSWORD_SUCCESS": "请查看您的邮箱以获取密码重置链接。",
     "FORGOT_PASSWORD_ERROR": "发送重置邮件失败，请重试。",
-    "BACK_TO_LOGIN": "返回登录"
+    "BACK_TO_LOGIN": "返回登录",
+    "OR": "或",
+    "CONTINUE_WITH_GOOGLE": "使用 Google 继续",
+    "CONTINUE_WITH_APPLE": "使用 Apple 继续",
+    "OAUTH_WAITING": "正在等待你在浏览器中完成登录…",
+    "OAUTH_CANCEL": "取消",
+    "OAUTH_ERROR": "登录失败，请重试。",
+    "OAUTH_CANCELLED": "登录已取消。",
+    "OAUTH_EMAIL_UNVERIFIED": "该邮箱地址未经提供商验证，无法用于登录。",
+    "OAUTH_EXPIRED": "登录耗时过长，请重试。"
   },
   "HARDWARE": {
     "TITLE": "系统硬件",

@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Envoyer l'e-mail de réinitialisation",
     "FORGOT_PASSWORD_SUCCESS": "Vérifiez votre e-mail pour trouver le lien de réinitialisation.",
     "FORGOT_PASSWORD_ERROR": "Échec de l'envoi de l'e-mail de réinitialisation. Veuillez réessayer.",
-    "BACK_TO_LOGIN": "Retour à la connexion"
+    "BACK_TO_LOGIN": "Retour à la connexion",
+    "OR": "ou",
+    "CONTINUE_WITH_GOOGLE": "Continuer avec Google",
+    "CONTINUE_WITH_APPLE": "Continuer avec Apple",
+    "OAUTH_WAITING": "En attente de la fin de la connexion dans votre navigateur…",
+    "OAUTH_CANCEL": "Annuler",
+    "OAUTH_ERROR": "Échec de la connexion. Veuillez réessayer.",
+    "OAUTH_CANCELLED": "La connexion a été annulée.",
+    "OAUTH_EMAIL_UNVERIFIED": "Le fournisseur n'a pas vérifié cette adresse e-mail, elle ne peut donc pas servir à se connecter.",
+    "OAUTH_EXPIRED": "La connexion a pris trop de temps. Veuillez réessayer."
   },
   "HARDWARE": {
     "TITLE": "Matériel Système",

@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Magpadala ng reset na email",
     "FORGOT_PASSWORD_SUCCESS": "Suriin ang iyong email para sa link na pag-reset ng password.",
     "FORGOT_PASSWORD_ERROR": "Hindi mapadala ang reset na email. Subukan muli.",
-    "BACK_TO_LOGIN": "Bumalik sa login"
+    "BACK_TO_LOGIN": "Bumalik sa login",
+    "OR": "o",
+    "CONTINUE_WITH_GOOGLE": "Magpatuloy gamit ang Google",
+    "CONTINUE_WITH_APPLE": "Magpatuloy gamit ang Apple",
+    "OAUTH_WAITING": "Hinihintay na matapos ang pag-sign in sa iyong browser…",
+    "OAUTH_CANCEL": "Kanselahin",
+    "OAUTH_ERROR": "Nabigo ang pag-sign in. Subukan ulit.",
+    "OAUTH_CANCELLED": "Kinansela ang pag-sign in.",
+    "OAUTH_EMAIL_UNVERIFIED": "Hindi na-verify ng provider ang email address na ito, kaya hindi ito magagamit para mag-sign in.",
+    "OAUTH_EXPIRED": "Masyadong natagalan ang pag-sign in. Subukan ulit."
   },
   "HARDWARE": {
     "TITLE": "Hardware ng Sistema",

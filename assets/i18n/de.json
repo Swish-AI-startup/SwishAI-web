@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Zurücksetze-E-Mail senden",
     "FORGOT_PASSWORD_SUCCESS": "Prüfen Sie Ihre E-Mail für den Passwort-Reset-Link.",
     "FORGOT_PASSWORD_ERROR": "Fehler beim Senden der Zurücksetze-E-Mail. Bitte versuchen Sie es erneut.",
-    "BACK_TO_LOGIN": "Zurück zur Anmeldung"
+    "BACK_TO_LOGIN": "Zurück zur Anmeldung",
+    "OR": "oder",
+    "CONTINUE_WITH_GOOGLE": "Mit Google fortfahren",
+    "CONTINUE_WITH_APPLE": "Mit Apple fortfahren",
+    "OAUTH_WAITING": "Warten auf den Abschluss der Anmeldung in Ihrem Browser…",
+    "OAUTH_CANCEL": "Abbrechen",
+    "OAUTH_ERROR": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "OAUTH_CANCELLED": "Die Anmeldung wurde abgebrochen.",
+    "OAUTH_EMAIL_UNVERIFIED": "Der Anbieter hat diese E-Mail-Adresse nicht bestätigt, daher kann sie nicht zur Anmeldung verwendet werden.",
+    "OAUTH_EXPIRED": "Die Anmeldung hat zu lange gedauert. Bitte versuchen Sie es erneut."
   },
   "HARDWARE": {
     "TITLE": "System-Hardware",

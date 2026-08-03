@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Αποστολή email επαναφοράς",
     "FORGOT_PASSWORD_SUCCESS": "Ελέγξτε το email σας για τον σύνδεσμο επαναφοράς κωδικού.",
     "FORGOT_PASSWORD_ERROR": "Αποτυχία αποστολής email επαναφοράς. Παρακαλώ δοκιμάστε ξανά.",
-    "BACK_TO_LOGIN": "Επιστροφή στη σύνδεση"
+    "BACK_TO_LOGIN": "Επιστροφή στη σύνδεση",
+    "OR": "ή",
+    "CONTINUE_WITH_GOOGLE": "Συνέχεια με Google",
+    "CONTINUE_WITH_APPLE": "Συνέχεια με Apple",
+    "OAUTH_WAITING": "Αναμονή για να ολοκληρώσετε τη σύνδεση στο πρόγραμμα περιήγησής σας…",
+    "OAUTH_CANCEL": "Ακύρωση",
+    "OAUTH_ERROR": "Η σύνδεση απέτυχε. Δοκιμάστε ξανά.",
+    "OAUTH_CANCELLED": "Η σύνδεση ακυρώθηκε.",
+    "OAUTH_EMAIL_UNVERIFIED": "Ο πάροχος δεν έχει επαληθεύσει αυτή τη διεύθυνση email, οπότε δεν μπορεί να χρησιμοποιηθεί για σύνδεση.",
+    "OAUTH_EXPIRED": "Η σύνδεση άργησε πολύ. Δοκιμάστε ξανά."
   },
   "HARDWARE": {
     "TITLE": "Υλικό Συστήματος",

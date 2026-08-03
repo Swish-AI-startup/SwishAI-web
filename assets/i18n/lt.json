@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Siųsti atstatymo el. laišką",
     "FORGOT_PASSWORD_SUCCESS": "Patikrinkite el. paštą dėl slaptažodžio atstatymo nuorodos.",
     "FORGOT_PASSWORD_ERROR": "Nepavyko išsiųsti atstatymo el. laiško. Bandykite dar kartą.",
-    "BACK_TO_LOGIN": "Grįžti į prisijungimą"
+    "BACK_TO_LOGIN": "Grįžti į prisijungimą",
+    "OR": "arba",
+    "CONTINUE_WITH_GOOGLE": "Tęsti su „Google“",
+    "CONTINUE_WITH_APPLE": "Tęsti su „Apple“",
+    "OAUTH_WAITING": "Laukiama, kol baigsite prisijungti naršyklėje…",
+    "OAUTH_CANCEL": "Atšaukti",
+    "OAUTH_ERROR": "Prisijungti nepavyko. Bandykite dar kartą.",
+    "OAUTH_CANCELLED": "Prisijungimas atšauktas.",
+    "OAUTH_EMAIL_UNVERIFIED": "Tiekėjas nepatvirtino šio el. pašto adreso, todėl juo prisijungti negalima.",
+    "OAUTH_EXPIRED": "Prisijungimas užtruko per ilgai. Bandykite dar kartą."
   },
   "HARDWARE": {
     "TITLE": "Sistemos aparatinė įranga",

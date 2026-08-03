@@ -127,7 +127,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Send Reset Email",
     "FORGOT_PASSWORD_SUCCESS": "Check your email for a password reset link.",
     "FORGOT_PASSWORD_ERROR": "Failed to send reset email. Please try again.",
-    "BACK_TO_LOGIN": "Back to Login"
+    "BACK_TO_LOGIN": "Back to Login",
+    "OR": "or",
+    "CONTINUE_WITH_GOOGLE": "Continue with Google",
+    "CONTINUE_WITH_APPLE": "Continue with Apple",
+    "OAUTH_WAITING": "Waiting for you to finish signing in in your browser…",
+    "OAUTH_CANCEL": "Cancel",
+    "OAUTH_ERROR": "Sign-in failed. Please try again.",
+    "OAUTH_CANCELLED": "Sign-in was cancelled.",
+    "OAUTH_EMAIL_UNVERIFIED": "Your provider has not verified this email address, so it cannot be used to sign in.",
+    "OAUTH_EXPIRED": "That sign-in took too long. Please try again."
   },
   "HARDWARE": {
     "TITLE": "System Hardware",

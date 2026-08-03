@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "リセットメールを送信",
     "FORGOT_PASSWORD_SUCCESS": "パスワードリセットのリンクをメールでご確認ください。",
     "FORGOT_PASSWORD_ERROR": "リセットメールの送信に失敗しました。再試行してください。",
-    "BACK_TO_LOGIN": "ログインに戻る"
+    "BACK_TO_LOGIN": "ログインに戻る",
+    "OR": "または",
+    "CONTINUE_WITH_GOOGLE": "Google で続行",
+    "CONTINUE_WITH_APPLE": "Apple で続行",
+    "OAUTH_WAITING": "ブラウザでのサインインの完了を待っています…",
+    "OAUTH_CANCEL": "キャンセル",
+    "OAUTH_ERROR": "サインインに失敗しました。もう一度お試しください。",
+    "OAUTH_CANCELLED": "サインインがキャンセルされました。",
+    "OAUTH_EMAIL_UNVERIFIED": "プロバイダーがこのメールアドレスを確認していないため、サインインには使用できません。",
+    "OAUTH_EXPIRED": "サインインに時間がかかりすぎました。もう一度お試しください。"
   },
   "HARDWARE": {
     "TITLE": "システムハードウェア",

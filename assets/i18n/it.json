@@ -126,7 +126,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Invia e-mail di ripristino",
     "FORGOT_PASSWORD_SUCCESS": "Controlla la tua e-mail per il link di ripristino della password.",
     "FORGOT_PASSWORD_ERROR": "Invio dell'e-mail di ripristino fallito. Riprova.",
-    "BACK_TO_LOGIN": "Torna al login"
+    "BACK_TO_LOGIN": "Torna al login",
+    "OR": "oppure",
+    "CONTINUE_WITH_GOOGLE": "Continua con Google",
+    "CONTINUE_WITH_APPLE": "Continua con Apple",
+    "OAUTH_WAITING": "In attesa che tu completi l'accesso nel browser…",
+    "OAUTH_CANCEL": "Annulla",
+    "OAUTH_ERROR": "Accesso non riuscito. Riprova.",
+    "OAUTH_CANCELLED": "Accesso annullato.",
+    "OAUTH_EMAIL_UNVERIFIED": "Il provider non ha verificato questo indirizzo email, quindi non può essere usato per accedere.",
+    "OAUTH_EXPIRED": "L'accesso ha richiesto troppo tempo. Riprova."
   },
   "HARDWARE": {
     "TITLE": "Hardware di Sistema",

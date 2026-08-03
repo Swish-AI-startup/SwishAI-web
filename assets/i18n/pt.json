@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Enviar e-mail de redefinição",
     "FORGOT_PASSWORD_SUCCESS": "Verifique seu e-mail para um link de redefinição de senha.",
     "FORGOT_PASSWORD_ERROR": "Falha ao enviar o e-mail de redefinição. Tente novamente.",
-    "BACK_TO_LOGIN": "Voltar ao login"
+    "BACK_TO_LOGIN": "Voltar ao login",
+    "OR": "ou",
+    "CONTINUE_WITH_GOOGLE": "Continuar com o Google",
+    "CONTINUE_WITH_APPLE": "Continuar com a Apple",
+    "OAUTH_WAITING": "Aguardando você concluir o login no navegador…",
+    "OAUTH_CANCEL": "Cancelar",
+    "OAUTH_ERROR": "Não foi possível entrar. Tente novamente.",
+    "OAUTH_CANCELLED": "O login foi cancelado.",
+    "OAUTH_EMAIL_UNVERIFIED": "O provedor não verificou este e-mail, então ele não pode ser usado para entrar.",
+    "OAUTH_EXPIRED": "O login demorou demais. Tente novamente."
   },
   "HARDWARE": {
     "TITLE": "Hardware do Sistema",

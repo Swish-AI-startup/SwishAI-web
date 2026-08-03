@@ -124,7 +124,16 @@
     "FORGOT_PASSWORD_SUBMIT": "Enviar correo de restablecimiento",
     "FORGOT_PASSWORD_SUCCESS": "Revisa tu correo para encontrar el enlace de restablecimiento.",
     "FORGOT_PASSWORD_ERROR": "Error al enviar el correo de restablecimiento. Inténtalo de nuevo.",
-    "BACK_TO_LOGIN": "Volver al inicio de sesión"
+    "BACK_TO_LOGIN": "Volver al inicio de sesión",
+    "OR": "o",
+    "CONTINUE_WITH_GOOGLE": "Continuar con Google",
+    "CONTINUE_WITH_APPLE": "Continuar con Apple",
+    "OAUTH_WAITING": "Esperando a que termines de iniciar sesión en el navegador…",
+    "OAUTH_CANCEL": "Cancelar",
+    "OAUTH_ERROR": "No se pudo iniciar sesión. Inténtalo de nuevo.",
+    "OAUTH_CANCELLED": "Se canceló el inicio de sesión.",
+    "OAUTH_EMAIL_UNVERIFIED": "El proveedor no ha verificado esta dirección de correo, así que no se puede usar para iniciar sesión.",
+    "OAUTH_EXPIRED": "El inicio de sesión tardó demasiado. Inténtalo de nuevo."
   },
   "HARDWARE": {
     "TITLE": "Hardware del Sistema",
