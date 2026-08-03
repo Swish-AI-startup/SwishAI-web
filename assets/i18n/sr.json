@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "Користите мобилни уређај: обрада је спорија, а видео снимци су ограничени на {{limit}} минут. За најбоље искуство користите рачунар.",
     "UPGRADE_HINT_SUBSCRIBE": "Претплати се да обрађујеш дуже видее.",
     "SHOW_OVERLAY": "Prikaži sloj detekcije",
-    "SHOW_OVERLAY_DESC": "Crta okvire detekcije, oznake i zonu šuta na obeleženom snimku. Isključeno, ostaju samo tabla sa rezultatom i putanja lopte."
+    "SHOW_OVERLAY_DESC": "Crta okvire detekcije, oznake i zonu šuta na obeleženom snimku. Isključeno, ostaju samo tabla sa rezultatom i putanja lopte.",
+    "HIDE_WATERMARK": "Sakrij vodeni žig",
+    "HIDE_WATERMARK_DESC": "Uklanja SwishAI logo iz obrađenog snimka.",
+    "HIDE_WATERMARK_PRO": "Dostupno uz Pro pretplatu."
   },
   "FILE_INFO": {
     "READY": "Спремно за обраду",

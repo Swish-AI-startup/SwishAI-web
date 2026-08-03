@@ -71,7 +71,10 @@
     "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta e i video sono limitati a {{limit}} minuto. Per la migliore esperienza, usa un computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi.",
     "SHOW_OVERLAY": "Mostra overlay di rilevamento",
-    "SHOW_OVERLAY_DESC": "Disegna i box di rilevamento, le etichette e la zona di tiro sul video annotato. Se disattivato restano solo il pannello del punteggio e la traiettoria della palla."
+    "SHOW_OVERLAY_DESC": "Disegna i box di rilevamento, le etichette e la zona di tiro sul video annotato. Se disattivato restano solo il pannello del punteggio e la traiettoria della palla.",
+    "HIDE_WATERMARK": "Nascondi filigrana",
+    "HIDE_WATERMARK_DESC": "Rimuove il logo SwishAI dal video finale.",
+    "HIDE_WATERMARK_PRO": "Disponibile con un abbonamento Pro."
   },
   "FILE_INFO": {
     "READY": "Pronto per l'elaborazione",

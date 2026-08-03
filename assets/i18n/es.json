@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "Estás en un dispositivo móvil: el procesamiento es más lento y los vídeos están limitados a {{limit}} minuto. Para una mejor experiencia, usa un ordenador.",
     "UPGRADE_HINT_SUBSCRIBE": "Suscríbete para procesar vídeos más largos.",
     "SHOW_OVERLAY": "Mostrar superposición de detección",
-    "SHOW_OVERLAY_DESC": "Dibuja las cajas de detección, las etiquetas y la zona de tiro en el vídeo anotado. Desactivado deja solo el panel de puntuación y la trayectoria del balón."
+    "SHOW_OVERLAY_DESC": "Dibuja las cajas de detección, las etiquetas y la zona de tiro en el vídeo anotado. Desactivado deja solo el panel de puntuación y la trayectoria del balón.",
+    "HIDE_WATERMARK": "Ocultar marca de agua",
+    "HIDE_WATERMARK_DESC": "Elimina el logotipo de SwishAI del vídeo final.",
+    "HIDE_WATERMARK_PRO": "Disponible con una suscripción Pro."
   },
   "FILE_INFO": {
     "READY": "Listo para procesar",

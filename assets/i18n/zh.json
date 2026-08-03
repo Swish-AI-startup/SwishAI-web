@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "您正在使用移动设备：处理速度较慢，视频时长限制为 {{limit}} 分钟。为获得最佳体验，请使用电脑。",
     "UPGRADE_HINT_SUBSCRIBE": "订阅后可处理更长的视频。",
     "SHOW_OVERLAY": "显示检测叠加层",
-    "SHOW_OVERLAY_DESC": "在标注视频上绘制检测框、标签和投篮区域。关闭后只保留比分面板和篮球轨迹。"
+    "SHOW_OVERLAY_DESC": "在标注视频上绘制检测框、标签和投篮区域。关闭后只保留比分面板和篮球轨迹。",
+    "HIDE_WATERMARK": "隐藏水印",
+    "HIDE_WATERMARK_DESC": "从输出视频中移除 SwishAI 标志。",
+    "HIDE_WATERMARK_PRO": "订阅 Pro 后可用。"
   },
   "FILE_INFO": {
     "READY": "准备处理",

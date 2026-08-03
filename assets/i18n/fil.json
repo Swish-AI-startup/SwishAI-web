@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "Gumagamit ka ng mobile device: mas mabagal ang pagpoproseso at limitado sa {{limit}} minuto ang mga video. Para sa pinakamahusay na karanasan, gumamit ng computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Mag-subscribe para makaproseso ng mas mahabang video.",
     "SHOW_OVERLAY": "Ipakita ang detection overlay",
-    "SHOW_OVERLAY_DESC": "Iginuguhit ang mga detection box, label at shot zone sa video. Kapag naka-off, ang score panel at ang trajectory ng bola lang ang makikita."
+    "SHOW_OVERLAY_DESC": "Iginuguhit ang mga detection box, label at shot zone sa video. Kapag naka-off, ang score panel at ang trajectory ng bola lang ang makikita.",
+    "HIDE_WATERMARK": "Itago ang watermark",
+    "HIDE_WATERMARK_DESC": "Inaalis ang SwishAI logo mula sa naprosesong video.",
+    "HIDE_WATERMARK_PRO": "Available sa Pro subscription."
   },
   "FILE_INFO": {
     "READY": "Handa na para iproseso",

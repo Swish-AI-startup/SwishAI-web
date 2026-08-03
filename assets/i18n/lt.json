@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "Naudojate mobilųjį įrenginį: apdorojimas yra lėtesnis, o vaizdo įrašai ribojami iki {{limit}} minutės. Geriausiems rezultatams naudokite kompiuterį.",
     "UPGRADE_HINT_SUBSCRIBE": "Užsisakykite prenumeratą, kad apdorotumėte ilgesnius įrašus.",
     "SHOW_OVERLAY": "Rodyti aptikimo sluoksnį",
-    "SHOW_OVERLAY_DESC": "Piešia aptikimo rėmelius, etiketes ir metimo zoną anotuotame vaizdo įraše. Išjungus lieka tik rezultatų skydelis ir kamuolio trajektorija."
+    "SHOW_OVERLAY_DESC": "Piešia aptikimo rėmelius, etiketes ir metimo zoną anotuotame vaizdo įraše. Išjungus lieka tik rezultatų skydelis ir kamuolio trajektorija.",
+    "HIDE_WATERMARK": "Slėpti vandens ženklą",
+    "HIDE_WATERMARK_DESC": "Pašalina SwishAI logotipą iš galutinio vaizdo įrašo.",
+    "HIDE_WATERMARK_PRO": "Prieinama su Pro prenumerata."
   },
   "FILE_INFO": {
     "READY": "Paruošta apdoroti",

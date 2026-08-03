@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "Sie verwenden ein Mobilgerät: Die Verarbeitung ist langsamer und Videos sind auf {{limit}} Minute begrenzt. Für die beste Erfahrung verwenden Sie einen Computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Schließe ein Abonnement ab, um längere Videos zu verarbeiten.",
     "SHOW_OVERLAY": "Erkennungs-Overlay anzeigen",
-    "SHOW_OVERLAY_DESC": "Zeichnet Erkennungsrahmen, Beschriftungen und die Wurfzone in das annotierte Video. Ausgeschaltet bleiben nur das Punktefeld und die Ballflugbahn."
+    "SHOW_OVERLAY_DESC": "Zeichnet Erkennungsrahmen, Beschriftungen und die Wurfzone in das annotierte Video. Ausgeschaltet bleiben nur das Punktefeld und die Ballflugbahn.",
+    "HIDE_WATERMARK": "Wasserzeichen ausblenden",
+    "HIDE_WATERMARK_DESC": "Entfernt das SwishAI-Logo aus dem Ausgabevideo.",
+    "HIDE_WATERMARK_PRO": "Verfügbar mit einem Pro-Abonnement."
   },
   "FILE_INFO": {
     "READY": "Bereit zur Verarbeitung",

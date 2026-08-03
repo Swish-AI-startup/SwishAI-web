@@ -70,7 +70,10 @@
     "MOBILE_PERF_WARNING": "Vous êtes sur un appareil mobile : le traitement est plus lent et les vidéos sont limitées à {{limit}} minute. Pour une meilleure expérience, utilisez un ordinateur.",
     "UPGRADE_HINT_SUBSCRIBE": "Abonnez-vous pour traiter des vidéos plus longues.",
     "SHOW_OVERLAY": "Afficher la superposition de détection",
-    "SHOW_OVERLAY_DESC": "Dessine les cadres de détection, les étiquettes et la zone de tir sur la vidéo annotée. Désactivé, il ne reste que le panneau de score et la trajectoire du ballon."
+    "SHOW_OVERLAY_DESC": "Dessine les cadres de détection, les étiquettes et la zone de tir sur la vidéo annotée. Désactivé, il ne reste que le panneau de score et la trajectoire du ballon.",
+    "HIDE_WATERMARK": "Masquer le filigrane",
+    "HIDE_WATERMARK_DESC": "Supprime le logo SwishAI de la vidéo finale.",
+    "HIDE_WATERMARK_PRO": "Disponible avec un abonnement Pro."
   },
   "FILE_INFO": {
     "READY": "Prêt à traiter",

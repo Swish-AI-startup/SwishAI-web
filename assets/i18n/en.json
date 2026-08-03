@@ -72,7 +72,10 @@
     "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here and videos are limited to {{limit}} minute. For the best experience, use a computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos.",
     "SHOW_OVERLAY": "Show detection overlay",
-    "SHOW_OVERLAY_DESC": "Draws detection boxes, labels and the shot zone on the annotated video. Off means only the score panel and the ball trajectory."
+    "SHOW_OVERLAY_DESC": "Draws detection boxes, labels and the shot zone on the annotated video. Off means only the score panel and the ball trajectory.",
+    "HIDE_WATERMARK": "Hide watermark",
+    "HIDE_WATERMARK_DESC": "Removes the SwishAI logo from the output video.",
+    "HIDE_WATERMARK_PRO": "Available with a Pro subscription."
   },
   "FILE_INFO": {
     "READY": "Ready to process",
