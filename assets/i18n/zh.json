@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "处理时间",
     "CANCEL": "取消",
     "CONFIRM": "确认",
-    "CLOSE": "关闭"
+    "CLOSE": "关闭",
+    "LOADING": "加载中...",
+    "BACK": "返回"
   },
   "NAV": {
     "PROCESS_VIDEO": "处理视频",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "退出",
     "CONFIRM_NO": "取消"
   },
+  "CONSENT": {
+    "TITLE": "分析 Cookie",
+    "DESC": "我们希望通过 Google Analytics 了解应用的使用情况。在你同意之前不会加载任何内容，你的视频也永远不会参与其中。",
+    "ACCEPT": "接受",
+    "REJECT": "拒绝"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. 保留所有权利。"
+    "COPYRIGHT": "© {{year}} SwishAI. 保留所有权利。",
+    "CONSENT_SETTINGS": "Cookie 设置",
+    "TERMS": "条款",
+    "PRIVACY": "隐私",
+    "REFUNDS": "退款",
+    "IMPRINT": "公司信息"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "服务条款",
+    "TITLE_PRIVACY": "隐私声明",
+    "TITLE_REFUNDS": "退款与撤销权",
+    "TITLE_IMPRINT": "公司信息",
+    "LOAD_FAILED": "无法加载该文档，请重试。"
   },
   "LOGO": {
     "ALT": "SwishAI 标志"
@@ -58,7 +78,9 @@
     "DURATION_TITLE": "最大时长",
     "DURATION_DESC": "移动设备或未登录 <strong>1 分钟</strong>、登录后 <strong>5 分钟</strong>、订阅后<strong>不限时长</strong>。超出部分会被裁剪。",
     "EXAMPLE_PROMPT": "想看看处理后的效果吗？",
-    "EXAMPLE_LINK": "观看示例视频！"
+    "EXAMPLE_LINK": "观看示例视频！",
+    "WEBGPU_WARNING": "您的浏览器不支持 WebGPU。没有它，处理速度会明显变慢。为获得更好的性能，请使用支持 WebGPU 的浏览器（例如 Chrome 或 Edge）。",
+    "NATIVE_FALLBACK_WARNING": "GPU 加速流水线未能启动，因此该视频正由较慢的应用内流水线处理。"
   },
   "UPLOAD": {
     "CLICK": "点击上传视频",
@@ -85,7 +107,15 @@
     "DOWNLOAD_RESULT": "下载结果",
     "PROCESS_ANOTHER": "处理另一个视频",
     "STOPPED_MSG": "处理已停止",
-    "START_ANALYSIS": "开始分析"
+    "START_ANALYSIS": "开始分析",
+    "SHARE_RESULT": "分享你的结果",
+    "SHARE_TO": "分享到 {{network}}",
+    "SHARE_OTHER": "分享到其他应用",
+    "SHARE_HINT": "会打开设备的分享菜单，并附上该视频。"
+  },
+  "SHARE": {
+    "TITLE": "我的 SwishAI 结果",
+    "TEXT": "{{shots}} 次出手命中 {{baskets}} 次 —— 由 SwishAI 分析。"
   },
   "PROGRESS": {
     "UPLOADING": "正在上传...",
@@ -94,7 +124,11 @@
     "RESULT_PREVIEW": "结果预览",
     "LOADING_VIDEO": "正在加载视频…",
     "ERROR_TITLE": "哎呀！出错了。",
-    "ERROR_DESC": "发生未知错误，请尝试其他视频。"
+    "ERROR_DESC": "发生未知错误，请尝试其他视频。",
+    "SOFTWARE_DECODE_NOTICE": "你的浏览器无法直接解码 HEVC，因此我们改用软件解码 — 这会更慢。想要更快：iPhone › 设置 › 相机 › 格式 › 兼容性优先，或将文件转换为 H.264。",
+    "ERROR_HEVC": "无法解码这段 HEVC 视频。请尝试将其转换为 H.264 MP4。",
+    "ERROR_CODEC": "这段视频使用了浏览器在这里无法读取的格式（{{codecs}}）。请转换为 H.264 的 MP4 后重试。",
+    "ERROR_UNREADABLE_FILE": "无法将该文件读取为 MP4 视频。请尝试使用 H.264 录制的 MP4。"
   },
   "AUTH": {
     "LOGIN": "登录",
@@ -110,6 +144,7 @@
     "LOGIN_ERROR": "邮箱或密码无效，请重试。",
     "LOGIN_UNVERIFIED": "登录前请先确认您的邮箱地址。",
     "REGISTER_ERROR": "注册失败，请重试。",
+    "REGISTER_EMAIL_TAKEN": "该邮箱已注册账号。",
     "REGISTER_SUCCESS": "账户已创建！请查看您的邮箱以确认账户。",
     "USERNAME": "用户名",
     "PROFILE": "个人资料",
@@ -133,7 +168,15 @@
     "OAUTH_ERROR": "登录失败，请重试。",
     "OAUTH_CANCELLED": "登录已取消。",
     "OAUTH_EMAIL_UNVERIFIED": "该邮箱地址未经提供商验证，无法用于登录。",
-    "OAUTH_EXPIRED": "登录耗时过长，请重试。"
+    "OAUTH_EXPIRED": "登录耗时过长，请重试。",
+    "DELETE_ACCOUNT": "删除账号",
+    "DELETE_ACCOUNT_TITLE": "危险操作",
+    "DELETE_ACCOUNT_WARNING": "这将永久删除你的账号、已保存的数据统计以及订阅记录，且无法撤销。已保存在你设备上的视频不受影响。",
+    "DELETE_ACCOUNT_PRO_WARNING": "你的 Pro 订阅会立即取消，当前周期的剩余时间将作废。",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "输入 {{email}} 以确认",
+    "DELETE_ACCOUNT_CONFIRM": "永久删除",
+    "DELETE_ACCOUNT_ERROR": "无法删除账号，请重试。",
+    "ACCEPT_LEGAL": "我接受服务条款和隐私声明"
   },
   "HARDWARE": {
     "TITLE": "系统硬件",
@@ -161,7 +204,22 @@
     "UNKNOWN": "—",
     "LOADING": "正在加载硬件信息...",
     "ERROR": "无法加载硬件信息。",
-    "WEBGL": "WebGL 支持"
+    "WEBGPU": "WebGPU 支持",
+    "PIPELINE_TITLE": "处理流水线",
+    "PIPELINE": "流水线",
+    "PIPELINE_NATIVE": "原生 (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "应用内网页流水线（回退）",
+    "PIPELINE_WEBVIEW_NOTE": "原生流水线未能启动，因此由较慢的应用内流水线接管",
+    "NATIVE_EP": "执行提供程序",
+    "NATIVE_EP_CPU_NOTE": "未能注册任何 GPU 提供程序 — 正在使用 CPU 运行",
+    "INFERENCE_BACKEND": "推理后端",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "WebAssembly 线程",
+    "WASM_THREADS_AVAILABLE": "可用的 WebAssembly 线程",
+    "WASM_THREADS_NOTE": "单线程：SharedArrayBuffer 不可用，可能是页面未启用跨源隔离，或是 webview 未实现该特性",
+    "NOT_MEASURED": "尚未测量",
+    "NOT_MEASURED_NOTE": "处理一个视频即可测量"
   },
   "DASHBOARD": {
     "TITLE": "仪表盘",

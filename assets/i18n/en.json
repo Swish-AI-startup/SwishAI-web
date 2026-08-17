@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "Processing time",
     "CANCEL": "Cancel",
     "CONFIRM": "Confirm",
-    "CLOSE": "Close"
+    "CLOSE": "Close",
+    "LOADING": "Loading...",
+    "BACK": "Back"
   },
   "NAV": {
     "PROCESS_VIDEO": "Process Video",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "Exit",
     "CONFIRM_NO": "Cancel"
   },
+  "CONSENT": {
+    "TITLE": "Analytics cookies",
+    "DESC": "We'd like to measure how the app is used, with Google Analytics. Nothing is loaded until you accept, and your videos are never part of it.",
+    "ACCEPT": "Accept",
+    "REJECT": "Reject"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. All rights reserved."
+    "COPYRIGHT": "© {{year}} SwishAI. All rights reserved.",
+    "CONSENT_SETTINGS": "Cookie settings",
+    "TERMS": "Terms",
+    "PRIVACY": "Privacy",
+    "REFUNDS": "Refunds",
+    "IMPRINT": "Company info"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "Terms of Service",
+    "TITLE_PRIVACY": "Privacy Notice",
+    "TITLE_REFUNDS": "Refunds and Withdrawal",
+    "TITLE_IMPRINT": "Company Information",
+    "LOAD_FAILED": "This document could not be loaded. Please try again."
   },
   "LOGO": {
     "ALT": "SwishAI Logo"
@@ -87,7 +107,15 @@
     "DOWNLOAD_RESULT": "Download Result",
     "PROCESS_ANOTHER": "Process Another Video",
     "STOPPED_MSG": "Processing was stopped",
-    "START_ANALYSIS": "Start Analysis"
+    "START_ANALYSIS": "Start Analysis",
+    "SHARE_RESULT": "Share your result",
+    "SHARE_TO": "Share to {{network}}",
+    "SHARE_OTHER": "Share somewhere else",
+    "SHARE_HINT": "Opens your device's share menu with the video attached."
+  },
+  "SHARE": {
+    "TITLE": "My SwishAI result",
+    "TEXT": "{{baskets}} of {{shots}} shots made — analysed with SwishAI."
   },
   "PROGRESS": {
     "UPLOADING": "Uploading...",
@@ -96,7 +124,11 @@
     "RESULT_PREVIEW": "Result Preview",
     "LOADING_VIDEO": "Loading video…",
     "ERROR_TITLE": "Oops! Something went wrong.",
-    "ERROR_DESC": "An unknown error occurred. Please try a different video."
+    "ERROR_DESC": "An unknown error occurred. Please try a different video.",
+    "SOFTWARE_DECODE_NOTICE": "Your browser can't decode HEVC directly, so we're doing it in software — this will take longer. To speed it up: iPhone › Settings › Camera › Formats › Most Compatible, or convert the file to H.264.",
+    "ERROR_HEVC": "This HEVC video couldn't be decoded. Try converting it to H.264 MP4.",
+    "ERROR_CODEC": "This video uses a format the browser cannot read here ({{codecs}}). Convert it to H.264 MP4 and try again.",
+    "ERROR_UNREADABLE_FILE": "This file could not be read as an MP4 video. Try an MP4 recorded with H.264."
   },
   "AUTH": {
     "LOGIN": "Login",
@@ -136,7 +168,15 @@
     "OAUTH_ERROR": "Sign-in failed. Please try again.",
     "OAUTH_CANCELLED": "Sign-in was cancelled.",
     "OAUTH_EMAIL_UNVERIFIED": "Your provider has not verified this email address, so it cannot be used to sign in.",
-    "OAUTH_EXPIRED": "That sign-in took too long. Please try again."
+    "OAUTH_EXPIRED": "That sign-in took too long. Please try again.",
+    "DELETE_ACCOUNT": "Delete account",
+    "DELETE_ACCOUNT_TITLE": "Danger zone",
+    "DELETE_ACCOUNT_WARNING": "This permanently deletes your account, your saved stats and your subscription record. It cannot be undone. Videos already saved on your device are not touched.",
+    "DELETE_ACCOUNT_PRO_WARNING": "Your Pro subscription is cancelled immediately and the remainder of the current period is lost.",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "Type {{email}} to confirm",
+    "DELETE_ACCOUNT_CONFIRM": "Delete permanently",
+    "DELETE_ACCOUNT_ERROR": "The account could not be deleted. Please try again.",
+    "ACCEPT_LEGAL": "I accept the terms of service and the privacy notice"
   },
   "HARDWARE": {
     "TITLE": "System Hardware",

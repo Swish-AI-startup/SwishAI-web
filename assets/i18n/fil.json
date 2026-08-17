@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "Oras ng Pagpoproseso",
     "CANCEL": "Kanselahin",
     "CONFIRM": "Kumpirmahin",
-    "CLOSE": "Isara"
+    "CLOSE": "Isara",
+    "LOADING": "Naglo-load...",
+    "BACK": "Bumalik"
   },
   "NAV": {
     "PROCESS_VIDEO": "Iproseso ang Video",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "Lumabas",
     "CONFIRM_NO": "Kanselahin"
   },
+  "CONSENT": {
+    "TITLE": "Analytics cookies",
+    "DESC": "Gusto naming sukatin kung paano ginagamit ang app, gamit ang Google Analytics. Walang naglo-load hangga't hindi ka pumapayag, at hindi kailanman kasama ang mga video mo.",
+    "ACCEPT": "Tanggapin",
+    "REJECT": "Tanggihan"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. Lahat ng karapatan ay nakalaan."
+    "COPYRIGHT": "© {{year}} SwishAI. Lahat ng karapatan ay nakalaan.",
+    "CONSENT_SETTINGS": "Mga setting ng cookie",
+    "TERMS": "Mga tuntunin",
+    "PRIVACY": "Privacy",
+    "REFUNDS": "Mga refund",
+    "IMPRINT": "Impormasyon ng kompanya"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "Mga tuntunin ng serbisyo",
+    "TITLE_PRIVACY": "Paunawa sa privacy",
+    "TITLE_REFUNDS": "Mga refund at pag-urong sa kontrata",
+    "TITLE_IMPRINT": "Impormasyon ng kompanya",
+    "LOAD_FAILED": "Hindi ma-load ang dokumento. Subukan muli."
   },
   "LOGO": {
     "ALT": "Logo ng SwishAI"
@@ -58,7 +78,9 @@
     "DURATION_TITLE": "Pinakamataas na Tagal",
     "DURATION_DESC": "<strong>1 min</strong> sa mobile o hindi naka-log in, <strong>5 min</strong> kapag naka-log in, at <strong>walang limitasyon</strong> kapag may subscription. Pinuputol ang mga video sa limitasyon.",
     "EXAMPLE_PROMPT": "Gusto mong makita ang resulta?",
-    "EXAMPLE_LINK": "Panoorin ang halimbawang video!"
+    "EXAMPLE_LINK": "Panoorin ang halimbawang video!",
+    "WEBGPU_WARNING": "Hindi available ang WebGPU sa iyong browser. Kung wala ito, mas mabagal ang pagproseso. Para sa mas mahusay na performance, gumamit ng browser na sumusuporta sa WebGPU (halimbawa, Chrome o Edge).",
+    "NATIVE_FALLBACK_WARNING": "Hindi nakapagsimula ang pipeline na pinabilis ng GPU, kaya pinoproseso ang video na ito ng mas mabagal na in-app na pipeline."
   },
   "UPLOAD": {
     "CLICK": "I-click para Mag-upload ng Video",
@@ -85,7 +107,15 @@
     "DOWNLOAD_RESULT": "I-download ang Resulta",
     "PROCESS_ANOTHER": "Iproseso ang Isa Pang Video",
     "STOPPED_MSG": "Ang pagpoproseso ay itinigil",
-    "START_ANALYSIS": "Simulan ang Pagsusuri"
+    "START_ANALYSIS": "Simulan ang Pagsusuri",
+    "SHARE_RESULT": "I-share ang resulta mo",
+    "SHARE_TO": "I-share sa {{network}}",
+    "SHARE_OTHER": "I-share sa iba",
+    "SHARE_HINT": "Bubuksan nito ang share menu ng device mo, kalakip ang video."
+  },
+  "SHARE": {
+    "TITLE": "Ang resulta ko sa SwishAI",
+    "TEXT": "{{baskets}} sa {{shots}} shots ang pumasok — sinuri gamit ang SwishAI."
   },
   "PROGRESS": {
     "UPLOADING": "Ina-upload...",
@@ -94,7 +124,11 @@
     "RESULT_PREVIEW": "Preview ng Resulta",
     "LOADING_VIDEO": "Nino-load ang video…",
     "ERROR_TITLE": "Oops! May nangyaring mali.",
-    "ERROR_DESC": "Naganap ang hindi kilalang error. Mangyaring subukan ang ibang video."
+    "ERROR_DESC": "Naganap ang hindi kilalang error. Mangyaring subukan ang ibang video.",
+    "SOFTWARE_DECODE_NOTICE": "Hindi direktang ma-decode ng browser mo ang HEVC, kaya sa software namin ito ginagawa — mas matatagalan ito. Para mapabilis: iPhone › Settings › Camera › Formats › Most Compatible, o i-convert ang file sa H.264.",
+    "ERROR_HEVC": "Hindi ma-decode ang HEVC video na ito. Subukang i-convert ito sa H.264 MP4.",
+    "ERROR_CODEC": "Gumagamit ang video na ito ng format na hindi kayang basahin ng browser dito ({{codecs}}). I-convert ito sa H.264 MP4 at subukan ulit.",
+    "ERROR_UNREADABLE_FILE": "Hindi mabasa ang file na ito bilang MP4 video. Subukan ang MP4 na naka-record sa H.264."
   },
   "AUTH": {
     "LOGIN": "Mag-login",
@@ -110,6 +144,7 @@
     "LOGIN_ERROR": "Mali ang email o password. Subukan muli.",
     "LOGIN_UNVERIFIED": "Pakikumpirma ang iyong email address bago mag-login.",
     "REGISTER_ERROR": "Nabigo ang pagpaparehistro. Subukan muli.",
+    "REGISTER_EMAIL_TAKEN": "May account nang gumagamit ng email na ito.",
     "REGISTER_SUCCESS": "Account na nagawa! Suriin ang iyong email para kumpirmahin ang account.",
     "USERNAME": "Username",
     "PROFILE": "Profile",
@@ -133,7 +168,15 @@
     "OAUTH_ERROR": "Nabigo ang pag-sign in. Subukan ulit.",
     "OAUTH_CANCELLED": "Kinansela ang pag-sign in.",
     "OAUTH_EMAIL_UNVERIFIED": "Hindi na-verify ng provider ang email address na ito, kaya hindi ito magagamit para mag-sign in.",
-    "OAUTH_EXPIRED": "Masyadong natagalan ang pag-sign in. Subukan ulit."
+    "OAUTH_EXPIRED": "Masyadong natagalan ang pag-sign in. Subukan ulit.",
+    "DELETE_ACCOUNT": "I-delete ang account",
+    "DELETE_ACCOUNT_TITLE": "Danger zone",
+    "DELETE_ACCOUNT_WARNING": "Permanenteng buburahin nito ang account mo, ang mga naka-save mong stats at ang record ng subscription mo. Hindi ito maibabalik. Hindi apektado ang mga video na naka-save na sa device mo.",
+    "DELETE_ACCOUNT_PRO_WARNING": "Agad na makakansela ang Pro subscription mo at mawawala ang natitirang bahagi ng kasalukuyang period.",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "I-type ang {{email}} para kumpirmahin",
+    "DELETE_ACCOUNT_CONFIRM": "Burahin nang permanente",
+    "DELETE_ACCOUNT_ERROR": "Hindi na-delete ang account. Pakisubukan ulit.",
+    "ACCEPT_LEGAL": "Tinatanggap ko ang mga tuntunin ng serbisyo at ang paunawa sa privacy"
   },
   "HARDWARE": {
     "TITLE": "Hardware ng Sistema",
@@ -161,7 +204,22 @@
     "UNKNOWN": "—",
     "LOADING": "Nino-load ang impormasyon ng hardware...",
     "ERROR": "Nabigo ang pag-load ng impormasyon ng hardware.",
-    "WEBGL": "Suporta ng WebGL"
+    "WEBGPU": "Suporta ng WebGPU",
+    "PIPELINE_TITLE": "Pipeline ng Pagproseso",
+    "PIPELINE": "Pipeline",
+    "PIPELINE_NATIVE": "Native (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "In-app na web pipeline (fallback)",
+    "PIPELINE_WEBVIEW_NOTE": "Hindi nakapagsimula ang native na pipeline, kaya pumalit ang mas mabagal na in-app na pipeline",
+    "NATIVE_EP": "Execution provider",
+    "NATIVE_EP_CPU_NOTE": "Walang GPU provider na nairehistro — tumatakbo sa CPU",
+    "INFERENCE_BACKEND": "Inference backend",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "Mga WebAssembly thread",
+    "WASM_THREADS_AVAILABLE": "Available na mga WebAssembly thread",
+    "WASM_THREADS_NOTE": "Single-threaded: hindi available ang SharedArrayBuffer, dahil hindi cross-origin isolated ang pahina o hindi ito ipinatutupad ng webview",
+    "NOT_MEASURED": "Hindi pa nasusukat",
+    "NOT_MEASURED_NOTE": "Magproseso ng video para masukat ito"
   },
   "DASHBOARD": {
     "TITLE": "Dashboard",

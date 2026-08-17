@@ -2,25 +2,26 @@
 <html data-beasties-container>
   <head>
     <meta charset="utf-8">
-    <title>SwishAI</title>
+    <title>SwishAI — AI basketball shot tracking from your own video</title>
     <base href="/SwishAI-web/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Upload a basketball video and SwishAI counts shots, baskets and accuracy for you. Runs entirely in your browser — the video never leaves your device.">
+    <meta name="theme-color" content="#0f172a">
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGG3EHVNNT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-MGG3EHVNNT");
-    </script>
-    <!-- End Google Analytics -->
-  <style>*,:before,:after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}html,body{margin:0;padding:0;height:100%;font-family:Arial,Helvetica,sans-serif}</style><link rel="stylesheet" href="styles-C7QDW5WV.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-C7QDW5WV.css"></noscript></head>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SwishAI">
+    <meta property="og:title" content="SwishAI — AI basketball shot tracking from your own video">
+    <meta property="og:description" content="Upload a basketball video and SwishAI counts shots, baskets and accuracy for you. Runs entirely in your browser — the video never leaves your device.">
+    <meta property="og:url" content="https://swish-ai-startup.github.io/SwishAI-web/">
+    <meta property="og:image" content="https://swish-ai-startup.github.io/SwishAI-web/assets/icons/favicon.512x512.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Google Analytics is injected by ConsentService only after the visitor
+         opts in; loading it here would fire before any consent exists. -->
+  <style>*,:before,:after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}html,body{margin:0;padding:0;height:100%;font-family:Arial,Helvetica,sans-serif}</style><link rel="stylesheet" href="styles-YC5NIBDM.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-YC5NIBDM.css"></noscript></head>
   <body>
     <app-root>Loading...</app-root>
-  <link rel="modulepreload" href="chunk-4IDNTCH7.js"><script src="polyfills-6ISPNSXF.js" type="module"></script><script src="main-ZYDVUALK.js" type="module"></script></body>
+  <link rel="modulepreload" href="chunk-TSRGIXR5.js"><script src="polyfills-6ISPNSXF.js" type="module"></script><script src="main-5CVJ6ZX3.js" type="module"></script></body>
 </html>

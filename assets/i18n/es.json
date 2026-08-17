@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "Tiempo de procesamiento",
     "CANCEL": "Cancelar",
     "CONFIRM": "Confirmar",
-    "CLOSE": "Cerrar"
+    "CLOSE": "Cerrar",
+    "LOADING": "Cargando...",
+    "BACK": "Volver"
   },
   "NAV": {
     "PROCESS_VIDEO": "Procesar Video",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "Salir",
     "CONFIRM_NO": "Cancelar"
   },
+  "CONSENT": {
+    "TITLE": "Cookies de análisis",
+    "DESC": "Nos gustaría medir cómo se usa la aplicación, con Google Analytics. No se carga nada hasta que aceptes, y tus vídeos nunca forman parte de ello.",
+    "ACCEPT": "Aceptar",
+    "REJECT": "Rechazar"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. Todos los derechos reservados."
+    "COPYRIGHT": "© {{year}} SwishAI. Todos los derechos reservados.",
+    "CONSENT_SETTINGS": "Configuración de cookies",
+    "TERMS": "Términos",
+    "PRIVACY": "Privacidad",
+    "REFUNDS": "Reembolsos",
+    "IMPRINT": "Datos de la empresa"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "Términos del servicio",
+    "TITLE_PRIVACY": "Aviso de privacidad",
+    "TITLE_REFUNDS": "Reembolsos y derecho de desistimiento",
+    "TITLE_IMPRINT": "Información de la empresa",
+    "LOAD_FAILED": "No se ha podido cargar el documento. Inténtalo de nuevo."
   },
   "LOGO": {
     "ALT": "Logo de SwishAI"
@@ -58,7 +78,9 @@
     "DURATION_TITLE": "Duración Máxima",
     "DURATION_DESC": "<strong>1 min</strong> en móvil o sin conectar, <strong>5 min</strong> con la sesión iniciada e <strong>ilimitado</strong> con una suscripción. Los vídeos se recortan al límite.",
     "EXAMPLE_PROMPT": "¿Tienes curiosidad por ver el resultado?",
-    "EXAMPLE_LINK": "¡Mira un vídeo de ejemplo!"
+    "EXAMPLE_LINK": "¡Mira un vídeo de ejemplo!",
+    "WEBGPU_WARNING": "WebGPU no está disponible en tu navegador. Sin él, el procesamiento será mucho más lento. Para un mejor rendimiento, usa un navegador compatible con WebGPU (por ejemplo, Chrome o Edge).",
+    "NATIVE_FALLBACK_WARNING": "El pipeline acelerado por GPU no pudo iniciarse, así que este video se está procesando con el interno, más lento."
   },
   "UPLOAD": {
     "CLICK": "Haz clic para subir un video",
@@ -85,7 +107,15 @@
     "DOWNLOAD_RESULT": "Descargar Resultado",
     "PROCESS_ANOTHER": "Procesar Otro Video",
     "STOPPED_MSG": "El procesamiento fue detenido",
-    "START_ANALYSIS": "Iniciar Análisis"
+    "START_ANALYSIS": "Iniciar Análisis",
+    "SHARE_RESULT": "Comparte tu resultado",
+    "SHARE_TO": "Compartir en {{network}}",
+    "SHARE_OTHER": "Compartir en otro sitio",
+    "SHARE_HINT": "Abre el menú de compartir de tu dispositivo con el vídeo adjunto."
+  },
+  "SHARE": {
+    "TITLE": "Mi resultado de SwishAI",
+    "TEXT": "{{baskets}} de {{shots}} tiros anotados — analizado con SwishAI."
   },
   "PROGRESS": {
     "UPLOADING": "Subiendo...",
@@ -94,7 +124,11 @@
     "RESULT_PREVIEW": "Vista Previa del Resultado",
     "LOADING_VIDEO": "Cargando video…",
     "ERROR_TITLE": "¡Vaya! Algo salió mal.",
-    "ERROR_DESC": "Ocurrió un error desconocido. Por favor intenta con un video diferente."
+    "ERROR_DESC": "Ocurrió un error desconocido. Por favor intenta con un video diferente.",
+    "SOFTWARE_DECODE_NOTICE": "Tu navegador no decodifica HEVC directamente, así que lo hacemos por software: tardará más. Para acelerarlo: iPhone › Ajustes › Cámara › Formatos › Más compatible, o convierte el archivo a H.264.",
+    "ERROR_HEVC": "No se ha podido decodificar este vídeo HEVC. Prueba a convertirlo a MP4 H.264.",
+    "ERROR_CODEC": "Este vídeo usa un formato que el navegador no puede leer aquí ({{codecs}}). Conviértelo a MP4 H.264 e inténtalo de nuevo.",
+    "ERROR_UNREADABLE_FILE": "No se pudo leer este archivo como vídeo MP4. Prueba con un MP4 grabado en H.264."
   },
   "AUTH": {
     "LOGIN": "Iniciar sesión",
@@ -110,6 +144,7 @@
     "LOGIN_ERROR": "Correo o contraseña incorrectos. Inténtalo de nuevo.",
     "LOGIN_UNVERIFIED": "Confirma tu dirección de correo electrónico antes de iniciar sesión.",
     "REGISTER_ERROR": "El registro falló. Inténtalo de nuevo.",
+    "REGISTER_EMAIL_TAKEN": "Ya existe una cuenta con este correo electrónico.",
     "REGISTER_SUCCESS": "¡Cuenta creada! Revisa tu correo para confirmar tu cuenta.",
     "USERNAME": "Nombre de usuario",
     "PROFILE": "Perfil",
@@ -133,7 +168,15 @@
     "OAUTH_ERROR": "No se pudo iniciar sesión. Inténtalo de nuevo.",
     "OAUTH_CANCELLED": "Se canceló el inicio de sesión.",
     "OAUTH_EMAIL_UNVERIFIED": "El proveedor no ha verificado esta dirección de correo, así que no se puede usar para iniciar sesión.",
-    "OAUTH_EXPIRED": "El inicio de sesión tardó demasiado. Inténtalo de nuevo."
+    "OAUTH_EXPIRED": "El inicio de sesión tardó demasiado. Inténtalo de nuevo.",
+    "DELETE_ACCOUNT": "Eliminar cuenta",
+    "DELETE_ACCOUNT_TITLE": "Zona peligrosa",
+    "DELETE_ACCOUNT_WARNING": "Esto elimina de forma permanente tu cuenta, tus estadísticas guardadas y los datos de tu suscripción. No se puede deshacer. Los vídeos ya guardados en tu dispositivo no se tocan.",
+    "DELETE_ACCOUNT_PRO_WARNING": "Tu suscripción Pro se cancela de inmediato y pierdes lo que quede del periodo actual.",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "Escribe {{email}} para confirmar",
+    "DELETE_ACCOUNT_CONFIRM": "Eliminar permanentemente",
+    "DELETE_ACCOUNT_ERROR": "No se pudo eliminar la cuenta. Inténtalo de nuevo.",
+    "ACCEPT_LEGAL": "Acepto los términos del servicio y el aviso de privacidad"
   },
   "HARDWARE": {
     "TITLE": "Hardware del Sistema",
@@ -161,7 +204,22 @@
     "UNKNOWN": "—",
     "LOADING": "Cargando información de hardware...",
     "ERROR": "Error al cargar información de hardware.",
-    "WEBGL": "Soporte WebGL"
+    "WEBGPU": "Soporte WebGPU",
+    "PIPELINE_TITLE": "Pipeline de Procesamiento",
+    "PIPELINE": "Pipeline",
+    "PIPELINE_NATIVE": "Nativo (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "Pipeline web interno (alternativo)",
+    "PIPELINE_WEBVIEW_NOTE": "El pipeline nativo no pudo iniciarse, así que tomó el relevo el interno, más lento",
+    "NATIVE_EP": "Execution provider",
+    "NATIVE_EP_CPU_NOTE": "No se pudo registrar ningún proveedor de GPU — ejecutando en la CPU",
+    "INFERENCE_BACKEND": "Backend de inferencia",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "Hilos de WebAssembly",
+    "WASM_THREADS_AVAILABLE": "Hilos de WebAssembly disponibles",
+    "WASM_THREADS_NOTE": "Un solo hilo: SharedArrayBuffer no está disponible, ya sea porque la página no está aislada entre orígenes o porque la webview no lo implementa",
+    "NOT_MEASURED": "Aún no medido",
+    "NOT_MEASURED_NOTE": "Procesa un video para medirlo"
   },
   "DASHBOARD": {
     "TITLE": "Panel",

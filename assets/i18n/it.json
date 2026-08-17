@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "Tempo di elaborazione",
     "CANCEL": "Annulla",
     "CONFIRM": "Conferma",
-    "CLOSE": "Chiudi"
+    "CLOSE": "Chiudi",
+    "LOADING": "Caricamento...",
+    "BACK": "Indietro"
   },
   "NAV": {
     "PROCESS_VIDEO": "Elabora Video",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "Esci",
     "CONFIRM_NO": "Annulla"
   },
+  "CONSENT": {
+    "TITLE": "Cookie di analisi",
+    "DESC": "Vorremmo capire come viene usata l'app, tramite Google Analytics. Non carichiamo nulla finché non accetti, e i tuoi video non ne fanno mai parte.",
+    "ACCEPT": "Accetta",
+    "REJECT": "Rifiuta"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. Tutti i diritti riservati."
+    "COPYRIGHT": "© {{year}} SwishAI. Tutti i diritti riservati.",
+    "CONSENT_SETTINGS": "Impostazioni cookie",
+    "TERMS": "Termini",
+    "PRIVACY": "Privacy",
+    "REFUNDS": "Rimborsi",
+    "IMPRINT": "Dati societari"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "Termini di servizio",
+    "TITLE_PRIVACY": "Informativa sulla privacy",
+    "TITLE_REFUNDS": "Rimborsi e diritto di recesso",
+    "TITLE_IMPRINT": "Informazioni societarie",
+    "LOAD_FAILED": "Non è stato possibile caricare il documento. Riprova."
   },
   "LOGO": {
     "ALT": "Logo SwishAI"
@@ -59,6 +79,7 @@
     "DURATION_DESC": "<strong>1 min</strong> su mobile o senza accesso, <strong>5 min</strong> dopo l'accesso e <strong>illimitato</strong> con un abbonamento. I video vengono tagliati al limite.",
     "EXAMPLE_PROMPT": "Curioso di vedere il risultato?",
     "EXAMPLE_LINK": "Guarda un video di esempio!",
+    "WEBGPU_WARNING": "WebGPU non è disponibile nel tuo browser. Senza, l'elaborazione sarà molto più lenta. Per prestazioni migliori usa un browser che supporta WebGPU (ad esempio Chrome o Edge).",
     "NATIVE_FALLBACK_WARNING": "La pipeline accelerata su GPU non è riuscita a partire, quindi questo video viene elaborato da quella interna, più lenta."
   },
   "UPLOAD": {
@@ -86,7 +107,15 @@
     "DOWNLOAD_RESULT": "Scarica Risultato",
     "PROCESS_ANOTHER": "Elabora un Altro Video",
     "STOPPED_MSG": "L'elaborazione è stata interrotta",
-    "START_ANALYSIS": "Avvia Analisi"
+    "START_ANALYSIS": "Avvia Analisi",
+    "SHARE_RESULT": "Condividi il risultato",
+    "SHARE_TO": "Condividi su {{network}}",
+    "SHARE_OTHER": "Condividi altrove",
+    "SHARE_HINT": "Apre il menu di condivisione del dispositivo con il video allegato."
+  },
+  "SHARE": {
+    "TITLE": "Il mio risultato SwishAI",
+    "TEXT": "{{baskets}} canestri su {{shots}} tiri — analizzato con SwishAI."
   },
   "PROGRESS": {
     "UPLOADING": "Caricamento in corso...",
@@ -95,7 +124,11 @@
     "RESULT_PREVIEW": "Anteprima Risultato",
     "LOADING_VIDEO": "Caricamento video…",
     "ERROR_TITLE": "Ops! Qualcosa è andato storto.",
-    "ERROR_DESC": "Si è verificato un errore sconosciuto. Prova con un video diverso."
+    "ERROR_DESC": "Si è verificato un errore sconosciuto. Prova con un video diverso.",
+    "SOFTWARE_DECODE_NOTICE": "Il tuo browser non decodifica l'HEVC direttamente, quindi lo facciamo via software: ci vorrà più tempo. Per velocizzare: iPhone › Impostazioni › Fotocamera › Formati › Massima compatibilità, oppure converti il file in H.264.",
+    "ERROR_HEVC": "Non è stato possibile decodificare questo video HEVC. Prova a convertirlo in MP4 H.264.",
+    "ERROR_CODEC": "Questo video usa un formato che il browser non riesce a leggere qui ({{codecs}}). Convertilo in MP4 H.264 e riprova.",
+    "ERROR_UNREADABLE_FILE": "Non è stato possibile leggere questo file come video MP4. Prova con un MP4 registrato in H.264."
   },
   "AUTH": {
     "LOGIN": "Accedi",
@@ -135,7 +168,15 @@
     "OAUTH_ERROR": "Accesso non riuscito. Riprova.",
     "OAUTH_CANCELLED": "Accesso annullato.",
     "OAUTH_EMAIL_UNVERIFIED": "Il provider non ha verificato questo indirizzo email, quindi non può essere usato per accedere.",
-    "OAUTH_EXPIRED": "L'accesso ha richiesto troppo tempo. Riprova."
+    "OAUTH_EXPIRED": "L'accesso ha richiesto troppo tempo. Riprova.",
+    "DELETE_ACCOUNT": "Elimina account",
+    "DELETE_ACCOUNT_TITLE": "Zona pericolosa",
+    "DELETE_ACCOUNT_WARNING": "Questo elimina definitivamente il tuo account, le statistiche salvate e i dati dell'abbonamento. L'operazione è irreversibile. I video già salvati sul tuo dispositivo non vengono toccati.",
+    "DELETE_ACCOUNT_PRO_WARNING": "Il tuo abbonamento Pro viene annullato subito e il resto del periodo in corso viene perso.",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "Scrivi {{email}} per confermare",
+    "DELETE_ACCOUNT_CONFIRM": "Elimina definitivamente",
+    "DELETE_ACCOUNT_ERROR": "Non è stato possibile eliminare l'account. Riprova.",
+    "ACCEPT_LEGAL": "Accetto i termini di servizio e l'informativa sulla privacy"
   },
   "HARDWARE": {
     "TITLE": "Hardware di Sistema",
@@ -163,7 +204,7 @@
     "UNKNOWN": "—",
     "LOADING": "Caricamento informazioni hardware...",
     "ERROR": "Impossibile caricare le informazioni hardware.",
-    "WEBGL": "Supporto WebGL",
+    "WEBGPU": "Supporto WebGPU",
     "PIPELINE_TITLE": "Pipeline di elaborazione",
     "PIPELINE": "Pipeline",
     "PIPELINE_NATIVE": "Nativa (ONNX Runtime)",

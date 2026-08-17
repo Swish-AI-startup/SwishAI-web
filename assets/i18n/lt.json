@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "Apdorojimo laikas",
     "CANCEL": "Atšaukti",
     "CONFIRM": "Patvirtinti",
-    "CLOSE": "Uždaryti"
+    "CLOSE": "Uždaryti",
+    "LOADING": "Įkeliama...",
+    "BACK": "Atgal"
   },
   "NAV": {
     "PROCESS_VIDEO": "Apdoroti Vaizdo įrašą",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "Išeiti",
     "CONFIRM_NO": "Atšaukti"
   },
+  "CONSENT": {
+    "TITLE": "Analitikos slapukai",
+    "DESC": "Norėtume su „Google Analytics“ matuoti, kaip naudojama programėlė. Kol nesutinkate, nieko neįkeliame, o jūsų vaizdo įrašai į tai niekada nepatenka.",
+    "ACCEPT": "Sutinku",
+    "REJECT": "Nesutinku"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. Visos teisės saugomos."
+    "COPYRIGHT": "© {{year}} SwishAI. Visos teisės saugomos.",
+    "CONSENT_SETTINGS": "Slapukų nustatymai",
+    "TERMS": "Sąlygos",
+    "PRIVACY": "Privatumas",
+    "REFUNDS": "Grąžinimai",
+    "IMPRINT": "Įmonės informacija"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "Naudojimo sąlygos",
+    "TITLE_PRIVACY": "Privatumo pranešimas",
+    "TITLE_REFUNDS": "Grąžinimai ir teisė atsisakyti sutarties",
+    "TITLE_IMPRINT": "Informacija apie įmonę",
+    "LOAD_FAILED": "Nepavyko įkelti dokumento. Bandykite dar kartą."
   },
   "LOGO": {
     "ALT": "SwishAI Logotipas"
@@ -58,7 +78,9 @@
     "DURATION_TITLE": "Didžiausia Trukmė",
     "DURATION_DESC": "<strong>1 min</strong> mobiliajame arba neprisijungus, <strong>5 min</strong> prisijungus ir <strong>neribotai</strong> su prenumerata. Vaizdo įrašai apkarpomi iki limito.",
     "EXAMPLE_PROMPT": "Įdomu, kaip atrodo rezultatas?",
-    "EXAMPLE_LINK": "Žiūrėti pavyzdinį vaizdo įrašą!"
+    "EXAMPLE_LINK": "Žiūrėti pavyzdinį vaizdo įrašą!",
+    "WEBGPU_WARNING": "WebGPU nepasiekiamas jūsų naršyklėje. Be jo apdorojimas bus gerokai lėtesnis. Kad veiktų greičiau, naudokite WebGPU palaikančią naršyklę (pvz., Chrome ar Edge).",
+    "NATIVE_FALLBACK_WARNING": "GPU spartinamos grandinės nepavyko paleisti, todėl šis vaizdo įrašas apdorojamas lėtesne vidine."
   },
   "UPLOAD": {
     "CLICK": "Spustelėkite, kad įkeltumėte vaizdo įrašą",
@@ -85,7 +107,15 @@
     "DOWNLOAD_RESULT": "Atsisiųsti Rezultatą",
     "PROCESS_ANOTHER": "Apdoroti Kitą Vaizdo įrašą",
     "STOPPED_MSG": "Apdorojimas buvo sustabdytas",
-    "START_ANALYSIS": "Pradėti Analizę"
+    "START_ANALYSIS": "Pradėti Analizę",
+    "SHARE_RESULT": "Pasidalykite rezultatu",
+    "SHARE_TO": "Dalintis per {{network}}",
+    "SHARE_OTHER": "Dalintis kitur",
+    "SHARE_HINT": "Atidaro jūsų įrenginio dalijimosi meniu su prisegtu vaizdo įrašu."
+  },
+  "SHARE": {
+    "TITLE": "Mano „SwishAI“ rezultatas",
+    "TEXT": "{{baskets}} iš {{shots}} metimų pataikyta — analizė su „SwishAI“."
   },
   "PROGRESS": {
     "UPLOADING": "Įkeliama...",
@@ -94,7 +124,11 @@
     "RESULT_PREVIEW": "Rezultato Peržiūra",
     "LOADING_VIDEO": "Kraunamas vaizdo įrašas…",
     "ERROR_TITLE": "Oi! Kažkas nutiko.",
-    "ERROR_DESC": "Įvyko nežinoma klaida. Bandykite kitą vaizdo įrašą."
+    "ERROR_DESC": "Įvyko nežinoma klaida. Bandykite kitą vaizdo įrašą.",
+    "SOFTWARE_DECODE_NOTICE": "Jūsų naršyklė neiškoduoja HEVC tiesiogiai, tad darome tai programiškai – tai užtruks ilgiau. Kad būtų greičiau: „iPhone“ › Nustatymai › Kamera › Formatai › Didžiausias suderinamumas, arba konvertuokite failą į H.264.",
+    "ERROR_HEVC": "Nepavyko iškoduoti šio HEVC vaizdo įrašo. Pabandykite jį konvertuoti į H.264 MP4.",
+    "ERROR_CODEC": "Šis vaizdo įrašas naudoja formatą, kurio naršyklė čia neperskaito ({{codecs}}). Konvertuokite jį į H.264 MP4 ir bandykite dar kartą.",
+    "ERROR_UNREADABLE_FILE": "Nepavyko perskaityti šio failo kaip MP4 vaizdo įrašo. Pabandykite MP4, įrašytą H.264."
   },
   "AUTH": {
     "LOGIN": "Prisijungti",
@@ -110,6 +144,7 @@
     "LOGIN_ERROR": "Neteisingas el. paštas arba slaptažodis. Bandykite dar kartą.",
     "LOGIN_UNVERIFIED": "Prieš prisijungdami patvirtinkite savo el. pašto adresą.",
     "REGISTER_ERROR": "Registracija nepavyko. Bandykite dar kartą.",
+    "REGISTER_EMAIL_TAKEN": "Paskyra su šiuo el. pašto adresu jau egzistuoja.",
     "REGISTER_SUCCESS": "Paskyra sukurta! Patikrinkite el. paštą, kad patvirtintumėte paskyrą.",
     "USERNAME": "Vartotojo vardas",
     "PROFILE": "Profilis",
@@ -133,7 +168,15 @@
     "OAUTH_ERROR": "Prisijungti nepavyko. Bandykite dar kartą.",
     "OAUTH_CANCELLED": "Prisijungimas atšauktas.",
     "OAUTH_EMAIL_UNVERIFIED": "Tiekėjas nepatvirtino šio el. pašto adreso, todėl juo prisijungti negalima.",
-    "OAUTH_EXPIRED": "Prisijungimas užtruko per ilgai. Bandykite dar kartą."
+    "OAUTH_EXPIRED": "Prisijungimas užtruko per ilgai. Bandykite dar kartą.",
+    "DELETE_ACCOUNT": "Ištrinti paskyrą",
+    "DELETE_ACCOUNT_TITLE": "Pavojinga zona",
+    "DELETE_ACCOUNT_WARNING": "Tai visam laikui ištrina jūsų paskyrą, išsaugotą statistiką ir prenumeratos įrašą. Atšaukti nepavyks. Jūsų įrenginyje jau išsaugoti vaizdo įrašai lieka nepaliesti.",
+    "DELETE_ACCOUNT_PRO_WARNING": "Jūsų „Pro“ prenumerata atšaukiama iš karto, o likęs dabartinio laikotarpio laikas prarandamas.",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "Patvirtinkite įvesdami {{email}}",
+    "DELETE_ACCOUNT_CONFIRM": "Ištrinti visam laikui",
+    "DELETE_ACCOUNT_ERROR": "Paskyros ištrinti nepavyko. Bandykite dar kartą.",
+    "ACCEPT_LEGAL": "Sutinku su naudojimo sąlygomis ir privatumo pranešimu"
   },
   "HARDWARE": {
     "TITLE": "Sistemos aparatinė įranga",
@@ -161,7 +204,22 @@
     "UNKNOWN": "—",
     "LOADING": "Kraunama aparatinės įrangos informacija...",
     "ERROR": "Nepavyko įkelti aparatinės įrangos informacijos.",
-    "WEBGL": "WebGL palaikymas"
+    "WEBGPU": "WebGPU palaikymas",
+    "PIPELINE_TITLE": "Apdorojimo grandinė",
+    "PIPELINE": "Grandinė",
+    "PIPELINE_NATIVE": "Vietinė (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "Vidinė žiniatinklio grandinė (atsarginė)",
+    "PIPELINE_WEBVIEW_NOTE": "Vietinės grandinės nepavyko paleisti, todėl perėmė lėtesnė vidinė",
+    "NATIVE_EP": "Vykdymo teikėjas",
+    "NATIVE_EP_CPU_NOTE": "Nepavyko užregistruoti nė vieno GPU teikėjo — vykdoma procesoriumi",
+    "INFERENCE_BACKEND": "Išvedimo backend",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "WebAssembly gijos",
+    "WASM_THREADS_AVAILABLE": "Galimos WebAssembly gijos",
+    "WASM_THREADS_NOTE": "Viena gija: SharedArrayBuffer nepasiekiamas, nes puslapis nėra cross-origin isolated arba webview jo neįgyvendina",
+    "NOT_MEASURED": "Dar neišmatuota",
+    "NOT_MEASURED_NOTE": "Apdorokite vaizdo įrašą, kad tai būtų išmatuota"
   },
   "DASHBOARD": {
     "TITLE": "Valdymo skydas",

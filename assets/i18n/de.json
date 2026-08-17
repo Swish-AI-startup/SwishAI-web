@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "Verarbeitungszeit",
     "CANCEL": "Abbrechen",
     "CONFIRM": "Bestätigen",
-    "CLOSE": "Schließen"
+    "CLOSE": "Schließen",
+    "LOADING": "Wird geladen...",
+    "BACK": "Zurück"
   },
   "NAV": {
     "PROCESS_VIDEO": "Video verarbeiten",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "Beenden",
     "CONFIRM_NO": "Abbrechen"
   },
+  "CONSENT": {
+    "TITLE": "Analyse-Cookies",
+    "DESC": "Wir würden gern mit Google Analytics messen, wie die App genutzt wird. Vor Ihrer Zustimmung wird nichts geladen, und Ihre Videos sind nie Teil davon.",
+    "ACCEPT": "Akzeptieren",
+    "REJECT": "Ablehnen"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. Alle Rechte vorbehalten."
+    "COPYRIGHT": "© {{year}} SwishAI. Alle Rechte vorbehalten.",
+    "CONSENT_SETTINGS": "Cookie-Einstellungen",
+    "TERMS": "AGB",
+    "PRIVACY": "Datenschutz",
+    "REFUNDS": "Rückerstattungen",
+    "IMPRINT": "Impressum"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "Allgemeine Geschäftsbedingungen",
+    "TITLE_PRIVACY": "Datenschutzerklärung",
+    "TITLE_REFUNDS": "Rückerstattung und Widerruf",
+    "TITLE_IMPRINT": "Impressum",
+    "LOAD_FAILED": "Das Dokument konnte nicht geladen werden. Bitte versuche es erneut."
   },
   "LOGO": {
     "ALT": "SwishAI Logo"
@@ -58,7 +78,9 @@
     "DURATION_TITLE": "Maximale Dauer",
     "DURATION_DESC": "<strong>1 Min.</strong> auf Mobilgeräten oder nicht angemeldet, <strong>5 Min.</strong> angemeldet und <strong>unbegrenzt</strong> mit Abonnement. Videos werden auf das Limit gekürzt.",
     "EXAMPLE_PROMPT": "Neugierig, wie das Ergebnis aussieht?",
-    "EXAMPLE_LINK": "Beispielvideo ansehen!"
+    "EXAMPLE_LINK": "Beispielvideo ansehen!",
+    "WEBGPU_WARNING": "WebGPU ist in Ihrem Browser nicht verfügbar. Ohne WebGPU ist die Verarbeitung deutlich langsamer. Verwenden Sie für bessere Leistung einen Browser mit WebGPU-Unterstützung (z. B. Chrome oder Edge).",
+    "NATIVE_FALLBACK_WARNING": "Die GPU-beschleunigte Pipeline konnte nicht starten, daher wird dieses Video von der langsameren internen Pipeline verarbeitet."
   },
   "UPLOAD": {
     "CLICK": "Klicken um Video hochzuladen",
@@ -85,7 +107,15 @@
     "DOWNLOAD_RESULT": "Ergebnis herunterladen",
     "PROCESS_ANOTHER": "Weiteres Video verarbeiten",
     "STOPPED_MSG": "Die Verarbeitung wurde gestoppt",
-    "START_ANALYSIS": "Analyse starten"
+    "START_ANALYSIS": "Analyse starten",
+    "SHARE_RESULT": "Teilen Sie Ihr Ergebnis",
+    "SHARE_TO": "Auf {{network}} teilen",
+    "SHARE_OTHER": "Woanders teilen",
+    "SHARE_HINT": "Öffnet das Teilen-Menü Ihres Geräts mit dem angehängten Video."
+  },
+  "SHARE": {
+    "TITLE": "Mein SwishAI-Ergebnis",
+    "TEXT": "{{baskets}} von {{shots}} Würfen getroffen — analysiert mit SwishAI."
   },
   "PROGRESS": {
     "UPLOADING": "Hochladen...",
@@ -94,7 +124,11 @@
     "RESULT_PREVIEW": "Ergebnisvorschau",
     "LOADING_VIDEO": "Video wird geladen…",
     "ERROR_TITLE": "Hoppla! Etwas ist schiefgelaufen.",
-    "ERROR_DESC": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie ein anderes Video."
+    "ERROR_DESC": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie ein anderes Video.",
+    "SOFTWARE_DECODE_NOTICE": "Dein Browser kann HEVC nicht direkt dekodieren, also machen wir es per Software – das dauert länger. Schneller geht es so: iPhone › Einstellungen › Kamera › Formate › Maximale Kompatibilität, oder konvertiere die Datei in H.264.",
+    "ERROR_HEVC": "Dieses HEVC-Video konnte nicht dekodiert werden. Konvertiere es in ein H.264-MP4.",
+    "ERROR_CODEC": "Dieses Video nutzt ein Format, das der Browser hier nicht lesen kann ({{codecs}}). Wandeln Sie es in MP4 H.264 um und versuchen Sie es erneut.",
+    "ERROR_UNREADABLE_FILE": "Diese Datei konnte nicht als MP4-Video gelesen werden. Versuchen Sie es mit einem MP4 in H.264."
   },
   "AUTH": {
     "LOGIN": "Anmelden",
@@ -110,6 +144,7 @@
     "LOGIN_ERROR": "Ungültige E-Mail oder ungültiges Passwort. Bitte versuchen Sie es erneut.",
     "LOGIN_UNVERIFIED": "Bitte bestätigen Sie Ihre E-Mail-Adresse, bevor Sie sich anmelden.",
     "REGISTER_ERROR": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "REGISTER_EMAIL_TAKEN": "Es existiert bereits ein Konto mit dieser E-Mail-Adresse.",
     "REGISTER_SUCCESS": "Konto erstellt! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu bestätigen.",
     "USERNAME": "Benutzername",
     "PROFILE": "Profil",
@@ -133,7 +168,15 @@
     "OAUTH_ERROR": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.",
     "OAUTH_CANCELLED": "Die Anmeldung wurde abgebrochen.",
     "OAUTH_EMAIL_UNVERIFIED": "Der Anbieter hat diese E-Mail-Adresse nicht bestätigt, daher kann sie nicht zur Anmeldung verwendet werden.",
-    "OAUTH_EXPIRED": "Die Anmeldung hat zu lange gedauert. Bitte versuchen Sie es erneut."
+    "OAUTH_EXPIRED": "Die Anmeldung hat zu lange gedauert. Bitte versuchen Sie es erneut.",
+    "DELETE_ACCOUNT": "Konto löschen",
+    "DELETE_ACCOUNT_TITLE": "Gefahrenbereich",
+    "DELETE_ACCOUNT_WARNING": "Damit werden Ihr Konto, Ihre gespeicherten Statistiken und Ihre Abodaten dauerhaft gelöscht. Das lässt sich nicht rückgängig machen. Bereits auf Ihrem Gerät gespeicherte Videos bleiben unberührt.",
+    "DELETE_ACCOUNT_PRO_WARNING": "Ihr Pro-Abo wird sofort gekündigt, der Rest der laufenden Periode verfällt.",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "Geben Sie zur Bestätigung {{email}} ein",
+    "DELETE_ACCOUNT_CONFIRM": "Endgültig löschen",
+    "DELETE_ACCOUNT_ERROR": "Das Konto konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+    "ACCEPT_LEGAL": "Ich akzeptiere die AGB und die Datenschutzerklärung"
   },
   "HARDWARE": {
     "TITLE": "System-Hardware",
@@ -161,7 +204,22 @@
     "UNKNOWN": "—",
     "LOADING": "Hardware-Informationen werden geladen...",
     "ERROR": "Hardware-Informationen konnten nicht geladen werden.",
-    "WEBGL": "WebGL-Unterstützung"
+    "WEBGPU": "WebGPU-Unterstützung",
+    "PIPELINE_TITLE": "Verarbeitungs-Pipeline",
+    "PIPELINE": "Pipeline",
+    "PIPELINE_NATIVE": "Nativ (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "Interne Web-Pipeline (Fallback)",
+    "PIPELINE_WEBVIEW_NOTE": "Die native Pipeline konnte nicht starten, daher hat die langsamere interne übernommen",
+    "NATIVE_EP": "Execution Provider",
+    "NATIVE_EP_CPU_NOTE": "Kein GPU-Provider konnte registriert werden — Verarbeitung auf der CPU",
+    "INFERENCE_BACKEND": "Inferenz-Backend",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "WebAssembly-Threads",
+    "WASM_THREADS_AVAILABLE": "WebAssembly-Threads verfügbar",
+    "WASM_THREADS_NOTE": "Single-Threaded: SharedArrayBuffer ist nicht verfügbar, entweder weil die Seite nicht cross-origin-isoliert ist oder weil die Webview es nicht implementiert",
+    "NOT_MEASURED": "Noch nicht gemessen",
+    "NOT_MEASURED_NOTE": "Verarbeiten Sie ein Video, um dies zu messen"
   },
   "DASHBOARD": {
     "TITLE": "Dashboard",

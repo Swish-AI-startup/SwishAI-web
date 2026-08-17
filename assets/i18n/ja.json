@@ -18,7 +18,9 @@
     "PROCESSING_TIME": "処理時間",
     "CANCEL": "キャンセル",
     "CONFIRM": "確認",
-    "CLOSE": "閉じる"
+    "CLOSE": "閉じる",
+    "LOADING": "読み込み中...",
+    "BACK": "戻る"
   },
   "NAV": {
     "PROCESS_VIDEO": "動画を処理",
@@ -35,8 +37,26 @@
     "CONFIRM_YES": "終了",
     "CONFIRM_NO": "キャンセル"
   },
+  "CONSENT": {
+    "TITLE": "分析用 Cookie",
+    "DESC": "Google アナリティクスでアプリの使われ方を計測したいと考えています。同意いただくまで何も読み込まれず、動画が対象になることはありません。",
+    "ACCEPT": "同意する",
+    "REJECT": "拒否する"
+  },
   "FOOTER": {
-    "COPYRIGHT": "© {{year}} SwishAI. 全著作権所有。"
+    "COPYRIGHT": "© {{year}} SwishAI. 全著作権所有。",
+    "CONSENT_SETTINGS": "Cookie の設定",
+    "TERMS": "利用規約",
+    "PRIVACY": "プライバシー",
+    "REFUNDS": "返金",
+    "IMPRINT": "会社情報"
+  },
+  "LEGAL": {
+    "TITLE_TERMS": "利用規約",
+    "TITLE_PRIVACY": "プライバシーポリシー",
+    "TITLE_REFUNDS": "返金と契約の撤回",
+    "TITLE_IMPRINT": "会社情報",
+    "LOAD_FAILED": "ドキュメントを読み込めませんでした。もう一度お試しください。"
   },
   "LOGO": {
     "ALT": "SwishAI ロゴ"
@@ -58,7 +78,9 @@
     "DURATION_TITLE": "最大時間",
     "DURATION_DESC": "モバイルまたは未ログインで<strong>1分</strong>、ログイン時は<strong>5分</strong>、サブスクリプションで<strong>無制限</strong>。動画は上限で切り取られます。",
     "EXAMPLE_PROMPT": "処理後の映像が気になりますか？",
-    "EXAMPLE_LINK": "サンプル動画を見る！"
+    "EXAMPLE_LINK": "サンプル動画を見る！",
+    "WEBGPU_WARNING": "お使いのブラウザでは WebGPU を利用できません。WebGPU がないと処理は大幅に遅くなります。より良いパフォーマンスのために、WebGPU に対応したブラウザ (Chrome や Edge など) をご利用ください。",
+    "NATIVE_FALLBACK_WARNING": "GPU アクセラレーションのパイプラインを開始できなかったため、この動画は低速なアプリ内パイプラインで処理されています。"
   },
   "UPLOAD": {
     "CLICK": "クリックして動画をアップロード",
@@ -85,7 +107,15 @@
     "DOWNLOAD_RESULT": "結果をダウンロード",
     "PROCESS_ANOTHER": "別の動画を処理",
     "STOPPED_MSG": "処理が停止されました",
-    "START_ANALYSIS": "分析を開始"
+    "START_ANALYSIS": "分析を開始",
+    "SHARE_RESULT": "結果をシェア",
+    "SHARE_TO": "{{network}} でシェア",
+    "SHARE_OTHER": "他のアプリでシェア",
+    "SHARE_HINT": "動画を添付した状態で、端末の共有メニューを開きます。"
+  },
+  "SHARE": {
+    "TITLE": "SwishAI の結果",
+    "TEXT": "{{shots}} 本中 {{baskets}} 本成功 — SwishAI で解析。"
   },
   "PROGRESS": {
     "UPLOADING": "アップロード中...",
@@ -94,7 +124,11 @@
     "RESULT_PREVIEW": "結果プレビュー",
     "LOADING_VIDEO": "動画を読み込み中…",
     "ERROR_TITLE": "おっと！何か問題が発生しました。",
-    "ERROR_DESC": "不明なエラーが発生しました。別の動画をお試しください。"
+    "ERROR_DESC": "不明なエラーが発生しました。別の動画をお試しください。",
+    "SOFTWARE_DECODE_NOTICE": "お使いのブラウザーは HEVC を直接デコードできないため、ソフトウェアで処理します。時間がかかります。速くするには、iPhone の「設定 › カメラ › フォーマット › 互換性優先」を選ぶか、ファイルを H.264 に変換してください。",
+    "ERROR_HEVC": "この HEVC 動画をデコードできませんでした。H.264 の MP4 に変換してみてください。",
+    "ERROR_CODEC": "この動画はブラウザーがここで読み込めない形式です（{{codecs}}）。H.264 の MP4 に変換して、もう一度お試しください。",
+    "ERROR_UNREADABLE_FILE": "このファイルを MP4 動画として読み込めませんでした。H.264 で記録された MP4 をお試しください。"
   },
   "AUTH": {
     "LOGIN": "ログイン",
@@ -110,6 +144,7 @@
     "LOGIN_ERROR": "メールアドレスまたはパスワードが正しくありません。再試行してください。",
     "LOGIN_UNVERIFIED": "ログインする前にメールアドレスを確認してください。",
     "REGISTER_ERROR": "登録に失敗しました。再試行してください。",
+    "REGISTER_EMAIL_TAKEN": "このメールアドレスのアカウントはすでに存在します。",
     "REGISTER_SUCCESS": "アカウントが作成されました！メールアドレスを確認してください。",
     "USERNAME": "ユーザー名",
     "PROFILE": "プロフィール",
@@ -133,7 +168,15 @@
     "OAUTH_ERROR": "サインインに失敗しました。もう一度お試しください。",
     "OAUTH_CANCELLED": "サインインがキャンセルされました。",
     "OAUTH_EMAIL_UNVERIFIED": "プロバイダーがこのメールアドレスを確認していないため、サインインには使用できません。",
-    "OAUTH_EXPIRED": "サインインに時間がかかりすぎました。もう一度お試しください。"
+    "OAUTH_EXPIRED": "サインインに時間がかかりすぎました。もう一度お試しください。",
+    "DELETE_ACCOUNT": "アカウントを削除",
+    "DELETE_ACCOUNT_TITLE": "危険な操作",
+    "DELETE_ACCOUNT_WARNING": "アカウント、保存された成績、サブスクリプション情報を完全に削除します。元に戻すことはできません。端末に保存済みの動画はそのまま残ります。",
+    "DELETE_ACCOUNT_PRO_WARNING": "Pro サブスクリプションは即時解約され、現在の期間の残りは失われます。",
+    "DELETE_ACCOUNT_CONFIRM_LABEL": "確認のため {{email}} と入力してください",
+    "DELETE_ACCOUNT_CONFIRM": "完全に削除",
+    "DELETE_ACCOUNT_ERROR": "アカウントを削除できませんでした。もう一度お試しください。",
+    "ACCEPT_LEGAL": "利用規約とプライバシーポリシーに同意します"
   },
   "HARDWARE": {
     "TITLE": "システムハードウェア",
@@ -161,7 +204,22 @@
     "UNKNOWN": "—",
     "LOADING": "ハードウェア情報を読み込んでいます...",
     "ERROR": "ハードウェア情報の読み込みに失敗しました。",
-    "WEBGL": "WebGL サポート"
+    "WEBGPU": "WebGPU サポート",
+    "PIPELINE_TITLE": "処理パイプライン",
+    "PIPELINE": "パイプライン",
+    "PIPELINE_NATIVE": "ネイティブ (ONNX Runtime)",
+    "PIPELINE_WEBVIEW": "アプリ内ウェブパイプライン (フォールバック)",
+    "PIPELINE_WEBVIEW_NOTE": "ネイティブパイプラインを開始できなかったため、低速なアプリ内パイプラインに切り替わりました",
+    "NATIVE_EP": "実行プロバイダー",
+    "NATIVE_EP_CPU_NOTE": "GPU プロバイダーを登録できませんでした — CPU で実行しています",
+    "INFERENCE_BACKEND": "推論バックエンド",
+    "BACKEND_WEBGPU": "WebGPU",
+    "BACKEND_WASM": "WebAssembly (CPU)",
+    "WASM_THREADS": "WebAssembly スレッド",
+    "WASM_THREADS_AVAILABLE": "利用可能な WebAssembly スレッド",
+    "WASM_THREADS_NOTE": "シングルスレッド: ページが cross-origin isolated でないか、WebView が実装していないため、SharedArrayBuffer を利用できません",
+    "NOT_MEASURED": "未計測",
+    "NOT_MEASURED_NOTE": "動画を処理すると計測されます"
   },
   "DASHBOARD": {
     "TITLE": "ダッシュボード",
