@@ -143,6 +143,7 @@
     "SWITCH_TO_LOGIN": "Already have an account? Login",
     "LOGIN_ERROR": "Invalid email or password. Please try again.",
     "LOGIN_UNVERIFIED": "Please confirm your email address before logging in.",
+    "TOO_MANY_ATTEMPTS": "Too many attempts from this device. Please wait a while and try again.",
     "REGISTER_ERROR": "Registration failed. Please try again.",
     "REGISTER_EMAIL_TAKEN": "An account with this email already exists.",
     "REGISTER_SUCCESS": "Account created! Please check your email to confirm your account.",
