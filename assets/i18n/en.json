@@ -77,7 +77,7 @@
     "VIEW_TITLE": "Clear View",
     "VIEW_DESC": "The camera must clearly see the hoop and the shooter.",
     "DURATION_TITLE": "Max Duration",
-    "DURATION_DESC": "<strong>1 min</strong> on mobile or when not logged in, <strong>5 min</strong> when logged in, and <strong>unlimited</strong> with a subscription. Videos are trimmed to the limit.",
+    "DURATION_DESC": "<strong>{{anonymous}}</strong> without an account, <strong>{{free}}</strong> once you log in, <strong>unlimited</strong> with a subscription. On a phone every plan stops at <strong>{{mobile}}</strong> and you get the numbers, not the annotated video. Longer videos are trimmed to the limit.",
     "EXAMPLE_PROMPT": "Curious what the result looks like?",
     "EXAMPLE_LINK": "Watch an example output video!",
     "WEBGPU_WARNING": "WebGPU is not available here, so processing will be much slower. Switch to a computer with a recent browser: {{browsers}}.",
@@ -96,7 +96,7 @@
     "VIDEO_EXCEEDS_LIMIT": "Your video is {{duration}}. Only the first {{limit}} will be processed.",
     "UPGRADE_HINT_LOGIN": "Log in to process up to {{limit}}.",
     "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
-    "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here and videos are limited to {{limit}} min. For the best experience, use a computer.",
+    "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here, you get the numbers but not the annotated video, and each video is processed up to {{limit}}. For the best experience, use a computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos.",
     "SHOW_OVERLAY": "Show detection overlay",
     "SHOW_OVERLAY_DESC": "Draws detection boxes, labels and the shot zone on the annotated video. Off means only the score panel and the ball trajectory.",
@@ -142,7 +142,8 @@
     "STATS_TRUNCATED_NO_DURATION": "These numbers cover only the first {{limit}} of your video.",
     "PREVIEW_UNAVAILABLE": "The annotated video is no longer saved on this device. These numbers are still from your last run.",
     "RUN_INTERRUPTED": "We didn't get to finish {{name}}. Pick the file again to start over.",
-    "CPU_FALLBACK_NOTICE": "WebGPU could not be used for this run, so it's running on the CPU and will take longer."
+    "CPU_FALLBACK_NOTICE": "WebGPU could not be used for this run, so it's running on the CPU and will take longer.",
+    "DATA_ONLY_RESULT": "This device counts the shots but does not produce the annotated video. Process the same file on a computer to get it."
   },
   "AUTH": {
     "LOGIN": "Login",
@@ -275,7 +276,7 @@
     "ACCESS_UNTIL": "Access until {{date}}",
     "MAX_DURATION": "Videos up to {{minutes}} min",
     "UNLIMITED_DURATION": "Videos of any length",
-    "MOBILE_CAP_NOTE": "On phones and tablets, videos are capped at {{limit}} min whatever your plan.",
+    "MOBILE_CAP_NOTE": "On phones and tablets, videos are capped at {{limit}} whatever your plan, and you get the numbers without the annotated video.",
     "INTERVAL_MONTH": "month",
     "INTERVAL_YEAR": "year",
     "SUBSCRIBE": "Subscribe",

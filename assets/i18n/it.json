@@ -77,7 +77,7 @@
     "VIEW_TITLE": "Visuale Chiara",
     "VIEW_DESC": "La telecamera deve vedere chiaramente il canestro e il tiratore.",
     "DURATION_TITLE": "Durata Massima",
-    "DURATION_DESC": "<strong>1 min</strong> su mobile o senza accesso, <strong>5 min</strong> dopo l'accesso e <strong>illimitato</strong> con un abbonamento. I video vengono tagliati al limite.",
+    "DURATION_DESC": "<strong>{{anonymous}}</strong> senza account, <strong>{{free}}</strong> dopo l'accesso, <strong>illimitato</strong> con un abbonamento. Sul telefono ogni piano si ferma a <strong>{{mobile}}</strong> e ottieni i numeri, non il video annotato. I video più lunghi vengono tagliati al limite.",
     "EXAMPLE_PROMPT": "Curioso di vedere il risultato?",
     "EXAMPLE_LINK": "Guarda un video di esempio!",
     "WEBGPU_WARNING": "WebGPU non è disponibile qui, quindi l'elaborazione sarà molto più lenta. Passa a un computer con un browser recente: {{browsers}}.",
@@ -96,7 +96,7 @@
     "VIDEO_EXCEEDS_LIMIT": "Il tuo video dura {{duration}}. Verrà elaborato solo fino a {{limit}}.",
     "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a {{limit}}.",
     "LOW_SPEC_WARNING": "Il tuo PC ha specifiche inferiori a quelle consigliate. L'elaborazione richiederà più tempo del solito. Consigliamo hardware migliore per velocità di elaborazione più rapide.",
-    "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta e i video sono limitati a {{limit}} min. Per la migliore esperienza, usa un computer.",
+    "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta, ottieni i numeri ma non il video annotato, e di ogni video viene elaborato fino a {{limit}}. Per la migliore esperienza, usa un computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi.",
     "SHOW_OVERLAY": "Mostra overlay di rilevamento",
     "SHOW_OVERLAY_DESC": "Disegna i box di rilevamento, le etichette e la zona di tiro sul video annotato. Se disattivato restano solo il pannello del punteggio e la traiettoria della palla.",
@@ -142,7 +142,8 @@
     "STATS_TRUNCATED_NO_DURATION": "Questi numeri coprono solo il video fino a {{limit}}.",
     "PREVIEW_UNAVAILABLE": "Il video annotato non è più salvato su questo dispositivo. Questi numeri sono comunque quelli della tua ultima elaborazione.",
     "RUN_INTERRUPTED": "Non siamo riusciti a finire {{name}}. Riprendi il file e ricominciamo.",
-    "CPU_FALLBACK_NOTICE": "Per questa elaborazione WebGPU non si è potuto usare, quindi gira sulla CPU e ci vorrà più tempo."
+    "CPU_FALLBACK_NOTICE": "Per questa elaborazione WebGPU non si è potuto usare, quindi gira sulla CPU e ci vorrà più tempo.",
+    "DATA_ONLY_RESULT": "Questo dispositivo conta i tiri ma non produce il video annotato. Elabora lo stesso file su un computer per ottenerlo."
   },
   "AUTH": {
     "LOGIN": "Accedi",
@@ -275,7 +276,7 @@
     "ACCESS_UNTIL": "Accesso fino al {{date}}",
     "MAX_DURATION": "Video fino a {{minutes}} min",
     "UNLIMITED_DURATION": "Video di qualsiasi durata",
-    "MOBILE_CAP_NOTE": "Su telefoni e tablet i video sono limitati a {{limit}} min, qualunque sia il piano.",
+    "MOBILE_CAP_NOTE": "Su telefoni e tablet i video sono limitati a {{limit}} qualunque sia il piano, e ottieni i numeri senza il video annotato.",
     "INTERVAL_MONTH": "mese",
     "INTERVAL_YEAR": "anno",
     "SUBSCRIBE": "Abbonati",
