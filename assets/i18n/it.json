@@ -80,7 +80,13 @@
     "DURATION_DESC": "<strong>1 min</strong> su mobile o senza accesso, <strong>5 min</strong> dopo l'accesso e <strong>illimitato</strong> con un abbonamento. I video vengono tagliati al limite.",
     "EXAMPLE_PROMPT": "Curioso di vedere il risultato?",
     "EXAMPLE_LINK": "Guarda un video di esempio!",
-    "WEBGPU_WARNING": "WebGPU non è disponibile nel tuo browser. Senza, l'elaborazione sarà molto più lenta. Per prestazioni migliori usa un browser che supporta WebGPU (ad esempio Chrome o Edge).",
+    "WEBGPU_WARNING": "WebGPU non è disponibile qui, quindi l'elaborazione sarà molto più lenta. Passa a un computer con un browser recente: {{browsers}}.",
+    "WEBGPU_HW_ACCEL_HINT": "Se ci sei già, controlla che l'accelerazione hardware sia attiva nelle impostazioni del browser.",
+    "WEBGPU_WARNING_LINUX": "WebGPU è spento qui, quindi l'elaborazione sarà molto più lenta. Su Linux di solito va attivato a mano.",
+    "WEBGPU_LINUX_LINK": "Ecco come",
+    "WEBGPU_LINUX_CHROME": "Chrome o Chromium: apri chrome://flags, attiva \"Unsafe WebGPU Support\" e \"Vulkan\", poi riavvia il browser. \"Unsafe\" vuol dire solo sperimentale.",
+    "WEBGPU_LINUX_FIREFOX": "Firefox: apri about:config, imposta dom.webgpu.enabled su true e riavvia. Se ancora non va, imposta su true anche gfx.webgpu.ignore-blocklist.",
+    "WEBGPU_DISMISS": "Non mostrarlo più",
     "NATIVE_FALLBACK_WARNING": "La pipeline accelerata su GPU non è riuscita a partire, quindi questo video viene elaborato da quella interna, più lenta."
   },
   "UPLOAD": {
@@ -135,7 +141,8 @@
     "STATS_TRUNCATED": "Questi numeri coprono solo la prima parte del video: {{limit}} su {{duration}}.",
     "STATS_TRUNCATED_NO_DURATION": "Questi numeri coprono solo il video fino a {{limit}}.",
     "PREVIEW_UNAVAILABLE": "Il video annotato non è più salvato su questo dispositivo. Questi numeri sono comunque quelli della tua ultima elaborazione.",
-    "RUN_INTERRUPTED": "Non siamo riusciti a finire {{name}}. Riprendi il file e ricominciamo."
+    "RUN_INTERRUPTED": "Non siamo riusciti a finire {{name}}. Riprendi il file e ricominciamo.",
+    "CPU_FALLBACK_NOTICE": "Per questa elaborazione WebGPU non si è potuto usare, quindi gira sulla CPU e ci vorrà più tempo."
   },
   "AUTH": {
     "LOGIN": "Accedi",

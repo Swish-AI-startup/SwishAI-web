@@ -80,7 +80,13 @@
     "DURATION_DESC": "<strong>1 min</strong> on mobile or when not logged in, <strong>5 min</strong> when logged in, and <strong>unlimited</strong> with a subscription. Videos are trimmed to the limit.",
     "EXAMPLE_PROMPT": "Curious what the result looks like?",
     "EXAMPLE_LINK": "Watch an example output video!",
-    "WEBGPU_WARNING": "WebGPU is not available in your browser. Processing will be significantly slower without it. For better performance, use a browser that supports WebGPU (e.g. Chrome or Edge).",
+    "WEBGPU_WARNING": "WebGPU is not available here, so processing will be much slower. Switch to a computer with a recent browser: {{browsers}}.",
+    "WEBGPU_HW_ACCEL_HINT": "If you're already on one, make sure hardware acceleration is turned on in the browser settings.",
+    "WEBGPU_WARNING_LINUX": "WebGPU is off here, so processing will be much slower. On Linux it usually needs to be turned on by hand.",
+    "WEBGPU_LINUX_LINK": "See how",
+    "WEBGPU_LINUX_CHROME": "Chrome or Chromium: open chrome://flags, enable \"Unsafe WebGPU Support\" and \"Vulkan\", then restart the browser. \"Unsafe\" only means experimental.",
+    "WEBGPU_LINUX_FIREFOX": "Firefox: open about:config, set dom.webgpu.enabled to true and restart. If it still doesn't work, also set gfx.webgpu.ignore-blocklist to true.",
+    "WEBGPU_DISMISS": "Don't show this again",
     "NATIVE_FALLBACK_WARNING": "The GPU-accelerated pipeline could not start, so this video is being processed by the slower in-app one."
   },
   "UPLOAD": {
@@ -135,7 +141,8 @@
     "STATS_TRUNCATED": "These numbers cover only the first part of your video: {{limit}} of {{duration}}.",
     "STATS_TRUNCATED_NO_DURATION": "These numbers cover only the first {{limit}} of your video.",
     "PREVIEW_UNAVAILABLE": "The annotated video is no longer saved on this device. These numbers are still from your last run.",
-    "RUN_INTERRUPTED": "We didn't get to finish {{name}}. Pick the file again to start over."
+    "RUN_INTERRUPTED": "We didn't get to finish {{name}}. Pick the file again to start over.",
+    "CPU_FALLBACK_NOTICE": "WebGPU could not be used for this run, so it's running on the CPU and will take longer."
   },
   "AUTH": {
     "LOGIN": "Login",

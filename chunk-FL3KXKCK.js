@@ -1,1 +1,0 @@
-import{L as t}from"./chunk-VL2XM7PV.js";var n=(()=>{class o{constructor(){this.isMobile=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1}static{this.\u0275fac=function(r){return new(r||o)}}static{this.\u0275prov=t({token:o,factory:o.\u0275fac,providedIn:"root"})}}return o})();export{n as a};
