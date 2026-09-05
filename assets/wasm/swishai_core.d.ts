@@ -10,10 +10,11 @@ export class WasmEngine {
      */
     ensure_frame(width: number, height: number): void;
     /**
-     * Registers every basket still waiting for evidence that will never arrive.
-     * Call once the last frame has been processed, before reading the totals.
+     * Registers every basket still waiting for evidence that will never arrive,
+     * returning what that produced as a `StatEvent[]`. Call once the last frame
+     * has been processed, before reading the totals.
      */
-    finish(frame_idx: number): void;
+    finish(frame_idx: number): any;
     frame_len(): number;
     frame_ptr(): number;
     /**
@@ -101,16 +102,24 @@ export class WasmGlue {
     tensor_ptr(): number;
 }
 
+/**
+ * What produced a run's events: the core crate's version, since the model ships
+ * inside this build and carries none of its own. Stamped on every event so a
+ * later reading knows which logic it came from.
+ */
+export function algorithm_version(): string;
+
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly __wbg_wasmengine_free: (a: number, b: number) => void;
     readonly __wbg_wasmglue_free: (a: number, b: number) => void;
+    readonly algorithm_version: () => [number, number];
     readonly wasmengine_accuracy: (a: number) => number;
     readonly wasmengine_basketsMade: (a: number) => number;
     readonly wasmengine_ensure_frame: (a: number, b: number, c: number) => void;
-    readonly wasmengine_finish: (a: number, b: number) => void;
+    readonly wasmengine_finish: (a: number, b: number) => [number, number, number];
     readonly wasmengine_frame_len: (a: number) => number;
     readonly wasmengine_frame_ptr: (a: number) => number;
     readonly wasmengine_new: (a: number, b: number, c: number, d: number) => number;
@@ -129,8 +138,8 @@ export interface InitOutput {
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_externrefs: WebAssembly.Table;
-    readonly __externref_table_dealloc: (a: number) => void;
     readonly __wbindgen_free: (a: number, b: number, c: number) => void;
+    readonly __externref_table_dealloc: (a: number) => void;
     readonly __wbindgen_start: () => void;
 }
 

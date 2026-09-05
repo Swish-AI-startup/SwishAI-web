@@ -20,12 +20,13 @@
     "CONFIRM": "Conferma",
     "CLOSE": "Chiudi",
     "LOADING": "Caricamento...",
-    "BACK": "Indietro"
+    "BACK": "Indietro",
+    "ADD_ANOTHER_VIDEO": "Aggiungi un altro video"
   },
   "NAV": {
     "PROCESS_VIDEO": "Elabora Video",
     "VIDEOS": "Video",
-    "DASHBOARD": "Dashboard",
+    "HISTORY": "Storico",
     "HARDWARE": "Hardware",
     "ABOUT": "Informazioni",
     "SUBSCRIPTION": "Abbonamento"
@@ -85,17 +86,19 @@
   "UPLOAD": {
     "CLICK": "Clicca per caricare un video",
     "DROP": "Trascina il video qui",
-    "FORMATS": "Supporta MP4, MOV, AVI",
-    "VIDEO_EXCEEDS_LIMIT": "Il tuo video supera il limite di {{limit}} minuto/i. Solo i primi {{limit}} minuti verranno elaborati.",
-    "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a 5 minuti.",
+    "FORMATS": "Supporta MP4 e MOV. Funzionano anche alcuni file AVI.",
+    "VIDEO_EXCEEDS_LIMIT": "Il tuo video dura {{duration}}. Verrà elaborato solo fino a {{limit}}.",
+    "UPGRADE_HINT_LOGIN": "Accedi per elaborare fino a {{limit}}.",
     "LOW_SPEC_WARNING": "Il tuo PC ha specifiche inferiori a quelle consigliate. L'elaborazione richiederà più tempo del solito. Consigliamo hardware migliore per velocità di elaborazione più rapide.",
-    "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta e i video sono limitati a {{limit}} minuto. Per la migliore esperienza, usa un computer.",
+    "MOBILE_PERF_WARNING": "Sei su un dispositivo mobile: l'elaborazione è più lenta e i video sono limitati a {{limit}} min. Per la migliore esperienza, usa un computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Abbonati per elaborare video più lunghi.",
     "SHOW_OVERLAY": "Mostra overlay di rilevamento",
     "SHOW_OVERLAY_DESC": "Disegna i box di rilevamento, le etichette e la zona di tiro sul video annotato. Se disattivato restano solo il pannello del punteggio e la traiettoria della palla.",
     "HIDE_WATERMARK": "Nascondi filigrana",
     "HIDE_WATERMARK_DESC": "Rimuove il logo SwishAI dal video finale.",
-    "HIDE_WATERMARK_PRO": "Disponibile con un abbonamento Pro."
+    "HIDE_WATERMARK_PRO": "Disponibile con un abbonamento Pro.",
+    "LARGE_FILE": "Questo file pesa {{size}}, che è tanto da tenere in memoria tutto insieme.",
+    "LARGE_FILE_HINT": "Su questo dispositivo l'elaborazione potrebbe fermarsi a metà. Con uno spezzone più corto vai sul sicuro."
   },
   "FILE_INFO": {
     "READY": "Pronto per l'elaborazione",
@@ -128,7 +131,11 @@
     "SOFTWARE_DECODE_NOTICE": "Il tuo browser non decodifica l'HEVC direttamente, quindi lo facciamo via software: ci vorrà più tempo. Per velocizzare: iPhone › Impostazioni › Fotocamera › Formati › Massima compatibilità, oppure converti il file in H.264.",
     "ERROR_HEVC": "Non è stato possibile decodificare questo video HEVC. Prova a convertirlo in MP4 H.264.",
     "ERROR_CODEC": "Questo video usa un formato che il browser non riesce a leggere qui ({{codecs}}). Convertilo in MP4 H.264 e riprova.",
-    "ERROR_UNREADABLE_FILE": "Non è stato possibile leggere questo file come video MP4. Prova con un MP4 registrato in H.264."
+    "ERROR_UNREADABLE_FILE": "Non è stato possibile leggere questo file come video MP4. Prova con un MP4 registrato in H.264.",
+    "STATS_TRUNCATED": "Questi numeri coprono solo la prima parte del video: {{limit}} su {{duration}}.",
+    "STATS_TRUNCATED_NO_DURATION": "Questi numeri coprono solo il video fino a {{limit}}.",
+    "PREVIEW_UNAVAILABLE": "Il video annotato non è più salvato su questo dispositivo. Questi numeri sono comunque quelli della tua ultima elaborazione.",
+    "RUN_INTERRUPTED": "Non siamo riusciti a finire {{name}}. Riprendi il file e ricominciamo."
   },
   "AUTH": {
     "LOGIN": "Accedi",
@@ -222,16 +229,6 @@
     "NOT_MEASURED": "Non ancora misurato",
     "NOT_MEASURED_NOTE": "Elabora un video per misurarlo"
   },
-  "DASHBOARD": {
-    "TITLE": "Dashboard",
-    "CHART_TITLE": "Tiri e canestri nel tempo",
-    "LIST_TITLE": "Cronologia elaborazioni",
-    "LOADING": "Caricamento statistiche...",
-    "EMPTY_TITLE": "Nessuna statistica ancora",
-    "EMPTY_DESC": "Elabora un video per vedere le tue statistiche qui",
-    "DELETE": "Elimina voce",
-    "LOGIN_REQUIRED": "Accedi per vedere il tuo dashboard personale delle statistiche"
-  },
   "VIDEOS": {
     "TITLE": "Video Elaborati",
     "REMOVE_CONFIRM": "Rimuovere \"{{name}}\" dalla cronologia?",
@@ -269,8 +266,9 @@
     "STATUS_CANCELLING": "In cancellazione",
     "RENEWS_ON": "Si rinnova il {{date}}",
     "ACCESS_UNTIL": "Accesso fino al {{date}}",
-    "MAX_DURATION": "Video fino a {{minutes}} minuti",
+    "MAX_DURATION": "Video fino a {{minutes}} min",
     "UNLIMITED_DURATION": "Video di qualsiasi durata",
+    "MOBILE_CAP_NOTE": "Su telefoni e tablet i video sono limitati a {{limit}} min, qualunque sia il piano.",
     "INTERVAL_MONTH": "mese",
     "INTERVAL_YEAR": "anno",
     "SUBSCRIBE": "Abbonati",
@@ -289,5 +287,42 @@
     "CONFIRM_SWITCH_TITLE": "Cambiare piano?",
     "CONFIRM_SWITCH_MESSAGE": "La modifica ha effetto immediato. La differenza di prezzo per il resto del periodo in corso viene addebitata o accreditata subito.",
     "ERROR_GENERIC": "Qualcosa è andato storto. Riprova."
+  },
+  "SESSION": {
+    "NOT_SAVED_YET": "Questi numeri non sono ancora nel tuo diario. Riproviamo noi, tu non devi fare niente.",
+    "NOTHING_DETECTED": "In questo video non abbiamo trovato tiri, quindi non c'è niente da salvare. Appoggia il telefono dove non si muove, inquadra un canestro solo e riprova.",
+    "OPEN_SINCE": "aperta dalle {{time}}",
+    "CLOSE": "Chiudi sessione",
+    "CLOSED_TOTAL": "Sessione chiusa: {{baskets}} su {{shots}}, {{accuracy}}%.",
+    "VIEW_HISTORY": "Vedi lo storico",
+    "DAY_USED": "Oggi hai già una sessione, quindi questa elaborazione non viene salvata. Torna domani, oppure",
+    "DAY_USED_LINK": "passa a Pro",
+    "KEEP_PROMPT": "Questo risultato sta solo in questo browser e non è salvato da nessuna parte.",
+    "KEEP_PROMPT_MANY": "I video di questa visita stanno solo in questo browser e non sono salvati da nessuna parte.",
+    "KEEP_PROMPT_LINK": "Registrati e lo teniamo nel tuo diario",
+    "CLAIMED": "Quello che hai elaborato adesso è sul tuo account.",
+    "KEEP_PROMPT_LINK_MANY": "Registrati e li teniamo insieme, come una sessione sola"
+  },
+  "SESSIONS": {
+    "TITLE": "Storico",
+    "LOGIN_REQUIRED": "Accedi per vedere i tuoi allenamenti",
+    "LOADING": "Carico i tuoi allenamenti…",
+    "CHART_TITLE": "Tiri e canestri nel tempo",
+    "LIST_TITLE": "I tuoi allenamenti",
+    "DEFAULT_NAME": "Sessione {{number}}",
+    "RENAME": "Rinomina questa sessione",
+    "OPEN": "aperta",
+    "VIDEOS": "Video",
+    "EXPAND": "Mostra i video",
+    "NO_VIDEOS": "In questa sessione non c’è ancora niente.",
+    "NO_DETAIL": "dettaglio non disponibile",
+    "VIDEO_TRUNCATED": "primi {{limit}} di {{duration}}",
+    "DELETE": "Elimina",
+    "DELETE_TITLE": "Elimini questa sessione?",
+    "DELETE_MESSAGE": "Se ne vanno anche i video e i tiri che contiene. Non si torna indietro.",
+    "GO_PRO": "Pro",
+    "LOCKED_HINT": "Il piano Free mostra le sessioni più recenti ({{count}}). Le altre restano dove sono: passa a Pro per rivederle.",
+    "EMPTY_TITLE": "Qui non c’è ancora niente",
+    "EMPTY_CTA": "Elabora un video"
   }
 }

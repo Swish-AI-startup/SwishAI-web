@@ -1,0 +1,1 @@
+var i={siteUrl:"https://swish-ai-startup.github.io/SwishAI-web",apiUrl:"https://swishai.unictdev.org",watermarkLink:"swishai.dev",contactEmail:"swishai23x@gmail.com"};var t=a=>a.replace(/\/+$/,""),c={siteUrl:t(i.siteUrl),apiUrl:t(i.apiUrl),contactEmail:i.contactEmail},l=i.watermarkLink;export{c as a,l as b};

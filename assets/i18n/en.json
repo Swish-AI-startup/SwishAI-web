@@ -20,12 +20,13 @@
     "CONFIRM": "Confirm",
     "CLOSE": "Close",
     "LOADING": "Loading...",
-    "BACK": "Back"
+    "BACK": "Back",
+    "ADD_ANOTHER_VIDEO": "Add another video"
   },
   "NAV": {
     "PROCESS_VIDEO": "Process Video",
     "VIDEOS": "Videos",
-    "DASHBOARD": "Dashboard",
+    "HISTORY": "History",
     "HARDWARE": "Hardware",
     "ABOUT": "About",
     "SUBSCRIPTION": "Subscription"
@@ -85,17 +86,19 @@
   "UPLOAD": {
     "CLICK": "Click to Upload Video",
     "DROP": "Drop video here",
-    "FORMATS": "Supports MP4, MOV, AVI",
-    "VIDEO_EXCEEDS_LIMIT": "Your video exceeds the {{limit}}-minute limit. Only the first {{limit}} minutes will be processed.",
-    "UPGRADE_HINT_LOGIN": "Log in to process up to 5 minutes.",
+    "FORMATS": "Supports MP4 and MOV. Some AVI files work too.",
+    "VIDEO_EXCEEDS_LIMIT": "Your video is {{duration}}. Only the first {{limit}} will be processed.",
+    "UPGRADE_HINT_LOGIN": "Log in to process up to {{limit}}.",
     "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
-    "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here and videos are limited to {{limit}} minute. For the best experience, use a computer.",
+    "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here and videos are limited to {{limit}} min. For the best experience, use a computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos.",
     "SHOW_OVERLAY": "Show detection overlay",
     "SHOW_OVERLAY_DESC": "Draws detection boxes, labels and the shot zone on the annotated video. Off means only the score panel and the ball trajectory.",
     "HIDE_WATERMARK": "Hide watermark",
     "HIDE_WATERMARK_DESC": "Removes the SwishAI logo from the output video.",
-    "HIDE_WATERMARK_PRO": "Available with a Pro subscription."
+    "HIDE_WATERMARK_PRO": "Available with a Pro subscription.",
+    "LARGE_FILE": "This file is {{size}}, which is a lot to hold in memory at once.",
+    "LARGE_FILE_HINT": "The run may fail part way on this device. A shorter clip is the safer bet."
   },
   "FILE_INFO": {
     "READY": "Ready to process",
@@ -128,7 +131,11 @@
     "SOFTWARE_DECODE_NOTICE": "Your browser can't decode HEVC directly, so we're doing it in software — this will take longer. To speed it up: iPhone › Settings › Camera › Formats › Most Compatible, or convert the file to H.264.",
     "ERROR_HEVC": "This HEVC video couldn't be decoded. Try converting it to H.264 MP4.",
     "ERROR_CODEC": "This video uses a format the browser cannot read here ({{codecs}}). Convert it to H.264 MP4 and try again.",
-    "ERROR_UNREADABLE_FILE": "This file could not be read as an MP4 video. Try an MP4 recorded with H.264."
+    "ERROR_UNREADABLE_FILE": "This file could not be read as an MP4 video. Try an MP4 recorded with H.264.",
+    "STATS_TRUNCATED": "These numbers cover only the first part of your video: {{limit}} of {{duration}}.",
+    "STATS_TRUNCATED_NO_DURATION": "These numbers cover only the first {{limit}} of your video.",
+    "PREVIEW_UNAVAILABLE": "The annotated video is no longer saved on this device. These numbers are still from your last run.",
+    "RUN_INTERRUPTED": "We didn't get to finish {{name}}. Pick the file again to start over."
   },
   "AUTH": {
     "LOGIN": "Login",
@@ -222,16 +229,6 @@
     "NOT_MEASURED": "Not measured yet",
     "NOT_MEASURED_NOTE": "Process a video to measure this"
   },
-  "DASHBOARD": {
-    "TITLE": "Dashboard",
-    "CHART_TITLE": "Shots & Baskets over time",
-    "LIST_TITLE": "Processing History",
-    "LOADING": "Loading stats...",
-    "EMPTY_TITLE": "No stats yet",
-    "EMPTY_DESC": "Process a video to see your stats here",
-    "DELETE": "Delete entry",
-    "LOGIN_REQUIRED": "Log in to see your personal stats dashboard"
-  },
   "VIDEOS": {
     "TITLE": "Processed Videos",
     "REMOVE_CONFIRM": "Remove \"{{name}}\" from history?",
@@ -269,8 +266,9 @@
     "STATUS_CANCELLING": "Cancelling",
     "RENEWS_ON": "Renews on {{date}}",
     "ACCESS_UNTIL": "Access until {{date}}",
-    "MAX_DURATION": "Videos up to {{minutes}} minutes",
+    "MAX_DURATION": "Videos up to {{minutes}} min",
     "UNLIMITED_DURATION": "Videos of any length",
+    "MOBILE_CAP_NOTE": "On phones and tablets, videos are capped at {{limit}} min whatever your plan.",
     "INTERVAL_MONTH": "month",
     "INTERVAL_YEAR": "year",
     "SUBSCRIBE": "Subscribe",
@@ -289,5 +287,42 @@
     "CONFIRM_SWITCH_TITLE": "Switch plan?",
     "CONFIRM_SWITCH_MESSAGE": "The change applies immediately. The price difference for the rest of the current period is charged or credited right away.",
     "ERROR_GENERIC": "Something went wrong. Please try again."
+  },
+  "SESSION": {
+    "NOT_SAVED_YET": "These numbers aren't in your diary yet. We'll try again, you don't have to do anything.",
+    "NOTHING_DETECTED": "We found no shots in this video, so there's nothing to save. Put the phone somewhere it can't move, frame one basket, and try again.",
+    "OPEN_SINCE": "open since {{time}}",
+    "CLOSE": "Close session",
+    "CLOSED_TOTAL": "Session closed: {{baskets}} of {{shots}}, {{accuracy}}%.",
+    "VIEW_HISTORY": "See your history",
+    "DAY_USED": "You already have a session today, so this run won't be saved. Come back tomorrow, or",
+    "DAY_USED_LINK": "go Pro",
+    "KEEP_PROMPT": "This result is only in this browser and is not saved anywhere.",
+    "KEEP_PROMPT_MANY": "The videos of this visit are only in this browser and are not saved anywhere.",
+    "KEEP_PROMPT_LINK": "Sign up and we keep it in your diary",
+    "CLAIMED": "What you processed is on your account now.",
+    "KEEP_PROMPT_LINK_MANY": "Sign up and we keep them together, as one session"
+  },
+  "SESSIONS": {
+    "TITLE": "History",
+    "LOGIN_REQUIRED": "Log in to see your trainings",
+    "LOADING": "Loading your trainings…",
+    "CHART_TITLE": "Shots & Baskets over time",
+    "LIST_TITLE": "Your trainings",
+    "DEFAULT_NAME": "Session {{number}}",
+    "RENAME": "Rename this session",
+    "OPEN": "open",
+    "VIDEOS": "Videos",
+    "EXPAND": "Show the videos",
+    "NO_VIDEOS": "Nothing in this session yet.",
+    "NO_DETAIL": "detail not available",
+    "VIDEO_TRUNCATED": "first {{limit}} of {{duration}}",
+    "DELETE": "Delete",
+    "DELETE_TITLE": "Delete this session?",
+    "DELETE_MESSAGE": "The videos and shots in it go too. This cannot be undone.",
+    "GO_PRO": "Pro",
+    "LOCKED_HINT": "Free shows your most recent sessions ({{count}}). The older ones are kept, so go Pro whenever you want them back.",
+    "EMPTY_TITLE": "Nothing here yet",
+    "EMPTY_CTA": "Process a video"
   }
 }

@@ -35,12 +35,18 @@ export class WasmEngine {
         wasm.wasmengine_ensure_frame(this.__wbg_ptr, width, height);
     }
     /**
-     * Registers every basket still waiting for evidence that will never arrive.
-     * Call once the last frame has been processed, before reading the totals.
+     * Registers every basket still waiting for evidence that will never arrive,
+     * returning what that produced as a `StatEvent[]`. Call once the last frame
+     * has been processed, before reading the totals.
      * @param {number} frame_idx
+     * @returns {any}
      */
     finish(frame_idx) {
-        wasm.wasmengine_finish(this.__wbg_ptr, frame_idx);
+        const ret = wasm.wasmengine_finish(this.__wbg_ptr, frame_idx);
+        if (ret[2]) {
+            throw takeFromExternrefTable0(ret[1]);
+        }
+        return takeFromExternrefTable0(ret[0]);
     }
     /**
      * @returns {number}
@@ -231,6 +237,25 @@ export class WasmGlue {
     }
 }
 if (Symbol.dispose) WasmGlue.prototype[Symbol.dispose] = WasmGlue.prototype.free;
+
+/**
+ * What produced a run's events: the core crate's version, since the model ships
+ * inside this build and carries none of its own. Stamped on every event so a
+ * later reading knows which logic it came from.
+ * @returns {string}
+ */
+export function algorithm_version() {
+    let deferred1_0;
+    let deferred1_1;
+    try {
+        const ret = wasm.algorithm_version();
+        deferred1_0 = ret[0];
+        deferred1_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred1_0, deferred1_1, 1);
+    }
+}
 function __wbg_get_imports() {
     const import0 = {
         __proto__: null,
