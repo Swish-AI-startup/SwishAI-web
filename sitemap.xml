@@ -4,4 +4,28 @@
     <loc>https://swish-ai-startup.github.io/SwishAI-web/</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/process-video/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/subscription/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/terms/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/privacy/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/refunds/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/imprint/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

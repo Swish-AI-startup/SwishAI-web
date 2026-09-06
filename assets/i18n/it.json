@@ -332,5 +332,67 @@
     "LOCKED_HINT": "Il piano Free mostra le sessioni più recenti ({{count}}). Le altre restano dove sono: passa a Pro per rivederle.",
     "EMPTY_TITLE": "Qui non c’è ancora niente",
     "EMPTY_CTA": "Elabora un video"
+  },
+  "PAGE_META": {
+    "PROCESS_VIDEO": {
+      "TITLE": "Conta i tiri dal tuo video di basket",
+      "DESCRIPTION": "Carica un video di basket e SwishAI conta tiri, canestri e precisione, tutto nel tuo browser: il video non esce dal tuo dispositivo."
+    },
+    "SUBSCRIPTION": {
+      "TITLE": "Piani e prezzi",
+      "DESCRIPTION": "Confronta il piano gratuito e il Pro: quanto può durare un video, quante sessioni restano visibili e cosa conserva il tuo storico."
+    },
+    "TERMS": {
+      "TITLE": "Termini di servizio",
+      "DESCRIPTION": "I termini che accetti usando SwishAI: cosa fa l'app, quanto valgono i conteggi e cosa ci si aspetta dal tuo account."
+    },
+    "PRIVACY": {
+      "TITLE": "Informativa privacy",
+      "DESCRIPTION": "Cosa conserva SwishAI e cosa non vede mai. Il video viene elaborato nel tuo browser e non viene caricato da nessuna parte."
+    },
+    "REFUNDS": {
+      "TITLE": "Rimborsi e recesso",
+      "DESCRIPTION": "Come disdire un abbonamento SwishAI, quando ti tornano i soldi e come funziona il diritto di recesso europeo."
+    },
+    "IMPRINT": {
+      "TITLE": "Informazioni societarie",
+      "DESCRIPTION": "Chi gestisce SwishAI: dati della società, sede e come contattarci."
+    },
+    "LOGIN": {
+      "TITLE": "Accedi",
+      "DESCRIPTION": "Accedi a SwishAI per salvare i tuoi allenamenti e seguire come cambiano i tuoi tiri nel tempo."
+    },
+    "REGISTER": {
+      "TITLE": "Crea un account",
+      "DESCRIPTION": "Crea un account SwishAI gratuito per tenere le sessioni che elabori e trasformarle in un diario di tiro."
+    },
+    "FORGOT_PASSWORD": {
+      "TITLE": "Reimposta la password",
+      "DESCRIPTION": "Richiedi il link per impostare una nuova password del tuo account SwishAI."
+    },
+    "PROFILE": {
+      "TITLE": "Il tuo profilo",
+      "DESCRIPTION": "Il tuo account SwishAI: email, piano e password."
+    },
+    "SESSIONS": {
+      "TITLE": "Le tue sessioni",
+      "DESCRIPTION": "Tutti gli allenamenti elaborati con SwishAI, con tiri, canestri e precisione sessione per sessione."
+    },
+    "VIDEOS": {
+      "TITLE": "I tuoi video",
+      "DESCRIPTION": "I video annotati che SwishAI ha prodotto su questo dispositivo."
+    },
+    "ABOUT": {
+      "TITLE": "Informazioni",
+      "DESCRIPTION": "Cos'è SwishAI e chi lo sviluppa."
+    },
+    "HARDWARE": {
+      "TITLE": "Hardware",
+      "DESCRIPTION": "Cosa serve al tuo computer per far girare il motore di rilevamento di SwishAI."
+    },
+    "NOT_FOUND": {
+      "TITLE": "Pagina non trovata",
+      "DESCRIPTION": "A questo indirizzo non c'è niente. Torna su SwishAI ed elabora un video."
+    }
   }
 }

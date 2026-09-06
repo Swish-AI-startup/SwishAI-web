@@ -1,0 +1,19 @@
+# SwishAI
+
+> Upload a basketball video and SwishAI counts shots, baskets and accuracy for you. Runs entirely in your browser — the video never leaves your device.
+
+The video is decoded, analysed and annotated by the browser itself. Nothing but the
+counts ever reaches a server, and only for people who choose to keep a history.
+
+## Pages
+
+- [Count basketball shots from your video](https://swish-ai-startup.github.io/SwishAI-web/process-video/): Upload a basketball video and SwishAI counts shots, baskets and accuracy for you, entirely in your browser — the video never leaves your device.
+- [Plans and pricing](https://swish-ai-startup.github.io/SwishAI-web/subscription/): Compare the free plan with Pro: how long a video can be, how many sessions stay visible, and what your shooting history keeps.
+- [Terms of service](https://swish-ai-startup.github.io/SwishAI-web/terms/): The terms you accept when you use SwishAI: what the app does, what the counts are worth, and what is expected of your account.
+- [Privacy notice](https://swish-ai-startup.github.io/SwishAI-web/privacy/): What SwishAI stores and what it never sees. Your video is processed in your browser and is never uploaded anywhere.
+- [Refunds and withdrawal](https://swish-ai-startup.github.io/SwishAI-web/refunds/): How to cancel a SwishAI subscription, when you get your money back, and how the EU right of withdrawal applies.
+- [Company information](https://swish-ai-startup.github.io/SwishAI-web/imprint/): Who runs SwishAI: company details, registered address and how to get in touch.
+
+## Contact
+
+- swishai23x@gmail.com

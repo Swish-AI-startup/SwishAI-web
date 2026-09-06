@@ -332,5 +332,67 @@
     "LOCKED_HINT": "Free shows your most recent sessions ({{count}}). The older ones are kept, so go Pro whenever you want them back.",
     "EMPTY_TITLE": "Nothing here yet",
     "EMPTY_CTA": "Process a video"
+  },
+  "PAGE_META": {
+    "PROCESS_VIDEO": {
+      "TITLE": "Count basketball shots from your video",
+      "DESCRIPTION": "Upload a basketball video and SwishAI counts shots, baskets and accuracy for you, entirely in your browser — the video never leaves your device."
+    },
+    "SUBSCRIPTION": {
+      "TITLE": "Plans and pricing",
+      "DESCRIPTION": "Compare the free plan with Pro: how long a video can be, how many sessions stay visible, and what your shooting history keeps."
+    },
+    "TERMS": {
+      "TITLE": "Terms of service",
+      "DESCRIPTION": "The terms you accept when you use SwishAI: what the app does, what the counts are worth, and what is expected of your account."
+    },
+    "PRIVACY": {
+      "TITLE": "Privacy notice",
+      "DESCRIPTION": "What SwishAI stores and what it never sees. Your video is processed in your browser and is never uploaded anywhere."
+    },
+    "REFUNDS": {
+      "TITLE": "Refunds and withdrawal",
+      "DESCRIPTION": "How to cancel a SwishAI subscription, when you get your money back, and how the EU right of withdrawal applies."
+    },
+    "IMPRINT": {
+      "TITLE": "Company information",
+      "DESCRIPTION": "Who runs SwishAI: company details, registered address and how to get in touch."
+    },
+    "LOGIN": {
+      "TITLE": "Sign in",
+      "DESCRIPTION": "Sign in to SwishAI to save your training sessions and follow how your shooting changes over time."
+    },
+    "REGISTER": {
+      "TITLE": "Create an account",
+      "DESCRIPTION": "Create a free SwishAI account to keep the sessions you process and build a shooting diary out of them."
+    },
+    "FORGOT_PASSWORD": {
+      "TITLE": "Reset your password",
+      "DESCRIPTION": "Ask for a link to set a new password for your SwishAI account."
+    },
+    "PROFILE": {
+      "TITLE": "Your profile",
+      "DESCRIPTION": "Your SwishAI account: email, plan and password."
+    },
+    "SESSIONS": {
+      "TITLE": "Your sessions",
+      "DESCRIPTION": "Every training you have processed with SwishAI, with shots, baskets and accuracy session by session."
+    },
+    "VIDEOS": {
+      "TITLE": "Your videos",
+      "DESCRIPTION": "The annotated videos SwishAI has produced on this device."
+    },
+    "ABOUT": {
+      "TITLE": "About",
+      "DESCRIPTION": "What SwishAI is, and who builds it."
+    },
+    "HARDWARE": {
+      "TITLE": "Hardware",
+      "DESCRIPTION": "What your computer needs to run the SwishAI detection engine."
+    },
+    "NOT_FOUND": {
+      "TITLE": "Page not found",
+      "DESCRIPTION": "There is nothing at this address. Go back to SwishAI and process a video."
+    }
   }
 }

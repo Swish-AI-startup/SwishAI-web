@@ -1,1 +1,0 @@
-import{L as r}from"./chunk-VL2XM7PV.js";var n=(()=>{class t{get isTauri(){return!!(window&&window.__TAURI__)}static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{n as a};
