@@ -169,7 +169,6 @@
     "CONFIRM_NEW_PASSWORD": "Confirm New Password",
     "PASSWORD_UPDATED": "Password updated successfully.",
     "PASSWORD_UPDATE_ERROR": "Failed to update password. Please try again.",
-    "REDIRECT_COUNTDOWN": "You will be redirected to login in {{seconds}} seconds.",
     "FORGOT_PASSWORD": "Forgot Password?",
     "FORGOT_PASSWORD_LINK": "Forgot your password?",
     "FORGOT_PASSWORD_SUBMIT": "Send Reset Email",
@@ -298,7 +297,7 @@
   },
   "SESSION": {
     "NOT_SAVED_YET": "These numbers aren't in your diary yet. We'll try again, you don't have to do anything.",
-    "NOTHING_DETECTED": "We found no shots in this video, so there's nothing to save. Put the phone somewhere it can't move, frame one basket, and try again.",
+    "NOTHING_DETECTED": "We found no shots in this video, so there's nothing to save. Put the phone somewhere it can't move, frame one basket, and try again — or add the shots by hand under the video.",
     "OPEN_SINCE": "open since {{time}}",
     "CLOSE": "Close session",
     "CLOSED_TOTAL": "Session closed: {{baskets}} of {{shots}}, {{accuracy}}%.",
@@ -332,6 +331,23 @@
     "LOCKED_HINT": "Free shows your most recent sessions ({{count}}). The older ones are kept, so go Pro whenever you want them back.",
     "EMPTY_TITLE": "Nothing here yet",
     "EMPTY_CTA": "Process a video"
+  },
+  "REVIEW": {
+    "TITLE": "Review your shots",
+    "HINT": "Tap a shot to watch it. Tap it again to switch made and missed. Hold it to remove it.",
+    "HINT_KEYBOARD": "Arrows move, Enter switches, Delete removes.",
+    "HINT_NO_VIDEO": "No video to check against here: fix the count directly.",
+    "SHOT_MADE": "Made at {{time}}",
+    "SHOT_MISSED": "Missed at {{time}}",
+    "ADD_SHOT": "Add a shot here",
+    "REMOVED": "Shot removed.",
+    "UNDO": "Undo",
+    "EDITED": "changed by you",
+    "DETECTED": "detected: {{shots}} shots, {{baskets}} baskets",
+    "EDIT_TOTALS": "Fix the count",
+    "RESET_HINT": "Leave both empty to go back to what was detected.",
+    "BASKETS_OVER_SHOTS": "Baskets cannot exceed shots.",
+    "SAVE_FAILED": "Could not save. Try again."
   },
   "PAGE_META": {
     "PROCESS_VIDEO": {

@@ -169,7 +169,6 @@
     "CONFIRM_NEW_PASSWORD": "Conferma Nuova Password",
     "PASSWORD_UPDATED": "Password aggiornata con successo.",
     "PASSWORD_UPDATE_ERROR": "Impossibile aggiornare la password. Riprova.",
-    "REDIRECT_COUNTDOWN": "Sarai reindirizzato al login tra {{seconds}} secondi.",
     "FORGOT_PASSWORD": "Password dimenticata?",
     "FORGOT_PASSWORD_LINK": "Hai dimenticato la password?",
     "FORGOT_PASSWORD_SUBMIT": "Invia e-mail di ripristino",
@@ -298,7 +297,7 @@
   },
   "SESSION": {
     "NOT_SAVED_YET": "Questi numeri non sono ancora nel tuo diario. Riproviamo noi, tu non devi fare niente.",
-    "NOTHING_DETECTED": "In questo video non abbiamo trovato tiri, quindi non c'è niente da salvare. Appoggia il telefono dove non si muove, inquadra un canestro solo e riprova.",
+    "NOTHING_DETECTED": "In questo video non abbiamo trovato tiri, quindi non c'è niente da salvare. Appoggia il telefono dove non si muove, inquadra un canestro solo e riprova — oppure aggiungi i tiri a mano sotto il video.",
     "OPEN_SINCE": "aperta dalle {{time}}",
     "CLOSE": "Chiudi sessione",
     "CLOSED_TOTAL": "Sessione chiusa: {{baskets}} su {{shots}}, {{accuracy}}%.",
@@ -332,6 +331,23 @@
     "LOCKED_HINT": "Il piano Free mostra le sessioni più recenti ({{count}}). Le altre restano dove sono: passa a Pro per rivederle.",
     "EMPTY_TITLE": "Qui non c’è ancora niente",
     "EMPTY_CTA": "Elabora un video"
+  },
+  "REVIEW": {
+    "TITLE": "Ricontrolla i tiri",
+    "HINT": "Tocca un tiro per rivederlo. Toccalo di nuovo per cambiare segnato e sbagliato. Tienilo premuto per toglierlo.",
+    "HINT_KEYBOARD": "Le frecce spostano, Invio cambia, Canc toglie.",
+    "HINT_NO_VIDEO": "Qui non c'è il video da controllare: correggi direttamente il conteggio.",
+    "SHOT_MADE": "Segnato a {{time}}",
+    "SHOT_MISSED": "Sbagliato a {{time}}",
+    "ADD_SHOT": "Aggiungi un tiro qui",
+    "REMOVED": "Tiro tolto.",
+    "UNDO": "Annulla",
+    "EDITED": "corretto da te",
+    "DETECTED": "rilevati: {{shots}} tiri, {{baskets}} canestri",
+    "EDIT_TOTALS": "Correggi il conteggio",
+    "RESET_HINT": "Lascia i due campi vuoti per tornare a quello che abbiamo rilevato.",
+    "BASKETS_OVER_SHOTS": "I canestri non possono essere più dei tiri.",
+    "SAVE_FAILED": "Non siamo riusciti a salvare. Riprova."
   },
   "PAGE_META": {
     "PROCESS_VIDEO": {

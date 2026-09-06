@@ -1,0 +1,1 @@
+function u(t){return t.userOutcome??t.modelOutcome}function r(t){let o=0,c=0;for(let n of t){let e=u(n);e==="discarded"||e===null||(o++,e==="made"&&c++)}return{shots:o,baskets:c}}export{u as a,r as b};
