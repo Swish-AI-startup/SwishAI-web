@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-TQRQ275V.js";import{M as t,R as o,sa as i}from"./chunk-IZDJ2NLJ.js";var p=(()=>{class r{constructor(){this.isBrowser=e(o(i))}get isTauri(){return this.isBrowser&&!!window.__TAURI__}static{this.\u0275fac=function(s){return new(s||r)}}static{this.\u0275prov=t({token:r,factory:r.\u0275fac,providedIn:"root"})}}return r})();export{p as a};

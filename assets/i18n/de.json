@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "Zurück zur Anmeldung",
     "OR": "oder",
     "CONTINUE_WITH_GOOGLE": "Mit Google fortfahren",
-    "CONTINUE_WITH_APPLE": "Mit Apple fortfahren",
     "OAUTH_WAITING": "Warten auf den Abschluss der Anmeldung in Ihrem Browser…",
     "OAUTH_CANCEL": "Abbrechen",
     "OAUTH_ERROR": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.",

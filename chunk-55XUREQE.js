@@ -1,0 +1,1 @@
+import{$a as o,Ia as n,ab as a,pb as i}from"./chunk-IZDJ2NLJ.js";var d=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=n({type:e,selectors:[["app-page-not-found"]],decls:2,vars:0,template:function(t,c){t&1&&(o(0,"p"),i(1,"page-not-found!"),a())},encapsulation:2,changeDetection:0})}}return e})();export{d as a};

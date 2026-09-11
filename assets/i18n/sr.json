@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "Назад на пријаву",
     "OR": "или",
     "CONTINUE_WITH_GOOGLE": "Настави са Google-ом",
-    "CONTINUE_WITH_APPLE": "Настави са Apple-ом",
     "OAUTH_WAITING": "Чека се да завршите пријаву у прегледачу…",
     "OAUTH_CANCEL": "Откажи",
     "OAUTH_ERROR": "Пријава није успела. Покушајте поново.",

@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "ログインに戻る",
     "OR": "または",
     "CONTINUE_WITH_GOOGLE": "Google で続行",
-    "CONTINUE_WITH_APPLE": "Apple で続行",
     "OAUTH_WAITING": "ブラウザでのサインインの完了を待っています…",
     "OAUTH_CANCEL": "キャンセル",
     "OAUTH_ERROR": "サインインに失敗しました。もう一度お試しください。",

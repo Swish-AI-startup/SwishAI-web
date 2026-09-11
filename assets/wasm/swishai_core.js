@@ -166,23 +166,30 @@ export class WasmGlue {
     }
     /**
      * Decodes the raw `[1, num_classes + 4, num_anchors]` head in the internal
-     * output buffer and runs greedy NMS.
+     * output buffer and runs greedy NMS, per class like the reference's
+     * `cv2.dnn.NMSBoxes` loop: a ball and a ball-in-basket box over the same
+     * pixels are both kept, and the engine decides between them.
      *
-     * Returns a flat `[x1, y1, x2, y2, class_idx, score]` buffer, stride 6, in
-     * original-frame pixels — the exact layout `WasmEngine::update` consumes.
+     * `letterbox` is `[scale, pad_x, pad_y, frame_w, frame_h]`: boxes come out
+     * in original-frame pixels, clipped to the frame the way the reference
+     * clips them before its NMS.
+     *
+     * Returns a flat `[x1, y1, x2, y2, class_idx, score]` buffer, stride 6 —
+     * the exact layout `WasmEngine::update` consumes.
      * @param {number} num_classes
      * @param {number} num_anchors
      * @param {number} conf
      * @param {number} iou
-     * @param {number} scale_x
-     * @param {number} scale_y
+     * @param {Float64Array} letterbox
      * @returns {Float32Array}
      */
-    nms(num_classes, num_anchors, conf, iou, scale_x, scale_y) {
-        const ret = wasm.wasmglue_nms(this.__wbg_ptr, num_classes, num_anchors, conf, iou, scale_x, scale_y);
-        var v1 = getArrayF32FromWasm0(ret[0], ret[1]).slice();
+    nms(num_classes, num_anchors, conf, iou, letterbox) {
+        const ptr0 = passArrayF64ToWasm0(letterbox, wasm.__wbindgen_malloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ret = wasm.wasmglue_nms(this.__wbg_ptr, num_classes, num_anchors, conf, iou, ptr0, len0);
+        var v2 = getArrayF32FromWasm0(ret[0], ret[1]).slice();
         wasm.__wbindgen_free(ret[0], ret[1] * 4, 4);
-        return v1;
+        return v2;
     }
     /**
      * @returns {number}

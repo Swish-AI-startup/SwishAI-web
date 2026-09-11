@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "Retour à la connexion",
     "OR": "ou",
     "CONTINUE_WITH_GOOGLE": "Continuer avec Google",
-    "CONTINUE_WITH_APPLE": "Continuer avec Apple",
     "OAUTH_WAITING": "En attente de la fin de la connexion dans votre navigateur…",
     "OAUTH_CANCEL": "Annuler",
     "OAUTH_ERROR": "Échec de la connexion. Veuillez réessayer.",

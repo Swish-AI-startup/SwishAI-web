@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "Volver al inicio de sesión",
     "OR": "o",
     "CONTINUE_WITH_GOOGLE": "Continuar con Google",
-    "CONTINUE_WITH_APPLE": "Continuar con Apple",
     "OAUTH_WAITING": "Esperando a que termines de iniciar sesión en el navegador…",
     "OAUTH_CANCEL": "Cancelar",
     "OAUTH_ERROR": "No se pudo iniciar sesión. Inténtalo de nuevo.",

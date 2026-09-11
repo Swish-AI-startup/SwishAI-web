@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "Επιστροφή στη σύνδεση",
     "OR": "ή",
     "CONTINUE_WITH_GOOGLE": "Συνέχεια με Google",
-    "CONTINUE_WITH_APPLE": "Συνέχεια με Apple",
     "OAUTH_WAITING": "Αναμονή για να ολοκληρώσετε τη σύνδεση στο πρόγραμμα περιήγησής σας…",
     "OAUTH_CANCEL": "Ακύρωση",
     "OAUTH_ERROR": "Η σύνδεση απέτυχε. Δοκιμάστε ξανά.",

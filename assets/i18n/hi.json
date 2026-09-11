@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "लॉगिन पर वापस जाएं",
     "OR": "या",
     "CONTINUE_WITH_GOOGLE": "Google से जारी रखें",
-    "CONTINUE_WITH_APPLE": "Apple से जारी रखें",
     "OAUTH_WAITING": "आपके ब्राउज़र में साइन इन पूरा होने की प्रतीक्षा हो रही है…",
     "OAUTH_CANCEL": "रद्द करें",
     "OAUTH_ERROR": "साइन इन विफल रहा। कृपया फिर से प्रयास करें।",

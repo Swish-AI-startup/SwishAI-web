@@ -75,12 +75,18 @@ export class WasmGlue {
     constructor(size: number);
     /**
      * Decodes the raw `[1, num_classes + 4, num_anchors]` head in the internal
-     * output buffer and runs greedy NMS.
+     * output buffer and runs greedy NMS, per class like the reference's
+     * `cv2.dnn.NMSBoxes` loop: a ball and a ball-in-basket box over the same
+     * pixels are both kept, and the engine decides between them.
      *
-     * Returns a flat `[x1, y1, x2, y2, class_idx, score]` buffer, stride 6, in
-     * original-frame pixels — the exact layout `WasmEngine::update` consumes.
+     * `letterbox` is `[scale, pad_x, pad_y, frame_w, frame_h]`: boxes come out
+     * in original-frame pixels, clipped to the frame the way the reference
+     * clips them before its NMS.
+     *
+     * Returns a flat `[x1, y1, x2, y2, class_idx, score]` buffer, stride 6 —
+     * the exact layout `WasmEngine::update` consumes.
      */
-    nms(num_classes: number, num_anchors: number, conf: number, iou: number, scale_x: number, scale_y: number): Float32Array;
+    nms(num_classes: number, num_anchors: number, conf: number, iou: number, letterbox: Float64Array): Float32Array;
     output_len(): number;
     /**
      * Internal raw-model-output buffer — JS copies the runtime's output here before `nms`.

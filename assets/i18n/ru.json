@@ -162,7 +162,6 @@
     "BACK_TO_LOGIN": "Вернуться ко входу",
     "OR": "или",
     "CONTINUE_WITH_GOOGLE": "Продолжить с Google",
-    "CONTINUE_WITH_APPLE": "Продолжить с Apple",
     "OAUTH_WAITING": "Ожидание завершения входа в браузере…",
     "OAUTH_CANCEL": "Отмена",
     "OAUTH_ERROR": "Не удалось войти. Попробуйте ещё раз.",
