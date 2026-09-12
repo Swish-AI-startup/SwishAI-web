@@ -355,11 +355,14 @@
       "RECORDS_NEW": "New",
       "RECORDS_NONE": "Not yet",
       "RECORDS_EMPTY": "Your first records come with your first session."
+    },
+    "PRO_PREVIEW": {
+      "CTA": "Go Pro"
     }
   },
   "REVIEW": {
     "TITLE": "Review your shots",
-    "HINT": "Tap a shot to watch it. Tap it again to switch made and missed.",
+    "HINT": "Tap a shot to watch it.",
     "HINT_KEYBOARD": "Arrows move, Enter switches.",
     "HINT_NO_VIDEO": "No video to check against here: fix the count directly.",
     "SHOT_MADE": "Made at {{time}}",

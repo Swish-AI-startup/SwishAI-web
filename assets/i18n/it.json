@@ -355,11 +355,14 @@
       "RECORDS_NEW": "Nuovo",
       "RECORDS_NONE": "Ancora niente",
       "RECORDS_EMPTY": "I primi record arrivano con la prima sessione."
+    },
+    "PRO_PREVIEW": {
+      "CTA": "Passa a Pro"
     }
   },
   "REVIEW": {
     "TITLE": "Ricontrolla i tiri",
-    "HINT": "Tocca un tiro per rivederlo. Toccalo di nuovo per cambiare segnato e sbagliato.",
+    "HINT": "Tocca un tiro per rivederlo.",
     "HINT_KEYBOARD": "Le frecce spostano, Invio cambia.",
     "HINT_NO_VIDEO": "Qui non c'è il video da controllare: correggi direttamente il conteggio.",
     "SHOT_MADE": "Segnato a {{time}}",
