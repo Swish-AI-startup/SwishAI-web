@@ -346,7 +346,15 @@
       "HOLD_EMPTY": "Appears once a session has enough shots: at least {{count}}.",
       "TREND_TITLE": "Accuracy over time",
       "TREND_SUMMARY": "{{fromName}} ({{fromDay}}): {{from}}%. {{toName}} ({{toDay}}): {{to}}%.",
-      "TREND_EMPTY": "Comes with your second session."
+      "TREND_EMPTY": "Comes with your second session.",
+      "RECORDS_TITLE": "Streaks and records",
+      "RECORD_SHOTS": "Most shots in a session",
+      "RECORD_BASKETS": "Most baskets in a session",
+      "RECORD_ACCURACY": "Best accuracy (at least {{count}} shots)",
+      "RECORD_STREAK": "Longest streak of makes",
+      "RECORDS_NEW": "New",
+      "RECORDS_NONE": "Not yet",
+      "RECORDS_EMPTY": "Your first records come with your first session."
     }
   },
   "REVIEW": {

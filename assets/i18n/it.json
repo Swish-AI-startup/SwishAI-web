@@ -346,7 +346,15 @@
       "HOLD_EMPTY": "Compare quando una sessione ha abbastanza tiri: almeno {{count}}.",
       "TREND_TITLE": "Precisione nel tempo",
       "TREND_SUMMARY": "{{fromName}} ({{fromDay}}): {{from}}%. {{toName}} ({{toDay}}): {{to}}%.",
-      "TREND_EMPTY": "Arriva con la seconda sessione."
+      "TREND_EMPTY": "Arriva con la seconda sessione.",
+      "RECORDS_TITLE": "Serie e record",
+      "RECORD_SHOTS": "Più tiri in una sessione",
+      "RECORD_BASKETS": "Più canestri in una sessione",
+      "RECORD_ACCURACY": "Precisione migliore (almeno {{count}} tiri)",
+      "RECORD_STREAK": "Serie più lunga di canestri",
+      "RECORDS_NEW": "Nuovo",
+      "RECORDS_NONE": "Ancora niente",
+      "RECORDS_EMPTY": "I primi record arrivano con la prima sessione."
     }
   },
   "REVIEW": {
