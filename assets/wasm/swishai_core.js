@@ -63,15 +63,16 @@ export class WasmEngine {
         return ret >>> 0;
     }
     /**
-     * Scores only the basket overlapping this box, in source pixels, from now on.
-     * `f64` for the same reason as the thresholds.
+     * Scores only the basket overlapping this box, in source pixels, from now on,
+     * accepting it down to `min_conf`. `f64` for the same reason as the thresholds.
      * @param {number} x1
      * @param {number} y1
      * @param {number} x2
      * @param {number} y2
+     * @param {number} min_conf
      */
-    lock_hoop(x1, y1, x2, y2) {
-        wasm.wasmengine_lock_hoop(this.__wbg_ptr, x1, y1, x2, y2);
+    lock_hoop(x1, y1, x2, y2, min_conf) {
+        wasm.wasmengine_lock_hoop(this.__wbg_ptr, x1, y1, x2, y2, min_conf);
     }
     /**
      * `fps` is the inference rate, `original_fps` the source rate — their ratio
