@@ -9,7 +9,8 @@
     "EP_GPU_DEEP_LABEL": "GPU (Profondo)",
     "EP_GPU_DEEP_DESC": "Consigliato solo per PC da gaming / workstation. Utilizza TensorRT per la massima precisione su ogni fotogramma.",
     "EP_DEFAULT": "predefinito",
-    "EP_GPU_DEEP_WARNING": "La modalità profonda richiede una GPU NVIDIA con driver TensorRT installati. Se non disponibile, passa automaticamente a CUDA. Specifiche consigliate: NVIDIA RTX 3070+ o equivalente con 8 GB+ di VRAM."
+    "EP_GPU_DEEP_WARNING": "La modalità profonda richiede una GPU NVIDIA con driver TensorRT installati. Se non disponibile, passa automaticamente a CUDA. Specifiche consigliate: NVIDIA RTX 3070+ o equivalente con 8 GB+ di VRAM.",
+    "FORCE_HOOP_PICKER": "Forza la scelta del canestro"
   },
   "COMMON": {
     "SHOTS": "Tiri",
@@ -30,7 +31,8 @@
     "HISTORY": "Storico",
     "HARDWARE": "Hardware",
     "ABOUT": "Informazioni",
-    "SUBSCRIPTION": "Abbonamento"
+    "SUBSCRIPTION": "Abbonamento",
+    "PRO_ACTIVE": "Il tuo abbonamento è attivo!"
   },
   "EXIT": {
     "LABEL": "Esci",
@@ -141,6 +143,8 @@
     "ERROR_UNREADABLE_FILE": "Non è stato possibile leggere questo file come video MP4. Prova con un MP4 registrato in H.264.",
     "STATS_TRUNCATED": "Questi numeri coprono solo la prima parte del video: {{limit}} su {{duration}}.",
     "STATS_TRUNCATED_NO_DURATION": "Questi numeri coprono solo il video fino a {{limit}}.",
+    "CAMERA_MOVED": "La telecamera si è mossa durante la ripresa: i risultati possono essere imprecisi.",
+    "CAMERA_MOVED_HINT": "La prossima volta appoggia il telefono su qualcosa di stabile e non toccarlo fino alla fine.",
     "PREVIEW_UNAVAILABLE": "Il video annotato non è più salvato su questo dispositivo. Questi numeri sono comunque quelli della tua ultima elaborazione.",
     "RUN_INTERRUPTED": "Non siamo riusciti a finire {{name}}. Riprendi il file e ricominciamo.",
     "CPU_FALLBACK_NOTICE": "Per questa elaborazione WebGPU non si è potuto usare, quindi gira sulla CPU e ci vorrà più tempo.",
@@ -358,6 +362,16 @@
     },
     "PRO_PREVIEW": {
       "CTA": "Passa a Pro"
+    },
+    "EXPORT": {
+      "TITLE": "Esporta",
+      "HINT": "Tutto il tuo diario, da tenere o da mandare.",
+      "PDF": "Report PDF",
+      "CSV_SUMMARY": "CSV, una riga per sessione",
+      "CSV_SHOTS": "CSV, una riga per tiro",
+      "FAILED": "L’esportazione non è riuscita. Riprova.",
+      "PRO_REQUIRED": "L’esportazione fa parte di Pro.",
+      "EMPTY": "Arriva con la prima sessione."
     }
   },
   "REVIEW": {
@@ -442,5 +456,12 @@
       "TITLE": "Pagina non trovata",
       "DESCRIPTION": "A questo indirizzo non c'è niente. Torna su SwishAI ed elabora un video."
     }
+  },
+  "HOOP_PICKER": {
+    "TITLE": "Abbiamo trovato più di un canestro. Tocca il tuo.",
+    "HINT": "Contiamo solo i tiri al canestro che scegli.",
+    "HOOP_LABEL": "Canestro {{n}}",
+    "SKIP": "Continua senza scegliere",
+    "STILL_ALT": "Un fotogramma del tuo video con i canestri evidenziati"
   }
 }

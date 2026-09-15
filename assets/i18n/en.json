@@ -9,7 +9,8 @@
     "EP_GPU_DEEP_LABEL": "GPU (Deep)",
     "EP_GPU_DEEP_DESC": "Recommended only for Gaming PCs / Workstations. Uses TensorRT for maximum precision on every frame.",
     "EP_DEFAULT": "default",
-    "EP_GPU_DEEP_WARNING": "Deep mode requires an NVIDIA GPU with TensorRT drivers installed. If unavailable, it falls back to CUDA GPU automatically. Recommended specs: NVIDIA RTX 3070+ or equivalent with 8 GB+ VRAM."
+    "EP_GPU_DEEP_WARNING": "Deep mode requires an NVIDIA GPU with TensorRT drivers installed. If unavailable, it falls back to CUDA GPU automatically. Recommended specs: NVIDIA RTX 3070+ or equivalent with 8 GB+ VRAM.",
+    "FORCE_HOOP_PICKER": "Force the hoop picker"
   },
   "COMMON": {
     "SHOTS": "Shots",
@@ -30,7 +31,8 @@
     "HISTORY": "History",
     "HARDWARE": "Hardware",
     "ABOUT": "About",
-    "SUBSCRIPTION": "Subscription"
+    "SUBSCRIPTION": "Subscription",
+    "PRO_ACTIVE": "Your subscription is active!"
   },
   "EXIT": {
     "LABEL": "Exit",
@@ -141,6 +143,8 @@
     "ERROR_UNREADABLE_FILE": "This file could not be read as an MP4 video. Try an MP4 recorded with H.264.",
     "STATS_TRUNCATED": "These numbers cover only the first part of your video: {{limit}} of {{duration}}.",
     "STATS_TRUNCATED_NO_DURATION": "These numbers cover only the first {{limit}} of your video.",
+    "CAMERA_MOVED": "The camera moved while recording, so these results may be off.",
+    "CAMERA_MOVED_HINT": "Next time rest the phone on something steady and don't touch it until you're done.",
     "PREVIEW_UNAVAILABLE": "The annotated video is no longer saved on this device. These numbers are still from your last run.",
     "RUN_INTERRUPTED": "We didn't get to finish {{name}}. Pick the file again to start over.",
     "CPU_FALLBACK_NOTICE": "WebGPU could not be used for this run, so it's running on the CPU and will take longer.",
@@ -358,6 +362,16 @@
     },
     "PRO_PREVIEW": {
       "CTA": "Go Pro"
+    },
+    "EXPORT": {
+      "TITLE": "Export",
+      "HINT": "Your whole diary, to keep or to send.",
+      "PDF": "PDF report",
+      "CSV_SUMMARY": "CSV, one row per session",
+      "CSV_SHOTS": "CSV, one row per shot",
+      "FAILED": "Could not export. Try again.",
+      "PRO_REQUIRED": "The export is part of Pro.",
+      "EMPTY": "Comes with your first session."
     }
   },
   "REVIEW": {
@@ -442,5 +456,12 @@
       "TITLE": "Page not found",
       "DESCRIPTION": "There is nothing at this address. Go back to SwishAI and process a video."
     }
+  },
+  "HOOP_PICKER": {
+    "TITLE": "We found more than one hoop. Tap yours.",
+    "HINT": "Only shots at the hoop you pick are counted.",
+    "HOOP_LABEL": "Hoop {{n}}",
+    "SKIP": "Continue without choosing",
+    "STILL_ALT": "A frame of your video with each hoop outlined"
   }
 }

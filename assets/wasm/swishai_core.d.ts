@@ -18,6 +18,11 @@ export class WasmEngine {
     frame_len(): number;
     frame_ptr(): number;
     /**
+     * Scores only the basket overlapping this box, in source pixels, from now on.
+     * `f64` for the same reason as the thresholds.
+     */
+    lock_hoop(x1: number, y1: number, x2: number, y2: number): void;
+    /**
      * `fps` is the inference rate, `original_fps` the source rate — their ratio
      * scales every pixel constant in the core.
      *
@@ -128,6 +133,7 @@ export interface InitOutput {
     readonly wasmengine_finish: (a: number, b: number) => [number, number, number];
     readonly wasmengine_frame_len: (a: number) => number;
     readonly wasmengine_frame_ptr: (a: number) => number;
+    readonly wasmengine_lock_hoop: (a: number, b: number, c: number, d: number, e: number) => void;
     readonly wasmengine_new: (a: number, b: number, c: number, d: number) => number;
     readonly wasmengine_shotsAttempted: (a: number) => number;
     readonly wasmengine_update: (a: number, b: number, c: number, d: number, e: number) => [number, number, number];
