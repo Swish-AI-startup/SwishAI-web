@@ -1,0 +1,1 @@
+import{Bt as ZE,Cn as oc,Dn as rc,Nt as Uv}from"./main-A5PB2UOI.js";var r=(()=>{class t{static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=Uv({type:t,selectors:[[`app-page-not-found`]],decls:2,vars:0,template:function(e,m){e&1&&(rc(0,`p`),ZE(1,`page-not-found!`),oc())},encapsulation:2})}}return t})();export{r as t};
