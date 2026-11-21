@@ -1,0 +1,180 @@
+{
+  "configVersion": 1,
+  "timestamp": 1795278610014,
+  "index": "/SwishAI-web/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/SwishAI-web/chunk-BI_JZFyq.js",
+        "/SwishAI-web/chunk-BW5k75JR.js",
+        "/SwishAI-web/chunk-BaP-78KM.js",
+        "/SwishAI-web/chunk-BiB0HUX2.js",
+        "/SwishAI-web/chunk-C2JZ9v9O.js",
+        "/SwishAI-web/chunk-CpzLyDu4.js",
+        "/SwishAI-web/chunk-CuZbjEA2.js",
+        "/SwishAI-web/chunk-D-o75gDH.js",
+        "/SwishAI-web/chunk-D06qSTeb.js",
+        "/SwishAI-web/chunk-DU8UJPYc.js",
+        "/SwishAI-web/chunk-DgL7yB_o.js",
+        "/SwishAI-web/chunk-Dhg7iQUu.js",
+        "/SwishAI-web/chunk-DkWgQkZq.js",
+        "/SwishAI-web/chunk-DoUJoL1f.js",
+        "/SwishAI-web/chunk-DtonUD6O.js",
+        "/SwishAI-web/chunk-HwQRRc51.js",
+        "/SwishAI-web/chunk-aZvidGIb.js",
+        "/SwishAI-web/chunk-hgHDXrGx.js",
+        "/SwishAI-web/chunk-iDRHPzBP.js",
+        "/SwishAI-web/chunk-p_iEaT9t.js",
+        "/SwishAI-web/index.html",
+        "/SwishAI-web/main-DIGKYSKO.js",
+        "/SwishAI-web/manifest.webmanifest",
+        "/SwishAI-web/media/barlow-condensed-latin-600-normal-WUDKPSWC.woff2",
+        "/SwishAI-web/media/barlow-condensed-latin-800-italic-PK6E7VAY.woff2",
+        "/SwishAI-web/media/barlow-condensed-latin-800-normal-C7LOS5FO.woff2",
+        "/SwishAI-web/media/inter-latin-wght-normal-NRMW37G5.woff2",
+        "/SwishAI-web/polyfills-6ISPNSXF.js",
+        "/SwishAI-web/styles-4322R7LQ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "motore",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/SwishAI-web/assets/logo-hq.png",
+        "/SwishAI-web/assets/wasm/hevc-decode.js",
+        "/SwishAI-web/assets/wasm/hevc-decode.wasm",
+        "/SwishAI-web/assets/wasm/ort-wasm-simd-threaded.asyncify.mjs",
+        "/SwishAI-web/assets/wasm/ort-wasm-simd-threaded.asyncify.wasm",
+        "/SwishAI-web/assets/wasm/swishai_core.d.ts",
+        "/SwishAI-web/assets/wasm/swishai_core.js",
+        "/SwishAI-web/assets/wasm/swishai_core_bg.wasm",
+        "/SwishAI-web/assets/wasm/swishai_core_bg.wasm.d.ts"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "risorse",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/SwishAI-web/assets/brand/logo-mark.svg",
+        "/SwishAI-web/assets/brand/logo.svg",
+        "/SwishAI-web/assets/brand/og-image.png",
+        "/SwishAI-web/assets/hud/ball-in-basket.png",
+        "/SwishAI-web/assets/hud/player-shooting.png",
+        "/SwishAI-web/assets/i18n/en.json",
+        "/SwishAI-web/assets/i18n/es.json",
+        "/SwishAI-web/assets/i18n/it.json",
+        "/SwishAI-web/assets/icons/apple-touch-icon-180.png",
+        "/SwishAI-web/assets/icons/favicon.ico",
+        "/SwishAI-web/assets/icons/favicon.svg",
+        "/SwishAI-web/assets/icons/icon-192.png",
+        "/SwishAI-web/assets/icons/icon-512.png",
+        "/SwishAI-web/assets/icons/icon-maskable-512.png",
+        "/SwishAI-web/assets/icons/watermark-256.png",
+        "/SwishAI-web/assets/legal/imprint.en.html",
+        "/SwishAI-web/assets/legal/privacy.en.html",
+        "/SwishAI-web/assets/legal/refunds.en.html",
+        "/SwishAI-web/assets/legal/terms.en.html"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/SwishAI-web/assets/brand/logo-mark.svg": "c6cf82da8ddd4f82dd1b667f6d8ddfc7897df00f",
+    "/SwishAI-web/assets/brand/logo.svg": "0183410b9dd142d788999f6ef146b01f33ede0c9",
+    "/SwishAI-web/assets/brand/og-image.png": "8a4c4c2a5d58e7b86f4b4bc7359d341393b6e492",
+    "/SwishAI-web/assets/hud/ball-in-basket.png": "3d127bd162132b9cf8d9fa562d4e29b0988505dc",
+    "/SwishAI-web/assets/hud/player-shooting.png": "5e09308fe6fc6f0cc9b4cffe0538ca2acf01a10e",
+    "/SwishAI-web/assets/i18n/en.json": "84c83a2ba89051437b1c24bcd7d13c52b09eb5ef",
+    "/SwishAI-web/assets/i18n/es.json": "c250d083558c4337d93c5bd87e6a6262a6e78551",
+    "/SwishAI-web/assets/i18n/it.json": "b7ec1c22f0e402c8027849814174efd2f2a438df",
+    "/SwishAI-web/assets/icons/apple-touch-icon-180.png": "f51f8909e95ca063d6688c10b3397401d876319d",
+    "/SwishAI-web/assets/icons/favicon.ico": "d1b6b2ee7e2d82cfd520e1ae5fc6c474a19b5865",
+    "/SwishAI-web/assets/icons/favicon.svg": "0183410b9dd142d788999f6ef146b01f33ede0c9",
+    "/SwishAI-web/assets/icons/icon-192.png": "a732ee6bfebaf4782f9fb5acc78746460e1c6df4",
+    "/SwishAI-web/assets/icons/icon-512.png": "dd148d6238171d8ff283d01546c791ab71e5800e",
+    "/SwishAI-web/assets/icons/icon-maskable-512.png": "baba1081c837e5298ae3fc487cc6770081e36bbe",
+    "/SwishAI-web/assets/icons/watermark-256.png": "38ec0aa062f6321024d23a6ab7a43ed8b648f7f3",
+    "/SwishAI-web/assets/legal/imprint.en.html": "62004f437636aeaca58abccca400a9cc60a140cd",
+    "/SwishAI-web/assets/legal/privacy.en.html": "1f646c8f3e1f76eb53d2cdc0dd1772f1e9e3cf1f",
+    "/SwishAI-web/assets/legal/refunds.en.html": "ff6de182f979b9509c9df13ae3fbde352e51e637",
+    "/SwishAI-web/assets/legal/terms.en.html": "973259a9402cc8c7ac3fd4d400c7879446018f22",
+    "/SwishAI-web/assets/logo-hq.png": "5cdd79f0f9342b6c025a1fdd0f1d4ca3d1decb4a",
+    "/SwishAI-web/assets/wasm/hevc-decode.js": "2d4d9bdc29e194579ed1ae02b4077d72616623b9",
+    "/SwishAI-web/assets/wasm/hevc-decode.wasm": "abd325fae045284b333e11bd850436253b0e4d5e",
+    "/SwishAI-web/assets/wasm/ort-wasm-simd-threaded.asyncify.mjs": "30bb0d4a824dc147e802fc587811ea1ae939e214",
+    "/SwishAI-web/assets/wasm/ort-wasm-simd-threaded.asyncify.wasm": "6276d38dbb529b22faf19852d1e8b8926cf16af6",
+    "/SwishAI-web/assets/wasm/swishai_core.d.ts": "4fe269dfed3af55d3ba92c8beae10c8552155ac3",
+    "/SwishAI-web/assets/wasm/swishai_core.js": "35dd05df211a822080efd70d579220ad5937b51e",
+    "/SwishAI-web/assets/wasm/swishai_core_bg.wasm": "9de56d246e184762915d868a6b0d12c425f3e551",
+    "/SwishAI-web/assets/wasm/swishai_core_bg.wasm.d.ts": "18d6e3151cd74777373a5d01123a1216435ba102",
+    "/SwishAI-web/chunk-BI_JZFyq.js": "26e683058b04d1b4eb817812d9fc817f1185b6a9",
+    "/SwishAI-web/chunk-BW5k75JR.js": "2dc5705b7a649e2c2743756232ab8e5f51844183",
+    "/SwishAI-web/chunk-BaP-78KM.js": "ac470a983d5d3ce4d8886f4d36f688cf21e0712d",
+    "/SwishAI-web/chunk-BiB0HUX2.js": "913ec1a16836186bdfc47152b0cfe308d96f48c6",
+    "/SwishAI-web/chunk-C2JZ9v9O.js": "a5d84ee9864d86cba8eaeacf07e9a6e4ca1e67e2",
+    "/SwishAI-web/chunk-CpzLyDu4.js": "a724d175d17e2e5db80ca447d2adcb8e45377eda",
+    "/SwishAI-web/chunk-CuZbjEA2.js": "6a350369719e9e0dee872b4f0b9ea6f0fcae8a4d",
+    "/SwishAI-web/chunk-D-o75gDH.js": "e4a6812238faec17014a81dbd476711863afed1d",
+    "/SwishAI-web/chunk-D06qSTeb.js": "5fdbd8801cab79abbc2d28d3ecd1986266d71cdd",
+    "/SwishAI-web/chunk-DU8UJPYc.js": "783486add7b7a2b2e2123b8ac5de688e9e0ef3e0",
+    "/SwishAI-web/chunk-DgL7yB_o.js": "576d8837982ef40cfdaaac12b44ebec806a77530",
+    "/SwishAI-web/chunk-Dhg7iQUu.js": "38e86c4bba79739ff842fd4c8a1f31ac3ff63d5a",
+    "/SwishAI-web/chunk-DkWgQkZq.js": "10cff713e4fd4962274a4db7ccca6efb46eaab71",
+    "/SwishAI-web/chunk-DoUJoL1f.js": "950494587680050f91e0a8aca0c29a8ee3ff4e7f",
+    "/SwishAI-web/chunk-DtonUD6O.js": "9c7b969862f9575a58693c4273f67e9db0bab4fc",
+    "/SwishAI-web/chunk-HwQRRc51.js": "e2f15637568ce4d20408c0107d18002b86921089",
+    "/SwishAI-web/chunk-aZvidGIb.js": "4b05195e42d590386dad73f93807b48cf0a5f808",
+    "/SwishAI-web/chunk-hgHDXrGx.js": "3aec6689d4065e517219eaf0aab0e9efe9b27a6b",
+    "/SwishAI-web/chunk-iDRHPzBP.js": "02c0ed53aaadf34547e72dc481a0b97451c2d029",
+    "/SwishAI-web/chunk-p_iEaT9t.js": "0572bdee0a2ed35bd46a6b228cfa168161ceb7de",
+    "/SwishAI-web/index.html": "a611a8108374c8ad27e0d3d532b8c1a1402a5902",
+    "/SwishAI-web/main-DIGKYSKO.js": "88c133eb38f771b380dae4af68d5c827d5a63e2c",
+    "/SwishAI-web/manifest.webmanifest": "3674f4661ef411d6a8961ffe865c2aba228742e3",
+    "/SwishAI-web/media/barlow-condensed-latin-600-normal-WUDKPSWC.woff2": "0a7db4011ad8495d15f98572df81b76120c267ee",
+    "/SwishAI-web/media/barlow-condensed-latin-800-italic-PK6E7VAY.woff2": "7c0cd66812d89d3d24402c26fa20d4442c95e2c2",
+    "/SwishAI-web/media/barlow-condensed-latin-800-normal-C7LOS5FO.woff2": "db5ae3568cf2002039d81d4bd5ea1162adf40a26",
+    "/SwishAI-web/media/inter-latin-wght-normal-NRMW37G5.woff2": "f11d729bb0a4d8350d2ea3d0fc062cf6ef2d5298",
+    "/SwishAI-web/polyfills-6ISPNSXF.js": "b15ba4d1036f2db285649ff775f184bcdcd0b08a",
+    "/SwishAI-web/styles-4322R7LQ.css": "83ea35eb01bf3777cfed43354fc430b8aca83fc4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/landing\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
