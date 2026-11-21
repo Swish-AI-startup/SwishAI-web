@@ -1,4 +1,22 @@
 {
+  "SHELL": {
+    "HOME": "Home di SwishAI",
+    "ACCOUNT": "Account",
+    "NAVIGATION": "Navigazione principale",
+    "DIARY": "Diario",
+    "LEADERBOARDS": "Classifiche",
+    "SEARCH": "Cerca",
+    "ANALYZE": "Analizza un allenamento",
+    "LEADERBOARDS_SOON": "Arrivano a dicembre: qui vedrai le classifiche della settimana.",
+    "SEARCH_SOON": "A dicembre potrai cercare i tuoi compagni per nickname.",
+    "LANGUAGE": "Lingua",
+    "SIGN_IN": "Accedi",
+    "CREATE_ACCOUNT": "Crea un account",
+    "SIGN_OUT": "Esci",
+    "LEGAL": "Informazioni legali",
+    "PLAN_FREE": "Free",
+    "PLAN_PRO": "Pro"
+  },
   "DEBUG": {
     "HARDWARE_TITLE": "Impostazioni hardware",
     "HARDWARE_DESC": "Scegli quale componente hardware elabora il video. Questa impostazione riguarda solo la sessione corrente.",
@@ -26,10 +44,7 @@
     "ADD_ANOTHER_VIDEO": "Aggiungi un altro video"
   },
   "NAV": {
-    "PROCESS_VIDEO": "Elabora Video",
-    "HISTORY": "Storico",
-    "SUBSCRIPTION": "Abbonamento",
-    "PRO_ACTIVE": "Il tuo abbonamento è attivo!"
+    "SUBSCRIPTION": "Abbonamento"
   },
   "CONSENT": {
     "TITLE": "Cookie di analisi",
@@ -51,9 +66,6 @@
     "TITLE_REFUNDS": "Rimborsi e diritto di recesso",
     "TITLE_IMPRINT": "Informazioni societarie",
     "LOAD_FAILED": "Non è stato possibile caricare il documento. Riprova."
-  },
-  "LOGO": {
-    "ALT": "Logo SwishAI"
   },
   "GUIDE": {
     "TITLE": "Per Risultati Migliori",
@@ -306,6 +318,14 @@
     "SAVE_FAILED": "Non siamo riusciti a salvare. Riprova."
   },
   "PAGE_META": {
+    "LEADERBOARDS": {
+      "TITLE": "Classifiche",
+      "DESCRIPTION": "Scopri le classifiche settimanali di SwishAI in arrivo a dicembre."
+    },
+    "SEARCH": {
+      "TITLE": "Cerca",
+      "DESCRIPTION": "Da dicembre trova i tuoi compagni su SwishAI cercando il loro nickname."
+    },
     "PROCESS_VIDEO": {
       "TITLE": "Conta i tiri dal tuo video di basket",
       "DESCRIPTION": "Carica un video di basket e SwishAI conta tiri, canestri e precisione, tutto nel tuo browser: il video non esce dal tuo dispositivo."

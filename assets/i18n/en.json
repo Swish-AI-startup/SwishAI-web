@@ -1,4 +1,22 @@
 {
+  "SHELL": {
+    "HOME": "SwishAI home",
+    "ACCOUNT": "Account",
+    "NAVIGATION": "Main navigation",
+    "DIARY": "Diary",
+    "LEADERBOARDS": "Leaderboards",
+    "SEARCH": "Search",
+    "ANALYZE": "Analyze a workout",
+    "LEADERBOARDS_SOON": "Coming in December: see the weekly leaderboards here.",
+    "SEARCH_SOON": "Coming in December: find your teammates by nickname.",
+    "LANGUAGE": "Language",
+    "SIGN_IN": "Sign in",
+    "CREATE_ACCOUNT": "Create an account",
+    "SIGN_OUT": "Sign out",
+    "LEGAL": "Legal information",
+    "PLAN_FREE": "Free",
+    "PLAN_PRO": "Pro"
+  },
   "DEBUG": {
     "HARDWARE_TITLE": "Hardware Settings",
     "HARDWARE_DESC": "Choose which hardware component processes the video. This setting only affects the current session.",
@@ -26,10 +44,7 @@
     "ADD_ANOTHER_VIDEO": "Add another video"
   },
   "NAV": {
-    "PROCESS_VIDEO": "Process Video",
-    "HISTORY": "History",
-    "SUBSCRIPTION": "Subscription",
-    "PRO_ACTIVE": "Your subscription is active!"
+    "SUBSCRIPTION": "Subscription"
   },
   "CONSENT": {
     "TITLE": "Analytics cookies",
@@ -51,9 +66,6 @@
     "TITLE_REFUNDS": "Refunds and Withdrawal",
     "TITLE_IMPRINT": "Company Information",
     "LOAD_FAILED": "This document could not be loaded. Please try again."
-  },
-  "LOGO": {
-    "ALT": "SwishAI Logo"
   },
   "GUIDE": {
     "TITLE": "For Best Results",
@@ -306,6 +318,14 @@
     "SAVE_FAILED": "Could not save. Try again."
   },
   "PAGE_META": {
+    "LEADERBOARDS": {
+      "TITLE": "Leaderboards",
+      "DESCRIPTION": "See the weekly SwishAI leaderboards when they arrive in December."
+    },
+    "SEARCH": {
+      "TITLE": "Search",
+      "DESCRIPTION": "Find your teammates by nickname on SwishAI starting in December."
+    },
     "PROCESS_VIDEO": {
       "TITLE": "Count basketball shots from your video",
       "DESCRIPTION": "Upload a basketball video and SwishAI counts shots, baskets and accuracy for you, entirely in your browser — the video never leaves your device."

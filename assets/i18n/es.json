@@ -1,4 +1,22 @@
 {
+  "SHELL": {
+    "HOME": "Inicio de SwishAI",
+    "ACCOUNT": "Cuenta",
+    "NAVIGATION": "Navegación principal",
+    "DIARY": "Diario",
+    "LEADERBOARDS": "Clasificaciones",
+    "SEARCH": "Buscar",
+    "ANALYZE": "Analiza un entrenamiento",
+    "LEADERBOARDS_SOON": "Llegan en diciembre: aquí verás las clasificaciones de la semana.",
+    "SEARCH_SOON": "En diciembre podrás buscar a tus compañeros por su nombre de usuario.",
+    "LANGUAGE": "Idioma",
+    "SIGN_IN": "Inicia sesión",
+    "CREATE_ACCOUNT": "Crea una cuenta",
+    "SIGN_OUT": "Cierra sesión",
+    "LEGAL": "Información legal",
+    "PLAN_FREE": "Free",
+    "PLAN_PRO": "Pro"
+  },
   "DEBUG": {
     "HARDWARE_TITLE": "Configuración de hardware",
     "HARDWARE_DESC": "Elige qué componente de hardware procesa el vídeo. Este ajuste solo afecta a la sesión actual.",
@@ -26,10 +44,7 @@
     "ADD_ANOTHER_VIDEO": "Agregar otro video"
   },
   "NAV": {
-    "PROCESS_VIDEO": "Procesar Video",
-    "HISTORY": "Historial",
-    "SUBSCRIPTION": "Suscripción",
-    "PRO_ACTIVE": "¡Tu suscripción está activa!"
+    "SUBSCRIPTION": "Suscripción"
   },
   "CONSENT": {
     "TITLE": "Cookies de análisis",
@@ -51,9 +66,6 @@
     "TITLE_REFUNDS": "Reembolsos y derecho de desistimiento",
     "TITLE_IMPRINT": "Información de la empresa",
     "LOAD_FAILED": "No se ha podido cargar el documento. Inténtalo de nuevo."
-  },
-  "LOGO": {
-    "ALT": "Logo de SwishAI"
   },
   "GUIDE": {
     "TITLE": "Para Mejores Resultados",
@@ -306,6 +318,14 @@
     "SAVE_FAILED": "No se pudo guardar. Inténtalo de nuevo."
   },
   "PAGE_META": {
+    "LEADERBOARDS": {
+      "TITLE": "Clasificaciones",
+      "DESCRIPTION": "Consulta las clasificaciones semanales de SwishAI a partir de diciembre."
+    },
+    "SEARCH": {
+      "TITLE": "Buscar",
+      "DESCRIPTION": "A partir de diciembre, busca a tus compañeros de SwishAI por su nombre de usuario."
+    },
     "PROCESS_VIDEO": {
       "TITLE": "Cuenta los tiros de básquetbol de tu video",
       "DESCRIPTION": "Sube un video de básquetbol y SwishAI cuenta tus tiros y canastas y calcula tu precisión en el navegador. El video se queda en tu dispositivo."

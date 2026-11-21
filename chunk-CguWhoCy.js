@@ -1,0 +1,1 @@
+import{Ft as hc,Nt as gI,Pt as gc,Zt as oE}from"./main-PFAQ362C.js";var r=(()=>{class t{static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=oE({type:t,selectors:[[`app-page-not-found`]],decls:2,vars:0,template:function(e,m){e&1&&(hc(0,`p`),gI(1,`page-not-found!`),gc())},encapsulation:2})}}return t})();export{r as t};
