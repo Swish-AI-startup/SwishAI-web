@@ -14,6 +14,7 @@ export const wasmengine_lock_hoop: (a: number, b: number, c: number, d: number, 
 export const wasmengine_new: (a: number, b: number, c: number, d: number) => number;
 export const wasmengine_shotsAttempted: (a: number) => number;
 export const wasmengine_update: (a: number, b: number, c: number, d: number, e: number) => [number, number, number];
+export const wasmengine_withConfig: (a: number, b: number, c: any) => [number, number, number];
 export const wasmglue_ensure_output: (a: number, b: number) => void;
 export const wasmglue_new: (a: number) => number;
 export const wasmglue_nms: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];

@@ -40,6 +40,11 @@ export class WasmEngine {
      * Returns the frame's `FrameState` as a plain JS object.
      */
     update(detections: Float32Array, frame_idx: number, use_frame: boolean): any;
+    /**
+     * Same as the constructor, with every engine setting taken from `config`: a
+     * partial, camelCase `EngineConfig` whose missing fields keep their defaults.
+     */
+    static withConfig(fps: number, original_fps: number, config: any): WasmEngine;
     readonly accuracy: number;
     readonly basketsMade: number;
     readonly shotsAttempted: number;
@@ -137,6 +142,7 @@ export interface InitOutput {
     readonly wasmengine_new: (a: number, b: number, c: number, d: number) => number;
     readonly wasmengine_shotsAttempted: (a: number) => number;
     readonly wasmengine_update: (a: number, b: number, c: number, d: number, e: number) => [number, number, number];
+    readonly wasmengine_withConfig: (a: number, b: number, c: any) => [number, number, number];
     readonly wasmglue_ensure_output: (a: number, b: number) => void;
     readonly wasmglue_new: (a: number) => number;
     readonly wasmglue_nms: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];

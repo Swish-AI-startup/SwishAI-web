@@ -27,19 +27,9 @@
   },
   "NAV": {
     "PROCESS_VIDEO": "Process Video",
-    "VIDEOS": "Videos",
     "HISTORY": "History",
-    "HARDWARE": "Hardware",
-    "ABOUT": "About",
     "SUBSCRIPTION": "Subscription",
     "PRO_ACTIVE": "Your subscription is active!"
-  },
-  "EXIT": {
-    "LABEL": "Exit",
-    "CONFIRM_MESSAGE": "Are you sure you want to exit SwishAI?",
-    "CONFIRM_TITLE": "Confirm Exit",
-    "CONFIRM_YES": "Exit",
-    "CONFIRM_NO": "Cancel"
   },
   "CONSENT": {
     "TITLE": "Analytics cookies",
@@ -65,14 +55,6 @@
   "LOGO": {
     "ALT": "SwishAI Logo"
   },
-  "ABOUT": {
-    "TITLE": "About SwishAI",
-    "APP_NAME": "SwishAI Desktop",
-    "VERSION": "Version {{version}}",
-    "DESCRIPTION": "SwishAI is an AI-powered basketball video analysis tool that uses advanced computer vision to detect and track shots, balls, and players in basketball footage. Analyze your game, improve your skills, and gain insights with cutting-edge AI technology.",
-    "AUTHORS_TITLE": "Authors",
-    "LINKEDIN": "LinkedIn Profile"
-  },
   "GUIDE": {
     "TITLE": "For Best Results",
     "LIGHTING_TITLE": "Good Lighting",
@@ -89,8 +71,7 @@
     "WEBGPU_LINUX_LINK": "See how",
     "WEBGPU_LINUX_CHROME": "Chrome or Chromium: open chrome://flags, enable \"Unsafe WebGPU Support\" and \"Vulkan\", then restart the browser. \"Unsafe\" only means experimental.",
     "WEBGPU_LINUX_FIREFOX": "Firefox: open about:config, set dom.webgpu.enabled to true and restart. If it still doesn't work, also set gfx.webgpu.ignore-blocklist to true.",
-    "WEBGPU_DISMISS": "Don't show this again",
-    "NATIVE_FALLBACK_WARNING": "The GPU-accelerated pipeline could not start, so this video is being processed by the slower in-app one."
+    "WEBGPU_DISMISS": "Don't show this again"
   },
   "UPLOAD": {
     "CLICK": "Click to Upload Video",
@@ -98,7 +79,6 @@
     "FORMATS": "Supports MP4 and MOV. Some AVI files work too.",
     "VIDEO_EXCEEDS_LIMIT": "Your video is {{duration}}. Only the first {{limit}} will be processed.",
     "UPGRADE_HINT_LOGIN": "Log in to process up to {{limit}}.",
-    "LOW_SPEC_WARNING": "Your PC has specifications lower than recommended. Processing will take longer than usual. We recommend using better hardware for faster processing speeds.",
     "MOBILE_PERF_WARNING": "You're on a mobile device: processing is slower here, you get the numbers but not the annotated video, and each video is processed up to {{limit}}. For the best experience, use a computer.",
     "UPGRADE_HINT_SUBSCRIBE": "Subscribe to process longer videos.",
     "SHOW_OVERLAY": "Show detection overlay",
@@ -134,7 +114,6 @@
     "ANALYZING": "Analyzing...",
     "LIVE_DETECTION": "Live Detection Preview",
     "RESULT_PREVIEW": "Result Preview",
-    "LOADING_VIDEO": "Loading video…",
     "ERROR_TITLE": "Oops! Something went wrong.",
     "ERROR_DESC": "An unknown error occurred. Please try a different video.",
     "SOFTWARE_DECODE_NOTICE": "Your browser can't decode HEVC directly, so we're doing it in software — this will take longer. To speed it up: iPhone › Settings › Camera › Formats › Most Compatible, or convert the file to H.264.",
@@ -182,8 +161,6 @@
     "BACK_TO_LOGIN": "Back to Login",
     "OR": "or",
     "CONTINUE_WITH_GOOGLE": "Continue with Google",
-    "OAUTH_WAITING": "Waiting for you to finish signing in in your browser…",
-    "OAUTH_CANCEL": "Cancel",
     "OAUTH_ERROR": "Sign-in failed. Please try again.",
     "OAUTH_CANCELLED": "Sign-in was cancelled.",
     "OAUTH_EMAIL_UNVERIFIED": "Your provider has not verified this email address, so it cannot be used to sign in.",
@@ -196,73 +173,6 @@
     "DELETE_ACCOUNT_CONFIRM": "Delete permanently",
     "DELETE_ACCOUNT_ERROR": "The account could not be deleted. Please try again.",
     "ACCEPT_LEGAL": "I accept the terms of service and the privacy notice"
-  },
-  "HARDWARE": {
-    "TITLE": "System Hardware",
-    "CPU_TITLE": "CPU",
-    "CPU_MODEL": "Model",
-    "CPU_PHYSICAL_CORES": "Physical Cores",
-    "CPU_THREADS": "Threads",
-    "CPU_FREQUENCY": "Frequency",
-    "RAM_TITLE": "Memory (RAM)",
-    "RAM_TOTAL": "Total",
-    "RAM_BROWSER_NOTE": "Browser APIs cap reported RAM at 8 GB for privacy",
-    "RAM_AVAILABLE": "Available",
-    "GPU_TITLE": "GPU",
-    "GPU_NAME": "Name",
-    "GPU_BACKEND": "Backend",
-    "GPU_VENDOR": "Vendor",
-    "OS_TITLE": "Operating System",
-    "OS_NAME": "Name",
-    "OS_VERSION": "Version",
-    "CUDA_TITLE": "GPU Acceleration",
-    "LIBCUDA": "CUDA Driver (libcuda)",
-    "ORT_CUDA": "ORT CUDA Execution Provider",
-    "AVAILABLE": "Available",
-    "NOT_AVAILABLE": "Not available",
-    "UNKNOWN": "—",
-    "LOADING": "Loading hardware info...",
-    "ERROR": "Failed to load hardware information.",
-    "WEBGPU": "WebGPU Support",
-    "PIPELINE_TITLE": "Processing Pipeline",
-    "PIPELINE": "Pipeline",
-    "PIPELINE_NATIVE": "Native (ONNX Runtime)",
-    "PIPELINE_WEBVIEW": "In-app web pipeline (fallback)",
-    "PIPELINE_WEBVIEW_NOTE": "The native pipeline could not start, so the slower in-app one took over",
-    "NATIVE_EP": "Execution provider",
-    "NATIVE_EP_CPU_NOTE": "No GPU provider could be registered — running on the CPU",
-    "INFERENCE_BACKEND": "Inference backend",
-    "BACKEND_WEBGPU": "WebGPU",
-    "BACKEND_WASM": "WebAssembly (CPU)",
-    "WASM_THREADS": "WebAssembly threads",
-    "WASM_THREADS_AVAILABLE": "WebAssembly threads available",
-    "WASM_THREADS_NOTE": "Single-threaded: SharedArrayBuffer is unavailable, either because the page is not cross-origin isolated or because the webview does not implement it",
-    "NOT_MEASURED": "Not measured yet",
-    "NOT_MEASURED_NOTE": "Process a video to measure this"
-  },
-  "VIDEOS": {
-    "TITLE": "Processed Videos",
-    "REMOVE_CONFIRM": "Remove \"{{name}}\" from history?",
-    "REMOVE_DIALOG_TITLE": "Remove video",
-    "LOADING": "Loading history...",
-    "EMPTY_TITLE": "No videos yet",
-    "EMPTY_DESC": "Process a video to see it here",
-    "EMPTY_BUTTON": "Process a Video",
-    "DESKTOP_ONLY_TITLE": "Desktop Only",
-    "DESKTOP_ONLY_DESC": "The Videos page is only available in {{app}}. Download the app to browse and manage your processed videos.",
-    "DESKTOP_ONLY_APP": "SwishAI Desktop",
-    "PLAY": "Play",
-    "PLAY_TITLE": "Play video",
-    "DOWNLOAD_TITLE": "Download video",
-    "REMOVE_TITLE": "Remove from history",
-    "RENAME": "Rename",
-    "CONFIRM_RENAME": "Confirm",
-    "CANCEL_RENAME": "Cancel",
-    "PLAYER_LOADING": "Loading video...",
-    "PLAYER_NOT_AVAILABLE": "Video file not available",
-    "PAGINATION_RANGE": "{{from}}–{{to}} of {{total}}",
-    "PAGINATION_PREV": "Previous",
-    "PAGINATION_NEXT": "Next"
   },
   "SUBSCRIPTION": {
     "TITLE": "Subscription",
@@ -439,18 +349,6 @@
     "SESSIONS": {
       "TITLE": "Your sessions",
       "DESCRIPTION": "Every training you have processed with SwishAI, with shots, baskets and accuracy session by session."
-    },
-    "VIDEOS": {
-      "TITLE": "Your videos",
-      "DESCRIPTION": "The annotated videos SwishAI has produced on this device."
-    },
-    "ABOUT": {
-      "TITLE": "About",
-      "DESCRIPTION": "What SwishAI is, and who builds it."
-    },
-    "HARDWARE": {
-      "TITLE": "Hardware",
-      "DESCRIPTION": "What your computer needs to run the SwishAI detection engine."
     },
     "NOT_FOUND": {
       "TITLE": "Page not found",

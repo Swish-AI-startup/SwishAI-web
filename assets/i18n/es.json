@@ -4,12 +4,13 @@
     "HARDWARE_DESC": "Elige qué componente de hardware procesa el vídeo. Este ajuste solo afecta a la sesión actual.",
     "EP_CPU_LABEL": "CPU (Ligero)",
     "EP_CPU_DESC": "Recomendado para PCs básicos o portátiles sin GPU dedicada. Estable pero más lento.",
-    "EP_GPU_LABEL": "GPU (Normal)",
+    "EP_GPU_LABEL": "GPU (estándar)",
     "EP_GPU_DESC": "Recomendado para la mayoría de PCs con tarjeta gráfica dedicada. Gran equilibrio entre velocidad y precisión.",
     "EP_GPU_DEEP_LABEL": "GPU (Profundo)",
     "EP_GPU_DEEP_DESC": "Solo recomendado para PCs gaming / estaciones de trabajo. Usa TensorRT para máxima precisión en cada fotograma.",
     "EP_DEFAULT": "predeterminado",
-    "EP_GPU_DEEP_WARNING": "El modo profundo requiere una GPU NVIDIA con controladores TensorRT instalados. Si no está disponible, recurre automáticamente a CUDA. Especificaciones recomendadas: NVIDIA RTX 3070+ o equivalente con 8 GB+ de VRAM."
+    "EP_GPU_DEEP_WARNING": "El modo profundo requiere una GPU NVIDIA con controladores TensorRT instalados. Si no está disponible, recurre automáticamente a CUDA. Especificaciones recomendadas: NVIDIA RTX 3070+ o equivalente con 8 GB+ de VRAM.",
+    "FORCE_HOOP_PICKER": "Forzar la selección del aro"
   },
   "COMMON": {
     "SHOTS": "Tiros",
@@ -17,25 +18,18 @@
     "ACCURACY": "Precisión",
     "PROCESSING_TIME": "Tiempo de procesamiento",
     "CANCEL": "Cancelar",
+    "SAVE": "Guardar",
     "CONFIRM": "Confirmar",
     "CLOSE": "Cerrar",
     "LOADING": "Cargando...",
-    "BACK": "Volver"
+    "BACK": "Volver",
+    "ADD_ANOTHER_VIDEO": "Agregar otro video"
   },
   "NAV": {
     "PROCESS_VIDEO": "Procesar Video",
-    "VIDEOS": "Videos",
-    "DASHBOARD": "Panel",
-    "HARDWARE": "Hardware",
-    "ABOUT": "Acerca de",
-    "SUBSCRIPTION": "Suscripción"
-  },
-  "EXIT": {
-    "LABEL": "Salir",
-    "CONFIRM_MESSAGE": "¿Estás seguro de que quieres salir de SwishAI?",
-    "CONFIRM_TITLE": "Confirmar Salida",
-    "CONFIRM_YES": "Salir",
-    "CONFIRM_NO": "Cancelar"
+    "HISTORY": "Historial",
+    "SUBSCRIPTION": "Suscripción",
+    "PRO_ACTIVE": "¡Tu suscripción está activa!"
   },
   "CONSENT": {
     "TITLE": "Cookies de análisis",
@@ -61,14 +55,6 @@
   "LOGO": {
     "ALT": "Logo de SwishAI"
   },
-  "ABOUT": {
-    "TITLE": "Acerca de SwishAI",
-    "APP_NAME": "SwishAI Desktop",
-    "VERSION": "Versión {{version}}",
-    "DESCRIPTION": "SwishAI es una herramienta de análisis de video de baloncesto impulsada por IA que utiliza visión por computadora avanzada para detectar y rastrear tiros, balones y jugadores en material de baloncesto. Analiza tu juego, mejora tus habilidades y obtén información con tecnología de IA de vanguardia.",
-    "AUTHORS_TITLE": "Autores",
-    "LINKEDIN": "Perfil de LinkedIn"
-  },
   "GUIDE": {
     "TITLE": "Para Mejores Resultados",
     "LIGHTING_TITLE": "Buena Iluminación",
@@ -76,26 +62,32 @@
     "VIEW_TITLE": "Vista Clara",
     "VIEW_DESC": "La cámara debe ver claramente el aro y el lanzador.",
     "DURATION_TITLE": "Duración Máxima",
-    "DURATION_DESC": "<strong>1 min</strong> en móvil o sin conectar, <strong>5 min</strong> con la sesión iniciada e <strong>ilimitado</strong> con una suscripción. Los vídeos se recortan al límite.",
+    "DURATION_DESC": "<strong>{{anonymous}}</strong> sin cuenta, <strong>{{free}}</strong> al iniciar sesión y <strong>sin límite</strong> con una suscripción. En el celular, el límite de cualquier plan es <strong>{{mobile}}</strong> y obtienes los resultados sin el video anotado. Los videos más largos se recortan al límite.",
     "EXAMPLE_PROMPT": "¿Tienes curiosidad por ver el resultado?",
     "EXAMPLE_LINK": "¡Mira un vídeo de ejemplo!",
-    "WEBGPU_WARNING": "WebGPU no está disponible en tu navegador. Sin él, el procesamiento será mucho más lento. Para un mejor rendimiento, usa un navegador compatible con WebGPU (por ejemplo, Chrome o Edge).",
-    "NATIVE_FALLBACK_WARNING": "El pipeline acelerado por GPU no pudo iniciarse, así que este video se está procesando con el interno, más lento."
+    "WEBGPU_WARNING": "WebGPU no está disponible aquí, así que el procesamiento será mucho más lento. Usa una computadora con un navegador actualizado: {{browsers}}.",
+    "WEBGPU_HW_ACCEL_HINT": "Si ya usas uno de esos navegadores, verifica que la aceleración por hardware esté activada en la configuración.",
+    "WEBGPU_WARNING_LINUX": "WebGPU está desactivado aquí, así que el procesamiento será mucho más lento. En Linux, normalmente tienes que activarlo de forma manual.",
+    "WEBGPU_LINUX_LINK": "Ver cómo activarlo",
+    "WEBGPU_LINUX_CHROME": "Chrome o Chromium: abre chrome://flags, activa «Unsafe WebGPU Support» y «Vulkan» y reinicia el navegador. «Unsafe» indica que la función es experimental.",
+    "WEBGPU_LINUX_FIREFOX": "Firefox: abre about:config, cambia dom.webgpu.enabled a true y reinicia. Si sigue sin funcionar, cambia también gfx.webgpu.ignore-blocklist a true.",
+    "WEBGPU_DISMISS": "No volver a mostrar"
   },
   "UPLOAD": {
     "CLICK": "Haz clic para subir un video",
     "DROP": "Suelta el video aquí",
-    "FORMATS": "Soporta MP4, MOV, AVI",
-    "VIDEO_EXCEEDS_LIMIT": "Tu video supera el límite de {{limit}} minuto(s). Solo se procesarán los primeros {{limit}} minutos.",
-    "UPGRADE_HINT_LOGIN": "Inicia sesión para procesar hasta 5 minutos.",
-    "LOW_SPEC_WARNING": "Tu PC tiene especificaciones inferiores a las recomendadas. El procesamiento tardará más de lo habitual. Recomendamos usar mejor hardware para velocidades de procesamiento más rápidas.",
-    "MOBILE_PERF_WARNING": "Estás en un dispositivo móvil: el procesamiento es más lento y los vídeos están limitados a {{limit}} minuto. Para una mejor experiencia, usa un ordenador.",
+    "FORMATS": "Compatible con MP4 y MOV. Algunos archivos AVI también funcionan.",
+    "VIDEO_EXCEEDS_LIMIT": "Tu video dura {{duration}}. Se procesará solo hasta {{limit}}.",
+    "UPGRADE_HINT_LOGIN": "Inicia sesión para procesar hasta {{limit}}.",
+    "MOBILE_PERF_WARNING": "En este dispositivo, el procesamiento es más lento y obtienes los resultados sin el video anotado. Cada video se procesa hasta {{limit}}. Para una mejor experiencia, usa una computadora.",
     "UPGRADE_HINT_SUBSCRIBE": "Suscríbete para procesar vídeos más largos.",
     "SHOW_OVERLAY": "Mostrar superposición de detección",
     "SHOW_OVERLAY_DESC": "Dibuja las cajas de detección, las etiquetas y la zona de tiro en el vídeo anotado. Desactivado deja solo el panel de puntuación y la trayectoria del balón.",
     "HIDE_WATERMARK": "Ocultar marca de agua",
     "HIDE_WATERMARK_DESC": "Elimina el logotipo de SwishAI del vídeo final.",
-    "HIDE_WATERMARK_PRO": "Disponible con una suscripción Pro."
+    "HIDE_WATERMARK_PRO": "Disponible con una suscripción Pro.",
+    "LARGE_FILE": "El archivo ocupa {{size}}, un tamaño considerable para cargar de una sola vez en la memoria.",
+    "LARGE_FILE_HINT": "El procesamiento podría interrumpirse en este dispositivo. Es más seguro usar un video más corto."
   },
   "FILE_INFO": {
     "READY": "Listo para procesar",
@@ -122,13 +114,20 @@
     "ANALYZING": "Analizando...",
     "LIVE_DETECTION": "Vista Previa de Detección en Vivo",
     "RESULT_PREVIEW": "Vista Previa del Resultado",
-    "LOADING_VIDEO": "Cargando video…",
     "ERROR_TITLE": "¡Vaya! Algo salió mal.",
     "ERROR_DESC": "Ocurrió un error desconocido. Por favor intenta con un video diferente.",
     "SOFTWARE_DECODE_NOTICE": "Tu navegador no decodifica HEVC directamente, así que lo hacemos por software: tardará más. Para acelerarlo: iPhone › Ajustes › Cámara › Formatos › Más compatible, o convierte el archivo a H.264.",
     "ERROR_HEVC": "No se ha podido decodificar este vídeo HEVC. Prueba a convertirlo a MP4 H.264.",
     "ERROR_CODEC": "Este vídeo usa un formato que el navegador no puede leer aquí ({{codecs}}). Conviértelo a MP4 H.264 e inténtalo de nuevo.",
-    "ERROR_UNREADABLE_FILE": "No se pudo leer este archivo como vídeo MP4. Prueba con un MP4 grabado en H.264."
+    "ERROR_UNREADABLE_FILE": "No se pudo leer este archivo como vídeo MP4. Prueba con un MP4 grabado en H.264.",
+    "STATS_TRUNCATED": "Estos resultados corresponden al inicio de tu video: {{limit}} de {{duration}}.",
+    "STATS_TRUNCATED_NO_DURATION": "Estos resultados corresponden al inicio del video, hasta {{limit}}.",
+    "CAMERA_MOVED": "La cámara se movió durante la grabación, así que los resultados pueden ser imprecisos.",
+    "CAMERA_MOVED_HINT": "La próxima vez, apoya el celular en una superficie estable y evita tocarlo hasta terminar.",
+    "PREVIEW_UNAVAILABLE": "El video anotado ya no está en este dispositivo. Estos resultados siguen siendo los de tu último análisis.",
+    "RUN_INTERRUPTED": "El análisis de {{name}} quedó incompleto. Vuelve a seleccionar el archivo para empezar de nuevo.",
+    "CPU_FALLBACK_NOTICE": "WebGPU no está disponible para este análisis. El procesamiento se hace con la CPU y tardará más.",
+    "DATA_ONLY_RESULT": "Este dispositivo cuenta los tiros sin generar el video anotado. Para obtenerlo, procesa el mismo archivo en una computadora."
   },
   "AUTH": {
     "LOGIN": "Iniciar sesión",
@@ -143,6 +142,7 @@
     "SWITCH_TO_LOGIN": "¿Ya tienes cuenta? Inicia sesión",
     "LOGIN_ERROR": "Correo o contraseña incorrectos. Inténtalo de nuevo.",
     "LOGIN_UNVERIFIED": "Confirma tu dirección de correo electrónico antes de iniciar sesión.",
+    "TOO_MANY_ATTEMPTS": "Demasiados intentos desde este dispositivo. Espera un momento y vuelve a intentarlo.",
     "REGISTER_ERROR": "El registro falló. Inténtalo de nuevo.",
     "REGISTER_EMAIL_TAKEN": "Ya existe una cuenta con este correo electrónico.",
     "REGISTER_SUCCESS": "¡Cuenta creada! Revisa tu correo para confirmar tu cuenta.",
@@ -153,7 +153,6 @@
     "CONFIRM_NEW_PASSWORD": "Confirmar Nueva Contraseña",
     "PASSWORD_UPDATED": "Contraseña actualizada correctamente.",
     "PASSWORD_UPDATE_ERROR": "Error al actualizar la contraseña. Inténtalo de nuevo.",
-    "REDIRECT_COUNTDOWN": "Serás redirigido al inicio de sesión en {{seconds}} segundos.",
     "FORGOT_PASSWORD": "¿Olvidaste tu contraseña?",
     "FORGOT_PASSWORD_LINK": "¿Olvidaste tu contraseña?",
     "FORGOT_PASSWORD_SUBMIT": "Enviar correo de restablecimiento",
@@ -162,8 +161,6 @@
     "BACK_TO_LOGIN": "Volver al inicio de sesión",
     "OR": "o",
     "CONTINUE_WITH_GOOGLE": "Continuar con Google",
-    "OAUTH_WAITING": "Esperando a que termines de iniciar sesión en el navegador…",
-    "OAUTH_CANCEL": "Cancelar",
     "OAUTH_ERROR": "No se pudo iniciar sesión. Inténtalo de nuevo.",
     "OAUTH_CANCELLED": "Se canceló el inicio de sesión.",
     "OAUTH_EMAIL_UNVERIFIED": "El proveedor no ha verificado esta dirección de correo, así que no se puede usar para iniciar sesión.",
@@ -176,83 +173,6 @@
     "DELETE_ACCOUNT_CONFIRM": "Eliminar permanentemente",
     "DELETE_ACCOUNT_ERROR": "No se pudo eliminar la cuenta. Inténtalo de nuevo.",
     "ACCEPT_LEGAL": "Acepto los términos del servicio y el aviso de privacidad"
-  },
-  "HARDWARE": {
-    "TITLE": "Hardware del Sistema",
-    "CPU_TITLE": "Procesador",
-    "CPU_MODEL": "Modelo",
-    "CPU_PHYSICAL_CORES": "Núcleos Físicos",
-    "CPU_THREADS": "Hilos",
-    "CPU_FREQUENCY": "Frecuencia",
-    "RAM_TITLE": "Memoria (RAM)",
-    "RAM_TOTAL": "Total",
-    "RAM_BROWSER_NOTE": "Las APIs del navegador limitan la RAM reportada a 8 GB por privacidad",
-    "RAM_AVAILABLE": "Disponible",
-    "GPU_TITLE": "GPU",
-    "GPU_NAME": "Nombre",
-    "GPU_BACKEND": "Backend",
-    "GPU_VENDOR": "Fabricante",
-    "OS_TITLE": "Sistema Operativo",
-    "OS_NAME": "Nombre",
-    "OS_VERSION": "Versión",
-    "CUDA_TITLE": "Aceleración GPU",
-    "LIBCUDA": "Controlador CUDA (libcuda)",
-    "ORT_CUDA": "ORT CUDA Execution Provider",
-    "AVAILABLE": "Disponible",
-    "NOT_AVAILABLE": "No disponible",
-    "UNKNOWN": "—",
-    "LOADING": "Cargando información de hardware...",
-    "ERROR": "Error al cargar información de hardware.",
-    "WEBGPU": "Soporte WebGPU",
-    "PIPELINE_TITLE": "Pipeline de Procesamiento",
-    "PIPELINE": "Pipeline",
-    "PIPELINE_NATIVE": "Nativo (ONNX Runtime)",
-    "PIPELINE_WEBVIEW": "Pipeline web interno (alternativo)",
-    "PIPELINE_WEBVIEW_NOTE": "El pipeline nativo no pudo iniciarse, así que tomó el relevo el interno, más lento",
-    "NATIVE_EP": "Execution provider",
-    "NATIVE_EP_CPU_NOTE": "No se pudo registrar ningún proveedor de GPU — ejecutando en la CPU",
-    "INFERENCE_BACKEND": "Backend de inferencia",
-    "BACKEND_WEBGPU": "WebGPU",
-    "BACKEND_WASM": "WebAssembly (CPU)",
-    "WASM_THREADS": "Hilos de WebAssembly",
-    "WASM_THREADS_AVAILABLE": "Hilos de WebAssembly disponibles",
-    "WASM_THREADS_NOTE": "Un solo hilo: SharedArrayBuffer no está disponible, ya sea porque la página no está aislada entre orígenes o porque la webview no lo implementa",
-    "NOT_MEASURED": "Aún no medido",
-    "NOT_MEASURED_NOTE": "Procesa un video para medirlo"
-  },
-  "DASHBOARD": {
-    "TITLE": "Panel",
-    "CHART_TITLE": "Tiros y canastas a lo largo del tiempo",
-    "LIST_TITLE": "Historial de procesamientos",
-    "LOADING": "Cargando estadísticas...",
-    "EMPTY_TITLE": "Sin estadísticas aún",
-    "EMPTY_DESC": "Procesa un video para ver tus estadísticas aquí",
-    "DELETE": "Eliminar entrada",
-    "LOGIN_REQUIRED": "Inicia sesión para ver tu panel personal de estadísticas"
-  },
-  "VIDEOS": {
-    "TITLE": "Videos Procesados",
-    "REMOVE_CONFIRM": "¿Eliminar \"{{name}}\" del historial?",
-    "REMOVE_DIALOG_TITLE": "Eliminar video",
-    "LOADING": "Cargando historial...",
-    "EMPTY_TITLE": "Sin videos aún",
-    "EMPTY_DESC": "Procesa un video para verlo aquí",
-    "EMPTY_BUTTON": "Procesar un Video",
-    "DESKTOP_ONLY_TITLE": "Solo Escritorio",
-    "DESKTOP_ONLY_DESC": "La página de Videos solo está disponible en {{app}}. Descarga la app para explorar y gestionar tus videos procesados.",
-    "DESKTOP_ONLY_APP": "SwishAI Desktop",
-    "PLAY": "Reproducir",
-    "PLAY_TITLE": "Reproducir video",
-    "DOWNLOAD_TITLE": "Descargar video",
-    "REMOVE_TITLE": "Eliminar del historial",
-    "RENAME": "Renombrar",
-    "CONFIRM_RENAME": "Confirmar",
-    "CANCEL_RENAME": "Cancelar",
-    "PLAYER_LOADING": "Cargando video...",
-    "PLAYER_NOT_AVAILABLE": "Archivo de video no disponible",
-    "PAGINATION_RANGE": "{{from}}–{{to}} de {{total}}",
-    "PAGINATION_PREV": "Anterior",
-    "PAGINATION_NEXT": "Siguiente"
   },
   "SUBSCRIPTION": {
     "TITLE": "Suscripción",
@@ -267,8 +187,9 @@
     "STATUS_CANCELLING": "Cancelándose",
     "RENEWS_ON": "Se renueva el {{date}}",
     "ACCESS_UNTIL": "Acceso hasta el {{date}}",
-    "MAX_DURATION": "Vídeos de hasta {{minutes}} minutos",
+    "MAX_DURATION": "Videos de hasta {{minutes}} min",
     "UNLIMITED_DURATION": "Vídeos de cualquier duración",
+    "MOBILE_CAP_NOTE": "En celulares y tabletas, el límite de cada video es {{limit}} con cualquier plan. Obtienes los resultados sin el video anotado.",
     "INTERVAL_MONTH": "mes",
     "INTERVAL_YEAR": "año",
     "SUBSCRIBE": "Suscribirse",
@@ -287,5 +208,158 @@
     "CONFIRM_SWITCH_TITLE": "¿Cambiar de plan?",
     "CONFIRM_SWITCH_MESSAGE": "El cambio se aplica de inmediato. La diferencia de precio por el resto del periodo actual se cobra o abona al instante.",
     "ERROR_GENERIC": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "SESSION": {
+    "NOT_SAVED_YET": "Estos resultados todavía no están en tu diario. Volveremos a intentar guardarlos de forma automática.",
+    "NOTHING_DETECTED": "No detectamos tiros en este video, así que no hay nada que guardar. Apoya el celular en una superficie estable, encuadra un solo aro e inténtalo otra vez. También puedes agregar los tiros a mano debajo del video.",
+    "OPEN_SINCE": "abierta desde las {{time}}",
+    "CLOSE": "Cerrar sesión de entrenamiento",
+    "CLOSED_TOTAL": "Sesión cerrada: {{baskets}} de {{shots}} ({{accuracy}} %).",
+    "VIEW_HISTORY": "Ver tu historial",
+    "DAY_USED": "Ya tienes una sesión hoy, así que este análisis no se guardará. Vuelve mañana o",
+    "DAY_USED_LINK": "pásate a Pro",
+    "KEEP_PROMPT": "Este resultado está solo en este navegador y aún no se ha guardado.",
+    "KEEP_PROMPT_MANY": "Los videos de esta visita están solo en este navegador y aún no se han guardado.",
+    "KEEP_PROMPT_LINK": "Regístrate para guardar este resultado en tu diario",
+    "CLAIMED": "Lo que procesaste ya está en tu cuenta.",
+    "KEEP_PROMPT_LINK_MANY": "Regístrate para guardar todo en una sola sesión"
+  },
+  "SESSIONS": {
+    "TITLE": "Historial",
+    "LOGIN_REQUIRED": "Inicia sesión para ver tus entrenamientos",
+    "LOADING": "Cargando tus entrenamientos…",
+    "CHART_TITLE": "Tiros y canastas a lo largo del tiempo",
+    "LIST_TITLE": "Tus entrenamientos",
+    "DEFAULT_NAME": "Sesión {{number}}",
+    "RENAME": "Cambiar el nombre de esta sesión",
+    "OPEN": "abierta",
+    "VIDEOS": "Grabaciones",
+    "EXPAND": "Mostrar los videos",
+    "DRAG_VIDEO": "Arrastra este video a otra sesión",
+    "MOVE_FAILED": "No se pudo mover el video. Inténtalo de nuevo.",
+    "NO_VIDEOS": "Aún no hay videos en esta sesión.",
+    "NO_DETAIL": "detalle no disponible",
+    "VIDEO_TRUNCATED": "hasta {{limit}} de {{duration}}",
+    "DELETE": "Eliminar",
+    "DELETE_TITLE": "¿Eliminar esta sesión?",
+    "DELETE_MESSAGE": "También se eliminarán los videos y tiros de la sesión. Esta acción es permanente.",
+    "GO_PRO": "Pro",
+    "LOCKED_HINT": "El plan gratis muestra las sesiones más recientes ({{count}}). Las anteriores se conservan y puedes volver a verlas con Pro.",
+    "EMPTY_TITLE": "Aún no hay sesiones",
+    "EMPTY_CTA": "Procesar un video",
+    "ANALYSES": {
+      "TITLE": "Tus análisis",
+      "LOAD_FAILED": "No se pudieron cargar tus análisis.",
+      "RETRY": "Volver a intentar",
+      "HOLD_TITLE": "Constancia durante la sesión",
+      "THIRD_FIRST": "Inicio",
+      "THIRD_MIDDLE": "Mitad",
+      "THIRD_LAST": "Final",
+      "HOLD_LATEST": "{{name}}: empiezas con {{first}} % y terminas con {{last}} %.",
+      "HOLD_OVERALL": "En el conjunto de tus sesiones ({{sessions}}): de {{first}} % a {{last}} %.",
+      "HOLD_EMPTY": "Aparece cuando el total de tiros de una sesión llega a {{count}}.",
+      "TREND_TITLE": "Precisión a lo largo del tiempo",
+      "TREND_SUMMARY": "{{fromName}} ({{fromDay}}): {{from}} %. {{toName}} ({{toDay}}): {{to}} %.",
+      "TREND_EMPTY": "Aparece a partir de tu segunda sesión.",
+      "RECORDS_TITLE": "Rachas y récords",
+      "RECORD_SHOTS": "Más tiros en una sesión",
+      "RECORD_BASKETS": "Más canastas en una sesión",
+      "RECORD_ACCURACY": "Mejor precisión (total de tiros mínimo: {{count}})",
+      "RECORD_STREAK": "Racha más larga de canastas",
+      "RECORDS_NEW": "Nuevo",
+      "RECORDS_NONE": "Aún no",
+      "RECORDS_EMPTY": "Tus primeros récords aparecen con tu primera sesión."
+    },
+    "PRO_PREVIEW": {
+      "CTA": "Pásate a Pro"
+    },
+    "EXPORT": {
+      "TITLE": "Exportar",
+      "HINT": "Tu diario completo para guardar o compartir.",
+      "PDF": "Informe en PDF",
+      "CSV_SUMMARY": "CSV con una fila por sesión",
+      "CSV_SHOTS": "CSV con una fila por tiro",
+      "FAILED": "No se pudo exportar. Inténtalo de nuevo.",
+      "PRO_REQUIRED": "La exportación está incluida en Pro.",
+      "EMPTY": "Disponible a partir de tu primera sesión."
+    }
+  },
+  "REVIEW": {
+    "TITLE": "Revisa tus tiros",
+    "HINT": "Toca un tiro para verlo.",
+    "HINT_KEYBOARD": "Usa las flechas para moverte y Enter para cambiar el resultado.",
+    "HINT_NO_VIDEO": "Puedes corregir el conteo de forma directa, ya que no hay un video para revisar.",
+    "SHOT_MADE": "Encestado en {{time}}",
+    "SHOT_MISSED": "Fallado en {{time}}",
+    "ADD_SHOT": "Agregar un tiro aquí",
+    "FIRST_PAGE": "Primeros tiros",
+    "PREVIOUS_PAGE": "Tiros anteriores",
+    "NEXT_PAGE": "Tiros siguientes",
+    "LAST_PAGE": "Últimos tiros",
+    "REMOVED": "Tiro eliminado.",
+    "UNDO": "Deshacer",
+    "EDITED": "editado por ti",
+    "DETECTED": "detección: tiros ({{shots}}) y canastas ({{baskets}})",
+    "EDIT_TOTALS": "Corregir el conteo",
+    "RESET_HINT": "Deja ambos campos vacíos para volver al conteo original.",
+    "BASKETS_OVER_SHOTS": "El total de canastas no puede superar al de tiros.",
+    "SAVE_FAILED": "No se pudo guardar. Inténtalo de nuevo."
+  },
+  "PAGE_META": {
+    "PROCESS_VIDEO": {
+      "TITLE": "Cuenta los tiros de básquetbol de tu video",
+      "DESCRIPTION": "Sube un video de básquetbol y SwishAI cuenta tus tiros y canastas y calcula tu precisión en el navegador. El video se queda en tu dispositivo."
+    },
+    "SUBSCRIPTION": {
+      "TITLE": "Planes y precios",
+      "DESCRIPTION": "Compara el plan gratis con Pro: el límite de duración por video, las sesiones que puedes ver y los datos que guarda tu historial de tiro."
+    },
+    "TERMS": {
+      "TITLE": "Términos del servicio",
+      "DESCRIPTION": "Los términos que aceptas al usar SwishAI: cómo funciona la aplicación, qué significan los conteos y cuáles son tus responsabilidades al usar una cuenta."
+    },
+    "PRIVACY": {
+      "TITLE": "Aviso de privacidad",
+      "DESCRIPTION": "Consulta qué datos guarda SwishAI y cuáles quedan en tu dispositivo. Tu video se procesa en el navegador y se queda en tu dispositivo."
+    },
+    "REFUNDS": {
+      "TITLE": "Reembolsos y derecho de desistimiento",
+      "DESCRIPTION": "Cómo cancelar tu suscripción a SwishAI, cuándo puedes obtener un reembolso y cómo se aplica el derecho de desistimiento de la UE."
+    },
+    "IMPRINT": {
+      "TITLE": "Información de la empresa",
+      "DESCRIPTION": "Quién gestiona SwishAI: datos de la empresa, domicilio social y formas de contacto."
+    },
+    "LOGIN": {
+      "TITLE": "Inicia sesión",
+      "DESCRIPTION": "Inicia sesión en SwishAI para guardar tus entrenamientos y seguir tu progreso en el tiro a lo largo del tiempo."
+    },
+    "REGISTER": {
+      "TITLE": "Crea una cuenta",
+      "DESCRIPTION": "Crea tu cuenta gratis en SwishAI para guardar los entrenamientos que proceses y crear tu diario de tiro."
+    },
+    "FORGOT_PASSWORD": {
+      "TITLE": "Restablece tu contraseña",
+      "DESCRIPTION": "Pide un enlace para crear una nueva contraseña para tu cuenta de SwishAI."
+    },
+    "PROFILE": {
+      "TITLE": "Tu perfil",
+      "DESCRIPTION": "Tu cuenta de SwishAI: correo electrónico, plan y contraseña."
+    },
+    "SESSIONS": {
+      "TITLE": "Tus sesiones",
+      "DESCRIPTION": "Consulta tus entrenamientos procesados y revisa los tiros, las canastas y la precisión de cada sesión."
+    },
+    "NOT_FOUND": {
+      "TITLE": "Página no encontrada",
+      "DESCRIPTION": "No hay ninguna página en esta dirección. Vuelve a SwishAI y procesa un video."
+    }
+  },
+  "HOOP_PICKER": {
+    "TITLE": "Encontramos más de un aro. Toca el tuyo.",
+    "HINT": "Solo se cuentan los tiros al aro que elijas.",
+    "HOOP_LABEL": "Aro {{n}}",
+    "SKIP": "Continuar sin elegir",
+    "STILL_ALT": "Un fotograma de tu video con cada aro marcado"
   }
 }
