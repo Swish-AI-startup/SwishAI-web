@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1795281653121,
+  "timestamp": 1795282815302,
   "index": "/SwishAI-web/index.html",
   "assetGroups": [
     {
@@ -122,7 +122,7 @@
     "/SwishAI-web/assets/wasm/ort-wasm-simd-threaded.asyncify.wasm": "6276d38dbb529b22faf19852d1e8b8926cf16af6",
     "/SwishAI-web/assets/wasm/swishai_core.d.ts": "4fe269dfed3af55d3ba92c8beae10c8552155ac3",
     "/SwishAI-web/assets/wasm/swishai_core.js": "35dd05df211a822080efd70d579220ad5937b51e",
-    "/SwishAI-web/assets/wasm/swishai_core_bg.wasm": "9de56d246e184762915d868a6b0d12c425f3e551",
+    "/SwishAI-web/assets/wasm/swishai_core_bg.wasm": "23d8ebfbcca5b8be54efa329798f8e1730002422",
     "/SwishAI-web/assets/wasm/swishai_core_bg.wasm.d.ts": "18d6e3151cd74777373a5d01123a1216435ba102",
     "/SwishAI-web/chunk-3-eCDCgo.js": "52eefb5cb67f47d5c297f24fe8f84ad8c732e46f",
     "/SwishAI-web/chunk-8BpSUMpZ.js": "6c3f352d6fcee458c054f5b565b25b1426e082dc",
