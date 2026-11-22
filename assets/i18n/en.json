@@ -199,12 +199,14 @@
     "OWN": "Your rank · {{rank}}",
     "PUBLIC_INVITE": "Make your profile public to join the leaderboard",
     "NO_VALID_SESSIONS": "Log an eligible session to join the leaderboard.",
+    "NOT_ENOUGH_SHOTS": "Accuracy counts from {{needed}} shots: you have {{shots}}.",
     "NO_HANDLE": "Choose a nickname to join the leaderboard.",
     "HIDDEN": "Your profile is hidden. Contact us for details.",
     "CORRECTIONS_SUSPENDED": "Your ranking is suspended due to corrections.",
     "JOIN": "Sign up to join the leaderboard"
   },
   "SOCIAL": {
+    "SESSION": "Training",
     "SEARCH": "Search",
     "SEARCH_LABEL": "Player nickname",
     "YOU_FOLLOW": "Following",
@@ -431,7 +433,6 @@
     "IMPRINT": "Company info"
   },
   "LEGAL": {
-    "ERROR_DIAGNOSTICS": "We send anonymous technical error reports to find and fix problems. Reports contain no file names, account details or video contents.",
     "TITLE_TERMS": "Terms of Service",
     "TITLE_PRIVACY": "Privacy Notice",
     "TITLE_REFUNDS": "Refunds and Withdrawal",
@@ -556,9 +557,11 @@
     "DELETE_ACCOUNT_CONFIRM_LABEL": "Type {{email}} to confirm",
     "DELETE_ACCOUNT_CONFIRM": "Delete permanently",
     "DELETE_ACCOUNT_ERROR": "The account could not be deleted. Please try again.",
-    "ACCEPT_LEGAL": "I accept the terms of service and the privacy notice"
+    "ACCEPT_LEGAL": "I am at least 14, I accept the terms of service and I have read the privacy notice"
   },
   "SUBSCRIPTION": {
+    "BETA_CODES_ONLY": "During the beta, Pro is activated with a code. Payments open at launch.",
+    "START_NOW": "I want Pro to start right away and I understand that I lose the right of withdrawal for the part I use.",
     "YOUR_PLAN": "Your plan",
     "TITLE": "Subscription",
     "LOGIN_REQUIRED": "Log in to manage your subscription.",

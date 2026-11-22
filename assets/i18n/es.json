@@ -199,12 +199,14 @@
     "OWN": "Tu puesto · {{rank}}",
     "PUBLIC_INVITE": "Haz público tu perfil para entrar en la clasificación",
     "NO_VALID_SESSIONS": "Registra una sesión válida para entrar en la clasificación.",
+    "NOT_ENOUGH_SHOTS": "La precisión cuenta a partir de {{needed}} tiros: llevas {{shots}}.",
     "NO_HANDLE": "Elige un apodo para entrar en la clasificación.",
     "HIDDEN": "Tu perfil está oculto. Contáctanos para más información.",
     "CORRECTIONS_SUSPENDED": "Tu puesto está suspendido debido a las correcciones.",
     "JOIN": "Regístrate para entrar en la clasificación"
   },
   "SOCIAL": {
+    "SESSION": "Entrenamiento",
     "SEARCH": "Buscar",
     "SEARCH_LABEL": "Apodo del jugador",
     "YOU_FOLLOW": "A quién sigues",
@@ -431,7 +433,6 @@
     "IMPRINT": "Datos de la empresa"
   },
   "LEGAL": {
-    "ERROR_DIAGNOSTICS": "Enviamos informes técnicos anónimos de errores para detectar y corregir problemas. Los informes no incluyen nombres de archivos, datos de la cuenta ni contenido de los videos.",
     "TITLE_TERMS": "Términos del servicio",
     "TITLE_PRIVACY": "Aviso de privacidad",
     "TITLE_REFUNDS": "Reembolsos y derecho de desistimiento",
@@ -556,9 +557,11 @@
     "DELETE_ACCOUNT_CONFIRM_LABEL": "Escribe {{email}} para confirmar",
     "DELETE_ACCOUNT_CONFIRM": "Eliminar permanentemente",
     "DELETE_ACCOUNT_ERROR": "No se pudo eliminar la cuenta. Inténtalo de nuevo.",
-    "ACCEPT_LEGAL": "Acepto los términos del servicio y el aviso de privacidad"
+    "ACCEPT_LEGAL": "Tengo al menos 14 años, acepto los términos del servicio y he leído el aviso de privacidad"
   },
   "SUBSCRIPTION": {
+    "BETA_CODES_ONLY": "Durante la beta, el Pro se activa con un código. Los pagos se abrirán en el lanzamiento.",
+    "START_NOW": "Quiero que el Pro empiece ya y entiendo que pierdo el derecho de desistimiento por la parte que use.",
     "YOUR_PLAN": "Tu plan",
     "TITLE": "Suscripción",
     "LOGIN_REQUIRED": "Inicia sesión para gestionar tu suscripción.",

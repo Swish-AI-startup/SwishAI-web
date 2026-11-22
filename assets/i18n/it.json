@@ -199,12 +199,14 @@
     "OWN": "La tua posizione · {{rank}}°",
     "PUBLIC_INVITE": "Rendi pubblico il profilo per entrare in classifica",
     "NO_VALID_SESSIONS": "Registra una sessione valida per entrare in classifica.",
+    "NOT_ENOUGH_SHOTS": "La precisione conta da {{needed}} tiri: ne hai {{shots}}.",
     "NO_HANDLE": "Scegli un nickname per entrare in classifica.",
     "HIDDEN": "Il tuo profilo è oscurato. Contattaci per informazioni.",
     "CORRECTIONS_SUSPENDED": "La tua posizione è sospesa per le correzioni.",
     "JOIN": "Registrati per entrare in classifica"
   },
   "SOCIAL": {
+    "SESSION": "Allenamento",
     "SEARCH": "Cerca",
     "SEARCH_LABEL": "Nickname del giocatore",
     "YOU_FOLLOW": "Chi segui",
@@ -431,11 +433,10 @@
     "IMPRINT": "Dati societari"
   },
   "LEGAL": {
-    "ERROR_DIAGNOSTICS": "Inviamo dati tecnici anonimi sugli errori per trovare e correggere i problemi. I rapporti non contengono nomi di file, dati dell’account o contenuti video.",
     "TITLE_TERMS": "Termini di servizio",
     "TITLE_PRIVACY": "Informativa sulla privacy",
     "TITLE_REFUNDS": "Rimborsi e diritto di recesso",
-    "TITLE_IMPRINT": "Informazioni societarie",
+    "TITLE_IMPRINT": "Dati societari",
     "LOAD_FAILED": "Non è stato possibile caricare il documento. Riprova."
   },
   "GUIDE": {
@@ -556,9 +557,11 @@
     "DELETE_ACCOUNT_CONFIRM_LABEL": "Scrivi {{email}} per confermare",
     "DELETE_ACCOUNT_CONFIRM": "Elimina definitivamente",
     "DELETE_ACCOUNT_ERROR": "Non è stato possibile eliminare l'account. Riprova.",
-    "ACCEPT_LEGAL": "Accetto i termini di servizio e l'informativa sulla privacy"
+    "ACCEPT_LEGAL": "Ho almeno 14 anni, accetto i termini di servizio e ho letto l'informativa sulla privacy"
   },
   "SUBSCRIPTION": {
+    "BETA_CODES_ONLY": "Durante la beta il Pro si attiva con un codice. I pagamenti apriranno al lancio.",
+    "START_NOW": "Voglio che il Pro parta subito e so che, per la parte che uso, perdo il diritto di recesso.",
     "YOUR_PLAN": "Il tuo piano",
     "TITLE": "Abbonamento",
     "LOGIN_REQUIRED": "Accedi per gestire il tuo abbonamento.",
