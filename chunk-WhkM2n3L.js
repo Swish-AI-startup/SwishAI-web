@@ -1,0 +1,1 @@
+function t(e){return e&&/^[A-Z]{2}$/.test(e)?String.fromCodePoint(...[...e].map(r=>r.charCodeAt(0)+127397)):``}function o(e){return[`/u`,e]}var n=[`general`,`consistency`,`shots`,`baskets`,`accuracy`];export{o as n,t as r,n as t};

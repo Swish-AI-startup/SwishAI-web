@@ -1,31 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/"/>
   </url>
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/process-video/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/process-video/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/process-video/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/process-video/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/process-video/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/process-video/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/process-video/"/>
   </url>
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/subscription/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/subscription/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/subscription/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/subscription/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/subscription/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/subscription/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/subscription/"/>
   </url>
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/terms/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/terms/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/terms/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/terms/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/terms/"/>
   </url>
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/privacy/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/privacy/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/privacy/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/privacy/"/>
   </url>
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/refunds/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/refunds/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/refunds/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/refunds/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/refunds/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/refunds/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/refunds/"/>
   </url>
   <url>
     <loc>https://swish-ai-startup.github.io/SwishAI-web/imprint/</loc>
-    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/imprint/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/it/imprint/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/imprint/"/>
+  </url>
+  <url>
+    <loc>https://swish-ai-startup.github.io/SwishAI-web/es/imprint/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://swish-ai-startup.github.io/SwishAI-web/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://swish-ai-startup.github.io/SwishAI-web/it/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://swish-ai-startup.github.io/SwishAI-web/es/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://swish-ai-startup.github.io/SwishAI-web/imprint/"/>
   </url>
 </urlset>
