@@ -1,1 +1,0 @@
-import{Nn as oC,Pt as Pl,bt as Ll,et as CT}from"./main-FB2SYPIU.js";var r=(()=>{class t{static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=CT({type:t,selectors:[[`app-page-not-found`]],decls:2,vars:0,template:function(e,m){e&1&&(Ll(0,`p`),oC(1,`page-not-found!`),Pl())},encapsulation:2})}}return t})();export{r as PageNotFoundComponent};

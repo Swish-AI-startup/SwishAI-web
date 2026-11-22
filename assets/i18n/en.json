@@ -1,5 +1,36 @@
 {
+  "ADMIN_ERRORS": {
+    "TAB": "Errors",
+    "WEEK": "Last 7 days",
+    "TYPE": "Type",
+    "VERSION": "Version",
+    "DEVICE": "Device",
+    "ALL": "All",
+    "RECENT": "Recent errors",
+    "EMPTY": "No matching errors",
+    "ERROR": "Could not load errors",
+    "PAGE": "Page",
+    "INSTALLATION": "Installation",
+    "PWA": "PWA",
+    "BROWSER": "Browser",
+    "PHASE": "Phase",
+    "ENGINE": "Engine",
+    "FRAMES": "Frames",
+    "CODEC": "Codec",
+    "WIDTH": "Width",
+    "HEIGHT": "Height",
+    "SIZE": "File size (MB)",
+    "DURATION": "Video duration (s)",
+    "ANALYZED": "Analysed (s)",
+    "NETWORK": "Network error",
+    "js_error": "JavaScript error",
+    "unhandled_rejection": "Unhandled rejection",
+    "analysis_failed": "Analysis failed",
+    "analysis_interrupted": "Analysis interrupted",
+    "http_error": "HTTP error"
+  },
   "DEMO": {
+    "BACK_DIARY": "Back to the diary",
     "TITLE": "Example result",
     "EXAMPLE": "A sample video with a precomputed result.",
     "BACK": "Back to home",
@@ -219,7 +250,6 @@
     "TOTALS": "Totals"
   },
   "DIARY": {
-    "ANALYZE_FIRST": "Analyze your first session",
     "CORRECTIONS_NEAR": "You’re making a lot of corrections, almost all in your favor. If this continues, corrections will be suspended.",
     "CORRECTIONS_PAUSED_TITLE": "Corrections suspended",
     "CORRECTIONS_PAUSED": "You can make corrections again from {{date}}.",
@@ -334,6 +364,7 @@
     "GIFT_EXPLANATION": "Lifetime Pro, gifted with a code."
   },
   "SHELL": {
+    "GO_PRO": "Go Pro",
     "HIDDEN_PROFILE": "Your profile is hidden from search and leaderboards.",
     "DELETE_DESCRIPTION": "This permanently deletes your diary, profile, leaderboard position and follows.",
     "DELETE_STRIPE": "Cancel your paid subscription and wait for it to end before deleting your account.",
@@ -501,7 +532,7 @@
     "REGISTER_SUCCESS": "Account created! Please check your email to confirm your account.",
     "USERNAME": "Username",
     "PROFILE": "Profile",
-    "CHANGE_PASSWORD": "Change Password",
+    "CHANGE_PASSWORD": "Change password",
     "NEW_PASSWORD": "New Password",
     "CONFIRM_NEW_PASSWORD": "Confirm New Password",
     "PASSWORD_UPDATED": "Password updated successfully.",
@@ -528,6 +559,7 @@
     "ACCEPT_LEGAL": "I accept the terms of service and the privacy notice"
   },
   "SUBSCRIPTION": {
+    "YOUR_PLAN": "Your plan",
     "TITLE": "Subscription",
     "LOGIN_REQUIRED": "Log in to manage your subscription.",
     "CURRENT_PLAN": "Current plan",

@@ -1,5 +1,36 @@
 {
+  "ADMIN_ERRORS": {
+    "TAB": "Errores",
+    "WEEK": "Últimos 7 días",
+    "TYPE": "Tipo",
+    "VERSION": "Versión",
+    "DEVICE": "Dispositivo",
+    "ALL": "Todos",
+    "RECENT": "Errores recientes",
+    "EMPTY": "No hay errores que coincidan",
+    "ERROR": "No se pudieron cargar los errores",
+    "PAGE": "Página",
+    "INSTALLATION": "Instalación",
+    "PWA": "PWA",
+    "BROWSER": "Navegador",
+    "PHASE": "Fase",
+    "ENGINE": "Motor",
+    "FRAMES": "Fotogramas",
+    "CODEC": "Códec",
+    "WIDTH": "Ancho",
+    "HEIGHT": "Alto",
+    "SIZE": "Tamaño del archivo (MB)",
+    "DURATION": "Duración del video (s)",
+    "ANALYZED": "Analizados (s)",
+    "NETWORK": "Error de red",
+    "js_error": "Error de JavaScript",
+    "unhandled_rejection": "Promesa rechazada",
+    "analysis_failed": "Falló el análisis",
+    "analysis_interrupted": "Análisis interrumpido",
+    "http_error": "Error HTTP"
+  },
   "DEMO": {
+    "BACK_DIARY": "Volver al diario",
     "TITLE": "Resultado de ejemplo",
     "EXAMPLE": "Un video de ejemplo con el resultado ya calculado.",
     "BACK": "Volver al inicio",
@@ -219,7 +250,6 @@
     "TOTALS": "Totales"
   },
   "DIARY": {
-    "ANALYZE_FIRST": "Analiza tu primer entrenamiento",
     "CORRECTIONS_NEAR": "Estás haciendo muchas correcciones, casi todas a tu favor. Si esto continúa, se suspenderán las correcciones.",
     "CORRECTIONS_PAUSED_TITLE": "Correcciones suspendidas",
     "CORRECTIONS_PAUSED": "Podrás volver a corregir a partir del {{date}}.",
@@ -334,6 +364,7 @@
     "GIFT_EXPLANATION": "Pro de por vida, regalado con un código."
   },
   "SHELL": {
+    "GO_PRO": "Pásate a Pro",
     "HIDDEN_PROFILE": "Tu perfil está oculto de la búsqueda y las clasificaciones.",
     "DELETE_DESCRIPTION": "Eliminarás para siempre tu diario, tu perfil, tu posición en la clasificación y tus seguidores y seguidos.",
     "DELETE_STRIPE": "Cancela la suscripción de pago y espera a que termine antes de eliminar tu cuenta.",
@@ -501,7 +532,7 @@
     "REGISTER_SUCCESS": "¡Cuenta creada! Revisa tu correo para confirmar tu cuenta.",
     "USERNAME": "Nombre de usuario",
     "PROFILE": "Perfil",
-    "CHANGE_PASSWORD": "Cambiar Contraseña",
+    "CHANGE_PASSWORD": "Cambiar contraseña",
     "NEW_PASSWORD": "Nueva Contraseña",
     "CONFIRM_NEW_PASSWORD": "Confirmar Nueva Contraseña",
     "PASSWORD_UPDATED": "Contraseña actualizada correctamente.",
@@ -528,6 +559,7 @@
     "ACCEPT_LEGAL": "Acepto los términos del servicio y el aviso de privacidad"
   },
   "SUBSCRIPTION": {
+    "YOUR_PLAN": "Tu plan",
     "TITLE": "Suscripción",
     "LOGIN_REQUIRED": "Inicia sesión para gestionar tu suscripción.",
     "CURRENT_PLAN": "Plan actual",

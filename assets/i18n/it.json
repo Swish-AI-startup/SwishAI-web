@@ -1,5 +1,36 @@
 {
+  "ADMIN_ERRORS": {
+    "TAB": "Errori",
+    "WEEK": "Ultimi 7 giorni",
+    "TYPE": "Tipo",
+    "VERSION": "Versione",
+    "DEVICE": "Dispositivo",
+    "ALL": "Tutti",
+    "RECENT": "Errori recenti",
+    "EMPTY": "Nessun errore corrispondente",
+    "ERROR": "Impossibile caricare gli errori",
+    "PAGE": "Pagina",
+    "INSTALLATION": "Installazione",
+    "PWA": "PWA",
+    "BROWSER": "Browser",
+    "PHASE": "Fase",
+    "ENGINE": "Motore",
+    "FRAMES": "Fotogrammi",
+    "CODEC": "Codec",
+    "WIDTH": "Larghezza",
+    "HEIGHT": "Altezza",
+    "SIZE": "Dimensioni file (MB)",
+    "DURATION": "Durata video (s)",
+    "ANALYZED": "Analizzati (s)",
+    "NETWORK": "Errore di rete",
+    "js_error": "Errore JavaScript",
+    "unhandled_rejection": "Promessa rifiutata",
+    "analysis_failed": "Analisi fallita",
+    "analysis_interrupted": "Analisi interrotta",
+    "http_error": "Errore HTTP"
+  },
   "DEMO": {
+    "BACK_DIARY": "Torna al diario",
     "TITLE": "Risultato di esempio",
     "EXAMPLE": "Un video di esempio con risultato già calcolato.",
     "BACK": "Torna alla home",
@@ -219,7 +250,6 @@
     "TOTALS": "Totali"
   },
   "DIARY": {
-    "ANALYZE_FIRST": "Analizza il tuo primo allenamento",
     "CORRECTIONS_NEAR": "Stai correggendo molto, e quasi solo a tuo favore. Se continua, la correzione verrà sospesa.",
     "CORRECTIONS_PAUSED_TITLE": "Correzioni sospese",
     "CORRECTIONS_PAUSED": "Potrai correggere di nuovo dal {{date}}.",
@@ -334,6 +364,7 @@
     "GIFT_EXPLANATION": "Pro a vita, regalato con un codice."
   },
   "SHELL": {
+    "GO_PRO": "Passa a Pro",
     "HIDDEN_PROFILE": "Il tuo profilo è oscurato nella ricerca e nelle classifiche.",
     "DELETE_DESCRIPTION": "Eliminerai definitivamente il diario, il profilo, la posizione in classifica e i collegamenti con chi segui e chi ti segue.",
     "DELETE_STRIPE": "Disdici l’abbonamento a pagamento e attendi che scada prima di eliminare l’account.",
@@ -501,7 +532,7 @@
     "REGISTER_SUCCESS": "Account creato! Controlla la tua email per confermare l'account.",
     "USERNAME": "Nome utente",
     "PROFILE": "Profilo",
-    "CHANGE_PASSWORD": "Cambia Password",
+    "CHANGE_PASSWORD": "Cambia password",
     "NEW_PASSWORD": "Nuova Password",
     "CONFIRM_NEW_PASSWORD": "Conferma Nuova Password",
     "PASSWORD_UPDATED": "Password aggiornata con successo.",
@@ -528,6 +559,7 @@
     "ACCEPT_LEGAL": "Accetto i termini di servizio e l'informativa sulla privacy"
   },
   "SUBSCRIPTION": {
+    "YOUR_PLAN": "Il tuo piano",
     "TITLE": "Abbonamento",
     "LOGIN_REQUIRED": "Accedi per gestire il tuo abbonamento.",
     "CURRENT_PLAN": "Piano attuale",
