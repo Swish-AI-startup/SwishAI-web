@@ -1,0 +1,1 @@
+import{An as pc,Sn as lI,gn as hc,vn as iE}from"./main-XVH54QIN.js";var r=(()=>{class t{static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=iE({type:t,selectors:[[`app-page-not-found`]],decls:2,vars:0,template:function(e,m){e&1&&(pc(0,`p`),lI(1,`page-not-found!`),hc())},encapsulation:2})}}return t})();export{r as PageNotFoundComponent};

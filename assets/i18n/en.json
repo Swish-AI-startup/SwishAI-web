@@ -228,6 +228,8 @@
     "FORCE_HOOP_PICKER": "Force the hoop picker"
   },
   "COMMON": {
+    "SERVER_INTERNAL": "Something went wrong on our end. Try again.",
+    "SERVER_OFFLINE": "You’re offline or the server isn’t responding. Try again.",
     "SHOTS": "Shots",
     "BASKETS": "Baskets",
     "ACCURACY": "Accuracy",
@@ -258,6 +260,7 @@
     "IMPRINT": "Company info"
   },
   "LEGAL": {
+    "ERROR_DIAGNOSTICS": "We send anonymous technical error reports to find and fix problems. Reports contain no file names, account details or video contents.",
     "TITLE_TERMS": "Terms of Service",
     "TITLE_PRIVACY": "Privacy Notice",
     "TITLE_REFUNDS": "Refunds and Withdrawal",
@@ -333,12 +336,13 @@
     "STATS_TRUNCATED_NO_DURATION": "These numbers cover only the first {{limit}} of your video.",
     "CAMERA_MOVED": "The camera moved while recording, so these results may be off.",
     "CAMERA_MOVED_HINT": "Next time rest the phone on something steady and don't touch it until you're done.",
-    "PREVIEW_UNAVAILABLE": "The annotated video is no longer saved on this device. These numbers are still from your last run.",
+    "PREVIEW_UNAVAILABLE": "The original video is unavailable on this device. You can still see your numbers and shots.",
     "RUN_INTERRUPTED": "We didn't get to finish {{name}}. Pick the file again to start over.",
     "CPU_FALLBACK_NOTICE": "WebGPU could not be used for this run, so it's running on the CPU and will take longer.",
     "DATA_ONLY_RESULT": "This device counts the shots but does not produce the annotated video. Process the same file on a computer to get it."
   },
   "AUTH": {
+    "REGISTER_EMAIL_UNAVAILABLE": "We can’t send the confirmation email right now. Try again in a few minutes.",
     "LOGIN": "Login",
     "REGISTER": "Register",
     "DISCONNECT": "Disconnect",
@@ -520,9 +524,45 @@
       "EMPTY": "Comes with your first session."
     }
   },
+  "CLIP": {
+    "OPEN": "Share a clip",
+    "TITLE": "Create a clip",
+    "HINT": "Choose up to 6 baskets. The clip can be up to 30 seconds.",
+    "BASKET": "Basket at {{time}}",
+    "DURATION": "Estimated length {{seconds}} s",
+    "REMOVE_WATERMARK": "Remove the watermark",
+    "CREATE": "Create clip",
+    "ENCODING": "Creating your clip",
+    "SHARE": "Share",
+    "DOWNLOAD": "Download",
+    "UNAVAILABLE": "This browser cannot create the clip. You can still watch your result.",
+    "ERROR": "Could not finish the clip. Try again.",
+    "TAGLINE": "Your shooting diary",
+    "SHARE_TITLE": "SwishAI highlight"
+  },
+  "INSTALL": {
+    "TITLE": "Install SwishAI",
+    "ADD": "Add to Home Screen",
+    "LATER": "Later",
+    "IOS_SHARE": "Tap Share in Safari.",
+    "IOS_ADD": "Tap Add to Home Screen.",
+    "MENU": "Open your browser menu and choose Install app or Add to Home Screen."
+  },
+  "RESULT": {
+    "CONFIRM": "Confirm",
+    "PLAY": "Play",
+    "PAUSE": "Pause",
+    "PLAYHEAD": "Video position",
+    "SWISH": "SWISH",
+    "MISS": "MISS",
+    "ABOVE": "{{value}} points above your average",
+    "BELOW": "{{value}} points below your average",
+    "EQUAL": "In line with your average",
+    "VIDEO_NOT_KEPT": "The original was too large to keep on this device. You can still see your numbers and shots."
+  },
   "REVIEW": {
     "TITLE": "Review your shots",
-    "HINT": "Tap a shot to watch it.",
+    "HINT": "Tap to watch a shot. Tap again to change the outcome, or hold to remove it.",
     "HINT_KEYBOARD": "Arrows move, Enter switches.",
     "HINT_NO_VIDEO": "No video to check against here: fix the count directly.",
     "SHOT_MADE": "Made at {{time}}",

@@ -228,6 +228,8 @@
     "FORCE_HOOP_PICKER": "Forzar la selección del aro"
   },
   "COMMON": {
+    "SERVER_INTERNAL": "Algo falló de nuestro lado. Inténtalo de nuevo.",
+    "SERVER_OFFLINE": "Estás sin conexión o el servidor no responde. Inténtalo de nuevo.",
     "SHOTS": "Tiros",
     "BASKETS": "Canastas",
     "ACCURACY": "Precisión",
@@ -258,6 +260,7 @@
     "IMPRINT": "Datos de la empresa"
   },
   "LEGAL": {
+    "ERROR_DIAGNOSTICS": "Enviamos informes técnicos anónimos de errores para detectar y corregir problemas. Los informes no incluyen nombres de archivos, datos de la cuenta ni contenido de los videos.",
     "TITLE_TERMS": "Términos del servicio",
     "TITLE_PRIVACY": "Aviso de privacidad",
     "TITLE_REFUNDS": "Reembolsos y derecho de desistimiento",
@@ -333,12 +336,13 @@
     "STATS_TRUNCATED_NO_DURATION": "Estos resultados corresponden al inicio del video, hasta {{limit}}.",
     "CAMERA_MOVED": "La cámara se movió durante la grabación, así que los resultados pueden ser imprecisos.",
     "CAMERA_MOVED_HINT": "La próxima vez, apoya el celular en una superficie estable y evita tocarlo hasta terminar.",
-    "PREVIEW_UNAVAILABLE": "El video anotado ya no está en este dispositivo. Estos resultados siguen siendo los de tu último análisis.",
+    "PREVIEW_UNAVAILABLE": "El video original no está disponible en este dispositivo. Aún puedes ver tus números y tiros.",
     "RUN_INTERRUPTED": "El análisis de {{name}} quedó incompleto. Vuelve a seleccionar el archivo para empezar de nuevo.",
     "CPU_FALLBACK_NOTICE": "WebGPU no está disponible para este análisis. El procesamiento se hace con la CPU y tardará más.",
     "DATA_ONLY_RESULT": "Este dispositivo cuenta los tiros sin generar el video anotado. Para obtenerlo, procesa el mismo archivo en una computadora."
   },
   "AUTH": {
+    "REGISTER_EMAIL_UNAVAILABLE": "Por ahora no podemos enviar el correo de confirmación. Inténtalo de nuevo en unos minutos.",
     "LOGIN": "Iniciar sesión",
     "REGISTER": "Registrarse",
     "DISCONNECT": "Desconectar",
@@ -520,9 +524,45 @@
       "EMPTY": "Disponible a partir de tu primera sesión."
     }
   },
+  "CLIP": {
+    "OPEN": "Comparte un clip",
+    "TITLE": "Crea un clip",
+    "HINT": "Elige hasta 6 canastas. El clip puede durar hasta 30 segundos.",
+    "BASKET": "Canasta en {{time}}",
+    "DURATION": "Duración estimada {{seconds}} s",
+    "REMOVE_WATERMARK": "Quita la marca de agua",
+    "CREATE": "Crea el clip",
+    "ENCODING": "Estamos creando tu clip",
+    "SHARE": "Comparte",
+    "DOWNLOAD": "Descarga",
+    "UNAVAILABLE": "Este navegador no puede crear el clip. Aún puedes ver el resultado.",
+    "ERROR": "No pudimos terminar el clip. Vuelve a intentarlo.",
+    "TAGLINE": "Tu diario de tiro",
+    "SHARE_TITLE": "Mejores momentos en SwishAI"
+  },
+  "INSTALL": {
+    "TITLE": "Instala SwishAI",
+    "ADD": "Añadir a la pantalla de inicio",
+    "LATER": "Más tarde",
+    "IOS_SHARE": "Toca Compartir en Safari.",
+    "IOS_ADD": "Toca Añadir a la pantalla de inicio.",
+    "MENU": "Abre el menú del navegador y elige Instalar app o Añadir a la pantalla de inicio."
+  },
+  "RESULT": {
+    "CONFIRM": "Confirmar",
+    "PLAY": "Reproducir",
+    "PAUSE": "Pausar",
+    "PLAYHEAD": "Posición en el video",
+    "SWISH": "SWISH",
+    "MISS": "FALLO",
+    "ABOVE": "{{value}} puntos por encima de tu promedio",
+    "BELOW": "{{value}} puntos por debajo de tu promedio",
+    "EQUAL": "En línea con tu promedio",
+    "VIDEO_NOT_KEPT": "El video original era demasiado grande para guardarlo en este dispositivo. Aún puedes ver tus números y tiros."
+  },
   "REVIEW": {
     "TITLE": "Revisa tus tiros",
-    "HINT": "Toca un tiro para verlo.",
+    "HINT": "Toca para ver el tiro. Toca otra vez para cambiar el resultado o mantén pulsado para quitarlo.",
     "HINT_KEYBOARD": "Usa las flechas para moverte y Enter para cambiar el resultado.",
     "HINT_NO_VIDEO": "Puedes corregir el conteo de forma directa, ya que no hay un video para revisar.",
     "SHOT_MADE": "Encestado en {{time}}",

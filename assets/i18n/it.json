@@ -228,6 +228,8 @@
     "FORCE_HOOP_PICKER": "Forza la scelta del canestro"
   },
   "COMMON": {
+    "SERVER_INTERNAL": "Qualcosa non ha funzionato dalla nostra parte. Riprova.",
+    "SERVER_OFFLINE": "Sei offline o il server non risponde. Riprova.",
     "SHOTS": "Tiri",
     "BASKETS": "Canestri",
     "ACCURACY": "Precisione",
@@ -258,6 +260,7 @@
     "IMPRINT": "Dati societari"
   },
   "LEGAL": {
+    "ERROR_DIAGNOSTICS": "Inviamo dati tecnici anonimi sugli errori per trovare e correggere i problemi. I rapporti non contengono nomi di file, dati dell’account o contenuti video.",
     "TITLE_TERMS": "Termini di servizio",
     "TITLE_PRIVACY": "Informativa sulla privacy",
     "TITLE_REFUNDS": "Rimborsi e diritto di recesso",
@@ -333,12 +336,13 @@
     "STATS_TRUNCATED_NO_DURATION": "Questi numeri coprono solo il video fino a {{limit}}.",
     "CAMERA_MOVED": "La telecamera si è mossa durante la ripresa: i risultati possono essere imprecisi.",
     "CAMERA_MOVED_HINT": "La prossima volta appoggia il telefono su qualcosa di stabile e non toccarlo fino alla fine.",
-    "PREVIEW_UNAVAILABLE": "Il video annotato non è più salvato su questo dispositivo. Questi numeri sono comunque quelli della tua ultima elaborazione.",
+    "PREVIEW_UNAVAILABLE": "Il video originale non è disponibile su questo dispositivo. Puoi ancora vedere i numeri e i tiri.",
     "RUN_INTERRUPTED": "Non siamo riusciti a finire {{name}}. Riprendi il file e ricominciamo.",
     "CPU_FALLBACK_NOTICE": "Per questa elaborazione WebGPU non si è potuto usare, quindi gira sulla CPU e ci vorrà più tempo.",
     "DATA_ONLY_RESULT": "Questo dispositivo conta i tiri ma non produce il video annotato. Elabora lo stesso file su un computer per ottenerlo."
   },
   "AUTH": {
+    "REGISTER_EMAIL_UNAVAILABLE": "Non riusciamo a inviare la mail di conferma in questo momento. Riprova tra qualche minuto.",
     "LOGIN": "Accedi",
     "REGISTER": "Registrati",
     "DISCONNECT": "Disconnetti",
@@ -520,9 +524,45 @@
       "EMPTY": "Arriva con la prima sessione."
     }
   },
+  "CLIP": {
+    "OPEN": "Condividi una clip",
+    "TITLE": "Crea una clip",
+    "HINT": "Scegli fino a 6 canestri. La clip può durare al massimo 30 secondi.",
+    "BASKET": "Canestro a {{time}}",
+    "DURATION": "Durata stimata {{seconds}} s",
+    "REMOVE_WATERMARK": "Togli il watermark",
+    "CREATE": "Crea clip",
+    "ENCODING": "Stiamo creando la clip",
+    "SHARE": "Condividi",
+    "DOWNLOAD": "Scarica",
+    "UNAVAILABLE": "Questo browser non può creare la clip. Puoi comunque rivedere il risultato.",
+    "ERROR": "Non siamo riusciti a completare la clip. Riprova.",
+    "TAGLINE": "Il tuo diario di tiro",
+    "SHARE_TITLE": "Momenti migliori su SwishAI"
+  },
+  "INSTALL": {
+    "TITLE": "Installa SwishAI",
+    "ADD": "Aggiungi alla schermata Home",
+    "LATER": "Più tardi",
+    "IOS_SHARE": "Tocca Condividi in Safari.",
+    "IOS_ADD": "Tocca Aggiungi alla schermata Home.",
+    "MENU": "Apri il menu del browser e scegli Installa app o Aggiungi alla schermata Home."
+  },
+  "RESULT": {
+    "CONFIRM": "Conferma",
+    "PLAY": "Riproduci",
+    "PAUSE": "Pausa",
+    "PLAYHEAD": "Posizione nel video",
+    "SWISH": "SWISH",
+    "MISS": "FUORI",
+    "ABOVE": "{{value}} punti sopra la tua media",
+    "BELOW": "{{value}} punti sotto la tua media",
+    "EQUAL": "In linea con la tua media",
+    "VIDEO_NOT_KEPT": "Il video originale era troppo grande per essere conservato su questo dispositivo. Puoi ancora vedere i numeri e i tiri."
+  },
   "REVIEW": {
     "TITLE": "Ricontrolla i tiri",
-    "HINT": "Tocca un tiro per rivederlo.",
+    "HINT": "Tocca per rivedere il tiro. Tocca di nuovo per cambiare esito o tieni premuto per toglierlo.",
     "HINT_KEYBOARD": "Le frecce spostano, Invio cambia.",
     "HINT_NO_VIDEO": "Qui non c'è il video da controllare: correggi direttamente il conteggio.",
     "SHOT_MADE": "Segnato a {{time}}",

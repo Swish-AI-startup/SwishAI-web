@@ -1,1 +1,0 @@
-import{Fn as yc,Nn as wI,an as fE,yn as mc}from"./main-ROPT37ZY.js";var r=(()=>{class t{static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=fE({type:t,selectors:[[`app-page-not-found`]],decls:2,vars:0,template:function(e,m){e&1&&(mc(0,`p`),wI(1,`page-not-found!`),yc())},encapsulation:2})}}return t})();export{r as PageNotFoundComponent};
