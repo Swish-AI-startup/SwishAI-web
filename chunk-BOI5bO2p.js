@@ -1,0 +1,1 @@
+import{In as mc,On as hI,Wn as uE,Zn as yc}from"./main-5YKDNTG5.js";var r=(()=>{class t{static{this.ɵfac=function(e){return new(e||t)}}static{this.ɵcmp=uE({type:t,selectors:[[`app-page-not-found`]],decls:2,vars:0,template:function(e,m){e&1&&(mc(0,`p`),hI(1,`page-not-found!`),yc())},encapsulation:2})}}return t})();export{r as PageNotFoundComponent};
