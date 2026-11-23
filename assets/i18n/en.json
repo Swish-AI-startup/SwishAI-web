@@ -74,15 +74,7 @@
     "ACCOUNT_ANSWER": "Try a video right away. Create an account when you want to save a session to your diary.",
     "CORRECTIONS_QUESTION": "Can I correct a shot?",
     "CORRECTIONS_ANSWER": "Yes. Replay a shot from the strip and correct the result if the model missed it.",
-    "FINAL": "Start with your next session",
-    "CHAPTERS": "Discover SwishAI",
-    "CH_DEMO": "How it works",
-    "CH_DIARY": "Your progress",
-    "CH_SOCIAL": "With others",
-    "CH_FILMING": "How to film",
-    "CH_PRIVACY": "Privacy",
-    "CH_PLANS": "Plans",
-    "CH_FAQ": "Questions"
+    "FINAL": "Start with your next session"
   },
   "BETA": {
     "BADGE": "Beta",
@@ -203,9 +195,8 @@
     "WORLD": "World",
     "FOLLOWING": "Following",
     "PODIUM": "Podium",
-    "EMPTY_WEEK": "Be the first this week",
-    "EMPTY_ALL": "The leaderboard is still empty",
-    "OPEN_DIARY": "Open your diary",
+    "EMPTY_WEEK": "This week’s podium is open",
+    "EMPTY_ALL": "The podium is still open",
     "HYPOTHETICAL": "You would rank {{rank}}",
     "OWN": "Your rank · {{rank}}",
     "PUBLIC_INVITE": "Make your profile public to join the leaderboard",
@@ -214,7 +205,27 @@
     "NO_HANDLE": "Choose a nickname to join the leaderboard.",
     "HIDDEN": "Your profile is hidden. Contact us for details.",
     "CORRECTIONS_SUSPENDED": "Your ranking is suspended due to corrections.",
-    "JOIN": "Sign up to join the leaderboard"
+    "FREE_SPOT": "Open spot",
+    "DESC_GENERAL": "The main board: points from consistency, shots, baskets and accuracy together.",
+    "DESC_CONSISTENCY_WEEK": "Days you trained this week.",
+    "DESC_CONSISTENCY_ALL": "Your longest run of training days in a row.",
+    "DESC_SHOTS": "Every shot recorded.",
+    "DESC_BASKETS": "Every basket made.",
+    "DESC_ACCURACY": "Share of baskets, for players with enough shots.",
+    "UNIT_GENERAL": "points",
+    "UNIT_CONSISTENCY": "days",
+    "UNIT_SHOTS": "shots",
+    "UNIT_BASKETS": "baskets",
+    "FOLLOW_MORE": "Follow more players to fill the podium.",
+    "FIND_PLAYERS": "Find players",
+    "EMPTY_WEEK_TEXT": "Log a valid training and be the first up there.",
+    "EMPTY_ALL_TEXT": "The first valid training opens the board.",
+    "EMPTY_ACCURACY_TEXT": "Accuracy counts from a minimum number of shots: keep training.",
+    "EMPTY_GUEST_TEXT": "Create an account and your first training could be the one on top.",
+    "EMPTY_FOLLOWING": "Only players you follow show here",
+    "EMPTY_FOLLOWING_TEXT": "Follow someone to take each other on every week.",
+    "GATE_TITLE": "Get on the board",
+    "GATE_TEXT": "With a free account your trainings count and you can take on the players you follow."
   },
   "TRIAGE": {
     "STATE": "Status",
@@ -303,7 +314,9 @@
     "PRIVATE_SHORT": "Private",
     "MEMBER_SINCE": "Since {{date}}",
     "FOLLOWERS": "{{count}} followers",
-    "TOTALS": "Totals"
+    "TOTALS": "Totals",
+    "SEARCH_GATE_TITLE": "Find other players",
+    "SEARCH_GATE_TEXT": "Sign in to find friends and teammates, see their trainings and follow them."
   },
   "DIARY": {
     "CORRECTIONS_NEAR": "You’re making a lot of corrections, almost all in your favor. If this continues, corrections will be suspended.",
@@ -981,5 +994,9 @@
     "HOOP_LABEL": "Hoop {{n}}",
     "SKIP": "Continue without choosing",
     "STILL_ALT": "A frame of your video with each hoop outlined"
+  },
+  "GATE": {
+    "REGISTER": "Create an account",
+    "LOGIN": "I have an account"
   }
 }

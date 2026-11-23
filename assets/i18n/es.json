@@ -74,15 +74,7 @@
     "ACCOUNT_ANSWER": "Prueba con un video cuando quieras. Crea una cuenta si quieres guardar el entrenamiento en tu diario.",
     "CORRECTIONS_QUESTION": "¿Puedo corregir un tiro?",
     "CORRECTIONS_ANSWER": "Sí. Vuelve a ver el tiro en la tira de jugadas y corrige el resultado si el modelo se equivocó.",
-    "FINAL": "Empieza con tu próximo entrenamiento",
-    "CHAPTERS": "Descubre SwishAI",
-    "CH_DEMO": "Cómo funciona",
-    "CH_DIARY": "Tu progreso",
-    "CH_SOCIAL": "Con otros",
-    "CH_FILMING": "Cómo grabar",
-    "CH_PRIVACY": "Privacidad",
-    "CH_PLANS": "Planes",
-    "CH_FAQ": "Preguntas"
+    "FINAL": "Empieza con tu próximo entrenamiento"
   },
   "BETA": {
     "BADGE": "Beta",
@@ -203,9 +195,8 @@
     "WORLD": "Mundo",
     "FOLLOWING": "A quién sigues",
     "PODIUM": "Podio",
-    "EMPTY_WEEK": "Sé el primero esta semana",
-    "EMPTY_ALL": "La clasificación aún está vacía",
-    "OPEN_DIARY": "Abre tu diario",
+    "EMPTY_WEEK": "El podio de esta semana está libre",
+    "EMPTY_ALL": "El podio todavía está libre",
     "HYPOTHETICAL": "Estarías en el puesto {{rank}}",
     "OWN": "Tu puesto · {{rank}}",
     "PUBLIC_INVITE": "Haz público tu perfil para entrar en la clasificación",
@@ -214,7 +205,27 @@
     "NO_HANDLE": "Elige un apodo para entrar en la clasificación.",
     "HIDDEN": "Tu perfil está oculto. Contáctanos para más información.",
     "CORRECTIONS_SUSPENDED": "Tu puesto está suspendido debido a las correcciones.",
-    "JOIN": "Regístrate para entrar en la clasificación"
+    "FREE_SPOT": "Puesto libre",
+    "DESC_GENERAL": "La clasificación principal: puntos por constancia, tiros, canastas y precisión juntos.",
+    "DESC_CONSISTENCY_WEEK": "Días que entrenaste esta semana.",
+    "DESC_CONSISTENCY_ALL": "Tu racha más larga de días de entrenamiento seguidos.",
+    "DESC_SHOTS": "Todos los tiros registrados.",
+    "DESC_BASKETS": "Todas las canastas anotadas.",
+    "DESC_ACCURACY": "Porcentaje de canastas, para quien tiene suficientes tiros.",
+    "UNIT_GENERAL": "puntos",
+    "UNIT_CONSISTENCY": "días",
+    "UNIT_SHOTS": "tiros",
+    "UNIT_BASKETS": "canastas",
+    "FOLLOW_MORE": "Sigue a más jugadores para llenar el podio.",
+    "FIND_PLAYERS": "Buscar jugadores",
+    "EMPTY_WEEK_TEXT": "Registra un entrenamiento válido y sé el primero en subir.",
+    "EMPTY_ALL_TEXT": "El primer entrenamiento válido abre la clasificación.",
+    "EMPTY_ACCURACY_TEXT": "La precisión cuenta a partir de un mínimo de tiros: sigue entrenando.",
+    "EMPTY_GUEST_TEXT": "Crea una cuenta y tu primer entrenamiento puede ser el que esté arriba.",
+    "EMPTY_FOLLOWING": "Aquí solo ves a quien sigues",
+    "EMPTY_FOLLOWING_TEXT": "Sigue a alguien para retaros cada semana.",
+    "GATE_TITLE": "Entra en la clasificación",
+    "GATE_TEXT": "Con una cuenta gratuita tus entrenamientos cuentan y puedes retar a quien sigues."
   },
   "TRIAGE": {
     "STATE": "Estado",
@@ -303,7 +314,9 @@
     "PRIVATE_SHORT": "Privado",
     "MEMBER_SINCE": "Desde {{date}}",
     "FOLLOWERS": "{{count}} seguidores",
-    "TOTALS": "Totales"
+    "TOTALS": "Totales",
+    "SEARCH_GATE_TITLE": "Busca a otros jugadores",
+    "SEARCH_GATE_TEXT": "Inicia sesión para encontrar amigos y compañeros, ver sus entrenamientos y seguirlos."
   },
   "DIARY": {
     "CORRECTIONS_NEAR": "Estás haciendo muchas correcciones, casi todas a tu favor. Si esto continúa, se suspenderán las correcciones.",
@@ -981,5 +994,9 @@
     "HOOP_LABEL": "Aro {{n}}",
     "SKIP": "Continuar sin elegir",
     "STILL_ALT": "Un fotograma de tu video con cada aro marcado"
+  },
+  "GATE": {
+    "REGISTER": "Crea una cuenta",
+    "LOGIN": "Ya tengo una cuenta"
   }
 }

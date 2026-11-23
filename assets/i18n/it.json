@@ -74,15 +74,7 @@
     "ACCOUNT_ANSWER": "Prova subito con un video. Crea un account quando vuoi salvare l’allenamento nel diario.",
     "CORRECTIONS_QUESTION": "Posso correggere un tiro?",
     "CORRECTIONS_ANSWER": "Sì. Rivedi il tiro dalla striscia e correggi il risultato se il modello ha sbagliato.",
-    "FINAL": "Inizia dal prossimo allenamento",
-    "CHAPTERS": "Scopri SwishAI",
-    "CH_DEMO": "Come funziona",
-    "CH_DIARY": "I tuoi progressi",
-    "CH_SOCIAL": "Con gli altri",
-    "CH_FILMING": "Come filmare",
-    "CH_PRIVACY": "Privacy",
-    "CH_PLANS": "Piani",
-    "CH_FAQ": "Domande"
+    "FINAL": "Inizia dal prossimo allenamento"
   },
   "BETA": {
     "BADGE": "Beta",
@@ -203,9 +195,8 @@
     "WORLD": "Mondo",
     "FOLLOWING": "Chi segui",
     "PODIUM": "Podio",
-    "EMPTY_WEEK": "Sii il primo questa settimana",
-    "EMPTY_ALL": "La classifica è ancora vuota",
-    "OPEN_DIARY": "Apri il diario",
+    "EMPTY_WEEK": "Il podio di questa settimana è libero",
+    "EMPTY_ALL": "Il podio è ancora libero",
     "HYPOTHETICAL": "Saresti {{rank}}°",
     "OWN": "La tua posizione · {{rank}}°",
     "PUBLIC_INVITE": "Rendi pubblico il profilo per entrare in classifica",
@@ -214,7 +205,27 @@
     "NO_HANDLE": "Scegli un nickname per entrare in classifica.",
     "HIDDEN": "Il tuo profilo è oscurato. Contattaci per informazioni.",
     "CORRECTIONS_SUSPENDED": "La tua posizione è sospesa per le correzioni.",
-    "JOIN": "Registrati per entrare in classifica"
+    "FREE_SPOT": "Posto libero",
+    "DESC_GENERAL": "La classifica principale: punti da costanza, tiri, canestri e precisione insieme.",
+    "DESC_CONSISTENCY_WEEK": "Giorni in cui ti sei allenato questa settimana.",
+    "DESC_CONSISTENCY_ALL": "La serie più lunga di giorni di allenamento di fila.",
+    "DESC_SHOTS": "Tutti i tiri registrati.",
+    "DESC_BASKETS": "Tutti i canestri segnati.",
+    "DESC_ACCURACY": "Percentuale di canestri, per chi ha abbastanza tiri.",
+    "UNIT_GENERAL": "punti",
+    "UNIT_CONSISTENCY": "giorni",
+    "UNIT_SHOTS": "tiri",
+    "UNIT_BASKETS": "canestri",
+    "FOLLOW_MORE": "Segui altri giocatori per riempire il podio.",
+    "FIND_PLAYERS": "Cerca giocatori",
+    "EMPTY_WEEK_TEXT": "Registra un allenamento valido e sali tu per primo.",
+    "EMPTY_ALL_TEXT": "Il primo allenamento valido apre la classifica.",
+    "EMPTY_ACCURACY_TEXT": "La precisione conta da un numero minimo di tiri: continua ad allenarti.",
+    "EMPTY_GUEST_TEXT": "Crea un account e il tuo primo allenamento può essere quello in cima.",
+    "EMPTY_FOLLOWING": "Qui vedi solo chi segui",
+    "EMPTY_FOLLOWING_TEXT": "Segui qualcuno per sfidarvi ogni settimana.",
+    "GATE_TITLE": "Entra in classifica",
+    "GATE_TEXT": "Con un account gratuito i tuoi allenamenti contano e puoi sfidare chi segui."
   },
   "TRIAGE": {
     "STATE": "Stato",
@@ -303,7 +314,9 @@
     "PRIVATE_SHORT": "Privato",
     "MEMBER_SINCE": "Da {{date}}",
     "FOLLOWERS": "{{count}} follower",
-    "TOTALS": "Totali"
+    "TOTALS": "Totali",
+    "SEARCH_GATE_TITLE": "Cerca altri giocatori",
+    "SEARCH_GATE_TEXT": "Accedi per trovare amici e compagni di squadra, vedere i loro allenamenti e seguirli."
   },
   "DIARY": {
     "CORRECTIONS_NEAR": "Stai correggendo molto, e quasi solo a tuo favore. Se continua, la correzione verrà sospesa.",
@@ -981,5 +994,9 @@
     "HOOP_LABEL": "Canestro {{n}}",
     "SKIP": "Continua senza scegliere",
     "STILL_ALT": "Un fotogramma del tuo video con i canestri evidenziati"
+  },
+  "GATE": {
+    "REGISTER": "Crea un account",
+    "LOGIN": "Ho già un account"
   }
 }
