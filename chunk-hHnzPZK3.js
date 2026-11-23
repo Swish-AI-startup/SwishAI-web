@@ -1,0 +1,1 @@
+import{t as ot}from"./chunk-DT0fJOEq.js";import"./main-FMQ7VIEU.js";export{ot as NotificationsComponent};

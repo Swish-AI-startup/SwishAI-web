@@ -36,10 +36,7 @@
 
 <h3>Il tuo account</h3>
 <p>
-  Indirizzo email, nickname, paese, data di nascita, un hash della password (mai la password), se l'email è
-  confermata e quando hai creato l'account. Se accedi con Google conserviamo l'identificativo che
-  Google ci dà e nessuna password. Conserviamo anche i token che ti tengono connesso (scadono dopo
-  30 giorni di inattività).
+  Indirizzo email, nickname (e quando l'hai cambiato l'ultima volta), paese, data di nascita, un hash della password (mai la password), se l'email è confermata, quando hai creato l'account e quando hai accettato i termini. Se accedi con Google conserviamo l'identificativo che Google ci dà e la tua email: mai il tuo nome, nessuna password. Conserviamo anche i token che ti tengono connesso: scadono dopo 30 giorni di inattività, e cambiando o reimpostando la password si chiudono tutte le sessioni aperte.
 </p>
 <p>Perché: per gestire il tuo account. Base giuridica: esecuzione del contratto con te (art. 6, par. 1, lett. b GDPR).</p>
 <p>
@@ -59,9 +56,10 @@
 <ul>
   <li>
     un'<strong>impronta del file</strong>: un hash non reversibile calcolato sul tuo dispositivo a
-    partire dalla dimensione del file e da pochi piccoli pezzi del file. Non si può ricostruire il
-    video da lì. Ci serve per avvisarti quando analizzi due volte lo stesso video e per tenere i
-    doppioni fuori dalle classifiche;
+    partire dalla dimensione del file, dal suo primo e ultimo megabyte e dall'indice interno del
+    video (la parte che ne descrive durata e tracce). Non si può ricostruire il video da lì. Ci serve
+    per avvisarti quando analizzi due volte lo stesso video e per tenere i doppioni fuori dalle
+    classifiche;
   </li>
   <li>
     la <strong>data di registrazione</strong> letta dai metadati del video, quando c'è, così la
@@ -92,21 +90,10 @@
 
 <h3>Profilo pubblico, classifiche e "segui" (solo se lo scegli)</h3>
 <p>
-  Se rendi pubblico il profilo (possibile dai 16 anni), chiunque abbia il link
-  <code>/u/tuo-nickname</code>, anche senza account, può vedere: nickname e bandierina del paese,
-  totali, grafico settimanale, record, sessioni più recenti (giorno, nome, tiri, canestri,
-  percentuale, etichetta "corretta a mano") e quante persone ti seguono. I profili pubblici compaiono
-  nelle classifiche e nella ricerca per gli iscritti. Conserviamo chi segui, per mostrarti i loro
-  risultati.
+  Se rendi pubblico il profilo (possibile dai 16 anni), chiunque abbia il link <code>/u/tuo-nickname</code>, anche senza account, può vedere: nickname, foto, bandierina del paese e mese di iscrizione; quante attività hai, quante persone ti seguono e quante ne segui, con le loro liste; i numeri della settimana, il grafico delle ultime 8 settimane, i record con la loro data, i giorni in cui ti sei allenato negli ultimi 6 mesi con tiri e canestri di ciascun giorno, i totali e le sessioni più recenti (giorno, nome, tiri, canestri, percentuale, etichetta "corretta a mano"). Mai orari, video o il dettaglio tiro per tiro. I profili pubblici compaiono nelle classifiche e nella ricerca per gli iscritti. Conserviamo chi segui, per mostrarti i loro risultati.
 </p>
 <p>
-  Con il profilo privato gli altri vedono il tuo nickname, un lucchetto e l’eventuale foto (vedi sotto).
-  Gli iscritti possono trovare il tuo nickname nella ricerca e mandarti una
-  richiesta per seguirti. Decidi tu: se accetti, quella persona vede il tuo profilo come descritto
-  sopra e ti trova nella sua classifica "Seguiti"; nessun altro, e non compari mai nella classifica
-  mondiale. Puoi togliere un follower quando vuoi, senza che riceva avvisi. Se rifiuti, la persona
-  non viene avvisata e può riprovare dopo 7 giorni. Per questo conserviamo richieste, accettazioni e
-  rifiuti. Possiamo anche mostrare a te, in privato, la posizione che avresti.
+  Con il profilo privato gli altri vedono il tuo nickname, un lucchetto, l'eventuale foto (vedi sotto) e quante attività, follower e seguiti hai. Gli iscritti possono trovare il tuo nickname nella ricerca e mandarti una richiesta per seguirti. Decidi tu: se accetti, quella persona vede il tuo profilo come descritto sopra e ti trova nella sua classifica "Seguiti"; nessun altro, e non compari mai nella classifica mondiale. Puoi togliere un follower quando vuoi, senza che riceva avvisi. Se rifiuti, la persona non viene avvisata e può riprovare dopo 7 giorni. Per questo conserviamo richieste, accettazioni e rifiuti. Possiamo anche mostrare a te, in privato, la posizione che avresti.
 </p>
 <p>
   Perché: le funzioni social che hai scelto. Base giuridica: esecuzione del contratto; puoi tornare
@@ -153,37 +140,24 @@
 
 <h3>Segnalazioni di errore dall'app</h3>
 <p>
-  Quando l'app si blocca ci manda una segnalazione tecnica anonima: versione dell'app, pagina, tipo di
-  browser e sistema, se l'app è installata, larghezza dello schermo, memoria disponibile e, per
-  un'analisi, peso, durata, risoluzione e formato del video e il punto in cui si è fermata. Nel
-  database ne teniamo solo una versione ridotta, <strong>senza account, indirizzo IP, nome del file
-  né testo libero</strong>, per 30 giorni.
+  Quando qualcosa va storto (l'app si blocca, un'analisi si ferma o riparte, una richiesta al server non riesce) l'app ci manda una segnalazione tecnica anonima: versione dell'app, pagina, tipo di browser e sistema, se l'app è installata, larghezza dello schermo, memoria disponibile e, per un'analisi, peso, durata, risoluzione e formato del video e il punto in cui si è fermata. Sia nel database sia nei log del server ne teniamo solo una versione ridotta, <strong>senza account, indirizzo IP, nome del file né testo libero</strong>; nel database per 30 giorni.
 </p>
 <p>Perché: per trovare e correggere i blocchi. Base giuridica: il nostro legittimo interesse a un'app funzionante.</p>
 
 <h3>Log del server</h3>
 <p>
-  Come ogni servizio web, il nostro server registra informazioni tecniche sulle richieste, incluso
-  l'indirizzo IP. Le usiamo solo per sicurezza e diagnosi e le conserviamo solo per il tempo
-  necessario a questi scopi.
+  Come ogni servizio web, il nostro server registra informazioni tecniche sulle richieste, che possono includere l'indirizzo IP. Le usiamo solo per sicurezza e diagnosi. I log si sovrascrivono da soli quando superano in tutto 50 MB.
 </p>
 <p>Base giuridica: il nostro legittimo interesse a un servizio sicuro e funzionante.</p>
 
 <h3>Statistiche d'uso (solo con il tuo consenso)</h3>
 <p>
-  Google Analytics, solo se lo accetti. Prima non si carica nulla. Puoi cambiare scelta quando vuoi
-  da <strong>Impostazioni cookie</strong>, raggiungibile dal tuo account e in fondo alla home.
-  Base giuridica: il tuo consenso (art. 6, par. 1, lett. a), revocabile in qualsiasi momento.
+  Google Analytics, solo se lo accetti. Prima non si carica nulla. Puoi cambiare scelta quando vuoi da <strong>Statistiche d'uso</strong> nelle Impostazioni e in fondo alla home. Se revochi il consenso, Google Analytics smette subito di raccogliere dati; i cookie che aveva già salvato (<code>_ga</code>) restano nel browser finché scadono o finché non li cancelli tu. Base giuridica: il tuo consenso (art. 6, par. 1, lett. a), revocabile in qualsiasi momento.
 </p>
 
 <h2>3. Cosa resta sul tuo dispositivo</h2>
 <p>
-  L'app conserva alcuni dati nella memoria del browser, e non ci arrivano mai: i token di accesso, le
-  scelte di lingua e consenso, e il tuo ultimo risultato, così non lo perdi se la pagina si ricarica.
-  Quell'ultimo risultato può includere il video stesso, tenuto in locale per al massimo 48 ore. Se
-  l'app si interrompe tiene anche una breve nota tecnica, che invia come segnalazione di errore alla
-  riapertura. Uscendo dall'account si cancellano i token; cancellando i dati del sito dal browser si
-  cancella tutto.
+  L'app conserva alcuni dati nella memoria del browser, e non ci arrivano mai: i token di accesso e i dati di base del tuo account (email e nickname), le scelte di lingua e consenso, le ricerche recenti, il tuo ultimo risultato con il nome del file analizzato, le bozze e le modifiche non ancora inviate, così non le perdi se la pagina si ricarica. L'ultimo risultato può includere il video stesso, tenuto in locale per al massimo 48 ore. Se l'app si interrompe tiene anche una breve nota tecnica, che invia come segnalazione di errore alla riapertura. Uscendo dall'account o cancellandolo si tolgono dal dispositivo token, risultati, video e bozze; cancellando i dati del sito dal browser si cancella tutto.
 </p>
 
 <h2>4. Cosa non raccogliamo</h2>
@@ -214,7 +188,8 @@
   <li>Account, sessioni, correzioni e dati social: finché esiste il tuo account. Il diario serve a
   confrontarti con te stesso di mesi fa, quindi non lo cancelliamo a scadenza.</li>
   <li>Con il piano Free le sessioni più vecchie sono nascoste, non cancellate: con il Pro le rivedi.</li>
-  <li>Segnalazioni di errore: 30 giorni. Token email e password: fino alla scadenza, entro poche ore.</li>
+  <li>Segnalazioni di errore: 30 giorni. Link di conferma dell'email: validi 24 ore; link per reimpostare la password: 1 ora. Di entrambi teniamo solo un'impronta non reversibile, finché esiste l'account.</li>
+  <li>Log del server: si sovrascrivono da soli oltre i 50 MB.</li>
   <li>Notifiche nell'app: 90 giorni.</li>
   <li>Backup: i dati cancellati possono restare nei backup per il tempo limitato in cui ogni backup è conservato.</li>
   <li>Stripe conserva le fatture per il tempo richiesto dalla legge fiscale, indipendentemente da noi.</li>
@@ -228,6 +203,7 @@
   le segnalazioni fatte e ricevute, i commenti, le notifiche, i collegamenti di accesso e i token, l'abbonamento e lo
   storico di moderazione. Un codice Pro che hai riscattato resta segnato come usato, senza alcun
   collegamento a te.
+  Cancelliamo anche il tuo profilo cliente presso Stripe, se ne hai uno (le fatture restano a Stripe per obbligo di legge). Per poco tempo possono restare tracce tecniche nei log e nei backup, come descritto sopra.
 </p>
 
 <h2>8. I tuoi diritti</h2>

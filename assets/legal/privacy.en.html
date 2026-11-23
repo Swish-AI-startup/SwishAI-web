@@ -37,10 +37,7 @@
 
 <h3>Your account</h3>
 <p>
-  Email address, nickname, country, date of birth, a hash of your password (never the password itself), whether
-  your email is confirmed and when the account was created. If you sign in with Google we store
-  the identifier Google gives us and no password. We also keep the sign-in tokens that keep you
-  logged in (they expire after 30 days without use).
+  Email address, nickname (and when you last changed it), country, date of birth, a hash of your password (never the password itself), whether your email is confirmed, when the account was created and when you accepted the terms. If you sign in with Google we store the identifier Google gives us and your email: never your name, and no password. We also keep the sign-in tokens that keep you logged in: they expire after 30 days without use, and changing or resetting your password ends every open session.
 </p>
 <p>Why: to run your account. Legal basis: performance of our contract with you (GDPR Art. 6(1)(b)).</p>
 <p>
@@ -59,9 +56,10 @@
 </p>
 <ul>
   <li>
-    a <strong>file fingerprint</strong>: a one-way hash computed on your device from the file size
-    and a few small pieces of the file. It cannot be turned back into the video. We use it to
-    tell you when you analyse the same video twice and to keep duplicates out of the leaderboards;
+    a <strong>file fingerprint</strong>: a one-way hash computed on your device from the file size,
+    its first and last megabyte and the video's internal index (the part that describes its duration
+    and tracks). The video cannot be rebuilt from it. We use it to warn you when you analyse the same
+    video twice and to keep duplicates out of the leaderboards;
   </li>
   <li>
     the <strong>recording date</strong> read from the video's own metadata, when there is one, so
@@ -92,21 +90,10 @@
 
 <h3>Public profile, leaderboards and following (only if you choose)</h3>
 <p>
-  If you make your profile public (possible from age 16), anyone with the link
-  <code>/u/your-nickname</code>, even without an account, can see: your nickname and country flag,
-  your totals, the weekly chart, your records, your most recent sessions (day, name, shots, baskets,
-  percentage, the "corrected by hand" label) and how many people follow you. Public profiles appear
-  in the leaderboards and in the search for registered users. Who you follow is stored so we can
-  show you their results.
+  If you make your profile public (possible from age 16), anyone with the link <code>/u/your-nickname</code>, even without an account, can see: your nickname, photo, country flag and the month you joined; how many activities you have, how many people follow you and how many you follow, with their lists; this week's numbers, the chart of the last 8 weeks, your records with their date, the days you trained in the last 6 months with the shots and baskets of each day, your totals and your most recent sessions (day, name, shots, baskets, percentage, the "corrected by hand" label). Never times, videos or the shot-by-shot detail. Public profiles appear in the leaderboards and in the search for registered users. Who you follow is stored so we can show you their results.
 </p>
 <p>
-  With a private profile, other people see your nickname, a lock and any visible profile photo (see below).
-  Registered users can find your nickname in the search and send you a follow
-  request. You choose: if you accept, that person sees your profile as described above and finds
-  you in their "Following" leaderboard; nobody else does, and you never appear in the world
-  leaderboard. You can remove a follower at any time, and they are not notified. If you decline,
-  the person is not told and can ask again after 7 days. We store requests, acceptances and declines
-  for this purpose. We may also show you, privately, the position you would have.
+  With a private profile, other people see your nickname, a lock, any visible profile photo (see below) and how many activities, followers and following you have. Registered users can find your nickname in the search and send you a follow request. You choose: if you accept, that person sees your profile as described above and finds you in their "Following" leaderboard; nobody else does, and you never appear in the world leaderboard. You can remove a follower at any time, and they are not notified. If you decline, the person is not told and can ask again after 7 days. We store requests, acceptances and declines for this purpose. We may also show you, privately, the position you would have.
 </p>
 <p>
   Why: the social features you asked for. Legal basis: performance of our contract; you can switch
@@ -153,37 +140,24 @@
 
 <h3>Error reports from the app</h3>
 <p>
-  When the app fails, it sends us an anonymous technical report: app version, page, browser and
-  system type, whether the app is installed, screen width, available memory and, for an analysis,
-  the size, length, resolution and format of the video and the step where it stopped. In our
-  database we keep only a reduced version, <strong>without your account, IP address, file name or
-  free text</strong>, for 30 days.
+  When something goes wrong (the app fails, an analysis stops or resumes, a request to the server does not go through) the app sends us an anonymous technical report: app version, page, browser and system type, whether the app is installed, screen width, available memory and, for an analysis, the video's size, duration, resolution and format and where it stopped. Both in the database and in the server logs we keep only a reduced version, <strong>without your account, IP address, file name or free text</strong>; in the database for 30 days.
 </p>
 <p>Why: to find and fix crashes. Legal basis: our legitimate interest in a working app.</p>
 
 <h3>Server logs</h3>
 <p>
-  Like every web service, our server records technical information about requests, including the
-  IP address. We use it only for security and troubleshooting and keep it only as long as needed
-  for those purposes.
+  Like any web service, our server records technical information about requests, which can include the IP address. We use it only for security and diagnosis. The logs overwrite themselves once they exceed 50 MB in total.
 </p>
 <p>Legal basis: our legitimate interest in a secure, working service.</p>
 
 <h3>Analytics (only with your consent)</h3>
 <p>
-  Google Analytics, only if you accept it. Nothing is loaded before you do. You can change your
-  choice at any time from <strong>Cookie settings</strong>, reachable from your account and at the
-  bottom of the home page. Legal basis: your consent (Art. 6(1)(a)), which you can withdraw at any time.
+  Google Analytics, only if you accept it. Nothing is loaded before you do. You can change your choice at any time from <strong>Usage statistics</strong> in Settings and at the bottom of the home page. If you withdraw your consent, Google Analytics stops collecting data at once; the cookies it had already stored (<code>_ga</code>) stay in your browser until they expire or you delete them. Legal basis: your consent (Art. 6(1)(a)), which you can withdraw at any time.
 </p>
 
 <h2>3. What stays on your device</h2>
 <p>
-  The app keeps some data in your browser's storage, and it never reaches us: your sign-in tokens,
-  your language and consent choices, and your last result so that you do not lose it if the page
-  reloads. That last result can include the video itself, kept locally for up to 48 hours. If the
-  app is interrupted it also keeps a short technical note, which it sends as an error report when
-  you reopen it. Signing out removes the sign-in tokens; clearing the site's data in your browser removes
-  everything.
+  The app keeps some data in your browser's storage, and it never reaches us: the sign-in tokens and your account's basic details (email and nickname), your language and consent choices, your recent searches, your last result with the name of the analysed file, drafts and changes not yet sent, so you do not lose them if the page reloads. The last result can include the video itself, kept locally for at most 48 hours. If the app stops unexpectedly it also keeps a short technical note, which it sends as an error report when it reopens. Signing out or deleting your account removes tokens, results, videos and drafts from the device; clearing the site's data in your browser removes everything.
 </p>
 
 <h2>4. What we do not collect</h2>
@@ -214,7 +188,8 @@
   <li>Account, sessions, corrections and social data: as long as your account exists. The diary is
   meant to compare you today with months ago, so we do not delete it on a schedule.</li>
   <li>On the Free plan older sessions are hidden, not deleted: you see them again with Pro.</li>
-  <li>Error reports: 30 days. Email and password tokens: until they expire, within hours.</li>
+  <li>Error reports: 30 days. Email confirmation links: valid for 24 hours; password reset links: 1 hour. For both we keep only a one-way fingerprint, for as long as the account exists.</li>
+  <li>Server logs: they overwrite themselves past 50 MB.</li>
   <li>In-app notifications: 90 days.</li>
   <li>Backups: deleted data can survive in the backups for the limited time each backup is kept.</li>
   <li>Stripe keeps invoices for as long as tax law requires, independently of us.</li>
@@ -227,6 +202,7 @@
   removes your account, sessions, videos and fingerprints, shots and corrections, follows in both
   directions, reports you made and received, comments, notifications, sign-in links and tokens, subscription row
   and moderation history. A Pro code you redeemed stays marked as used, without any link to you.
+  We also delete your customer record at Stripe, if you have one (Stripe keeps the invoices because the law requires it). Technical traces may remain for a short time in the logs and in the backups, as described above.
 </p>
 
 <h2>8. Your rights</h2>

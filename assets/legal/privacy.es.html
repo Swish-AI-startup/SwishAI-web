@@ -36,10 +36,7 @@
 
 <h3>Tu cuenta</h3>
 <p>
-  Dirección de correo, apodo, país, fecha de nacimiento, un hash de la contraseña (nunca la contraseña), si el correo está
-  confirmado y cuándo creaste la cuenta. Si entras con Google guardamos el identificador que Google nos
-  da y ninguna contraseña. También guardamos los tokens que mantienen tu sesión abierta (caducan tras 30
-  días sin uso).
+  Dirección de correo, apodo (y cuándo lo cambiaste por última vez), país, fecha de nacimiento, un hash de la contraseña (nunca la contraseña), si el correo está confirmado, cuándo creaste la cuenta y cuándo aceptaste los términos. Si entras con Google guardamos el identificador que Google nos da y tu correo: nunca tu nombre, ninguna contraseña. También guardamos los tokens que mantienen tu sesión abierta: caducan tras 30 días sin uso, y al cambiar o restablecer la contraseña se cierran todas las sesiones abiertas.
 </p>
 <p>Por qué: para gestionar tu cuenta. Base jurídica: ejecución del contrato contigo (art. 6.1.b RGPD).</p>
 <p>
@@ -59,7 +56,8 @@
 <ul>
   <li>
     una <strong>huella del archivo</strong>: un hash irreversible calculado en tu dispositivo a partir
-    del tamaño del archivo y de unos pocos fragmentos pequeños. No permite reconstruir el vídeo. Sirve
+    del tamaño del archivo, su primer y último megabyte y el índice interno del vídeo (la parte que
+    describe su duración y sus pistas). No se puede reconstruir el vídeo a partir de ella. Nos sirve
     para avisarte cuando analizas dos veces el mismo vídeo y para dejar los duplicados fuera de las
     clasificaciones;
   </li>
@@ -92,22 +90,10 @@
 
 <h3>Perfil público, clasificaciones y "seguir" (solo si lo eliges)</h3>
 <p>
-  Si haces público tu perfil (posible a partir de los 16 años), cualquiera con el enlace
-  <code>/u/tu-apodo</code>, incluso sin cuenta, puede ver: tu apodo y la bandera de tu país, tus totales,
-  el gráfico semanal, tus récords, tus sesiones más recientes (día, nombre, tiros, canastas, porcentaje,
-  etiqueta "corregida a mano") y cuántas personas te siguen. Los perfiles públicos aparecen en las
-  clasificaciones y en la búsqueda para usuarios registrados. Guardamos a quién sigues, para mostrarte
-  sus resultados.
+  Si haces público tu perfil (posible a partir de los 16 años), cualquiera con el enlace <code>/u/tu-apodo</code>, incluso sin cuenta, puede ver: tu apodo, tu foto, la bandera de tu país y el mes en que te registraste; cuántas actividades tienes, cuántas personas te siguen y a cuántas sigues, con sus listas; los números de la semana, el gráfico de las últimas 8 semanas, tus récords con su fecha, los días que entrenaste en los últimos 6 meses con los tiros y canastas de cada día, tus totales y tus sesiones más recientes (día, nombre, tiros, canastas, porcentaje, etiqueta "corregida a mano"). Nunca horas, vídeos ni el detalle tiro a tiro. Los perfiles públicos aparecen en las clasificaciones y en la búsqueda para usuarios registrados. Guardamos a quién sigues, para mostrarte sus resultados.
 </p>
 <p>
-  Con el perfil privado los demás ven tu apodo, un candado y cualquier foto de perfil visible (ver abajo).
-  Los usuarios registrados pueden encontrar tu apodo en la búsqueda y enviarte una
-  solicitud para seguirte. Tú decides: si la aceptas, esa persona ve tu perfil como se describe arriba
-  y te encuentra en su clasificación "Seguidos"; nadie más, y nunca apareces en la clasificación
-  mundial. Puedes quitar a un seguidor cuando quieras, sin que reciba avisos. Si la rechazas, la
-  persona no recibe ningún aviso y puede volver a pedirlo pasados 7 días. Para ello guardamos las
-  solicitudes, las aceptaciones y los rechazos. También podemos enseñarte a ti, en privado, la
-  posición que tendrías.
+  Con el perfil privado los demás ven tu apodo, un candado, cualquier foto de perfil visible (ver abajo) y cuántas actividades, seguidores y seguidos tienes. Los usuarios registrados pueden encontrar tu apodo en la búsqueda y enviarte una solicitud para seguirte. Tú decides: si la aceptas, esa persona ve tu perfil como se describe arriba y te encuentra en su clasificación "Seguidos"; nadie más, y nunca apareces en la clasificación mundial. Puedes quitar a un seguidor cuando quieras, sin que reciba avisos. Si la rechazas, la persona no recibe ningún aviso y puede volver a pedirlo pasados 7 días. Para ello guardamos las solicitudes, las aceptaciones y los rechazos. También podemos enseñarte a ti, en privado, la posición que tendrías.
 </p>
 <p>
   Por qué: las funciones sociales que has elegido. Base jurídica: ejecución del contrato; puedes volver
@@ -154,38 +140,24 @@
 
 <h3>Informes de error de la app</h3>
 <p>
-  Cuando la app falla nos envía un informe técnico anónimo: versión de la app, página, tipo de navegador
-  y sistema, si la app está instalada, ancho de pantalla, memoria disponible y, en un análisis, peso,
-  duración, resolución y formato del vídeo y el paso en que se detuvo. En la base de datos guardamos
-  solo una versión reducida, <strong>sin cuenta, dirección IP, nombre de archivo ni texto libre</strong>,
-  durante 30 días.
+  Cuando algo sale mal (la app falla, un análisis se detiene o se reanuda, una petición al servidor no funciona) la app nos envía un informe técnico anónimo: versión de la app, página, tipo de navegador y sistema, si la app está instalada, ancho de pantalla, memoria disponible y, para un análisis, el peso, la duración, la resolución y el formato del vídeo y el punto en que se detuvo. Tanto en la base de datos como en los registros del servidor guardamos solo una versión reducida, <strong>sin tu cuenta, dirección IP, nombre del archivo ni texto libre</strong>; en la base de datos durante 30 días.
 </p>
 <p>Por qué: para encontrar y corregir fallos. Base jurídica: nuestro interés legítimo en una app que funcione.</p>
 
 <h3>Registros del servidor</h3>
 <p>
-  Como cualquier servicio web, nuestro servidor registra información técnica de las peticiones,
-  incluida la dirección IP. La usamos solo para seguridad y diagnóstico y la conservamos solo el tiempo
-  necesario para esos fines.
+  Como todo servicio web, nuestro servidor registra información técnica sobre las peticiones, que puede incluir la dirección IP. La usamos solo para seguridad y diagnóstico. Los registros se sobrescriben solos cuando superan en total 50 MB.
 </p>
 <p>Base jurídica: nuestro interés legítimo en un servicio seguro y que funcione.</p>
 
 <h3>Estadísticas de uso (solo con tu consentimiento)</h3>
 <p>
-  Google Analytics, solo si lo aceptas. Antes no se carga nada. Puedes cambiar tu elección cuando
-  quieras desde <strong>Ajustes de cookies</strong>, accesible desde tu cuenta y al final
-  de la página de inicio. Base jurídica: tu consentimiento (art. 6.1.a), que puedes retirar en cualquier
-  momento.
+  Google Analytics, solo si lo aceptas. Antes no se carga nada. Puedes cambiar tu elección cuando quieras desde <strong>Estadísticas de uso</strong> en Ajustes y al final de la página de inicio. Si retiras tu consentimiento, Google Analytics deja de recoger datos al momento; las cookies que ya había guardado (<code>_ga</code>) se quedan en tu navegador hasta que caducan o las borras tú. Base jurídica: tu consentimiento (art. 6.1.a), que puedes retirar en cualquier momento.
 </p>
 
 <h2>3. Lo que se queda en tu dispositivo</h2>
 <p>
-  La app guarda algunos datos en el almacenamiento de tu navegador, y nunca nos llegan: los tokens de
-  acceso, tus elecciones de idioma y consentimiento, y tu último resultado, para que no lo pierdas si la
-  página se recarga. Ese último resultado puede incluir el propio vídeo, guardado en local como máximo 48
-  horas. Si la app se interrumpe guarda también una breve nota técnica, que envía como informe de error
-  al volver a abrirla. Al cerrar sesión se borran los tokens; al borrar los datos del sitio en el
-  navegador se borra todo.
+  La app guarda algunos datos en la memoria del navegador, y nunca nos llegan: los tokens de acceso y los datos básicos de tu cuenta (correo y apodo), tus elecciones de idioma y consentimiento, tus búsquedas recientes, tu último resultado con el nombre del archivo analizado, los borradores y los cambios aún no enviados, para que no los pierdas si la página se recarga. El último resultado puede incluir el propio vídeo, guardado en local durante 48 horas como máximo. Si la app se interrumpe guarda también una breve nota técnica, que envía como informe de error al volver a abrirse. Al cerrar sesión o borrar la cuenta se quitan del dispositivo los tokens, resultados, vídeos y borradores; al borrar los datos del sitio en el navegador se borra todo.
 </p>
 
 <h2>4. Lo que no recogemos</h2>
@@ -216,7 +188,8 @@
   <li>Cuenta, sesiones, correcciones y datos sociales: mientras exista tu cuenta. El diario sirve para
   compararte con tu yo de hace meses, así que no lo borramos por plazos.</li>
   <li>En el plan Free las sesiones más antiguas se ocultan, no se borran: con Pro las vuelves a ver.</li>
-  <li>Informes de error: 30 días. Tokens de correo y contraseña: hasta que caducan, en pocas horas.</li>
+  <li>Informes de error: 30 días. Enlaces de confirmación del correo: válidos 24 horas; enlaces para restablecer la contraseña: 1 hora. De ambos guardamos solo una huella irreversible, mientras exista la cuenta.</li>
+  <li>Registros del servidor: se sobrescriben solos al superar los 50 MB.</li>
   <li>Notificaciones en la app: 90 días.</li>
   <li>Copias de seguridad: los datos borrados pueden permanecer en ellas durante el tiempo limitado que se conserva cada copia.</li>
   <li>Stripe conserva las facturas el tiempo que exige la ley fiscal, con independencia de nosotros.</li>
@@ -230,6 +203,7 @@
   hechas y recibidas, los comentarios, las notificaciones, los accesos vinculados y los tokens, la suscripción y el
   historial de moderación. Un código Pro que canjeaste queda marcado como usado, sin ningún vínculo
   contigo.
+  También borramos tu ficha de cliente en Stripe, si la tienes (Stripe conserva las facturas porque la ley lo exige). Pueden quedar rastros técnicos durante poco tiempo en los registros y en las copias de seguridad, como se explica arriba.
 </p>
 
 <h2>8. Tus derechos</h2>
