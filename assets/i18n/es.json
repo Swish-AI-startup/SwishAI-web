@@ -74,7 +74,15 @@
     "ACCOUNT_ANSWER": "Prueba con un video cuando quieras. Crea una cuenta si quieres guardar el entrenamiento en tu diario.",
     "CORRECTIONS_QUESTION": "¿Puedo corregir un tiro?",
     "CORRECTIONS_ANSWER": "Sí. Vuelve a ver el tiro en la tira de jugadas y corrige el resultado si el modelo se equivocó.",
-    "FINAL": "Empieza con tu próximo entrenamiento"
+    "FINAL": "Empieza con tu próximo entrenamiento",
+    "CHAPTERS": "Descubre SwishAI",
+    "CH_DEMO": "Cómo funciona",
+    "CH_DIARY": "Tu progreso",
+    "CH_SOCIAL": "Con otros",
+    "CH_FILMING": "Cómo grabar",
+    "CH_PRIVACY": "Privacidad",
+    "CH_PLANS": "Planes",
+    "CH_FAQ": "Preguntas"
   },
   "BETA": {
     "BADGE": "Beta",
@@ -453,6 +461,12 @@
     "EP_GPU_DEEP_WARNING": "El modo profundo requiere una GPU NVIDIA con controladores TensorRT instalados. Si no está disponible, recurre automáticamente a CUDA. Especificaciones recomendadas: NVIDIA RTX 3070+ o equivalente con 8 GB+ de VRAM.",
     "FORCE_HOOP_PICKER": "Forzar la selección del aro"
   },
+  "DATE_PICKER": {
+    "CHOOSE": "Elige una fecha",
+    "PREVIOUS": "Mes anterior",
+    "NEXT": "Mes siguiente",
+    "CLEAR": "Quitar la fecha"
+  },
   "COMMON": {
     "SERVER_INTERNAL": "Algo falló de nuestro lado. Inténtalo de nuevo.",
     "SERVER_OFFLINE": "Estás sin conexión o el servidor no responde. Inténtalo de nuevo.",
@@ -490,7 +504,10 @@
     "TITLE_PRIVACY": "Aviso de privacidad",
     "TITLE_REFUNDS": "Reembolsos y derecho de desistimiento",
     "TITLE_IMPRINT": "Información de la empresa",
-    "LOAD_FAILED": "No se ha podido cargar el documento. Inténtalo de nuevo."
+    "LOAD_FAILED": "No se ha podido cargar el documento. Inténtalo de nuevo.",
+    "INDEX": "Índice del documento",
+    "ON_THIS_PAGE": "En esta página",
+    "OTHER_DOCS": "Otros documentos"
   },
   "GUIDE": {
     "TITLE": "Para Mejores Resultados",

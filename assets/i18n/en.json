@@ -74,7 +74,15 @@
     "ACCOUNT_ANSWER": "Try a video right away. Create an account when you want to save a session to your diary.",
     "CORRECTIONS_QUESTION": "Can I correct a shot?",
     "CORRECTIONS_ANSWER": "Yes. Replay a shot from the strip and correct the result if the model missed it.",
-    "FINAL": "Start with your next session"
+    "FINAL": "Start with your next session",
+    "CHAPTERS": "Discover SwishAI",
+    "CH_DEMO": "How it works",
+    "CH_DIARY": "Your progress",
+    "CH_SOCIAL": "With others",
+    "CH_FILMING": "How to film",
+    "CH_PRIVACY": "Privacy",
+    "CH_PLANS": "Plans",
+    "CH_FAQ": "Questions"
   },
   "BETA": {
     "BADGE": "Beta",
@@ -453,6 +461,12 @@
     "EP_GPU_DEEP_WARNING": "Deep mode requires an NVIDIA GPU with TensorRT drivers installed. If unavailable, it falls back to CUDA GPU automatically. Recommended specs: NVIDIA RTX 3070+ or equivalent with 8 GB+ VRAM.",
     "FORCE_HOOP_PICKER": "Force the hoop picker"
   },
+  "DATE_PICKER": {
+    "CHOOSE": "Choose date",
+    "PREVIOUS": "Previous month",
+    "NEXT": "Next month",
+    "CLEAR": "Clear date"
+  },
   "COMMON": {
     "SERVER_INTERNAL": "Something went wrong on our end. Try again.",
     "SERVER_OFFLINE": "You’re offline or the server isn’t responding. Try again.",
@@ -490,7 +504,10 @@
     "TITLE_PRIVACY": "Privacy Notice",
     "TITLE_REFUNDS": "Refunds and Withdrawal",
     "TITLE_IMPRINT": "Company Information",
-    "LOAD_FAILED": "This document could not be loaded. Please try again."
+    "LOAD_FAILED": "This document could not be loaded. Please try again.",
+    "INDEX": "Document index",
+    "ON_THIS_PAGE": "On this page",
+    "OTHER_DOCS": "Other documents"
   },
   "GUIDE": {
     "TITLE": "For Best Results",
