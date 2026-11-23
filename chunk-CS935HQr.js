@@ -1,0 +1,1 @@
+import{t as ot}from"./chunk-c21aQvbL.js";import"./main-SYMV7PKY.js";export{ot as NotificationsComponent};
