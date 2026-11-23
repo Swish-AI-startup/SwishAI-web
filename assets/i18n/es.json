@@ -118,6 +118,7 @@
     "EMPTY": "No hay reportes."
   },
   "ADMIN_USERS": {
+    "AGE_BAND": "Grupo de edad",
     "TAB": "Usuarios",
     "TOTAL": "Registrados",
     "VERIFIED": "Correo confirmado",
@@ -245,10 +246,14 @@
     "CHANGE": "Cambiar",
     "CHOOSE": "Elige una foto",
     "PREVIEW": "Vista previa del recorte",
-    "ZOOM_IN": "Acercar",
-    "ZOOM_OUT": "Alejar",
-    "VISIBILITY": "Se ve donde aparece tu apodo.",
-    "VISIBILITY_PRIVATE": "Solo tú puedes verla hasta que confirmes que tienes al menos 16 años.",
+    "ZOOM": "Zoom",
+    "ADJUSTMENTS": "Ajustes",
+    "ROTATE": "Girar",
+    "STRAIGHTEN": "Enderezar",
+    "BRIGHTNESS": "Luz",
+    "CONTRAST": "Contraste",
+    "RESET": "Restablecer",
+    "REMOVE_FAILED": "No se pudo quitar la foto. Inténtalo de nuevo.",
     "REMOVE": "Eliminar foto",
     "TOO_LARGE": "Elige una foto de hasta 15 MB.",
     "INVALID": "No se pudo abrir el archivo como foto.",
@@ -302,8 +307,6 @@
     "EDIT_ERROR": "No hemos podido guardar el perfil. Inténtalo de nuevo.",
     "SETTINGS": "Tu perfil público",
     "PUBLIC_SWITCH": "Hacer público el perfil",
-    "ADULT": "Tengo al menos 16 años",
-    "ADULT_REQUIRED": "Confirma que tienes al menos 16 años.",
     "HANDLE_REQUIRED": "Elige un apodo para tu perfil.",
     "HANDLE_DATE": "Puedes cambiar tu apodo a partir del {{date}}.",
     "PREVIEW": "Cómo te ven los demás",
@@ -361,8 +364,6 @@
     "LOAD_ERROR": "No hemos podido cargar tu diario."
   },
   "ENTRY": {
-    "GOOGLE_CONSENT": "Al continuar aceptas los",
-    "LEGAL_AND": "y",
     "HANDLE": "Apodo",
     "RULES": "De 3 a 20 caracteres. Usa letras, números, puntos o guiones bajos.",
     "AVAILABLE": "Apodo disponible",
@@ -440,6 +441,8 @@
     "DELETE_CONFIRM": "Escribe {{nickname}} para confirmar",
     "UPDATE_ACTION": "Actualizar",
     "UPDATE_READY": "Nueva versión",
+    "UPDATE_PROMPT": "Nueva versión: toca para actualizar",
+    "UPDATE_DEFERRED": "La app se actualizará al terminar el análisis.",
     "UPDATE_ANALYSIS": "Disponible después del análisis",
     "UPDATE_CHECKING": "Comprobando…",
     "UPDATE_CURRENT": "Estás al día",
@@ -481,6 +484,7 @@
     "CLEAR": "Quitar la fecha"
   },
   "COMMON": {
+    "OK": "OK",
     "SERVER_INTERNAL": "Algo falló de nuestro lado. Inténtalo de nuevo.",
     "SERVER_OFFLINE": "Estás sin conexión o el servidor no responde. Inténtalo de nuevo.",
     "SHOTS": "Tiros",
@@ -495,14 +499,88 @@
     "BACK": "Volver",
     "ADD_ANOTHER_VIDEO": "Agregar otro video"
   },
+  "MENU": {
+    "ADMIN": "Administración",
+    "SUBSCRIPTION": "Suscripción",
+    "FEEDBACK": "Enviar comentarios",
+    "ACCOUNT_MENU": "Menú de la cuenta",
+    "SIGN_OUT_PENDING": "Tienes un análisis en curso o un resultado por guardar. ¿Quieres cerrar sesión?"
+  },
+  "SETTINGS": {
+    "ACCOUNT": "Cuenta",
+    "EMAIL": "Correo",
+    "PROFILE": "Perfil y privacidad",
+    "NICKNAME": "Apodo",
+    "PHOTO": "Foto de perfil",
+    "PUBLIC": "Perfil público",
+    "FOLLOWERS": "Seguidores",
+    "PLAN": "Plan",
+    "PRO_CODE": "Código Pro",
+    "LANGUAGE": "Idioma",
+    "APP": "App",
+    "VERSION": "Versión {{version}}",
+    "CHECK_UPDATE": "Buscar actualizaciones",
+    "UP_TO_DATE": "Tienes la última versión",
+    "INSTALL": "Instalar la app",
+    "ANALYTICS": "Estadísticas de uso",
+    "ANALYTICS_HINT": "Google Analytics, solo si lo activas.",
+    "SUPPORT": "Soporte",
+    "WRITE_US": "Escríbenos",
+    "COPY": "Copiar",
+    "COPIED": "Copiado",
+    "INFO": "Información",
+    "INDEX": "Secciones de ajustes"
+  },
+  "NOTIF": {
+    "TITLE": "Notificaciones",
+    "EMPTY_TITLE": "Aún no hay notificaciones",
+    "EMPTY_TEXT": "Aquí verás solicitudes de seguimiento, nuevos seguidores y tus récords.",
+    "SEE_ALL": "Ver todas ({{count}})",
+    "TODAY": "Hoy",
+    "WEEK": "Esta semana",
+    "EARLIER": "Anteriores",
+    "REQUESTED": "{{handle}} quiere seguirte.",
+    "FOLLOWED": "{{handle}} empezó a seguirte.",
+    "ACCEPTED": "{{handle}} aceptó tu solicitud.",
+    "RECORD_ACCURACY": "Nuevo récord: {{value}} % de precisión.",
+    "RECORD_MADE": "Nuevo récord: {{value}} canastas en una sesión.",
+    "RECORD_SHOTS": "Nuevo récord: {{value}} tiros en una sesión.",
+    "RECORD_STREAK": "Nuevo récord: {{value}} canastas seguidas.",
+    "FOLLOW_BACK": "Seguir también",
+    "UNREAD": "{{count}} sin leer",
+    "LOAD_ERROR": "No podemos cargar tus notificaciones.",
+    "RETRY": "Reintentar",
+    "LOAD_MORE": "Cargar más"
+  },
   "NAV": {
+    "NOTIFICATIONS": "Notificaciones",
+    "SETTINGS": "Ajustes",
     "SUBSCRIPTION": "Suscripción"
   },
+  "AGE": {
+    "TOO_YOUNG_TITLE": "Necesitas tener al menos {{age}} años para crear una cuenta",
+    "TOO_YOUNG_TEXT": "Aun así puedes analizar tus tiros sin cuenta.",
+    "TRY_GUEST": "Probar sin cuenta",
+    "FINISH_TITLE": "Casi listo",
+    "FINISH_TEXT": "Solo faltan un par de cosas.",
+    "FINISH_UPDATED": "Hemos actualizado los Términos: añade tu fecha de nacimiento para continuar.",
+    "CONTINUE": "Continuar",
+    "LOCKED_TITLE": "Disponible a partir de los 16 años",
+    "LOCKED_TEXT": "Podrás usarlo a partir del {{date}}.",
+    "NOW_PRIVATE_TITLE": "Tu perfil ahora es privado",
+    "NOW_PRIVATE_TEXT": "El perfil público y las clasificaciones mundiales están disponibles a partir de los 16 años, es decir, desde el {{date}}. Tus seguidores se quedan.",
+    "PAUSED_TITLE": "Tu cuenta está en pausa",
+    "PAUSED_TEXT": "Necesitas tener al menos {{age}} años para usar una cuenta. Puedes borrarla ahora; si no, la borraremos el {{date}}. Si tu fecha de nacimiento es incorrecta, escríbenos.",
+    "WRITE_US": "Escríbenos",
+    "FIX_BY_EMAIL": "Para corregirla, escríbenos.",
+    "PARENT_PAYMENT": "Pide permiso a un padre o madre antes de pagar."
+  },
   "CONSENT": {
-    "TITLE": "Cookies de análisis",
-    "DESC": "Nos gustaría medir cómo se usa la aplicación, con Google Analytics. No se carga nada hasta que aceptes, y tus vídeos nunca forman parte de ello.",
+    "TITLE": "Estadísticas de uso",
+    "TEXT": "Usamos Google Analytics para saber cómo mejorar la app, solo si nos das el sí.",
+    "DECLINE": "Rechazar",
     "ACCEPT": "Aceptar",
-    "REJECT": "Rechazar"
+    "DETAILS": "Detalles"
   },
   "FOOTER": {
     "COPYRIGHT": "© {{year}} SwishAI. Todos los derechos reservados.",
@@ -597,6 +675,13 @@
     "DATA_ONLY_RESULT": "Este dispositivo cuenta los tiros sin generar el video anotado. Para obtenerlo, procesa el mismo archivo en una computadora."
   },
   "AUTH": {
+    "BIRTH_DATE": "Fecha de nacimiento",
+    "BIRTH_DATE_HINT": "No aparece en tu perfil.",
+    "BIRTH_DATE_INVALID": "Revisa la fecha.",
+    "TERMS_ACCEPT": "Acepto los {{terms}} y he leído la {{privacy}}.",
+    "TERMS_LINK": "Términos",
+    "PRIVACY_LINK": "Política de privacidad",
+    "TERMS_REQUIRED": "Acepta los Términos para continuar.",
     "REGISTER_EMAIL_UNAVAILABLE": "Por ahora no podemos enviar el correo de confirmación. Inténtalo de nuevo en unos minutos.",
     "LOGIN": "Iniciar sesión",
     "REGISTER": "Registrarse",
@@ -639,8 +724,7 @@
     "DELETE_ACCOUNT_PRO_WARNING": "Tu suscripción Pro se cancela de inmediato y pierdes lo que quede del periodo actual.",
     "DELETE_ACCOUNT_CONFIRM_LABEL": "Escribe {{email}} para confirmar",
     "DELETE_ACCOUNT_CONFIRM": "Eliminar permanentemente",
-    "DELETE_ACCOUNT_ERROR": "No se pudo eliminar la cuenta. Inténtalo de nuevo.",
-    "ACCEPT_LEGAL": "Tengo al menos 14 años, acepto los términos del servicio y he leído el aviso de privacidad"
+    "DELETE_ACCOUNT_ERROR": "No se pudo eliminar la cuenta. Inténtalo de nuevo."
   },
   "SUBSCRIPTION": {
     "BETA_CODES_ONLY": "Durante la beta, el Pro se activa con un código. Los pagos se abrirán en el lanzamiento.",
@@ -914,6 +998,9 @@
     "SUMMARY_REMOVED": "Tiros quitados: {{count}}"
   },
   "PAGE_META": {
+    "SETTINGS": {"TITLE": "Ajustes", "DESCRIPTION": "Idioma, perfil y preferencias de la app."},
+    "NOTIFICATIONS": {"TITLE": "Notificaciones", "DESCRIPTION": "Solicitudes, seguidores y récords personales."},
+    "FOLLOWERS": {"TITLE": "Seguidores", "DESCRIPTION": "Gestiona tus seguidores."},
     "PUBLIC_PROFILE": {
       "TITLE": "Perfil de jugador",
       "DESCRIPTION": "Explora perfiles de baloncesto y sigue tus progresos en el tiro.",

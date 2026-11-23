@@ -118,6 +118,7 @@
     "EMPTY": "No reports here."
   },
   "ADMIN_USERS": {
+    "AGE_BAND": "Age group",
     "TAB": "Users",
     "TOTAL": "Registered",
     "VERIFIED": "Verified email",
@@ -245,10 +246,14 @@
     "CHANGE": "Change",
     "CHOOSE": "Choose a photo",
     "PREVIEW": "Crop preview",
-    "ZOOM_IN": "Zoom in",
-    "ZOOM_OUT": "Zoom out",
-    "VISIBILITY": "Your photo appears wherever your nickname is shown.",
-    "VISIBILITY_PRIVATE": "Only you can see your photo until you confirm you are at least 16.",
+    "ZOOM": "Zoom",
+    "ADJUSTMENTS": "Adjustments",
+    "ROTATE": "Rotate",
+    "STRAIGHTEN": "Straighten",
+    "BRIGHTNESS": "Light",
+    "CONTRAST": "Contrast",
+    "RESET": "Reset",
+    "REMOVE_FAILED": "Couldn’t remove your photo. Try again.",
     "REMOVE": "Remove photo",
     "TOO_LARGE": "Choose a photo up to 15 MB.",
     "INVALID": "This file could not be read as a photo.",
@@ -302,8 +307,6 @@
     "EDIT_ERROR": "We couldn’t save your profile. Try again.",
     "SETTINGS": "Your public profile",
     "PUBLIC_SWITCH": "Make profile public",
-    "ADULT": "I’m at least 16 years old",
-    "ADULT_REQUIRED": "Confirm you’re at least 16 years old.",
     "HANDLE_REQUIRED": "Choose a nickname for your profile.",
     "HANDLE_DATE": "You can change your nickname from {{date}}.",
     "PREVIEW": "How others see you",
@@ -361,8 +364,6 @@
     "LOAD_ERROR": "We couldn’t load your diary."
   },
   "ENTRY": {
-    "GOOGLE_CONSENT": "By continuing, you accept the",
-    "LEGAL_AND": "and",
     "HANDLE": "Nickname",
     "RULES": "3 to 20 characters. Use letters, numbers, dots or underscores.",
     "AVAILABLE": "Nickname available",
@@ -440,6 +441,8 @@
     "DELETE_CONFIRM": "Type {{nickname}} to confirm",
     "UPDATE_ACTION": "Update",
     "UPDATE_READY": "New version",
+    "UPDATE_PROMPT": "New version: tap to update",
+    "UPDATE_DEFERRED": "The app will update after the analysis.",
     "UPDATE_ANALYSIS": "Available after analysis",
     "UPDATE_CHECKING": "Checking…",
     "UPDATE_CURRENT": "You’re up to date",
@@ -481,6 +484,7 @@
     "CLEAR": "Clear date"
   },
   "COMMON": {
+    "OK": "OK",
     "SERVER_INTERNAL": "Something went wrong on our end. Try again.",
     "SERVER_OFFLINE": "You’re offline or the server isn’t responding. Try again.",
     "SHOTS": "Shots",
@@ -495,14 +499,88 @@
     "BACK": "Back",
     "ADD_ANOTHER_VIDEO": "Add another video"
   },
+  "MENU": {
+    "ADMIN": "Admin",
+    "SUBSCRIPTION": "Subscription",
+    "FEEDBACK": "Send feedback",
+    "ACCOUNT_MENU": "Account menu",
+    "SIGN_OUT_PENDING": "You have an analysis in progress or a result to save. Sign out?"
+  },
+  "SETTINGS": {
+    "ACCOUNT": "Account",
+    "EMAIL": "Email",
+    "PROFILE": "Profile and privacy",
+    "NICKNAME": "Nickname",
+    "PHOTO": "Profile photo",
+    "PUBLIC": "Public profile",
+    "FOLLOWERS": "Followers",
+    "PLAN": "Plan",
+    "PRO_CODE": "Pro code",
+    "LANGUAGE": "Language",
+    "APP": "App",
+    "VERSION": "Version {{version}}",
+    "CHECK_UPDATE": "Check for updates",
+    "UP_TO_DATE": "You're up to date",
+    "INSTALL": "Install the app",
+    "ANALYTICS": "Usage statistics",
+    "ANALYTICS_HINT": "Google Analytics, only if you turn it on.",
+    "SUPPORT": "Support",
+    "WRITE_US": "Write to us",
+    "COPY": "Copy",
+    "COPIED": "Copied",
+    "INFO": "About",
+    "INDEX": "Settings sections"
+  },
+  "NOTIF": {
+    "TITLE": "Notifications",
+    "EMPTY_TITLE": "No notifications yet",
+    "EMPTY_TEXT": "Follow requests, new followers and your records show up here.",
+    "SEE_ALL": "See all ({{count}})",
+    "TODAY": "Today",
+    "WEEK": "This week",
+    "EARLIER": "Earlier",
+    "REQUESTED": "{{handle}} wants to follow you.",
+    "FOLLOWED": "{{handle}} started following you.",
+    "ACCEPTED": "{{handle}} accepted your request.",
+    "RECORD_ACCURACY": "New record: {{value}}% accuracy.",
+    "RECORD_MADE": "New record: {{value}} baskets in one session.",
+    "RECORD_SHOTS": "New record: {{value}} shots in one session.",
+    "RECORD_STREAK": "New record: {{value}} consecutive baskets.",
+    "FOLLOW_BACK": "Follow back",
+    "UNREAD": "{{count}} unread",
+    "LOAD_ERROR": "We can't load your notifications.",
+    "RETRY": "Try again",
+    "LOAD_MORE": "Load more"
+  },
   "NAV": {
+    "NOTIFICATIONS": "Notifications",
+    "SETTINGS": "Settings",
     "SUBSCRIPTION": "Subscription"
   },
+  "AGE": {
+    "TOO_YOUNG_TITLE": "You need to be at least {{age}} to create an account",
+    "TOO_YOUNG_TEXT": "You can still analyse your shots without an account.",
+    "TRY_GUEST": "Try without an account",
+    "FINISH_TITLE": "Almost there",
+    "FINISH_TEXT": "Just a couple more things.",
+    "FINISH_UPDATED": "We've updated our Terms: add your date of birth to continue.",
+    "CONTINUE": "Continue",
+    "LOCKED_TITLE": "Available from 16",
+    "LOCKED_TEXT": "You can use it from {{date}}.",
+    "NOW_PRIVATE_TITLE": "Your profile is now private",
+    "NOW_PRIVATE_TEXT": "Public profiles and world leaderboards are available from 16, that is from {{date}}. Your followers stay.",
+    "PAUSED_TITLE": "Your account is paused",
+    "PAUSED_TEXT": "You need to be at least {{age}} to use an account. You can delete it now, otherwise we will delete it on {{date}}. If your date of birth is wrong, write to us.",
+    "WRITE_US": "Write to us",
+    "FIX_BY_EMAIL": "To correct it, write to us.",
+    "PARENT_PAYMENT": "Ask a parent before paying."
+  },
   "CONSENT": {
-    "TITLE": "Analytics cookies",
-    "DESC": "We'd like to measure how the app is used, with Google Analytics. Nothing is loaded until you accept, and your videos are never part of it.",
+    "TITLE": "Usage statistics",
+    "TEXT": "We use Google Analytics to learn how to improve the app, only if you say yes.",
+    "DECLINE": "Decline",
     "ACCEPT": "Accept",
-    "REJECT": "Reject"
+    "DETAILS": "Details"
   },
   "FOOTER": {
     "COPYRIGHT": "© {{year}} SwishAI. All rights reserved.",
@@ -597,6 +675,13 @@
     "DATA_ONLY_RESULT": "This device counts the shots but does not produce the annotated video. Process the same file on a computer to get it."
   },
   "AUTH": {
+    "BIRTH_DATE": "Date of birth",
+    "BIRTH_DATE_HINT": "It never appears on your profile.",
+    "BIRTH_DATE_INVALID": "Check the date.",
+    "TERMS_ACCEPT": "I accept the {{terms}} and have read the {{privacy}}.",
+    "TERMS_LINK": "Terms",
+    "PRIVACY_LINK": "Privacy Policy",
+    "TERMS_REQUIRED": "Accept the Terms to continue.",
     "REGISTER_EMAIL_UNAVAILABLE": "We can’t send the confirmation email right now. Try again in a few minutes.",
     "LOGIN": "Login",
     "REGISTER": "Register",
@@ -639,8 +724,7 @@
     "DELETE_ACCOUNT_PRO_WARNING": "Your Pro subscription is cancelled immediately and the remainder of the current period is lost.",
     "DELETE_ACCOUNT_CONFIRM_LABEL": "Type {{email}} to confirm",
     "DELETE_ACCOUNT_CONFIRM": "Delete permanently",
-    "DELETE_ACCOUNT_ERROR": "The account could not be deleted. Please try again.",
-    "ACCEPT_LEGAL": "I am at least 14, I accept the terms of service and I have read the privacy notice"
+    "DELETE_ACCOUNT_ERROR": "The account could not be deleted. Please try again."
   },
   "SUBSCRIPTION": {
     "BETA_CODES_ONLY": "During the beta, Pro is activated with a code. Payments open at launch.",
@@ -914,6 +998,9 @@
     "SUMMARY_REMOVED": "Shots removed: {{count}}"
   },
   "PAGE_META": {
+    "SETTINGS": {"TITLE": "Settings", "DESCRIPTION": "Language, profile and app preferences."},
+    "NOTIFICATIONS": {"TITLE": "Notifications", "DESCRIPTION": "Follow requests, followers and personal records."},
+    "FOLLOWERS": {"TITLE": "Followers", "DESCRIPTION": "Manage your followers."},
     "PUBLIC_PROFILE": {
       "TITLE": "Player profile",
       "DESCRIPTION": "Explore basketball profiles and track your own shooting progress.",
