@@ -76,6 +76,9 @@
     "CORRECTIONS_ANSWER": "Sì. Rivedi il tiro dalla striscia e correggi il risultato se il modello ha sbagliato.",
     "FINAL": "Inizia dal prossimo allenamento"
   },
+  "FEEDBACK": {
+    "INTRO": "Raccontaci cosa è successo o cosa vorresti trovare in SwishAI."
+  },
   "BETA": {
     "BADGE": "Beta",
     "COMMENT": "Mandaci un commento",
@@ -169,7 +172,7 @@
   },
   "ADMIN_CORRECTIONS": {
     "TAB": "Correzioni",
-    "CODES": "Codici Pro",
+    "CODES": "Codici promo",
     "SECTIONS": "Sezioni admin",
     "LIST": "Correzioni da controllare",
     "EMPTY": "Nessun account vicino alla soglia o sospeso.",
@@ -183,7 +186,6 @@
   },
   "RANKINGS": {
     "TITLE": "Classifiche",
-    "GENERAL": "Generale",
     "METRICS": "Metriche",
     "CONSISTENCY": "Costanza",
     "SHOTS": "Tiri",
@@ -207,13 +209,11 @@
     "HIDDEN": "Il tuo profilo è oscurato. Contattaci per informazioni.",
     "CORRECTIONS_SUSPENDED": "La tua posizione è sospesa per le correzioni.",
     "FREE_SPOT": "Posto libero",
-    "DESC_GENERAL": "La classifica principale: punti da costanza, tiri, canestri e precisione insieme.",
     "DESC_CONSISTENCY_WEEK": "Giorni in cui ti sei allenato questa settimana.",
     "DESC_CONSISTENCY_ALL": "La serie più lunga di giorni di allenamento di fila.",
     "DESC_SHOTS": "Tutti i tiri registrati.",
     "DESC_BASKETS": "Tutti i canestri segnati.",
     "DESC_ACCURACY": "Percentuale di canestri, per chi ha abbastanza tiri.",
-    "UNIT_GENERAL": "punti",
     "UNIT_CONSISTENCY": "giorni",
     "UNIT_SHOTS": "tiri",
     "UNIT_BASKETS": "canestri",
@@ -226,7 +226,18 @@
     "EMPTY_FOLLOWING": "Qui vedi solo chi segui",
     "EMPTY_FOLLOWING_TEXT": "Segui qualcuno per sfidarvi ogni settimana.",
     "GATE_TITLE": "Entra in classifica",
-    "GATE_TEXT": "Con un account gratuito i tuoi allenamenti contano e puoi sfidare chi segui."
+    "GATE_TEXT": "Con un account gratuito i tuoi allenamenti contano e puoi sfidare chi segui.",
+    "OTHER_BOARDS": "Altre classifiche",
+    "OTHER_BOARDS_TEXT": "Le classifiche della settimana e quella di chi segui. Quelle settimanali ripartono ogni lunedì.",
+    "DESC_POINTS": "Di sempre, per punti SwishAI: si guadagnano allenandosi, raggiungendo traguardi e piazzandosi nelle classifiche della settimana.",
+    "DESC_FOLLOWING_POINTS": "I punti SwishAI di chi segui, e i tuoi.",
+    "WEEKLY_PRIZES": "A fine settimana: 1° +{{first}}, 2° +{{second}}, 3° +{{third}}, dal 4° al 10° +{{rest}} punti.",
+    "SEE_TOP": "Vedi la top 10",
+    "TOP_TITLE": "Top 10",
+    "BACK": "Torna alla classifica",
+    "UNIT_POINTS": "punti",
+    "NO_POINTS": "Ancora nessun punto: salva un video con almeno 10 tiri.",
+    "EMPTY_POINTS_TEXT": "Salva un allenamento e i tuoi punti cominciano a contare."
   },
   "TRIAGE": {
     "STATE": "Stato",
@@ -242,6 +253,8 @@
     "RANGE": "Primo e ultimo evento"
   },
   "AVATAR": {
+    "VIEW": "Vedi la foto",
+    "PHOTO_OF": "Foto di {{name}}",
     "TITLE": "Foto profilo",
     "CHANGE": "Cambia",
     "CHOOSE": "Scegli una foto",
@@ -386,8 +399,8 @@
   },
   "PRO_CODES": {
     "ADMIN_HANDLE_PENDING": "Nickname da scegliere",
-    "HAVE_CODE": "Hai un codice Pro?",
-    "CODE_LABEL": "Codice Pro",
+    "HAVE_CODE": "Hai un codice promo?",
+    "CODE_LABEL": "Codice promo",
     "REDEEM": "Riscatta",
     "SUCCESS": "Codice riscattato. Il Pro a vita è attivo.",
     "INVALID_CODE": "Controlla il codice e riprova.",
@@ -398,7 +411,7 @@
     "ALREADY_PRO": "Hai già il Pro. Il codice è ancora disponibile.",
     "TOO_MANY_ATTEMPTS": "Troppi tentativi. Riprova tra un’ora.",
     "REDEEM_ERROR": "Impossibile riscattare il codice. Riprova.",
-    "ADMIN_TITLE": "Codici Pro",
+    "ADMIN_TITLE": "Codici promo",
     "ADMIN_CREATE_TITLE": "Crea un codice",
     "ADMIN_NOTE": "Nota (facoltativa)",
     "ADMIN_EXPIRY": "Data di scadenza (facoltativa, UTC)",
@@ -429,6 +442,7 @@
     "GIFT_EXPLANATION": "Pro a vita, regalato con un codice."
   },
   "SHELL": {
+    "ANALYZE_SHORT": "Analizza",
     "GO_PRO": "Passa a Pro",
     "HIDDEN_PROFILE": "Il tuo profilo è oscurato nella ricerca e nelle classifiche.",
     "DELETE_DESCRIPTION": "Eliminerai definitivamente il diario, il profilo, la posizione in classifica e i collegamenti con chi segui e chi ti segue.",
@@ -507,18 +521,24 @@
     "EMAIL": "Email",
     "PROFILE": "Profilo e privacy",
     "NICKNAME": "Nickname",
+    "NICKNAME_WARNING": "Dopo averlo cambiato potrai modificarlo di nuovo tra 30 giorni.",
+    "NICKNAME_WAIT_ONE": "Potrai cambiarlo di nuovo tra 1 giorno (dal {{date}}).",
+    "NICKNAME_WAIT_OTHER": "Potrai cambiarlo di nuovo tra {{count}} giorni (dal {{date}}).",
     "PHOTO": "Foto profilo",
     "PUBLIC": "Profilo pubblico",
+    "PUBLIC_CONFIRM_TITLE": "Rendere pubblico il profilo?",
+    "PUBLIC_CONFIRM_BODY": "Chiunque potrà vedere i tuoi allenamenti, i numeri e chi segui.",
+    "PUBLIC_CONFIRM_ACTION": "Rendi pubblico",
     "FOLLOWERS": "Follower",
     "PLAN": "Piano",
-    "PRO_CODE": "Codice Pro",
+    "PRO_CODE": "Codice promo",
     "LANGUAGE": "Lingua",
     "APP": "App",
-    "VERSION": "Versione {{version}}",
+    "VERSION": "SwishAI {{version}}",
     "CHECK_UPDATE": "Cerca aggiornamenti",
     "UP_TO_DATE": "È l'ultima versione",
     "INSTALL": "Installa l'app",
-    "ANALYTICS": "Statistiche d'uso",
+    "ANALYTICS": "Cookie di analisi",
     "ANALYTICS_HINT": "Google Analytics, solo se lo attivi.",
     "SUPPORT": "Supporto",
     "WRITE_US": "Scrivici",
@@ -1074,7 +1094,7 @@
       "DESCRIPTION": "Conta tiri e canestri da un video di basket e segui i tuoi progressi. Tutto nel browser."
     },
     "ADMIN": {
-      "TITLE": "Codici Pro",
+      "TITLE": "Codici promo",
       "DESCRIPTION": "Gestisci i regali Pro a vita."
     },
     "LEADERBOARDS": {
@@ -1135,14 +1155,108 @@
     }
   },
   "HOOP_PICKER": {
-    "TITLE": "Tocca il tuo canestro",
     "HINT": "Contiamo solo i tiri al canestro che scegli.",
     "HOOP_LABEL": "Canestro {{n}}",
-    "SKIP": "Continua senza scegliere",
     "STILL_ALT": "Un fotogramma del tuo video con i canestri evidenziati"
   },
   "GATE": {
     "REGISTER": "Crea un account",
     "LOGIN": "Ho già un account"
+  },
+  "ROUTE_PROGRESS": {
+    "LOADING": "Caricamento della pagina…"
+  },
+  "PROCESSING": {
+    "TIP_STILL": "La prossima volta appoggia il telefono: l'analisi va meglio se non si muove.",
+    "TIP_HOOP": "Tieni il canestro intero nell'inquadratura: è lì che si contano i tuoi canestri.",
+    "TIP_LIGHT": "Più luce, palla più nitida: meno tiri sfuggono al conteggio.",
+    "TIP_STAY": "Resta su questa schermata: sul telefono, se esci, l'analisi si mette in pausa.",
+    "TIP_DESKTOP": "Per analisi più veloci, usa SwishAI dal computer.",
+    "TIP_PRIVATE": "Il video non lascia mai questo dispositivo: si salvano solo i numeri."
+  },
+  "FOLLOWERS": {
+    "TITLE": "Follower e seguiti",
+    "FOLLOWERS": "Follower",
+    "FOLLOWING": "Seguiti",
+    "REQUESTS": "Richieste",
+    "SEARCH": "Cerca per nickname",
+    "ACTIONS": "Azioni per {{name}}",
+    "ACCEPT": "Accetta",
+    "DECLINE": "Rifiuta",
+    "MORE": "Mostra altri",
+    "FIND_PLAYERS": "Cerca giocatori",
+    "NO_RESULTS": "Nessun nickname corrisponde alla ricerca.",
+    "EMPTY_FOLLOWERS": "Quando qualcuno ti segue, lo trovi qui.",
+    "EMPTY_FOLLOWING": "Qui vedrai i giocatori che segui.",
+    "EMPTY_REQUESTS": "Hai risposto a tutte le richieste.",
+    "ERROR": "Non siamo riusciti a caricare i follower. Riprova.",
+    "PENDING_ONE": "1 richiesta in attesa",
+    "PENDING_OTHER": "{{count}} richieste in attesa"
+  },
+  "SEARCH": {
+    "PLAYERS": "Cerca giocatori",
+    "SUGGESTED": "Giocatori consigliati",
+    "REASON_MUTUAL": "Seguito da {{player}}",
+    "REASON_COUNTRY": "Gioca in {{country}}",
+    "REASON_WEEKLY": "Tra i primi della settimana",
+    "NO_SUGGESTIONS": "Nessun consiglio al momento."
+  },
+  "PRO": {
+    "LABEL": "Pro",
+    "SINCE": "Pro da {{date}}",
+    "WELCOME": "Sei Pro",
+    "BENEFITS": "Tutto il tuo diario e le clip highlight senza il logo SwishAI.",
+    "START": "Inizia"
+  },
+  "PREANALYSIS": {
+    "CAMERA_TITLE": "La camera si muove",
+    "CAMERA_TEXT": "L'analisi funziona al meglio con il telefono fermo. Con la camera in movimento alcuni tiri potrebbero sfuggire.",
+    "ANALYZE_ANYWAY": "Analizza comunque",
+    "CHOOSE_ANOTHER": "Carica un altro video",
+    "CAMERA_DURING": "La camera si muove: alcuni tiri potrebbero sfuggire.",
+    "HOOP_TITLE": "Su quale canestro tiri?",
+    "HOOP_CONFIRM": "Conferma"
+  },
+  "POINTS": {
+    "LABEL": "punti",
+    "OPEN": "Scopri da dove vengono i punti SwishAI",
+    "TITLE": "Punti SwishAI",
+    "YOURS": "I tuoi punti",
+    "RANK": "{{rank}}° nel mondo",
+    "RECENT": "Ultimi movimenti",
+    "NONE_YET": "Ancora niente. Salva un video con almeno 10 tiri per il tuo primo punto.",
+    "HOW_TITLE": "Come si guadagnano",
+    "HOW_VIDEO": "Ogni video salvato con almeno 10 tiri, fino a 3 al giorno",
+    "HOW_FIRST_SESSION": "La tua prima sessione",
+    "HOW_BASKETS": "100, 500 e 1.000 canestri in tutto",
+    "HOW_STREAK": "7 giorni di fila con un video",
+    "HOW_ACCURACY": "Una sessione al 50% o più su almeno 50 tiri",
+    "HOW_WEEKLY": "Top 10 di una classifica della settimana: 1°, 2°, 3°, dal 4° al 10°",
+    "HOW_NOTE": "Pro e free guadagnano uguale. Le correzioni a mano non contano, un video ricaricato non dà punti, ed eliminare un video toglie il suo punto.",
+    "REASON_VIDEO": "Video salvato",
+    "REASON_FIRST_SESSION": "Prima sessione",
+    "REASON_BASKETS": "Traguardo: {{count}} canestri",
+    "REASON_STREAK": "7 giorni di fila",
+    "REASON_ACCURACY": "Traguardo: 50% su 50 tiri",
+    "REASON_WEEKLY_RANK": "{{rank}}° nella classifica {{board}} della settimana",
+    "REASON_REVOKE": "Punto tolto",
+    "NOTIF_VIDEO": "Hai guadagnato {{value}} punti SwishAI",
+    "NOTIF_FIRST_SESSION": "Prima sessione: +{{value}} punti SwishAI",
+    "NOTIF_BASKETS": "Traguardo canestri: +{{value}} punti SwishAI",
+    "NOTIF_STREAK": "7 giorni di fila: +{{value}} punti SwishAI",
+    "NOTIF_ACCURACY": "50% su 50 tiri: +{{value}} punti SwishAI",
+    "NOTIF_WEEKLY_RANK": "Top 10 della settimana: +{{value}} punti SwishAI"
+  },
+  "SAVE": {
+    "TITLE": "Salva nel diario",
+    "JOINING": "Questo video si aggiunge a «{{session}}» di oggi: nome e descrizione valgono per tutta la sessione.",
+    "NAME": "Nome della sessione",
+    "DESCRIPTION": "Descrizione",
+    "DESCRIPTION_HINT": "Com’è andata? (facoltativo)",
+    "SAVE": "Salva",
+    "DEFAULT_NAME": "Allenamento del {{date}}",
+    "POINTS_EARNED_ONE": "· +1 punto: {{reasons}}",
+    "POINTS_EARNED": "· +{{points}} punti: {{reasons}}",
+    "EDIT_DESCRIPTION": "Aggiungi una descrizione"
   }
 }

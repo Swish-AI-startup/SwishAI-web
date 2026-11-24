@@ -76,6 +76,9 @@
     "CORRECTIONS_ANSWER": "Yes. Replay a shot from the strip and correct the result if the model missed it.",
     "FINAL": "Start with your next session"
   },
+  "FEEDBACK": {
+    "INTRO": "Tell us what happened or what you’d like to see in SwishAI."
+  },
   "BETA": {
     "BADGE": "Beta",
     "COMMENT": "Send us feedback",
@@ -169,7 +172,7 @@
   },
   "ADMIN_CORRECTIONS": {
     "TAB": "Corrections",
-    "CODES": "Pro codes",
+    "CODES": "Promo codes",
     "SECTIONS": "Admin sections",
     "LIST": "Corrections to review",
     "EMPTY": "No accounts near the limit or suspended.",
@@ -183,7 +186,6 @@
   },
   "RANKINGS": {
     "TITLE": "Leaderboards",
-    "GENERAL": "Overall",
     "METRICS": "Metrics",
     "CONSISTENCY": "Consistency",
     "SHOTS": "Shots",
@@ -207,13 +209,11 @@
     "HIDDEN": "Your profile is hidden. Contact us for details.",
     "CORRECTIONS_SUSPENDED": "Your ranking is suspended due to corrections.",
     "FREE_SPOT": "Open spot",
-    "DESC_GENERAL": "The main board: points from consistency, shots, baskets and accuracy together.",
     "DESC_CONSISTENCY_WEEK": "Days you trained this week.",
     "DESC_CONSISTENCY_ALL": "Your longest run of training days in a row.",
     "DESC_SHOTS": "Every shot recorded.",
     "DESC_BASKETS": "Every basket made.",
     "DESC_ACCURACY": "Share of baskets, for players with enough shots.",
-    "UNIT_GENERAL": "points",
     "UNIT_CONSISTENCY": "days",
     "UNIT_SHOTS": "shots",
     "UNIT_BASKETS": "baskets",
@@ -226,7 +226,18 @@
     "EMPTY_FOLLOWING": "Only players you follow show here",
     "EMPTY_FOLLOWING_TEXT": "Follow someone to take each other on every week.",
     "GATE_TITLE": "Get on the board",
-    "GATE_TEXT": "With a free account your trainings count and you can take on the players you follow."
+    "GATE_TEXT": "With a free account your trainings count and you can take on the players you follow.",
+    "OTHER_BOARDS": "More leaderboards",
+    "OTHER_BOARDS_TEXT": "The weekly boards and the players you follow. The weekly ones start over every Monday.",
+    "DESC_POINTS": "All time, by SwishAI points: you earn them by training, reaching milestones and placing in the weekly boards.",
+    "DESC_FOLLOWING_POINTS": "SwishAI points of the players you follow, and yours.",
+    "WEEKLY_PRIZES": "When the week ends: 1st +{{first}}, 2nd +{{second}}, 3rd +{{third}}, 4th to 10th +{{rest}} points.",
+    "SEE_TOP": "See the top 10",
+    "TOP_TITLE": "Top 10",
+    "BACK": "Back to the leaderboard",
+    "UNIT_POINTS": "points",
+    "NO_POINTS": "No points yet: save a video with at least 10 shots.",
+    "EMPTY_POINTS_TEXT": "Save a training and your points start counting."
   },
   "TRIAGE": {
     "STATE": "Status",
@@ -242,6 +253,8 @@
     "RANGE": "First and last seen"
   },
   "AVATAR": {
+    "VIEW": "View photo",
+    "PHOTO_OF": "Photo of {{name}}",
     "TITLE": "Profile photo",
     "CHANGE": "Change",
     "CHOOSE": "Choose a photo",
@@ -386,8 +399,8 @@
   },
   "PRO_CODES": {
     "ADMIN_HANDLE_PENDING": "Nickname still to be chosen",
-    "HAVE_CODE": "Have a Pro code?",
-    "CODE_LABEL": "Pro code",
+    "HAVE_CODE": "Have a promo code?",
+    "CODE_LABEL": "Promo code",
     "REDEEM": "Redeem",
     "SUCCESS": "Code redeemed. Lifetime Pro is active.",
     "INVALID_CODE": "Check the code and try again.",
@@ -398,7 +411,7 @@
     "ALREADY_PRO": "You already have Pro. The code is still available.",
     "TOO_MANY_ATTEMPTS": "Too many attempts. Try again in an hour.",
     "REDEEM_ERROR": "Couldn't redeem the code. Try again.",
-    "ADMIN_TITLE": "Pro codes",
+    "ADMIN_TITLE": "Promo codes",
     "ADMIN_CREATE_TITLE": "Create a code",
     "ADMIN_NOTE": "Note (optional)",
     "ADMIN_EXPIRY": "Expiry date (optional, UTC)",
@@ -429,6 +442,7 @@
     "GIFT_EXPLANATION": "Lifetime Pro, gifted with a code."
   },
   "SHELL": {
+    "ANALYZE_SHORT": "Analyze",
     "GO_PRO": "Go Pro",
     "HIDDEN_PROFILE": "Your profile is hidden from search and leaderboards.",
     "DELETE_DESCRIPTION": "This permanently deletes your diary, profile, leaderboard position and follows.",
@@ -507,18 +521,24 @@
     "EMAIL": "Email",
     "PROFILE": "Profile and privacy",
     "NICKNAME": "Nickname",
+    "NICKNAME_WARNING": "After changing your nickname, you can change it again in 30 days.",
+    "NICKNAME_WAIT_ONE": "You can change it again in 1 day (from {{date}}).",
+    "NICKNAME_WAIT_OTHER": "You can change it again in {{count}} days (from {{date}}).",
     "PHOTO": "Profile photo",
     "PUBLIC": "Public profile",
+    "PUBLIC_CONFIRM_TITLE": "Make your profile public?",
+    "PUBLIC_CONFIRM_BODY": "Anyone will be able to see your workouts, stats and who you follow.",
+    "PUBLIC_CONFIRM_ACTION": "Make public",
     "FOLLOWERS": "Followers",
     "PLAN": "Plan",
-    "PRO_CODE": "Pro code",
+    "PRO_CODE": "Promo code",
     "LANGUAGE": "Language",
     "APP": "App",
-    "VERSION": "Version {{version}}",
+    "VERSION": "SwishAI {{version}}",
     "CHECK_UPDATE": "Check for updates",
     "UP_TO_DATE": "You're up to date",
     "INSTALL": "Install the app",
-    "ANALYTICS": "Usage statistics",
+    "ANALYTICS": "Analytics cookies",
     "ANALYTICS_HINT": "Google Analytics, only if you turn it on.",
     "SUPPORT": "Support",
     "WRITE_US": "Write to us",
@@ -1074,7 +1094,7 @@
       "DESCRIPTION": "Count your shots and makes from a basketball video. Track your progress privately, right in your browser."
     },
     "ADMIN": {
-      "TITLE": "Pro codes",
+      "TITLE": "Promo codes",
       "DESCRIPTION": "Manage lifetime Pro gifts."
     },
     "LEADERBOARDS": {
@@ -1135,14 +1155,108 @@
     }
   },
   "HOOP_PICKER": {
-    "TITLE": "Tap your hoop",
     "HINT": "Only shots at the hoop you pick are counted.",
     "HOOP_LABEL": "Hoop {{n}}",
-    "SKIP": "Continue without choosing",
     "STILL_ALT": "A frame of your video with each hoop outlined"
   },
   "GATE": {
     "REGISTER": "Create an account",
     "LOGIN": "I have an account"
+  },
+  "ROUTE_PROGRESS": {
+    "LOADING": "Loading page…"
+  },
+  "PROCESSING": {
+    "TIP_STILL": "Next time, rest the phone on something: the analysis works best when it doesn't move.",
+    "TIP_HOOP": "Keep the whole hoop in frame: that's where your baskets are counted.",
+    "TIP_LIGHT": "More light means a sharper ball, and fewer shots slip past the count.",
+    "TIP_STAY": "Stay on this screen: on a phone, the analysis pauses if you leave.",
+    "TIP_DESKTOP": "For faster analysis, use SwishAI on a computer.",
+    "TIP_PRIVATE": "Your video never leaves this device: only the numbers are saved."
+  },
+  "FOLLOWERS": {
+    "TITLE": "Followers and following",
+    "FOLLOWERS": "Followers",
+    "FOLLOWING": "Following",
+    "REQUESTS": "Requests",
+    "SEARCH": "Search by nickname",
+    "ACTIONS": "Actions for {{name}}",
+    "ACCEPT": "Accept",
+    "DECLINE": "Decline",
+    "MORE": "Show more",
+    "FIND_PLAYERS": "Find players",
+    "NO_RESULTS": "No nicknames match your search.",
+    "EMPTY_FOLLOWERS": "When someone follows you, they’ll appear here.",
+    "EMPTY_FOLLOWING": "The players you follow will appear here.",
+    "EMPTY_REQUESTS": "You’re all caught up with follow requests.",
+    "ERROR": "Couldn’t load your followers. Try again.",
+    "PENDING_ONE": "1 pending request",
+    "PENDING_OTHER": "{{count}} pending requests"
+  },
+  "SEARCH": {
+    "PLAYERS": "Find players",
+    "SUGGESTED": "Suggested players",
+    "REASON_MUTUAL": "Followed by {{player}}",
+    "REASON_COUNTRY": "Plays in {{country}}",
+    "REASON_WEEKLY": "Among this week’s leaders",
+    "NO_SUGGESTIONS": "No suggestions right now."
+  },
+  "PRO": {
+    "LABEL": "Pro",
+    "SINCE": "Pro since {{date}}",
+    "WELCOME": "You’re Pro",
+    "BENEFITS": "Your full diary and highlight clips without the SwishAI watermark.",
+    "START": "Get started"
+  },
+  "PREANALYSIS": {
+    "CAMERA_TITLE": "The camera is moving",
+    "CAMERA_TEXT": "Analysis works best with the phone kept still. With the camera moving, a few shots might slip through.",
+    "ANALYZE_ANYWAY": "Analyze anyway",
+    "CHOOSE_ANOTHER": "Upload another video",
+    "CAMERA_DURING": "The camera is moving: a few shots might slip through.",
+    "HOOP_TITLE": "Which hoop are you shooting at?",
+    "HOOP_CONFIRM": "Confirm"
+  },
+  "POINTS": {
+    "LABEL": "points",
+    "OPEN": "See how SwishAI points add up",
+    "TITLE": "SwishAI points",
+    "YOURS": "Your points",
+    "RANK": "#{{rank}} in the world",
+    "RECENT": "Latest",
+    "NONE_YET": "Nothing yet. Save a video with at least 10 shots to earn your first point.",
+    "HOW_TITLE": "How to earn them",
+    "HOW_VIDEO": "Each video you save with at least 10 shots, up to 3 a day",
+    "HOW_FIRST_SESSION": "Your first session",
+    "HOW_BASKETS": "100, 500 and 1,000 baskets in total",
+    "HOW_STREAK": "7 days in a row with a video",
+    "HOW_ACCURACY": "A session at 50% or better on at least 50 shots",
+    "HOW_WEEKLY": "Top 10 of a weekly leaderboard: 1st, 2nd, 3rd, 4th to 10th",
+    "HOW_NOTE": "Pro and free earn the same. Hand corrections don't count, a repeated video earns nothing, and deleting a video takes its point away.",
+    "REASON_VIDEO": "Video saved",
+    "REASON_FIRST_SESSION": "First session",
+    "REASON_BASKETS": "Milestone: {{count}} baskets",
+    "REASON_STREAK": "7 days in a row",
+    "REASON_ACCURACY": "Milestone: 50% on 50 shots",
+    "REASON_WEEKLY_RANK": "#{{rank}} in the weekly {{board}} leaderboard",
+    "REASON_REVOKE": "Point taken back",
+    "NOTIF_VIDEO": "You earned {{value}} SwishAI points",
+    "NOTIF_FIRST_SESSION": "First session: +{{value}} SwishAI points",
+    "NOTIF_BASKETS": "Basket milestone: +{{value}} SwishAI points",
+    "NOTIF_STREAK": "7 days in a row: +{{value}} SwishAI points",
+    "NOTIF_ACCURACY": "50% on 50 shots: +{{value}} SwishAI points",
+    "NOTIF_WEEKLY_RANK": "Top 10 of the week: +{{value}} SwishAI points"
+  },
+  "SAVE": {
+    "TITLE": "Save to diary",
+    "JOINING": "This video joins today’s “{{session}}”: the name and description apply to the whole session.",
+    "NAME": "Session name",
+    "DESCRIPTION": "Description",
+    "DESCRIPTION_HINT": "How did it go? (optional)",
+    "SAVE": "Save",
+    "DEFAULT_NAME": "Training on {{date}}",
+    "POINTS_EARNED_ONE": "· +1 point: {{reasons}}",
+    "POINTS_EARNED": "· +{{points}} points: {{reasons}}",
+    "EDIT_DESCRIPTION": "Add a description"
   }
 }
