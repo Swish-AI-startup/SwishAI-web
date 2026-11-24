@@ -1069,6 +1069,7 @@
   },
   "RESULT": {
     "CONFIRM": "Conferma",
+    "PLAYBACK_RETRY": "Riproduzione bloccata. Tocca Riproduci per riprovare.",
     "PLAY": "Riproduci",
     "PAUSE": "Pausa",
     "PLAYHEAD": "Posizione nel video",

@@ -1069,6 +1069,7 @@
   },
   "RESULT": {
     "CONFIRM": "Confirm",
+    "PLAYBACK_RETRY": "Playback stalled. Tap Play to try again.",
     "PLAY": "Play",
     "PAUSE": "Pause",
     "PLAYHEAD": "Video position",
