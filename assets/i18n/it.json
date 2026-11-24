@@ -619,7 +619,6 @@
     "GOAL_FIRST": "Primo allenamento",
     "GOAL_POINTS": "+{{points}} punti",
     "GOAL_LEFT": "ne mancano {{count}}",
-    "LAST_MONTHS": "ultimi {{count}} mesi",
     "TRAINING_DAY_ONE": "giorno di tiro",
     "TRAINING_DAY_OTHER": "giorni di tiro",
     "TRAINING_DAY_COUNT_ONE": "{{count}} giorno di tiro",
@@ -627,6 +626,8 @@
     "IN_A_ROW_NOW_ONE": "giorno di fila ora",
     "IN_A_ROW_NOW_OTHER": "giorni di fila ora",
     "LONGEST_RUN": "più giorni di fila",
+    "PREV_MONTH": "Mese precedente",
+    "NEXT_MONTH": "Mese successivo",
     "LESS": "meno",
     "MORE_SHOTS": "più tiri",
     "OPEN_SECTION": "Apri {{name}} in grande"

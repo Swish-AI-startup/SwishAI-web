@@ -619,7 +619,6 @@
     "GOAL_FIRST": "First workout",
     "GOAL_POINTS": "+{{points}} points",
     "GOAL_LEFT": "{{count}} to go",
-    "LAST_MONTHS": "last {{count}} months",
     "TRAINING_DAY_ONE": "day of shooting",
     "TRAINING_DAY_OTHER": "days of shooting",
     "TRAINING_DAY_COUNT_ONE": "{{count}} day of shooting",
@@ -627,6 +626,8 @@
     "IN_A_ROW_NOW_ONE": "day in a row now",
     "IN_A_ROW_NOW_OTHER": "days in a row now",
     "LONGEST_RUN": "most days in a row",
+    "PREV_MONTH": "Previous month",
+    "NEXT_MONTH": "Next month",
     "LESS": "less",
     "MORE_SHOTS": "more shots",
     "OPEN_SECTION": "Open {{name}} in full"

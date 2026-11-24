@@ -1,0 +1,1 @@
+import{t as ot}from"./chunk-BfgDmpvJ.js";import"./main-5IBBEBMH.js";export{ot as NotificationsComponent};

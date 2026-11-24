@@ -1,0 +1,1 @@
+import{t as $e}from"./chunk-BiarUKww.js";import"./main-5IBBEBMH.js";import"./chunk-DD2ed11R.js";export{$e as LegalComponent};
