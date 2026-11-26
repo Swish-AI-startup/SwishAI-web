@@ -911,9 +911,6 @@
     "SHOTS": "Shots",
     "ACCURACY": "Accuracy",
     "PROGRESS": "Analysis progress",
-    "ETA_SECONDS": "A few seconds left",
-    "ETA_MINUTE": "About 1 minute left",
-    "ETA_MINUTES": "About {{minutes}} minutes left",
     "KEEP_OPEN": "Keep the app open until it finishes. Leaving pauses the analysis.",
     "RESUME_CHECKPOINT": "You had an analysis at {{progress}}%. Choose the same video to continue.",
     "RESUMED": "Resumed where you left off · {{progress}}%",
@@ -963,12 +960,12 @@
     "PAUSED_AT": "Analysis paused at {{progress}}%",
     "RESUME": "Continue analysis",
     "DIARY_RECOVERY": "You can continue the analysis from {{progress}}%.",
-    "RESELECT_DETAIL": "Analysis was interrupted at {{progress}}%. Choose the same video again to continue from there.",
     "RESELECT": "Choose video",
     "PAUSE_SPACE": "There isn’t enough space to pause this video.",
     "REPLACE_TITLE": "Replace the open session?",
     "REPLACE_DETAIL": "The current result will be lost.",
-    "REPLACE": "Replace"
+    "REPLACE": "Replace",
+    "RESELECT_SHORT": "Choose the same video again to continue from there."
   },
   "SESSIONS": {
     "CHOICES_FAILED": "Couldn’t load your sessions. Try again.",
@@ -1173,7 +1170,9 @@
     "HIGHLIGHTS_TEXT": "All your highlights in one video, ready to share",
     "NUDGE_TITLE": "Before saving, your highlights?",
     "NUDGE_TEXT": "The video does not stay in the app after saving: if you want it, create it now.",
-    "NUDGE_SKIP": "Save without video"
+    "NUDGE_SKIP": "Save without video",
+    "WHERE_TITLE": "Review the analysis",
+    "WHERE_TEXT": "Check the shots and fix what the AI got wrong"
   },
   "PAGE_META": {
     "SETTINGS": {"TITLE": "Settings", "DESCRIPTION": "Language, profile and app preferences."},
@@ -1266,12 +1265,11 @@
     "LOADING": "Loading page…"
   },
   "PROCESSING": {
-    "TIP_STILL": "Next time, rest the phone on something: the analysis works best when it doesn't move.",
-    "TIP_HOOP": "Keep the whole hoop in frame: that's where your baskets are counted.",
-    "TIP_LIGHT": "More light means a sharper ball, and fewer shots slip past the count.",
-    "TIP_STAY": "Stay on this screen: on a phone, the analysis pauses if you leave.",
-    "TIP_DESKTOP": "For faster analysis, use SwishAI on a computer.",
-    "TIP_PRIVATE": "Your video never leaves this device: only the numbers are saved."
+    "TIP_STILL": "Keep the phone still: the analysis gets more accurate.",
+    "TIP_HOOP": "Keep the whole hoop in the frame.",
+    "TIP_LIGHT": "More light, a sharper ball: fewer shots get lost.",
+    "TIP_DESKTOP": "On a computer the analysis is faster.",
+    "TIP_PRIVATE": "The video stays on your device: only the numbers are saved."
   },
   "FOLLOWERS": {
     "TITLE": "Followers and following",
@@ -1298,7 +1296,16 @@
     "REASON_MUTUAL": "Followed by {{player}}",
     "REASON_COUNTRY": "Plays in {{country}}",
     "REASON_WEEKLY": "Among this week’s leaders",
-    "NO_SUGGESTIONS": "No suggestions right now."
+    "NO_SUGGESTIONS": "No suggestions right now.",
+    "PLACEHOLDER": "Search by nickname",
+    "CLEAR": "Clear search",
+    "YOU": "You",
+    "TOP_WEEK": "Best of the week",
+    "TOP_WEEK_HINT": "Most shots",
+    "RESULTS": "Results",
+    "NO_RESULTS_TITLE": "No player called {{query}}",
+    "NO_RESULTS_HINT": "Check the nickname or try just the first letters.",
+    "ERROR": "We couldn’t load the players."
   },
   "PRO": {
     "LABEL": "Pro",

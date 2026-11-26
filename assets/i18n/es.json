@@ -911,9 +911,6 @@
     "SHOTS": "Tiros",
     "ACCURACY": "Precisión",
     "PROGRESS": "Progreso del análisis",
-    "ETA_SECONDS": "Quedan unos segundos",
-    "ETA_MINUTE": "Queda alrededor de 1 minuto",
-    "ETA_MINUTES": "Quedan alrededor de {{minutes}} minutos",
     "KEEP_OPEN": "Mantén la app abierta hasta que termine. Si sales, el análisis se pausa.",
     "RESUME_CHECKPOINT": "Tenías un análisis al {{progress}} %. Elige el mismo video para continuar.",
     "RESUMED": "Continuamos donde lo dejaste · {{progress}}%",
@@ -963,12 +960,12 @@
     "PAUSED_AT": "Análisis en pausa al {{progress}}%",
     "RESUME": "Continuar el análisis",
     "DIARY_RECOVERY": "Puedes continuar el análisis desde el {{progress}}%.",
-    "RESELECT_DETAIL": "El análisis se interrumpió al {{progress}}%. Vuelve a elegir el mismo video para continuar desde ahí.",
     "RESELECT": "Elegir video",
     "PAUSE_SPACE": "No hay espacio para poner en pausa este video.",
     "REPLACE_TITLE": "¿Quieres reemplazar la sesión abierta?",
     "REPLACE_DETAIL": "Perderás el resultado actual.",
-    "REPLACE": "Reemplazar"
+    "REPLACE": "Reemplazar",
+    "RESELECT_SHORT": "Vuelve a elegir el mismo vídeo para seguir desde ahí."
   },
   "SESSIONS": {
     "CHOICES_FAILED": "No se pudieron cargar tus sesiones. Inténtalo de nuevo.",
@@ -1173,7 +1170,9 @@
     "HIGHLIGHTS_TEXT": "Todos tus highlights en un video listo para compartir",
     "NUDGE_TITLE": "Antes de guardar, ¿tus highlights?",
     "NUDGE_TEXT": "El video no se queda en la app después de guardar: si lo quieres, créalo ahora.",
-    "NUDGE_SKIP": "Guardar sin video"
+    "NUDGE_SKIP": "Guardar sin video",
+    "WHERE_TITLE": "Revisa el análisis",
+    "WHERE_TEXT": "Comprueba los tiros y corrige los errores de la IA"
   },
   "PAGE_META": {
     "SETTINGS": {"TITLE": "Ajustes", "DESCRIPTION": "Idioma, perfil y preferencias de la app."},
@@ -1266,12 +1265,11 @@
     "LOADING": "Cargando página…"
   },
   "PROCESSING": {
-    "TIP_STILL": "La próxima vez apoya el teléfono: el análisis funciona mejor si no se mueve.",
-    "TIP_HOOP": "Mantén el aro entero en el encuadre: ahí se cuentan tus canastas.",
-    "TIP_LIGHT": "Con más luz el balón se ve más nítido y se escapan menos tiros.",
-    "TIP_STAY": "Quédate en esta pantalla: en el teléfono, si sales, el análisis se pausa.",
-    "TIP_DESKTOP": "Para análisis más rápidos, usa SwishAI en una computadora.",
-    "TIP_PRIVATE": "Tu vídeo nunca sale de este dispositivo: solo se guardan los números."
+    "TIP_STILL": "Con el teléfono quieto, el análisis es más preciso.",
+    "TIP_HOOP": "Deja todo el aro dentro del encuadre.",
+    "TIP_LIGHT": "Más luz, balón más nítido: menos tiros perdidos.",
+    "TIP_DESKTOP": "En una computadora el análisis es más rápido.",
+    "TIP_PRIVATE": "El vídeo se queda en tu dispositivo: solo se guardan los números."
   },
   "FOLLOWERS": {
     "TITLE": "Seguidores y seguidos",
@@ -1298,7 +1296,16 @@
     "REASON_MUTUAL": "Le sigue {{player}}",
     "REASON_COUNTRY": "Juega en {{country}}",
     "REASON_WEEKLY": "Entre los primeros de esta semana",
-    "NO_SUGGESTIONS": "Por ahora no hay recomendaciones."
+    "NO_SUGGESTIONS": "Por ahora no hay recomendaciones.",
+    "PLACEHOLDER": "Busca por nickname",
+    "CLEAR": "Borrar la búsqueda",
+    "YOU": "Tú",
+    "TOP_WEEK": "Los mejores de la semana",
+    "TOP_WEEK_HINT": "Más tiros",
+    "RESULTS": "Resultados",
+    "NO_RESULTS_TITLE": "Ningún jugador se llama {{query}}",
+    "NO_RESULTS_HINT": "Revisa el nickname o prueba solo con las primeras letras.",
+    "ERROR": "No podemos cargar los jugadores."
   },
   "PRO": {
     "LABEL": "Pro",
