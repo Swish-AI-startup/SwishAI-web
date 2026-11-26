@@ -204,7 +204,16 @@
     "A7": "You earn points by saving practices, unlocking milestones and climbing the weekly rankings. Manual corrections don't change your points.",
     "FINAL_1": "Get",
     "FINAL_2": "on court.",
-    "FINAL_TEXT": "Make your profile, save your practices and take on players like you."
+    "FINAL_TEXT": "Make your profile, save your practices and take on players like you.",
+    "AUTH_POINT_1": "Shots and baskets counted for you",
+    "AUTH_POINT_2": "A diary of your progress",
+    "AUTH_POINT_3": "Rankings with players like you",
+    "AUTH_HOME": "Back to the SwishAI home page",
+    "AUTH_TABS": "Sign up or sign in",
+    "AUTH_LOGIN_TITLE": "Welcome back",
+    "AUTH_LOGIN_TEXT": "Sign in to find your diary and your highlights.",
+    "AUTH_REGISTER_TITLE": "Get on court",
+    "AUTH_REGISTER_TEXT": "Make your free profile: save your practices and climb the rankings."
   },
   "FEEDBACK": {
     "INTRO": "Tell us what happened or what you’d like to see in SwishAI."

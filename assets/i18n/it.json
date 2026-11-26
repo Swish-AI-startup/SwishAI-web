@@ -204,7 +204,16 @@
     "A7": "Guadagni punti salvando allenamenti, sbloccando traguardi e salendo nelle classifiche della settimana. Le correzioni a mano non cambiano i punti.",
     "FINAL_1": "Entra",
     "FINAL_2": "in campo.",
-    "FINAL_TEXT": "Crea il tuo profilo, salva i tuoi allenamenti e sfida chi gioca come te."
+    "FINAL_TEXT": "Crea il tuo profilo, salva i tuoi allenamenti e sfida chi gioca come te.",
+    "AUTH_POINT_1": "Tiri e canestri contati da soli",
+    "AUTH_POINT_2": "Il diario dei tuoi progressi",
+    "AUTH_POINT_3": "Classifiche con chi gioca come te",
+    "AUTH_HOME": "Torna alla home di SwishAI",
+    "AUTH_TABS": "Iscriviti o accedi",
+    "AUTH_LOGIN_TITLE": "Bentornato",
+    "AUTH_LOGIN_TEXT": "Accedi per ritrovare il tuo diario e i tuoi highlights.",
+    "AUTH_REGISTER_TITLE": "Entra in campo",
+    "AUTH_REGISTER_TEXT": "Crea il tuo profilo gratis: salva i tuoi allenamenti e sali in classifica."
   },
   "FEEDBACK": {
     "INTRO": "Raccontaci cosa è successo o cosa vorresti trovare in SwishAI."
