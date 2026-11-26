@@ -7,12 +7,12 @@ counts ever reaches a server, and only for people who choose to keep a history.
 
 ## Pages
 
-- [Count basketball shots from your video](https://swish-ai-startup.github.io/SwishAI-web/process-video/): Upload a basketball video and SwishAI counts shots, baskets and accuracy for you, entirely in your browser — the video never leaves your device.
-- [Plans and pricing](https://swish-ai-startup.github.io/SwishAI-web/subscription/): Compare the free plan with Pro: how long a video can be, how many sessions stay visible, and what your shooting history keeps.
-- [Terms of service](https://swish-ai-startup.github.io/SwishAI-web/terms/): The terms you accept when you use SwishAI: what the app does, what the counts are worth, and what is expected of your account.
-- [Privacy notice](https://swish-ai-startup.github.io/SwishAI-web/privacy/): What SwishAI stores and what it never sees. Your video is processed in your browser and is never uploaded anywhere.
-- [Refunds and withdrawal](https://swish-ai-startup.github.io/SwishAI-web/refunds/): How to cancel a SwishAI subscription, when you get your money back, and how the EU right of withdrawal applies.
-- [Company information](https://swish-ai-startup.github.io/SwishAI-web/imprint/): Who runs SwishAI: company details, registered address and how to get in touch.
+- [Count basketball shots from your video](https://app.swishai.unictdev.org/process-video/): Upload a basketball video and SwishAI counts shots, baskets and accuracy for you, entirely in your browser — the video never leaves your device.
+- [Plans and pricing](https://app.swishai.unictdev.org/subscription/): Compare the free plan with Pro: how long a video can be, how many sessions stay visible, and what your shooting history keeps.
+- [Terms of service](https://app.swishai.unictdev.org/terms/): The terms you accept when you use SwishAI: what the app does, what the counts are worth, and what is expected of your account.
+- [Privacy notice](https://app.swishai.unictdev.org/privacy/): What SwishAI stores and what it never sees. Your video is processed in your browser and is never uploaded anywhere.
+- [Refunds and withdrawal](https://app.swishai.unictdev.org/refunds/): How to cancel a SwishAI subscription, when you get your money back, and how the EU right of withdrawal applies.
+- [Company information](https://app.swishai.unictdev.org/imprint/): Who runs SwishAI: company details, registered address and how to get in touch.
 
 ## Contact
 

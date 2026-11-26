@@ -1,1 +1,0 @@
-import{Vr as tv,en as Gy,nr as ct,on as Ju,wn as Py}from"./main-IV6JLBQU.js";var i=300;var E=400;function f(){return s=>tv(()=>{let m=Date.now();return s.pipe(Ju(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?Gy(n).pipe(ct(()=>t)):Py(t)}))})}export{f as t};
