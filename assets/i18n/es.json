@@ -1019,14 +1019,8 @@
       "CTA": "Pásate a Pro"
     },
     "EXPORT": {
-      "TITLE": "Exportar",
-      "HINT": "Tu diario completo para guardar o compartir.",
-      "PDF": "Informe en PDF",
-      "CSV_SUMMARY": "CSV con una fila por sesión",
-      "CSV_SHOTS": "CSV con una fila por tiro",
-      "FAILED": "No se pudo exportar. Inténtalo de nuevo.",
-      "PRO_REQUIRED": "La exportación está incluida en Pro.",
-      "EMPTY": "Disponible a partir de tu primera sesión."
+      "PDF": "Descargar el informe PDF",
+      "FAILED": "No se pudo exportar. Inténtalo de nuevo."
     }
   },
   "CLIP": {
@@ -1045,6 +1039,7 @@
     "PREVIEW": "Vista previa del video",
     "TAB_FORMAT": "Formato",
     "TAB_MOMENTS": "Momentos",
+    "MISS_CAPTION": "Texto en el tiro fallado",
     "TAB_SCORE": "Marcador",
     "TAB_TRAIL": "Estela",
     "TAB_HOOP": "Canasta",

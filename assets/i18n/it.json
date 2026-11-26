@@ -1019,14 +1019,8 @@
       "CTA": "Passa a Pro"
     },
     "EXPORT": {
-      "TITLE": "Esporta",
-      "HINT": "Tutto il tuo diario, da tenere o da mandare.",
-      "PDF": "Report PDF",
-      "CSV_SUMMARY": "CSV, una riga per sessione",
-      "CSV_SHOTS": "CSV, una riga per tiro",
-      "FAILED": "L’esportazione non è riuscita. Riprova.",
-      "PRO_REQUIRED": "L’esportazione fa parte di Pro.",
-      "EMPTY": "Arriva con la prima sessione."
+      "PDF": "Scarica il report PDF",
+      "FAILED": "L’esportazione non è riuscita. Riprova."
     }
   },
   "CLIP": {
@@ -1045,6 +1039,7 @@
     "PREVIEW": "Anteprima del video",
     "TAB_FORMAT": "Formato",
     "TAB_MOMENTS": "Momenti",
+    "MISS_CAPTION": "Scritta sul tiro sbagliato",
     "TAB_SCORE": "Punteggio",
     "TAB_TRAIL": "Scia",
     "TAB_HOOP": "Canestro",

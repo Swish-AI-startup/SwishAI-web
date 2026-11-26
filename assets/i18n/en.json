@@ -1019,14 +1019,8 @@
       "CTA": "Go Pro"
     },
     "EXPORT": {
-      "TITLE": "Export",
-      "HINT": "Your whole diary, to keep or to send.",
-      "PDF": "PDF report",
-      "CSV_SUMMARY": "CSV, one row per session",
-      "CSV_SHOTS": "CSV, one row per shot",
-      "FAILED": "Could not export. Try again.",
-      "PRO_REQUIRED": "The export is part of Pro.",
-      "EMPTY": "Comes with your first session."
+      "PDF": "Download PDF report",
+      "FAILED": "Could not export. Try again."
     }
   },
   "CLIP": {
@@ -1045,6 +1039,7 @@
     "PREVIEW": "Video preview",
     "TAB_FORMAT": "Format",
     "TAB_MOMENTS": "Moments",
+    "MISS_CAPTION": "Missed shot caption",
     "TAB_SCORE": "Score",
     "TAB_TRAIL": "Trail",
     "TAB_HOOP": "Basket",
