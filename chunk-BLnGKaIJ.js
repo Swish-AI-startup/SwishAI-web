@@ -1,0 +1,1 @@
+import{Ln as Xu,Lr as ut,Mr as rv,Qr as zy,sr as jy}from"./main-PBNDI6M3.js";var i=300;var E=400;function f(){return s=>rv(()=>{let m=Date.now();return s.pipe(Xu(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?zy(n).pipe(ut(()=>t)):jy(t)}))})}export{f as t};
