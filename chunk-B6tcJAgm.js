@@ -1,1 +1,0 @@
-import{Ln as Yu,Mn as Wy,Ur as ut,ir as ev,pn as Ly}from"./main-CKFCFEOD.js";var i=300;var E=400;function f(){return s=>ev(()=>{let m=Date.now();return s.pipe(Yu(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?Wy(n).pipe(ut(()=>t)):Ly(t)}))})}export{f as t};
