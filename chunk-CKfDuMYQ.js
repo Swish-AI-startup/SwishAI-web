@@ -1,1 +1,0 @@
-import{Qt as Gy,Sn as Py,er as ct,in as Ju,zr as tv}from"./main-IEDTHP46.js";var i=300;var E=400;function f(){return s=>tv(()=>{let m=Date.now();return s.pipe(Ju(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?Gy(n).pipe(ct(()=>t)):Py(t)}))})}export{f as t};
