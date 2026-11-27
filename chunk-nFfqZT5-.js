@@ -1,0 +1,1 @@
+import{An as Nn,Ar as ii,Gr as oi,dr as cE,kn as Ne}from"./main-323JP452.js";var i=300;var E=400;function f(){return s=>oi(()=>{let m=Date.now();return s.pipe(ii(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?cE(n).pipe(Ne(()=>t)):Nn(t)}))})}export{f as t};
