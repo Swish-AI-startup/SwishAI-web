@@ -376,7 +376,25 @@
     "BACK": "Volver a la clasificación",
     "UNIT_POINTS": "puntos",
     "NO_POINTS": "Todavía no tienes puntos: guarda un video con al menos 10 tiros.",
-    "EMPTY_POINTS_TEXT": "Guarda un entrenamiento y tus puntos empiezan a contar."
+    "EMPTY_POINTS_TEXT": "Guarda un entrenamiento y tus puntos empiezan a contar.",
+    "OVERALL": "Clasificación general",
+    "BACK_OVERALL": "Volver a la clasificación general",
+    "INFO_LABEL": "Cómo se ganan los puntos",
+    "INFO_TEXT": "Se ganan entrenando y alcanzando metas. Cada lunes, en las clasificaciones de la semana: 1.º +{{first}} · 2.º +{{second}} · 3.º +{{third}} · 4.º-10.º +{{rest}}.",
+    "DESC_POINTS_SHORT": "De siempre, por puntos SwishAI: entrenamientos, metas y puestos de la semana.",
+    "SUB_CONSISTENCY": "Los días de entrenamiento de esta semana. Vuelve a empezar cada lunes.",
+    "SUB_SHOTS": "Los tiros registrados esta semana. Vuelve a empezar cada lunes.",
+    "SUB_BASKETS": "Las canastas de esta semana. Vuelve a empezar cada lunes.",
+    "SUB_ACCURACY": "El porcentaje de acierto de esta semana, con suficientes tiros. Vuelve a empezar cada lunes.",
+    "HINT_CONSISTENCY": "Quién entrena más días",
+    "HINT_SHOTS": "Quién tira más",
+    "HINT_BASKETS": "Quién anota más",
+    "HINT_ACCURACY": "Quién falla menos",
+    "HINT_FOLLOWING": "Tú y tus amigos",
+    "YOU": "Tú",
+    "GAP": "Te faltan {{gap}} puntos para superar a {{handle}} ({{rank}}.º)",
+    "GAP_ONE": "Te falta 1 punto para superar a {{handle}} ({{rank}}.º)",
+    "LEADING": "Vas en cabeza"
   },
   "TRIAGE": {
     "STATE": "Estado",
@@ -774,7 +792,8 @@
     "NEXT_MONTH": "Mes siguiente",
     "LESS": "menos",
     "MORE_SHOTS": "más tiros",
-    "OPEN_SECTION": "Abrir {{name}} en grande"
+    "OPEN_SECTION": "Abrir {{name}} en grande",
+    "PRIVATE_TEXT_LONG": "Cuando {{handle}} acepte tu solicitud, aquí verás su diario: semanas, récords y últimas sesiones."
   },
   "NOTIF": {
     "NOW": "Ahora",
@@ -1451,20 +1470,18 @@
   },
   "SEARCH": {
     "PLAYERS": "Buscar jugadores",
-    "SUGGESTED": "Jugadores recomendados",
-    "REASON_MUTUAL": "Le sigue {{player}}",
-    "REASON_COUNTRY": "Juega en {{country}}",
-    "REASON_WEEKLY": "Entre los primeros de esta semana",
-    "NO_SUGGESTIONS": "Por ahora no hay recomendaciones.",
     "PLACEHOLDER": "Busca por nickname",
     "CLEAR": "Borrar la búsqueda",
     "YOU": "Tú",
     "TOP_WEEK": "Los mejores de la semana",
-    "TOP_WEEK_HINT": "Más tiros",
     "RESULTS": "Resultados",
     "NO_RESULTS_TITLE": "Ningún jugador se llama {{query}}",
     "NO_RESULTS_HINT": "Revisa el nickname o prueba solo con las primeras letras.",
-    "ERROR": "No podemos cargar los jugadores."
+    "ERROR": "No podemos cargar los jugadores.",
+    "PREVIEW": "Vista previa del jugador",
+    "PREVIEW_ACCURACY": "acierto",
+    "PREVIEW_BASKETS": "canastas",
+    "PREVIEW_WEEKS": "Tiros en las últimas 8 semanas"
   },
   "PRO": {
     "LABEL": "Pro",
@@ -1510,7 +1527,21 @@
     "NOTIF_BASKETS": "Meta de canastas: +{{value}} puntos SwishAI",
     "NOTIF_STREAK": "7 días seguidos: +{{value}} puntos SwishAI",
     "NOTIF_ACCURACY": "50% en 50 tiros: +{{value}} puntos SwishAI",
-    "NOTIF_WEEKLY_RANK": "Top 10 de la semana: +{{value}} puntos SwishAI"
+    "NOTIF_WEEKLY_RANK": "Top 10 de la semana: +{{value}} puntos SwishAI",
+    "HISTORY_TITLE": "Historial de puntos",
+    "RANK_OVERALL": "{{rank}}.º en la clasificación general",
+    "RANK_NONE": "Fuera de la clasificación general",
+    "YOU": "eres tú",
+    "WEEKS": "Últimas 8 semanas",
+    "THIS_WEEK": "{{points}} esta semana",
+    "GROUP_THIS_WEEK": "Esta semana",
+    "GROUP_LAST_WEEK": "La semana pasada",
+    "GROUP_EARLIER": "Antes",
+    "NONE_OTHER": "Todavía no hay puntos.",
+    "MORE": "Ver más",
+    "OPEN_DIARY": "Abre tu diario",
+    "VISIT": "Ver perfil",
+    "HISTORY_ERROR": "El historial no se cargó. Vuelve a intentarlo en un momento."
   },
   "SAVE": {
     "TITLE": "Guardar en el diario",

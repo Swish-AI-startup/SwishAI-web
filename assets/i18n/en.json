@@ -376,7 +376,25 @@
     "BACK": "Back to the leaderboard",
     "UNIT_POINTS": "points",
     "NO_POINTS": "No points yet: save a video with at least 10 shots.",
-    "EMPTY_POINTS_TEXT": "Save a training and your points start counting."
+    "EMPTY_POINTS_TEXT": "Save a training and your points start counting.",
+    "OVERALL": "Overall",
+    "BACK_OVERALL": "Back to the overall board",
+    "INFO_LABEL": "How points are earned",
+    "INFO_TEXT": "You earn them by training and reaching milestones. Every Monday, on the weekly boards: 1st +{{first}} · 2nd +{{second}} · 3rd +{{third}} · 4th-10th +{{rest}}.",
+    "DESC_POINTS_SHORT": "All time, by SwishAI points: training, milestones and weekly finishes.",
+    "SUB_CONSISTENCY": "Training days this week. Starts over every Monday.",
+    "SUB_SHOTS": "Shots logged this week. Starts over every Monday.",
+    "SUB_BASKETS": "Baskets made this week. Starts over every Monday.",
+    "SUB_ACCURACY": "Shooting percentage this week, with enough shots. Starts over every Monday.",
+    "HINT_CONSISTENCY": "Who trains on the most days",
+    "HINT_SHOTS": "Who shoots the most",
+    "HINT_BASKETS": "Who scores the most",
+    "HINT_ACCURACY": "Who misses the least",
+    "HINT_FOLLOWING": "You and your friends",
+    "YOU": "You",
+    "GAP": "{{gap}} points to pass {{handle}} (#{{rank}})",
+    "GAP_ONE": "1 point to pass {{handle}} (#{{rank}})",
+    "LEADING": "You're in the lead"
   },
   "TRIAGE": {
     "STATE": "Status",
@@ -774,7 +792,8 @@
     "NEXT_MONTH": "Next month",
     "LESS": "less",
     "MORE_SHOTS": "more shots",
-    "OPEN_SECTION": "Open {{name}} in full"
+    "OPEN_SECTION": "Open {{name}} in full",
+    "PRIVATE_TEXT_LONG": "When {{handle}} accepts your request, you will see their diary here: weeks, records and latest sessions."
   },
   "NOTIF": {
     "NOW": "Now",
@@ -1451,20 +1470,18 @@
   },
   "SEARCH": {
     "PLAYERS": "Find players",
-    "SUGGESTED": "Suggested players",
-    "REASON_MUTUAL": "Followed by {{player}}",
-    "REASON_COUNTRY": "Plays in {{country}}",
-    "REASON_WEEKLY": "Among this week’s leaders",
-    "NO_SUGGESTIONS": "No suggestions right now.",
     "PLACEHOLDER": "Search by nickname",
     "CLEAR": "Clear search",
     "YOU": "You",
     "TOP_WEEK": "Best of the week",
-    "TOP_WEEK_HINT": "Most shots",
     "RESULTS": "Results",
     "NO_RESULTS_TITLE": "No player called {{query}}",
     "NO_RESULTS_HINT": "Check the nickname or try just the first letters.",
-    "ERROR": "We couldn’t load the players."
+    "ERROR": "We couldn’t load the players.",
+    "PREVIEW": "Player preview",
+    "PREVIEW_ACCURACY": "accuracy",
+    "PREVIEW_BASKETS": "baskets",
+    "PREVIEW_WEEKS": "Shots in the last 8 weeks"
   },
   "PRO": {
     "LABEL": "Pro",
@@ -1510,7 +1527,21 @@
     "NOTIF_BASKETS": "Basket milestone: +{{value}} SwishAI points",
     "NOTIF_STREAK": "7 days in a row: +{{value}} SwishAI points",
     "NOTIF_ACCURACY": "50% on 50 shots: +{{value}} SwishAI points",
-    "NOTIF_WEEKLY_RANK": "Top 10 of the week: +{{value}} SwishAI points"
+    "NOTIF_WEEKLY_RANK": "Top 10 of the week: +{{value}} SwishAI points",
+    "HISTORY_TITLE": "Points history",
+    "RANK_OVERALL": "#{{rank}} overall",
+    "RANK_NONE": "Not on the overall board",
+    "YOU": "you",
+    "WEEKS": "Last 8 weeks",
+    "THIS_WEEK": "{{points}} this week",
+    "GROUP_THIS_WEEK": "This week",
+    "GROUP_LAST_WEEK": "Last week",
+    "GROUP_EARLIER": "Earlier",
+    "NONE_OTHER": "No points yet.",
+    "MORE": "Show more",
+    "OPEN_DIARY": "Open your diary",
+    "VISIT": "View profile",
+    "HISTORY_ERROR": "The history didn't load. Try again shortly."
   },
   "SAVE": {
     "TITLE": "Save to diary",

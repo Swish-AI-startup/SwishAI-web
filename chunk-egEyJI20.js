@@ -1,1 +1,0 @@
-import{Hr as tv,Tn as Py,rr as ct,sn as Ju,tn as Gy}from"./main-2DPNUNLL.js";var i=300;var E=400;function f(){return s=>tv(()=>{let m=Date.now();return s.pipe(Ju(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?Gy(n).pipe(ct(()=>t)):Py(t)}))})}export{f as t};
