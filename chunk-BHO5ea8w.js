@@ -1,1 +1,0 @@
-import{Cn as Ne,Jr as sE,Rr as oi,qr as ri,wn as Nn}from"./main-DMVU25PF.js";var i=300;var E=400;function f(){return s=>ri(()=>{let m=Date.now();return s.pipe(oi(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?sE(n).pipe(Ne(()=>t)):Nn(t)}))})}export{f as t};
