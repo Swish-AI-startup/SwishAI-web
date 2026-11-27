@@ -1,1 +1,0 @@
-import{Dn as Py,Qn as av,ar as ct,fn as Ky,sn as Ju}from"./main-6GRK7SCV.js";var i=300;var E=400;function f(){return s=>av(()=>{let m=Date.now();return s.pipe(Ju(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?Ky(n).pipe(ct(()=>t)):Py(t)}))})}export{f as t};

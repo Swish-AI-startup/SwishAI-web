@@ -1,0 +1,1 @@
+import{Cn as Ne,Kr as ri,Lr as oi,qr as sE,wn as Nn}from"./main-TEO6MKBA.js";var i=300;var E=400;function f(){return s=>ri(()=>{let m=Date.now();return s.pipe(oi(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?sE(n).pipe(Ne(()=>t)):Nn(t)}))})}export{f as t};
