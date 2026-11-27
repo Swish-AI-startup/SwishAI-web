@@ -1,0 +1,1 @@
+import{On as Ne,Or as ii,Ur as oi,kn as Nn,ur as cE}from"./main-XFY64UVV.js";var i=300;var E=400;function f(){return s=>oi(()=>{let m=Date.now();return s.pipe(ii(t=>{let e=Date.now()-m,n=300+E-e;return e>300&&n>0?cE(n).pipe(Ne(()=>t)):Nn(t)}))})}export{f as t};
